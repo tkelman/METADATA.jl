@@ -11,6 +11,7 @@ before_install:
     - git config --global user.name "Travis User"
     - git config --global user.email "travis@example.net"
 script:
+    - curl -o .test/METADATA.jl https://raw.githubusercontent.com/JuliaLang/METADATA.jl/658c4b14f4b2fa656234024cfdddd0bd98c1076a/.test/METADATA.jl
     - cd ..
     - ln -s METADATA.jl METADATA
     - julia METADATA/.test/METADATA.jl
