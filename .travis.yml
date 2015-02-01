@@ -1,17 +1,10 @@
-language: cpp
-compiler: 
-    - clang
+language: julia
+julia:
+    - release
+    - nightly
 notifications:
     email: false
-before_install:
-    - sudo add-apt-repository ppa:staticfloat/julia-deps -y
-    - sudo add-apt-repository ppa:staticfloat/julianightlies -y
-    - sudo apt-get update -qq -y
-    - sudo apt-get install libpcre3-dev julia -y
-    - git config --global user.name "Travis User"
-    - git config --global user.email "travis@example.net"
 script:
-    - curl -o .test/METADATA.jl https://raw.githubusercontent.com/JuliaLang/METADATA.jl/658c4b14f4b2fa656234024cfdddd0bd98c1076a/.test/METADATA.jl
     - cd ..
     - ln -s METADATA.jl METADATA
     - julia METADATA/.test/METADATA.jl
