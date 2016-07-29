@@ -1,6 +1,8 @@
 #!/bin/sh
 set -e
-cd $(dirname $0)/../..
+cd $(dirname $0)/..
+git checkout -b localbranch
+cd ..
 ln -s $PWD/METADATA.jl METADATA
 for ver in 0.4 0.5; do # releases
   mkdir -p ~/.julia/v$ver julia-$ver
