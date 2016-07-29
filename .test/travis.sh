@@ -4,7 +4,7 @@ cd $(dirname $0)/..
 git checkout -b localbranch
 cd ..
 ln -s $PWD/METADATA.jl METADATA
-for ver in 0.4 0.3; do # releases
+for ver in 0.4 0.5; do # releases
   mkdir -p ~/.julia/v$ver julia-$ver
   ln -s $PWD/METADATA.jl ~/.julia/v$ver/METADATA
   curl -L --retry 5 https://s3.amazonaws.com/julialang/bin/linux/x64/$ver/julia-$ver-latest-linux-x86_64.tar.gz | \
@@ -21,6 +21,6 @@ ln -s $PWD/METADATA.jl ~/.julia/v$ver/METADATA
 #  julia-$ver/bin/julia -e 'versioninfo(); include("METADATA/.test/METADATA.jl")' && \
 #  touch success-nightly &
 wait
-if ! [ -e success-0.4 -a -e success-0.3 ]; then
+if ! [ -e success-0.4 -a -e success-0.5 ]; then
   exit 1
 fi
