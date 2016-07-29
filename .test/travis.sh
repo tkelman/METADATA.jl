@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 set -e
-set -o pipefail
+#set -o pipefail
 cd $(dirname $0)/..
 git checkout -b localbranch
 cd ..
