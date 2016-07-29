@@ -3,4 +3,5 @@ sudo: false # use a docker worker for hopefully faster queue times
 notifications:
     email: false
 script:
-    - sh .test/travis.sh
+    - chmod +x .test/travis.sh # don't want to risk libgit2 getting executable bits wrong
+    - .test/travis.sh
