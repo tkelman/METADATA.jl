@@ -813,7 +813,7 @@ for (pkg, versions) in Pkg.Read.available()
         @assert sha1fromfile == avail.sha1
 
         # Issue #3582 - check that all versions of a package newer than the grandfathered
-        # list below are at least minpkgver and furthermore have a requires file listing
+        # list above are at least minpkgver and furthermore have a requires file listing
         # a minimum Julia version that is at least minjuliaver
         if print_list_3582 || !haskey(maxver_list_3582, pkg) || (ver > maxver_list_3582[pkg])
             try
