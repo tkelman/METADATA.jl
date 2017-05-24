@@ -51,6 +51,7 @@ allreqs = cd(Pkg.dir("METADATA")) do
         if ismatch(Pkg.Cache.GITHUB_REGEX, url)
             push!(ghpkgs, pkg)
         else
+            push!(ghpkgs, pkg)
             push!(nonghpkgs, pkg)
         end
     end
@@ -63,6 +64,10 @@ allreqs = cd(Pkg.dir("METADATA")) do
         url = Pkg.Cache.normalize_url(allreqs[pkg].url) # normalize to https
         if endswith(url, ".git")
             url = url[1:end-4]
+        end
+        if pkg in nonghpkgs
+            # TEMPORARY while gitlab is being flaky, use JuliaPackageMirrors
+            url = "https://github.com/JuliaPackageMirrors/$pkg.jl"
         end
         tagsha = readchomp(joinpath(pkg, "versions", ver, "sha1"))
         @assert tagsha != ""
@@ -98,7 +103,7 @@ allreqs = cd(Pkg.dir("METADATA")) do
     end
 
     # for non-github packages, do the hard way with an actual clone
-    for pkg in nonghpkgs
+    #= for pkg in nonghpkgs
         url = allreqs[pkg].url
         allvers = allreqs[pkg].versions
         for ver in readdir(joinpath(pkg, "versions"))
@@ -133,7 +138,7 @@ allreqs = cd(Pkg.dir("METADATA")) do
             end
         end
         isdir("$pkg-tmp") && rm("$pkg-tmp", recursive=true)
-    end
+    end =#
 
     sortversions = map(pv -> first(pv) => sort(last(pv)), allreqs)
     open(jsonfile, "w") do f
