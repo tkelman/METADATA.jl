@@ -31241,6 +31241,16 @@
    }
   }
  },
+ "LazyQuery": {
+  "url": "https://github.com/bramtayl/LazyQuery.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "e58692ea8e53e660ec67d18eb0f3d17feb780c1a",
+    "requires": "julia 0.5\nDataFrames\nMacroTools\nLazyContext\n",
+    "testrequires": "Documenter\nChainRecursive\n"
+   }
+  }
+ },
  "LazySequences": {
   "url": "git://github.com/dcjones/LazySequences.jl.git",
   "versions": {
