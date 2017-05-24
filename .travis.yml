@@ -1,9 +1,23 @@
-language: generic
+language: julia
 sudo: false # use a docker worker for hopefully faster queue times
 notifications:
     email: false
-env:
-    - CI_NAME="Travis CI" PULL_REQUEST="$TRAVIS_PULL_REQUEST"
+julia:
+    - 0.5
 script:
-    - sh .test/travis.sh
-    - sh .test/ci.sh
+    - git remote add -f JuliaLang https://github.com/JuliaLang/METADATA.jl
+    - git remote add mine https://$TOKEN:x-oauth-basic@github.com/$TRAVIS_REPO_SLUG
+    - git config user.name "Tony Kelman"
+    - git config user.email "tony@kelman.net"
+    - git checkout dailyjson
+    - git pull
+    - git merge --no-commit JuliaLang/metadata-v2
+    - mkdir -p ~/.julia/v$TRAVIS_JULIA_VERSION
+    - ln -s $PWD ~/.julia/v$TRAVIS_JULIA_VERSION/METADATA
+    - julia -e 'Pkg.add("JSON")'
+    - julia .test/testdeps.jl &&
+      if [ -n "$(git status --porcelain)" ]; then
+        git add .test/allreqs.json;
+        git commit -m "update to $(git rev-parse JuliaLang/metadata-v2)";
+        git push mine dailyjson 2>/dev/null;
+      fi
