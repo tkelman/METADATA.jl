@@ -13059,6 +13059,11 @@
     "sha1": "3d6d9377f817d3c2bb53bafa78bfe7407697f4c3",
     "requires": "julia 0.5\nDiffEqBase 0.6.0\nNLsolve\nForwardDiff 0.3.0\nDiffBase\n",
     "testrequires": "OrdinaryDiffEq\nDiffEqProblemLibrary\n"
+   },
+   "0.2.0": {
+    "sha1": "1df5505c60d4efa239756cc3d96b5ab8950cac2f",
+    "requires": "julia 0.6-\nDiffEqBase 0.6.0\nNLsolve\nForwardDiff 0.5.0\nDiffBase\n",
+    "testrequires": "OrdinaryDiffEq\nDiffEqProblemLibrary\n"
    }
   }
  },
@@ -27748,6 +27753,11 @@
    },
    "0.6.1": {
     "sha1": "70e41285473804cc5867c619682b81aeec5ca08e",
+    "requires": "julia 0.5\n\nShowItLikeYouBuildIt\nWoodburyMatrices 0.1.5\nRatios\nAxisAlgorithms\nCompat 0.19.0\nDualNumbers\n",
+    "testrequires": "OffsetArrays\n"
+   },
+   "0.6.2": {
+    "sha1": "03497189b35308a5b51fddf5c934e2644461aa80",
     "requires": "julia 0.5\n\nShowItLikeYouBuildIt\nWoodburyMatrices 0.1.5\nRatios\nAxisAlgorithms\nCompat 0.19.0\nDualNumbers\n",
     "testrequires": "OffsetArrays\n"
    }
