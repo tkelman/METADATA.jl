@@ -986,6 +986,11 @@
     "sha1": "826b189d7599819eee35b07b1e13a8d12fff7866",
     "requires": "julia 0.5\nInterpolations\nRequires\n",
     "testrequires": "Images 0.6.0\nDualNumbers\nUnitful\n"
+   },
+   "0.2.2": {
+    "sha1": "52ea15055fbfafd7cf0302e56540a1f715033590",
+    "requires": "julia 0.5\nInterpolations\nRequires\n",
+    "testrequires": "Images 0.6.0\nDualNumbers\nUnitful\nCompat 0.14\n"
    }
   }
  },
@@ -3499,6 +3504,16 @@
    "0.0.2": {
     "sha1": "ff9a6fe85143b4ce8ce6af91386be6de2603a460",
     "requires": "julia 0.5\nBio 0.4.3\nArgParse 0.4.0\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "BioCore": {
+  "url": "https://github.com/BioJulia/BioCore.jl.git",
+  "versions": {
+   "1.0.0": {
+    "sha1": "826fb0a8c7bf0743bdf1e6679be985a3615109d4",
+    "requires": "Automa\nBufferedStreams\njulia 0.5\n",
     "testrequires": ""
    }
   }
@@ -9827,6 +9842,11 @@
    },
    "0.2.1": {
     "sha1": "d13d20a255615a8b43e3850fb37b6b8af9a75e90",
+    "requires": "julia 0.5\nStatsBase \nGLM 0.6\nDataFrames\n",
+    "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "5500d2770a4f6fc26ec5d052ff6ab507e3d0c807",
     "requires": "julia 0.5\nStatsBase \nGLM 0.6\nDataFrames\n",
     "testrequires": ""
    }
@@ -31898,6 +31918,11 @@
     "sha1": "70ce28825c812e74251d55bfc9637f595221f845",
     "requires": "julia 0.4\nCompat 0.8.7\nGeoInterface 0.1\nBinDeps\n@osx Homebrew\n@windows WinRPM\n",
     "testrequires": "FactCheck\n"
+   },
+   "0.1.2": {
+    "sha1": "549c6cbe0dfb3ff0ba432120385ce7a0446812b0",
+    "requires": "julia 0.4\nCompat 0.8.7\nGeoInterface 0.1\nBinDeps\n@osx Homebrew\n@windows WinRPM\n",
+    "testrequires": "FactCheck\n"
    }
   }
  },
@@ -48748,6 +48773,11 @@
     "sha1": "ef86983ab8df3b35a8d1749513c0b4f9d304af77",
     "requires": "julia 0.5.0-rc2\nHttpServer\nJSON\nRequests\nURIParser\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "52c70aae9c53902f3241b0c3be0ec2e40a743147",
+    "requires": "julia 0.6-\nHttpServer\nJSON\nRequests\nURIParser\n",
+    "testrequires": ""
    }
   }
  },
@@ -59606,6 +59636,11 @@
     "sha1": "14cc8ce4084a585c9f4ad6f3e14f444dd23d1c1e",
     "requires": "julia 0.6-rc1\nDSP\nSampledSignals\nFixedPointNumbers 0.3.0\nLazy\nDataStructures\nColors\nArgParse\nFileIO\nJuno\nImages 0.6.0\nLibSndFile\nMacroTools\nDistributions\nLRUCache\n@osx Homebrew\nUnitful\nIntervalSets\n",
     "testrequires": ""
+   },
+   "0.5.1": {
+    "sha1": "b26dca4e9d4d41612cb50e66d5652816447348e9",
+    "requires": "julia 0.6-rc1\nDSP\nSampledSignals\nFixedPointNumbers 0.3.0\nLazy\nDataStructures\nColors\nArgParse\nFileIO\nJuno\nImages 0.6.0\nLibSndFile\nMacroTools\nDistributions\nLRUCache\n@osx Homebrew\nUnitful\nIntervalSets\n",
+    "testrequires": ""
    }
   }
  },
@@ -59869,6 +59904,11 @@
    },
    "0.2.4": {
     "sha1": "622b69ac7c57ce815c31431529a1184e175c230c",
+    "requires": "julia 0.4\nCompat 0.10.0\nURIParser 0.0.3\n@unix HTTPClient 0.0.0\nLibExpat 0.0.3\nLibz\nBinDeps 0.3\nSHA\n",
+    "testrequires": ""
+   },
+   "0.2.5": {
+    "sha1": "8b606a793ef519687cf4bbda029a1bb2c4744ee2",
     "requires": "julia 0.4\nCompat 0.10.0\nURIParser 0.0.3\n@unix HTTPClient 0.0.0\nLibExpat 0.0.3\nLibz\nBinDeps 0.3\nSHA\n",
     "testrequires": ""
    }
@@ -60894,6 +60934,11 @@
    },
    "0.4.2": {
     "sha1": "eacc2e1916b4be9fe8a7645d456ba77b5a4ec77a",
+    "requires": "julia 0.4\nBinDeps 0.3.21\n@osx Homebrew\nCompat 0.17.0\n@windows WinRPM\n",
+    "testrequires": ""
+   },
+   "0.4.3": {
+    "sha1": "581a9d6f1890973c168af89d87ebeeebc0d2881b",
     "requires": "julia 0.4\nBinDeps 0.3.21\n@osx Homebrew\nCompat 0.17.0\n@windows WinRPM\n",
     "testrequires": ""
    }
