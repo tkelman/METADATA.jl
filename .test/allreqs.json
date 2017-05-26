@@ -916,6 +916,11 @@
     "sha1": "988e663f64b2d7558d7b76a88712800bdd96d1f3",
     "requires": "julia 0.5\nRobustPmap\n",
     "testrequires": ""
+   },
+   "0.2.4": {
+    "sha1": "3f0587e428284c36b22dba135c5aad92e4ebf8d8",
+    "requires": "julia 0.5\nRobustPmap\n",
+    "testrequires": ""
    }
   }
  },
@@ -1144,6 +1149,11 @@
    },
    "0.2.2": {
     "sha1": "084ac19b7546e1afe7147476d3e93e57927c15ed",
+    "requires": "julia 0.5\nQuadGK\nDistributions\nMetaProgTools\nJLD\nCompat 0.7.15\n",
+    "testrequires": ""
+   },
+   "0.2.3": {
+    "sha1": "bf501f74409dee1fc1f40db591862d406ec13310",
     "requires": "julia 0.5\nQuadGK\nDistributions\nMetaProgTools\nJLD\nCompat 0.7.15\n",
     "testrequires": ""
    }
@@ -4580,6 +4590,11 @@
     "sha1": "30612242aeeac7c23c236827a1f013c93c4ac5e4",
     "requires": "julia 0.5\nBinDeps\nMathProgBase\nPolyhedra 0.1.4 0.2\n@windows WinRPM\n@osx Homebrew\n",
     "testrequires": "Combinatorics\nJuMP\n"
+   },
+   "0.1.4": {
+    "sha1": "bc04e601fd973f9e79dc5e7a357d766a84210ed0",
+    "requires": "julia 0.5\nBinDeps\nMathProgBase\nPolyhedra 0.1.5 0.2\n@windows WinRPM\n@osx Homebrew\n",
+    "testrequires": "Combinatorics\nJuMP\n"
    }
   }
  },
@@ -5110,6 +5125,11 @@
     "sha1": "05196e66cb0df254dc22e2e8189b7c5ae545066f",
     "requires": "julia 0.6.0-pre.beta\nTokenize 0.1.7",
     "testrequires": ""
+   },
+   "0.0.4": {
+    "sha1": "d10c504b30385e484fcabfd375d5018adf682d9f",
+    "requires": "julia 0.6.0-pre.beta\nTokenize 0.1.7",
+    "testrequires": ""
    }
   }
  },
@@ -5390,6 +5410,11 @@
     "sha1": "7bf74078e7f298c3fc6d4b7006876d6671998d2a",
     "requires": "julia 0.4-\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "88c44b70edc1d0a256297f91f0ee5bef774d8d5c",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.2.4\n",
+    "testrequires": ""
    }
   }
  },
@@ -5479,7 +5504,7 @@
   }
  },
  "CUSOLVER": {
-  "url": "git://github.com/kshyatt/CUSOLVER.jl.git",
+  "url": "git://github.com/JuliaGPU/CUSOLVER.jl.git",
   "versions": {
    "0.0.1": {
     "sha1": "a5fc072f2d6a047d19b518efc6e4e1da4149942b",
@@ -5544,6 +5569,11 @@
    "0.5.0": {
     "sha1": "0f31aa131ee5a4f988dbd17fe38db84a2ebdd489",
     "requires": "julia 0.5\nCUDArt\n",
+    "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "eef452a00a484e30bd4d4a786f2e5e59907df0a4",
+    "requires": "julia 0.5\nCUDArt 0.3.0\nCompat 0.18.0\n",
     "testrequires": ""
    }
   }
@@ -13049,6 +13079,11 @@
     "sha1": "5db7d05fa08ec40260a08ebc4a158b7a0219ff87",
     "requires": "julia 0.5\nRecipesBase 0.1.0\nRanges 0.0.1\nParameters 0.5.0\nRecursiveArrayTools 0.8.0\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nStaticArrays\n",
     "testrequires": "OrdinaryDiffEq 0.2.0\nStochasticDiffEq 0.1.0\nDiffEqDevTools 0.2.0\nDiffEqProblemLibrary 0.2.0\nSundials 0.4.1\nParameterizedFunctions 0.3.3\n"
+   },
+   "1.8.1": {
+    "sha1": "f497cb7672bfaec14badc0244ee3b698b2c44c8a",
+    "requires": "julia 0.5\nRecipesBase 0.1.0\nRanges 0.0.1\nParameters 0.5.0\nRecursiveArrayTools 0.8.0\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nStaticArrays\n",
+    "testrequires": "OrdinaryDiffEq 0.2.0\nStochasticDiffEq 0.1.0\nDiffEqDevTools 0.2.0\nDiffEqProblemLibrary 0.2.0\nSundials 0.4.1\nParameterizedFunctions 0.3.3\n"
    }
   }
  },
@@ -17810,6 +17845,16 @@
    }
   }
  },
+ "Fire": {
+  "url": "https://github.com/ylxdzsw/Fire.jl.git",
+  "versions": {
+   "0.0.2": {
+    "sha1": "a87c9a0ea7fd6bf473b658f8a740177df1ea614c",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   }
+  }
+ },
  "FixedEffectModels": {
   "url": "git://github.com/matthieugomez/FixedEffectModels.jl.git",
   "versions": {
@@ -18620,6 +18665,11 @@
   "versions": {
    "0.0.1": {
     "sha1": "aa1318c83d1c4c80586700f7a43e54ac49b9c1d1",
+    "requires": "julia 0.5-\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "08b07845179cbfebb9a7ec995c07815c7b4a9668",
     "requires": "julia 0.5-\n",
     "testrequires": ""
    }
@@ -29308,222 +29358,222 @@
   "versions": {
    "0.1.1": {
     "sha1": "7339ce0c4ee1eaa109ad9a5918a1f1fa8eeea4e3",
-    "requires": "julia 0.2-\nMathProgBase 0.0.0 0.3.0-\n",
+    "requires": "julia 0.2- 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\n",
     "testrequires": ""
    },
    "0.1.2": {
     "sha1": "83f689098cb0d9feb7e85d8b6356443975c329b2",
-    "requires": "julia 0.2-\nMathProgBase 0.0.0 0.3.0-\n",
+    "requires": "julia 0.2- 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\n",
     "testrequires": ""
    },
    "0.2.0": {
     "sha1": "c35353c0a16a906aa57ecfa26076a13d224d1a23",
-    "requires": "julia 0.2-\nMathProgBase 0.0.0 0.3.0-\n",
+    "requires": "julia 0.2- 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\n",
     "testrequires": ""
    },
    "0.3.0": {
     "sha1": "6a6f5a4e3a526b5f1eac46ca4796d69c5a0f065f",
-    "requires": "julia 0.2-\nMathProgBase 0.0.0 0.3.0-\n",
+    "requires": "julia 0.2- 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\n",
     "testrequires": ""
    },
    "0.3.1": {
     "sha1": "d478da4d14ebb117a28a6eade3b659c9997a3ed9",
-    "requires": "julia 0.2\nMathProgBase 0.0.0 0.3.0-\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\n",
     "testrequires": ""
    },
    "0.3.2": {
     "sha1": "174fe2ee83a43fd02c38f854dfce4070ddb95e97",
-    "requires": "julia 0.2\nMathProgBase 0.0.0 0.3.0-\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\n",
     "testrequires": ""
    },
    "0.4.0": {
     "sha1": "275953dd514740475518b7217263b800ad59c2e3",
-    "requires": "julia 0.2\nMathProgBase 0.0.0 0.3.0-\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\n",
     "testrequires": ""
    },
    "0.4.1": {
     "sha1": "4e1ce4523a9235a23fc1898a029e646bc1e7e3a9",
-    "requires": "julia 0.2\nMathProgBase 0.0.0 0.3.0-\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\n",
     "testrequires": ""
    },
    "0.5.0": {
     "sha1": "1337c90f9051e2841575ba8f470a0b89c1dcc612",
-    "requires": "julia 0.2\nMathProgBase 0.0.0 0.3.0-\nReverseDiffSparse 0.1 0.4\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\nReverseDiffSparse 0.1 0.4\n",
     "testrequires": ""
    },
    "0.5.1": {
     "sha1": "cc3e0900cff48804f118721ac91184b38b2fa825",
-    "requires": "julia 0.2\nMathProgBase 0.0.0 0.3.0-\nReverseDiffSparse 0.1 0.4\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\nReverseDiffSparse 0.1 0.4\n",
     "testrequires": ""
    },
    "0.5.2": {
     "sha1": "8f165fd72f46ac9438cd53d141379e3263a3efaf",
-    "requires": "julia 0.2\nMathProgBase 0.0.0 0.3.0-\nReverseDiffSparse 0.1 0.4\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\nReverseDiffSparse 0.1 0.4\n",
     "testrequires": ""
    },
    "0.5.3": {
     "sha1": "1f7793a6f05858448ff57516a4085cc8d9248670",
-    "requires": "julia 0.2\nMathProgBase 0.0.0 0.3.0-\nReverseDiffSparse 0.1 0.4\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\nReverseDiffSparse 0.1 0.4\n",
     "testrequires": ""
    },
    "0.5.4": {
     "sha1": "a2cb72e125115b44a7157182d24234557227065e",
-    "requires": "julia 0.2\nMathProgBase 0.0.0 0.3.0-\nReverseDiffSparse 0.1 0.4\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\nReverseDiffSparse 0.1 0.4\n",
     "testrequires": ""
    },
    "0.5.5": {
     "sha1": "ae7295c9f1fcab4edcf95bc9f9eb93a6909ca14a",
-    "requires": "julia 0.2\nMathProgBase 0.0.0 0.3.0-\nReverseDiffSparse 0.1 0.4\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.0.0 0.3.0-\nReverseDiffSparse 0.1 0.4\n",
     "testrequires": ""
    },
    "0.5.6": {
     "sha1": "882feeac840a7736163b19c29628f6d2d1ff65c3",
-    "requires": "julia 0.2\nMathProgBase 0.3.0- 0.4.0-\nReverseDiffSparse 0.1 0.4\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.3.0- 0.4.0-\nReverseDiffSparse 0.1 0.4\n",
     "testrequires": ""
    },
    "0.5.7": {
     "sha1": "a306e58b666b330f449b91a8e70e6077edc09c8d",
-    "requires": "julia 0.2\nMathProgBase 0.3.0- 0.4.0-\nReverseDiffSparse 0.1 0.4\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.3.0- 0.4.0-\nReverseDiffSparse 0.1 0.4\n",
     "testrequires": ""
    },
    "0.5.8": {
     "sha1": "b4c79f4ce63f422349ed6aef851d05f78c79c17d",
-    "requires": "julia 0.2\nMathProgBase 0.3.0- 0.4.0-\nReverseDiffSparse 0.1 0.4\n",
+    "requires": "julia 0.2 0.6.0-pre\nMathProgBase 0.3.0- 0.4.0-\nReverseDiffSparse 0.1 0.4\n",
     "testrequires": ""
    },
    "0.6.0": {
     "sha1": "db50d155418ba76d1322f16777a00d1396a989a6",
-    "requires": "julia 0.3\nMathProgBase 0.3.0- 0.4.0-\nReverseDiffSparse 0.1 0.4\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.0- 0.4.0-\nReverseDiffSparse 0.1 0.4\n",
     "testrequires": ""
    },
    "0.6.1": {
     "sha1": "daf8de0c2a1a4a8679e5fab9df63b8f8f327bb40",
-    "requires": "julia 0.3\nMathProgBase 0.3.0- 0.4.0-\nReverseDiffSparse 0.1 0.4\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.0- 0.4.0-\nReverseDiffSparse 0.1 0.4\n",
     "testrequires": ""
    },
    "0.6.2": {
     "sha1": "44682ab7335a46eedec87c6ee1aacbbdada07396",
-    "requires": "julia 0.3\nMathProgBase 0.3.1 0.4.0-\nReverseDiffSparse 0.1 0.4\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.1 0.4.0-\nReverseDiffSparse 0.1 0.4\n",
     "testrequires": ""
    },
    "0.6.3": {
     "sha1": "dc01be5a899b1ca6291b20f5f3f6a2466a7f29df",
-    "requires": "julia 0.3\nMathProgBase 0.3.1 0.4.0-\nReverseDiffSparse 0.1 0.4\nArrayViews\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.1 0.4.0-\nReverseDiffSparse 0.1 0.4\nArrayViews\n",
     "testrequires": ""
    },
    "0.7.0": {
     "sha1": "e38332ab6b5f11b60f51decfa7aeb75e10a6d38d",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.1 0.4\nArrayViews\nCompat\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.1 0.4\nArrayViews\nCompat\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt"
    },
    "0.7.1": {
     "sha1": "a22bf7f208fe23fba79ce902d755d53f887b427c",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.1 0.4\nArrayViews\nCompat\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.1 0.4\nArrayViews\nCompat\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt"
    },
    "0.7.2": {
     "sha1": "db1fda6c265fd30a3f5d4bd36d69979f3159d865",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.1 0.4\nArrayViews\nCompat\nCalculus\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.1 0.4\nArrayViews\nCompat\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt"
    },
    "0.7.3": {
     "sha1": "a242e44d05f1b0baf27b6f6226778e03512bd146",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.1 0.4\nArrayViews\nCompat\nCalculus\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.1 0.4\nArrayViews\nCompat\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt"
    },
    "0.7.4": {
     "sha1": "94e41c722064eb47c1e507ff8da8a9cd340ca817",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.1.11-\nArrayViews\nCompat\nCalculus\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.1.11-\nArrayViews\nCompat\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\n"
    },
    "0.8.0": {
     "sha1": "c94fd708613230110f1177b551580914ebaf2163",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.1\nArrayViews\nCompat\nCalculus\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.1\nArrayViews\nCompat\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.9.0": {
     "sha1": "2c9e9c11dc6d4b807ce3158ce5996af3de02035a",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews\nCompat 0.4.0\nCalculus\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews\nCompat 0.4.0\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.9.1": {
     "sha1": "b78e1ce0142296d918bf75cb8bdd0b195403ec77",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.4.0\nCalculus\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.4.0\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.9.2": {
     "sha1": "b97da743992307ad12e86b7f7d377a8bc01ad8f0",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.4.0\nCalculus\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.4.0\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.9.3": {
     "sha1": "74307cb45b3dd582bd457744b808a47027e5cb32",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.4.0\nCalculus\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.4.0\nCalculus\n",
     "testrequires": "FactCheck 0.2.9\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.10.0": {
     "sha1": "79edba67c9f37d1a96c03721f7da2ddafaab02e2",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.4.0\nCalculus\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.4.0\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.10.1": {
     "sha1": "c17fa78e7bf870083afc38c5063c0daa04ee85cf",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.4.0\nCalculus\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.4.0\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.10.2": {
     "sha1": "926cf81e7a638b9f20273df6d14aab1d99ce07f3",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.7.1\nCalculus\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.7.1\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.10.3": {
     "sha1": "89b86940ea3e72fb1543deba54a3318f2923e452",
-    "requires": "julia 0.3\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.7.1\nCalculus\n",
+    "requires": "julia 0.3 0.6.0-pre\nMathProgBase 0.3.8 0.4.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCompat 0.7.1\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.11.0": {
     "sha1": "b66346fb8a0270a59e70466bf0d5d6608293b266",
-    "requires": "julia 0.4\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCalculus\n",
+    "requires": "julia 0.4 0.6.0-pre\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.11.1": {
     "sha1": "feeaba3e037b4f6e4e075424ddf8b962bd60bfe9",
-    "requires": "julia 0.4\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCalculus\n",
+    "requires": "julia 0.4 0.6.0-pre\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.2.2 0.4\nArrayViews 0.4.12\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.11.2": {
     "sha1": "a5823e2f110d993004e640a74aa8a11e3fc1e185",
-    "requires": "julia 0.4\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.3 0.4\nArrayViews 0.4.12\nCalculus\n",
+    "requires": "julia 0.4 0.6.0-pre\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.3 0.4\nArrayViews 0.4.12\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.11.3": {
     "sha1": "7718d91136af80ba4364cb3ce98e3f4b81e8cc7e",
-    "requires": "julia 0.4\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.3 0.4\nArrayViews 0.4.12\nCalculus\n",
+    "requires": "julia 0.4 0.6.0-pre\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.3 0.4\nArrayViews 0.4.12\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.12.0": {
     "sha1": "508345e32a9382f6b1e95895536ca200da6855e0",
-    "requires": "julia 0.4\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.5.3 0.6\nForwardDiff 0.1 0.2\nCalculus\n",
+    "requires": "julia 0.4 0.6.0-pre\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.5.3 0.6\nForwardDiff 0.1 0.2\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.12.1": {
     "sha1": "e90c0179cef843d8d5f81321b9e5a1a009a192b9",
-    "requires": "julia 0.4\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.5.3 0.6\nForwardDiff 0.1 0.2\nCalculus\n",
+    "requires": "julia 0.4 0.6.0-pre\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.5.3 0.6\nForwardDiff 0.1 0.2\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.12.2": {
     "sha1": "6567b154b9de5c95953c41885f55faa9267a0775",
-    "requires": "julia 0.4\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.5.3 0.6\nForwardDiff 0.1 0.2\nCalculus\n",
+    "requires": "julia 0.4 0.6.0-pre\nMathProgBase 0.4.0 0.5.0-\nReverseDiffSparse 0.5.3 0.6\nForwardDiff 0.1 0.2\nCalculus\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.13.0": {
     "sha1": "1e0228abc6f9e968d5c03f21d914f713bd7d334a",
-    "requires": "julia 0.4\nMathProgBase 0.4.3 0.5.0-\nReverseDiffSparse 0.5.3 0.6\nForwardDiff 0.1 0.2\nCalculus\nCompat\n",
+    "requires": "julia 0.4 0.6.0-pre\nMathProgBase 0.4.3 0.5.0-\nReverseDiffSparse 0.5.3 0.6\nForwardDiff 0.1 0.2\nCalculus\nCompat\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.13.1": {
     "sha1": "47175560a50cb19697d2f9c48dc83fbef90a00c5",
-    "requires": "julia 0.4\nMathProgBase 0.4.3 0.5.0-\nReverseDiffSparse 0.5.3 0.6\nForwardDiff 0.1 0.2\nCalculus\nCompat\n",
+    "requires": "julia 0.4 0.6.0-pre\nMathProgBase 0.4.3 0.5.0-\nReverseDiffSparse 0.5.3 0.6\nForwardDiff 0.1 0.2\nCalculus\nCompat\n",
     "testrequires": "FactCheck\nCbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\n"
    },
    "0.13.2": {
@@ -29618,37 +29668,37 @@
   "versions": {
    "0.1.0": {
     "sha1": "aa60bb42c8ff2a16914cfb133ace0cd4acc6080e",
-    "requires": "julia 0.3\nJuMP 0.8 0.9\n",
+    "requires": "julia 0.3 0.6.0-pre\nJuMP 0.8 0.9\n",
     "testrequires": "FactCheck\nGLPKMathProgInterface\nECOS"
    },
    "0.1.1": {
     "sha1": "f0580c051642b5e2754b944738ff5e7be26d991c",
-    "requires": "julia 0.3\nJuMP 0.9 0.10\n",
+    "requires": "julia 0.3 0.6.0-pre\nJuMP 0.9 0.10\n",
     "testrequires": "FactCheck\nGLPKMathProgInterface\nECOS"
    },
    "0.1.2": {
     "sha1": "5c9977b6b717d261bab7ab1a3d01a9076c73716f",
-    "requires": "julia 0.3\nJuMP 0.9 0.10\nCompat\n",
+    "requires": "julia 0.3 0.6.0-pre\nJuMP 0.9 0.10\nCompat\n",
     "testrequires": "FactCheck\nGLPKMathProgInterface\nECOS"
    },
    "0.2.0": {
     "sha1": "3885989d95a4bb827b355d8ff0e0792dde5c76eb",
-    "requires": "julia 0.3\nJuMP 0.10 0.11\nCompat\n",
+    "requires": "julia 0.3 0.6.0-pre\nJuMP 0.10 0.11\nCompat\n",
     "testrequires": "FactCheck\nGLPKMathProgInterface\nECOS"
    },
    "0.2.1": {
     "sha1": "298588a612a81eeb9c79a4dd635944b53f8afcbb",
-    "requires": "julia 0.3\nJuMP 0.10.2 0.11\nCompat\n",
+    "requires": "julia 0.3 0.6.0-pre\nJuMP 0.10.2 0.11\nCompat\n",
     "testrequires": "FactCheck\nGLPKMathProgInterface\nECOS"
    },
    "0.3.0": {
     "sha1": "7865011f94578e1836a8d3d3825fd1219c5d3763",
-    "requires": "julia 0.4\nJuMP 0.11.1 0.12\n",
+    "requires": "julia 0.4 0.6.0-pre\nJuMP 0.11.1 0.12\n",
     "testrequires": "FactCheck\nGLPKMathProgInterface\nECOS"
    },
    "0.3.1": {
     "sha1": "c3524f8024d1c4ef83d6950d20dac3e5693b36be",
-    "requires": "julia 0.4\nJuMP 0.12.0 0.13\n",
+    "requires": "julia 0.4 0.6.0-pre\nJuMP 0.12.0 0.13\n",
     "testrequires": "FactCheck\nBaseTestNext\nGLPKMathProgInterface\nECOS\n"
    },
    "0.4.0": {
@@ -35148,6 +35198,11 @@
     "sha1": "95643fb0a10e36fa76e8e51d0ca8a90d81d1d4ad",
     "requires": "julia 0.5\nCompat 0.8\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions\nRobustPmap\nSVR\nDocumentFunction\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nStatsBase\nODE\nNMF\nKlara 0.7\nOptim 0.7\nBlackBoxOptim\nDocumenter 0.8.10\nJuMP 0.15\nMathProgBase 0.5.10\n",
     "testrequires": ""
+   },
+   "0.4.10": {
+    "sha1": "a6e33d857a1c25c06a85f49662560d5729347157",
+    "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions\nRobustPmap\nSVR\nDocumentFunction\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nStatsBase\nODE\nNMF\nKlara 0.7\nOptim 0.7\nBlackBoxOptim\nDocumenter 0.8.10\nJuMP 0.15\nMathProgBase 0.5.10\n",
+    "testrequires": ""
    }
   }
  },
@@ -38612,6 +38667,11 @@
     "sha1": "9c45cb936d999dfe9bcd5bbff7ccd77021202478",
     "requires": "julia 0.4\nJSON\nCompat 0.7.9\n",
     "testrequires": ""
+   },
+   "1.2.0": {
+    "sha1": "ad765c302e540b8bae6bc8b3aa974a5b45056291",
+    "requires": "julia 0.4\nJSON\nCompat 0.7.9\n",
+    "testrequires": ""
    }
   }
  },
@@ -39066,6 +39126,11 @@
    "0.9.1": {
     "sha1": "ced92f85612b4c62fda71e87c6e60eaa99a2acd3",
     "requires": "julia 0.4\nOptim\nCalculus\nDistances\nForwardDiff 0.3.0\nCompat 0.8.4\nLineSearches 0.1.2 1.0.0-\nDiffBase\n",
+    "testrequires": "BaseTestNext"
+   },
+   "0.10.0": {
+    "sha1": "4cb7d75b975637a6f0fe23862225a2bcc4b1d5a0",
+    "requires": "julia 0.6.0-pre\nOptim\nCalculus\nDistances\nForwardDiff 0.5.0\nLineSearches\nDiffBase\n",
     "testrequires": "BaseTestNext"
    }
   }
@@ -46573,6 +46638,16 @@
    }
   }
  },
+ "QuTiP": {
+  "url": "https://github.com/goropikari/QuTiP.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "7092d8ec22263b2fd005866434c82e9f21078500",
+    "requires": "julia 0.5\nPyCall 1.6.2\nPyPlot 2.2.0\n",
+    "testrequires": ""
+   }
+  }
+ },
  "QuadGK": {
   "url": "https://github.com/JuliaMath/QuadGK.jl.git",
   "versions": {
@@ -50733,6 +50808,11 @@
     "sha1": "08bfbf1be1967066c81c9c95c337c600fbae61af",
     "requires": "julia 0.4\nCompat 0.17.0\n",
     "testrequires": ""
+   },
+   "0.3.3": {
+    "sha1": "337a8f78f450c6a0a1dc50ed1a43eca00bc558e7",
+    "requires": "julia 0.4\nCompat 0.17.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -51628,6 +51708,11 @@
     "sha1": "6085748f1da68bee2a9b5f7353c25e35eb6637d3",
     "requires": "julia 0.5\nGeoInterface\n",
     "testrequires": "FactCheck"
+   },
+   "0.2.0": {
+    "sha1": "f787fd9ae3787209b114484d842090ed3a26667c",
+    "requires": "julia 0.5\nGeoInterface 0.2.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -55171,6 +55256,11 @@
     "sha1": "e00fcc12ab4414e82d3fd29221475b6ec721f52f",
     "requires": "julia 0.5\nFactCheck 0.4.3\n",
     "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "d4f0c20a4db83f84782daf617ef0944ce3673301",
+    "requires": "julia 0.5\nCompat 0.17.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -55440,6 +55530,11 @@
    "0.6.1": {
     "sha1": "d4a07e29d37f1f1be3d7ece0cde115178cad588a",
     "requires": "julia 0.5\nForwardDiff\nSIMD\nCompat 0.19.0\n",
+    "testrequires": "ForwardDiff\nDocumenter\nTimerOutputs\n"
+   },
+   "0.7.0": {
+    "sha1": "560bc99e40507b1ec9da9c4ae2c5ae682ccc93cd",
+    "requires": "julia 0.6.0-pre.alpha.108\nForwardDiff\nSIMD\n",
     "testrequires": "ForwardDiff\nDocumenter\nTimerOutputs\n"
    }
   }
@@ -58336,6 +58431,11 @@
     "sha1": "1c0b48fda03132b02ef0550cd637785935d80eca",
     "requires": "julia 0.5\nCRlibm 0.5\nCompat 0.7.11\nStaticArrays 0.3 0.5\nForwardDiff 0.2\nRecipesBase\n",
     "testrequires": "FactCheck 0.3\nPolynomials 0.0.5\nBaseTestNext\nSuppressor\n"
+   },
+   "0.9.0": {
+    "sha1": "b8809dcc0ce9e63219cfd8fdd357c39b1ad69efc",
+    "requires": "julia 0.5\nReexport 0.0.3\n\nIntervalArithmetic 0.9.1\nIntervalRootFinding 0.1.1\nIntervalContractors 0.1\nIntervalConstraintProgramming 0.7\n",
+    "testrequires": ""
    }
   }
  },
