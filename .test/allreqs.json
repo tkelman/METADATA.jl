@@ -1156,6 +1156,11 @@
     "sha1": "bf501f74409dee1fc1f40db591862d406ec13310",
     "requires": "julia 0.5\nQuadGK\nDistributions\nMetaProgTools\nJLD\nCompat 0.7.15\n",
     "testrequires": ""
+   },
+   "0.2.4": {
+    "sha1": "923539a0b65974ce04059d0edd218bf2295ab5c2",
+    "requires": "julia 0.5\nQuadGK\nDistributions\nMetaProgTools\nJLD\nCompat 0.7.15\n",
+    "testrequires": ""
    }
   }
  },
@@ -10909,6 +10914,11 @@
     "sha1": "e74a064884311679b1349ac15e222bf96a8d1321",
     "requires": "julia 0.5\nCompat 0.19\nLogging\n",
     "testrequires": "BaseTestNext\n"
+   },
+   "0.1.4": {
+    "sha1": "e7187cdd9567b21445672061c639f56b4610a2af",
+    "requires": "julia 0.5\nCompat 0.19\nLogging\n",
+    "testrequires": "BaseTestNext\n"
    }
   }
  },
@@ -11175,6 +11185,11 @@
     "requires": "julia 0.6-\nCompat 0.8.6\nStatsBase 0.3\nReexport\nSpecialFunctions\n",
     "testrequires": ""
    },
+   "0.4.1": {
+    "sha1": "30010f26e269eedfb35b0be35f726a847d570999",
+    "requires": "julia 0.5\nStatsBase 0.15\nCompat 0.8.6\nReexport\n",
+    "testrequires": ""
+   },
    "0.5.0": {
     "sha1": "e0742478ba1154feedec80cf3563411814699c55",
     "requires": "julia 0.6-\nCompat 0.8.6\nStatsBase 0.14.0\nReexport\nSpecialFunctions\n",
@@ -11183,6 +11198,11 @@
    "0.5.1": {
     "sha1": "a65398b60897628efe662e581fd83239fa2a44a0",
     "requires": "julia 0.6-\nCompat 0.8.6\nStatsBase 0.14.0\nReexport\nSpecialFunctions\n",
+    "testrequires": ""
+   },
+   "0.5.2": {
+    "sha1": "1cd77da90511e391426885287b254940203912e9",
+    "requires": "julia 0.6.0-pre\nCompat 0.8.6\nStatsBase 0.15.0\nReexport\nSpecialFunctions\n",
     "testrequires": ""
    }
   }
@@ -15029,6 +15049,11 @@
     "sha1": "be0e9e065901390199b06088269cf03ba8b0b9dd",
     "requires": "julia 0.5\n",
     "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "72ef9220d5acba2ece44b158b11b468057b0a2d6",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -16512,11 +16537,16 @@
   }
  },
  "Etcd": {
-  "url": "git://github.com/forio/Etcd.jl.git",
+  "url": "git://github.com/rofinn/Etcd.jl.git",
   "versions": {
    "0.0.1": {
     "sha1": "a8829eac75d9ad501d118d2fe0d03a034fe24fca",
     "requires": "julia 0.2- 0.4\n\nRequests\nLumberjack\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "620e09eaada17aa6548c9f8ac30848dd364239bd",
+    "requires": "julia 0.5\nRequests 0.4.0\nHttpCommon 0.2.4\nMemento 0.1.1\n",
     "testrequires": ""
    }
   }
@@ -28233,13 +28263,18 @@
   "versions": {
    "0.0.1": {
     "sha1": "92f256801432f5d0ba08d3b92738e27f2307004a",
-    "requires": "julia 0.5\nNamedTuples 2.0.0\nRequires 0.3.0\n",
+    "requires": "julia 0.5\nNamedTuples 2.0.0 3.0.0\nRequires 0.3.0\n",
     "testrequires": "DataFrames\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDifferentialEquations\nParameterizedFunctions\nNullableArrays\nDataStreams\n"
    },
    "0.0.2": {
     "sha1": "9caf2f17373cbd69d7fbb3f3e02434769f020f73",
-    "requires": "julia 0.5\nNamedTuples 2.0.0\nRequires 0.3.0\n",
+    "requires": "julia 0.5\nNamedTuples 2.0.0 3.0.0\nRequires 0.3.0\n",
     "testrequires": "DataFrames\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDiffEqBase\nOrdinaryDiffEq\nParameterizedFunctions\nNullableArrays\nDataStreams\n"
+   },
+   "0.1.0": {
+    "sha1": "422844ef0a234c470c45e708eff81e68bcc59ba8",
+    "requires": "julia 0.6.0-rc1\nNamedTuples 3.0.2 4.0.0\nRequires 0.4.3\nDataValues 0.0.3\n",
+    "testrequires": "DataFrames 0.9\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDiffEqBase\nOrdinaryDiffEq\nParameterizedFunctions\nNullableArrays\nDataStreams\nGLM\n"
    }
   }
  },
@@ -36947,6 +36982,11 @@
     "sha1": "6bf1fa8c22a8782b4c9e940a570afbf8152e92d2",
     "requires": "julia 0.4.5\nCompat\n",
     "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "cdb7d5a1b59c1a1f234053ee06d4e06eadc0b097",
+    "requires": "julia 0.4.5\nCompat 0.9.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -40971,6 +41011,21 @@
    "0.3.1": {
     "sha1": "2c4e74d7665d091cef5d14a824b84be615cc4024",
     "requires": "julia 0.4\nFITSIO 0.8\nCompat 0.17\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "OOPMacro": {
+  "url": "https://github.com/ipod825/OOPMacro.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "764e8b5ee04b5f401d01ea87f16e91a9f80ca641",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "0019d948a093154b05991e4c8bab49186e554e7d",
+    "requires": "julia 0.5\n",
     "testrequires": ""
    }
   }
@@ -45011,6 +45066,11 @@
     "sha1": "47e6b14e8ad9c3da995ce8c5627d03b357b65cdf",
     "requires": "julia 0.6-\n",
     "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "feff9dc408f55f59cebe326c0a11766242c4a584",
+    "requires": "julia 0.6.0-pre\n",
+    "testrequires": ""
    }
   }
  },
@@ -46585,6 +46645,11 @@
     "sha1": "743c3d933e3a23f95b6d2bd7ed387c7c916e916c",
     "requires": "julia 0.5\nIterators\nArgParse\n",
     "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "21114ed30d29563068edbf1feab8f10ae51f2049",
+    "requires": "julia 0.5\nIterators\nArgParse\n",
+    "testrequires": ""
    }
   }
  },
@@ -47283,12 +47348,17 @@
    },
    "0.4.0": {
     "sha1": "21847baef7c40b0f0e5ab0fe8416aafde8e3b57c",
-    "requires": "julia 0.5\nNamedTuples 2.0.0\nDataStructures 0.4.5\nRequires 0.3.0\nDocumenter 0.9.0\nIterableTables 0.0.1\n",
+    "requires": "julia 0.5\nNamedTuples 2.0.0 3.0.0\nDataStructures 0.4.5\nRequires 0.3.0\nDocumenter 0.9.0\nIterableTables 0.0.1 0.1.0\n",
     "testrequires": "DataFrames\nDataArrays\nDataTables\nTypedTables\nSQLite\nDataStreams\nCSV\nJSON\nFeather\nNullableArrays\nIndexedTables\n"
    },
    "0.4.1": {
     "sha1": "5d21aa6a8260a2222147ba2747628cdfafd70176",
-    "requires": "julia 0.5\nNamedTuples 2.0.0\nDataStructures 0.4.5\nRequires 0.3.0\nDocumenter 0.9.0\nIterableTables 0.0.1\n",
+    "requires": "julia 0.5\nNamedTuples 2.0.0 3.0.0\nDataStructures 0.4.5\nRequires 0.3.0\nDocumenter 0.9.0\nIterableTables 0.0.1\n",
+    "testrequires": "DataFrames\nDataArrays\nDataTables\nTypedTables\nSQLite\nDataStreams\nCSV\nJSON\nFeather\nNullableArrays\nIndexedTables\n"
+   },
+   "0.5.0": {
+    "sha1": "02d635573a73a6bb72e3d5ecf1b1232a7e114561",
+    "requires": "julia 0.6.0-rc1\nNamedTuples 3.0.2 4.0.0\nDataStructures 0.4.5\nRequires 0.4.3\nDocumenter 0.9.0\nIterableTables 0.1.0\nDataValues 0.0.2\n",
     "testrequires": "DataFrames\nDataArrays\nDataTables\nTypedTables\nSQLite\nDataStreams\nCSV\nJSON\nFeather\nNullableArrays\nIndexedTables\n"
    }
   }
@@ -52996,6 +53066,11 @@
     "sha1": "8194b1310093efd47502fed301c5b3e7a9410d7f",
     "requires": "julia 0.5\nIJulia\nPyPlot\nJuMP 0.13\nIpopt\nStatsBase\nDierckx\nDistributions\nJLD\nLsqFit\nPyCall\nNMF\n",
     "testrequires": ""
+   },
+   "0.3.3": {
+    "sha1": "8b3ffeb8e123ff8fd367cd4f79cfd060fbdc909f",
+    "requires": "julia 0.5\nIJulia\nPyPlot\nJuMP 0.13\nIpopt\nStatsBase\nDierckx\nDistributions\nJLD\nLsqFit\nPyCall\nNMF\n",
+    "testrequires": ""
    }
   }
  },
@@ -55311,6 +55386,11 @@
     "sha1": "2ed4550876d851be53f55beb10619e9cf8f27e91",
     "requires": "julia 0.4\nTaylorSeries 0.3.0\nFactCheck 0.4.2\nCompat 0.9.1\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "9c3e0ca9ac2daff208a4ef2901c2becc204b6834",
+    "requires": "julia 0.5\nTaylorSeries 0.5.0\nFactCheck 0.4.2\n",
+    "testrequires": "TaylorSeries 0.4.0\n"
    }
   }
  },
@@ -56050,6 +56130,16 @@
    "0.1.0": {
     "sha1": "0a1c2b1a5d62b715ae3e919f39a10b316fc8e631",
     "requires": "julia 0.4\nLanguages 0.0.5+\nDataFrames\nBinDeps\nCompat 0.8.8\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "TextModel": {
+  "url": "https://github.com/sadit/TextModel.jl.git",
+  "versions": {
+   "0.1.2": {
+    "sha1": "a339f8f0bb05ebac90786dda4488dbce69359d40",
+    "requires": "julia 0.6.0-rc1\nJSON 0.5.0\nGZip 0.3.0",
     "testrequires": ""
    }
   }
