@@ -5245,6 +5245,11 @@
     "sha1": "b72c32a784731e3b586bbb8285d0900026eca64d",
     "requires": "Compat\nCUDArt\njulia 0.4-\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "0f19aac8e811b446539992ac66e505a86856a735",
+    "requires": "julia 0.5\nCUDArt 0.3.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -39287,6 +39292,11 @@
     "sha1": "4cb7d75b975637a6f0fe23862225a2bcc4b1d5a0",
     "requires": "julia 0.6.0-pre\nOptim\nCalculus\nDistances\nForwardDiff 0.5.0\nLineSearches\nDiffBase\n",
     "testrequires": "BaseTestNext"
+   },
+   "0.10.1": {
+    "sha1": "21c079d994f32b0982367c9c6f54164cc7f19a43",
+    "requires": "julia 0.6.0-pre\nCalculus\nDistances\nForwardDiff 0.5.0\nLineSearches\nDiffBase\nNLSolversBase 2.1.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -41269,6 +41279,11 @@
    },
    "0.2.1": {
     "sha1": "8ae2caf3b3c93de4b2606a204c0ecc6093aa4f39",
+    "requires": "julia 0.6.0-pre\nCrayons\nTokenize\n",
+    "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "502a07d2d41029117dee39836b72ba55b3a58195",
     "requires": "julia 0.6.0-pre\nCrayons\nTokenize\n",
     "testrequires": ""
    }
