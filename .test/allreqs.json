@@ -2220,6 +2220,11 @@
     "sha1": "1f90c01750e1b1c89ca8e99af71f1ba0cb094772",
     "requires": "julia 0.5\nCompat 0.17.0\nDataStructures 0.5.1\n",
     "testrequires": ""
+   },
+   "0.2.4": {
+    "sha1": "e94b45eebabab8d0ab209370bcc985477689b789",
+    "requires": "julia 0.5\nCompat 0.17.0\nDataStructures 0.5.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -5330,6 +5335,11 @@
     "sha1": "106d60df96fc9e53209022f0343229ae593c4ae4",
     "requires": "julia 0.5\nCompat 0.9.5\n",
     "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "959a9ff344d2da7db8c5445ffd3f82b9ba3c084b",
+    "requires": "julia 0.5\nCompat 0.9.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -5428,6 +5438,11 @@
    },
    "0.3.0": {
     "sha1": "88c44b70edc1d0a256297f91f0ee5bef774d8d5c",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.2.4\n",
+    "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "dc286ac19293aa621ac086599d2249a8c6193afe",
     "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.2.4\n",
     "testrequires": ""
    }
@@ -23796,6 +23811,11 @@
     "sha1": "a3ac0f678dd9826eadff59425d98df1a0580711b",
     "requires": "julia 0.5\nNemo 0.6.0 0.6.2\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "885ea3c15017f32a11a42df78854f6c50f8b22d5",
+    "requires": "julia 0.5\nNemo 0.6.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -26910,6 +26930,11 @@
     "sha1": "dc4f5d7679f85eade12b8d8ca08beb9383024499",
     "requires": "julia 0.5\nAxisArrays\nImageMetadata 0.1.1\nFixedPointNumbers 0.3.0\nFileIO\nUnitful\nRanges\n",
     "testrequires": "Images 0.6.0\n"
+   },
+   "0.4.0": {
+    "sha1": "db2ca07bbe5a58c33853057e871a4c9f571ef4c2",
+    "requires": "julia 0.6.0-pre\nAxisArrays\nImageMetadata 0.1.1\nFixedPointNumbers 0.3.0\nFileIO\nUnitful\n",
+    "testrequires": "Images 0.6.0\n"
    }
   }
  },
@@ -27760,6 +27785,11 @@
     "sha1": "6a0012fc49f47c3994c0761fc1a75e2cbf522e8e",
     "requires": "julia 0.5\nDistances  0.1.1\nStatsBase 0.7.1\nDataArrays\nDataFrames 0.6\nLeastSquaresOptim 0.2.0\nReexport\nFixedEffectModels 0.3.1",
     "testrequires": "RDatasets"
+   },
+   "0.2.0": {
+    "sha1": "9225bf7e802231f7e676ad9b25221e22e4b93e55",
+    "requires": "julia 0.6.0-pre\nDistances  0.1.1\nStatsBase 0.7.1\nDataArrays\nDataFrames 0.6\nLeastSquaresOptim 0.3.0\nReexport\nFixedEffectModels 0.4.0\nIterators",
+    "testrequires": ""
    }
   }
  },
@@ -29454,6 +29484,11 @@
    "0.1.0": {
     "sha1": "777db61242216a53a12051f0a2abdf1f4ed7880d",
     "requires": "julia 0.5\nPyCall\nStaticArrays\nOptim 0.7.5\nLineSearches\nCalculus\nPyAMG\nJSON\nReexport\nFunctionWrappers\nDierckx\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "61adc07e8adb61acb00db944f9334a4229e3eb97",
+    "requires": "julia 0.5\nPyCall\nStaticArrays\nOptim 0.7.5\nLineSearches\nCalculus\nPyAMG\nJSON\nReexport\nFunctionWrappers\nDierckx\nForwardDiff 0.4\nPositiveFactorizations\n",
     "testrequires": ""
    }
   }
@@ -34923,6 +34958,11 @@
     "sha1": "828e4c41b275507744e66d60500bfb996f263d02",
     "requires": "julia 0.5\nCompat 0.9.5\nFormatting\nBinDeps\nJSON\n",
     "testrequires": ""
+   },
+   "0.2.3": {
+    "sha1": "643b8d4647b62e5379e05291e9c472b423c3828e",
+    "requires": "julia 0.5\nCompat 0.9.5\nFormatting\nBinDeps\nJSON\n",
+    "testrequires": ""
    }
   }
  },
@@ -39530,6 +39570,11 @@
    },
    "0.2.4": {
     "sha1": "cbd6063e17379179bae17f7b01be877b325ca938",
+    "requires": "julia 0.4\nCompat 0.9.1\n",
+    "testrequires": ""
+   },
+   "0.2.5": {
+    "sha1": "f614e0c5acc80321fb66f88c42e75a2232343303",
     "requires": "julia 0.4\nCompat 0.9.1\n",
     "testrequires": ""
    }
@@ -45943,6 +45988,16 @@
    }
   }
  },
+ "PtFEM": {
+  "url": "https://github.com/PtFEM/PtFEM.jl.git",
+  "versions": {
+   "0.0.3": {
+    "sha1": "a66ff86a58901564d9d1da6271f4e818c111deac",
+    "requires": "julia 0.5\nCompat 0.17\nDocumenter\nLightXML\n#Plots\n#GR\nCodecs\nInterpolations\nDataTables\nWriteVTK\nOffsetArrays\nQuadGK",
+    "testrequires": ""
+   }
+  }
+ },
  "PublicSuffix": {
   "url": "git://github.com/tanmaykm/PublicSuffix.jl.git",
   "versions": {
@@ -48358,6 +48413,11 @@
     "sha1": "4303fdecb001095b0515d44e8e303edca8dbc133",
     "requires": "julia 0.5\nDataStructures\n",
     "testrequires": "FactCheck 0.3.0\n"
+   },
+   "0.5.2": {
+    "sha1": "fd9fd2155c495d3ce83ad3edd0e217fea1adc60b",
+    "requires": "julia 0.5\nDataStructures\n",
+    "testrequires": "FactCheck 0.3.0\n"
    }
   }
  },
@@ -49658,6 +49718,11 @@
     "sha1": "15e1d3700726a77616aa5ad02d228f40f4875dbd",
     "requires": "julia 0.5\nCalculus\nLazy\nDataStructures\nMathProgBase\nNaNMath 0.2.1\nForwardDiff 0.3 0.5\n",
     "testrequires": "Graphs\nDualNumbers\nDistributions\n"
+   },
+   "0.7.3": {
+    "sha1": "307ae6dd2fd35529dc0f252d96d7777341e6d87e",
+    "requires": "julia 0.5\nCalculus\nDataStructures\nMathProgBase\nNaNMath 0.2.1\nForwardDiff 0.3 0.5\n",
+    "testrequires": "LightGraphs\nDualNumbers\nDistributions\n"
    }
   }
  },
@@ -55254,6 +55319,16 @@
    }
   }
  },
+ "SymmetricBitArrays": {
+  "url": "https://github.com/LewisHein/SymmetricBitArrays.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "7fa32106076f6385c60c7cadcb60803688abb567",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Synchrony": {
   "url": "git://github.com/simonster/Synchrony.jl.git",
   "versions": {
@@ -55631,6 +55706,11 @@
     "sha1": "e455d3e1492bea01cd15a63cfd358277b013a6d7",
     "requires": "julia 0.5\nRequests\nJSON\n\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "b6be8608f68c05f5692e1bebc1bf2acbf26b1f05",
+    "requires": "julia 0.5\nRequests\nJSON\n",
+    "testrequires": ""
    }
   }
  },
@@ -55789,6 +55869,16 @@
    },
    "0.5.1": {
     "sha1": "21b5152065e9bb74e8b1cd811fed840bbc28e593",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "TensorToolbox": {
+  "url": "https://github.com/lanaperisa/TensorToolbox.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "1652020390e63ba5326c165fa924153b40b786d5",
     "requires": "julia 0.5\n",
     "testrequires": ""
    }
@@ -61410,6 +61500,21 @@
    "0.0.1": {
     "sha1": "ae36a6bbea084dbb0299f193f7cc0b30bf95c8e7",
     "requires": "julia 0.5\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "ZipCode": {
+  "url": "https://github.com/equinetic/ZipCode.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "cdf5907e713b84840e332b18c410b32f73fa17cc",
+    "requires": "julia 0.5\nDataFrames\n",
+    "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "1664cf34f530d10fad32837aeb22d6d1679a8d6f",
+    "requires": "julia 0.5\nDataFrames\n",
     "testrequires": ""
    }
   }
