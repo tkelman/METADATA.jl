@@ -5145,6 +5145,11 @@
     "sha1": "d10c504b30385e484fcabfd375d5018adf682d9f",
     "requires": "julia 0.6.0-pre.beta\nTokenize 0.1.7",
     "testrequires": ""
+   },
+   "0.0.5": {
+    "sha1": "f0b850b226f0b75698f8c48a9fcf26b0b75b1356",
+    "requires": "julia 0.6.0-pre.beta\nTokenize 0.1.7",
+    "testrequires": ""
    }
   }
  },
@@ -25735,6 +25740,11 @@
     "sha1": "5d5b56d6bc38eca209cbd5a3593050e998e10876",
     "requires": "julia 0.5\nCompat 0.24\nFixedPointNumbers 0.3.0\nColorTypes 0.2.7\nImages 0.6\nFileIO\n@osx Homebrew\nBinDeps\n",
     "testrequires": "ColorTypes\nFixedPointNumbers 0.3.0\nIndirectArrays\nFileIO\nImages\nZipFile\nCompat\nOffsetArrays\n"
+   },
+   "0.3.0": {
+    "sha1": "c776da46d0e7de4e43cbaeda2cbb7ab9de4f0e0d",
+    "requires": "julia 0.5\nCompat 0.24\nFixedPointNumbers 0.3.0\nColorTypes 0.2.7\nImages 0.6\nFileIO\n@osx Homebrew\nBinDeps\n",
+    "testrequires": "ColorTypes\nFixedPointNumbers 0.3.0\nIndirectArrays\nFileIO\nImages\nZipFile\nCompat\nOffsetArrays\n"
    }
   }
  },
@@ -42021,6 +42031,16 @@
     "sha1": "250b50ab5f9bb87576c623fa20fdafb981ce40a1",
     "requires": "julia 0.4\nCalculus\nForwardDiff 0.3.0 0.5.0\nPositiveFactorizations\nCompat 0.18.0\nLineSearches 0.1.2 1.0.0-\n",
     "testrequires": "BaseTestNext\n"
+   }
+  }
+ },
+ "OptimBase": {
+  "url": "https://github.com/JuliaNLSolvers/OptimBase.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "24d37a5f2b425afaf2df23231c6cd881dcd92698",
+    "requires": "julia 0.5\nReexport\nNLSolversBase\nCompat 0.18\n",
+    "testrequires": ""
    }
   }
  },
