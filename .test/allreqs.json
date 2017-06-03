@@ -5665,6 +5665,11 @@
     "sha1": "e7dd063398bc712253961c9b8f0bcb19b72a3f56",
     "requires": "julia 0.5\nRoME 0.0.6\nIncrementalInference 0.2.8\nGraphs 0.7.1\nKernelDensityEstimate 0.2.4\nDistributions\nDrakeVisualizer 0.1.2\nTransformUtils 0.0.6\nCoordinateTransformations\nGeometryTypes\nRotations\nGadfly\nColors\nColorTypes\nJLD\nHDF5\nJSON\nMeshIO\nFileIO\nNLsolve\nPyLCM\nDataStructures\nProgressMeter\nImageMagick\nImageCore\n",
     "testrequires": ""
+   },
+   "0.0.5": {
+    "sha1": "79dbc6682cd664ac5c35373ca8849a5096fff7b1",
+    "requires": "julia 0.5\nRoME 0.0.5\nIncrementalInference 0.2.8\nGraphs 0.7.1\nKernelDensityEstimate 0.2.4\nDistributions\nDrakeVisualizer 0.1.2\nCloudGraphs 0.0.2\nNeo4j 1.0.0\nLibBSON\nMongo 0.2.3\nTransformUtils 0.0.6\nCoordinateTransformations\nGeometryTypes\nRotations\nGadfly\nColors\nColorTypes\nJLD\nHDF5\nJSON\nMeshIO\nFileIO\nNLsolve\nPyLCM\nPyCall\nDataStructures\nProgressMeter\nImageMagick\nImageCore\n",
+    "testrequires": ""
    }
   }
  },
@@ -12904,6 +12909,11 @@
     "sha1": "078eb6ebb949d2aa6df68bc610df5036edc70dc0",
     "requires": "julia 0.4\nCompat 0.7.20\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "6aacac44a8a424cd0c678b9bd7ddb60b1203e8ae",
+    "requires": "julia 0.4\nCompat 0.7.20\n",
+    "testrequires": ""
    }
   }
  },
@@ -17692,6 +17702,11 @@
     "sha1": "c3701d88f6d5e2f45246002de716c7fa80907ca0",
     "requires": "julia 0.5\nPyPlot\nSymPy\n",
     "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "5c4c00d7481e92d892b29715e701f634e88b8605",
+    "requires": "julia 0.5\nPyPlot\nSymPy\nColors\n",
+    "testrequires": ""
    }
   }
  },
@@ -21307,6 +21322,11 @@
     "sha1": "63f85f5db1fb7ea78b6f664d00ed8b04d3064e67",
     "requires": "julia 0.4\nJSON\nCompat 0.8\n",
     "testrequires": "FactCheck\nCompat\n"
+   },
+   "0.2.0": {
+    "sha1": "346562416212224b060040a015cdacc653688216",
+    "requires": "julia 0.5\nJSON\nGeoInterface 0.2\n",
+    "testrequires": "FactCheck\n"
    }
   }
  },
@@ -31287,6 +31307,11 @@
    },
    "0.1.2": {
     "sha1": "d007815638775004251829447fe2410f98103b70",
+    "requires": "julia 0.5\nPyPlot \nDataStructures\nPyAMG\n",
+    "testrequires": ""
+   },
+   "0.1.3": {
+    "sha1": "3c259368ce6348f59389e1d29b13ca837dec8cb2",
     "requires": "julia 0.5\nPyPlot \nDataStructures\nPyAMG\n",
     "testrequires": ""
    }
@@ -50052,6 +50077,11 @@
    "0.0.6": {
     "sha1": "2a6ae2afb5390d5e1510301da5f113ea37b756d6",
     "requires": "julia 0.5\nIncrementalInference 0.2.8\nGraphs 0.7.1\nTransformUtils 0.0.6\nCoordinateTransformations\nRotations\nKernelDensityEstimate 0.2.4\nDistributions\nColors\nGadfly\nJLD\nHDF5\nOptim\nProgressMeter\n",
+    "testrequires": ""
+   },
+   "0.0.7": {
+    "sha1": "d89b97497163bf1ec1cc7d8fd83a42a96363df2b",
+    "requires": "julia 0.5\nIncrementalInference 0.2.8\nGraphs 0.7.1\nTransformUtils 0.0.6\nCoordinateTransformations\nRotations\nKernelDensityEstimate 0.2.4\nDistributions\nColors\nGadfly 0.6.2\nJLD\nHDF5\nOptim\nProgressMeter\n",
     "testrequires": ""
    }
   }
