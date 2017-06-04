@@ -4565,6 +4565,11 @@
     "sha1": "d3bf8c405d7c114791c03182bcfbbc8ba68b7f98",
     "requires": "julia 0.5\n",
     "testrequires": ""
+   },
+   "0.6.3": {
+    "sha1": "0b317e971570a7c50eeac61d0d618a121af661ee",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -20022,6 +20027,11 @@
     "sha1": "5b526df76d3d8935f4eef2e4f00db766611e4355",
     "requires": "julia 0.4\nCompat 0.8.0\n",
     "testrequires": ""
+   },
+   "0.0.4": {
+    "sha1": "c81699f9123c4fb299d5b76b61702f136fbb62a2",
+    "requires": "julia 0.4\nCompat 0.8.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -31488,6 +31498,11 @@
     "sha1": "8ac867851c9bc80fdf740e9763823dc993e91659",
     "requires": "MacroTools\njulia 0.4\nCompat 0.8.0\n",
     "testrequires": "FactCheck\n"
+   },
+   "0.11.7": {
+    "sha1": "279084787b769e6c32492069dc83270e1da3697d",
+    "requires": "MacroTools\njulia 0.4\nCompat 0.17.0\n",
+    "testrequires": "FactCheck\n"
    }
   }
  },
@@ -41258,6 +41273,16 @@
  "ObjectiveC": {
   "url": "git://github.com/JuliaInterop/ObjectiveC.jl.git",
   "versions": {}
+ },
+ "Observables": {
+  "url": "https://github.com/JuliaGizmos/Observables.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "2cf7ebef3a40855d54712d816e617737d2ea9592",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   }
+  }
  },
  "OdsIO": {
   "url": "git://github.com/sylvaticus/OdsIO.jl.git",
@@ -54689,6 +54714,16 @@
    }
   }
  },
+ "StructJuMP": {
+  "url": "git://github.com/StructJuMP/StructJuMP.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "3a96b2fec830a6ffcbb63ed76f32b96c7c4f01df",
+    "requires": "julia 0.5\nJuMP 0.17\nMathProgBase\nReverseDiffSparse\n",
+    "testrequires": "Cbc\nECOS\nClp\nIpopt\n"
+   }
+  }
+ },
  "StructsOfArrays": {
   "url": "git://github.com/simonster/StructsOfArrays.jl.git",
   "versions": {
@@ -58489,6 +58524,11 @@
   "versions": {
    "0.0.1": {
     "sha1": "b8796c4425088a1b684967871a4de80ae3225965",
+    "requires": "julia 0.6.0-pre\n",
+    "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "8c71cdea7b02c63b8085ca40227e0833087f57dc",
     "requires": "julia 0.6.0-pre\n",
     "testrequires": ""
    }
