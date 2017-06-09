@@ -35898,6 +35898,11 @@
     "sha1": "e2dd08835e10c3a38bb61658eedf9fb6a7417644",
     "requires": "julia 0.5.0-rc3\nCairo 0.2.31\nCalculus 0.1.13\nCompose 0.3.18\nDistributions 0.10.0\nGadfly 0.3.18\nGraphs 0.6.0\nPDMats 0.3.6\nShowoff 0.0.6\nStatsBase 0.7.4\n",
     "testrequires": ""
+   },
+   "0.10.1": {
+    "sha1": "56c94d19e6d8bba3adceaa212de378405062cc46",
+    "requires": "julia 0.5.0-rc3\nCairo 0.2.31\nCalculus 0.1.13\nCompose 0.3.18\nDistributions 0.10.0\nGadfly 0.3.18\nLightGraphs 0.7.0\nPDMats 0.3.6\nShowoff 0.0.6\nStatsBase 0.7.4\n",
+    "testrequires": ""
    }
   }
  },
@@ -44415,6 +44420,16 @@
    "0.1.0": {
     "sha1": "31cabcae53246e424f1a946116e2225df67f4a6b",
     "requires": "julia 0.4\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "Phylo": {
+  "url": "https://github.com/richardreeve/Phylo.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "ccd6d208ddb09c58cbc23164e0a9f81d0518d85d",
+    "requires": "julia 0.5\nCompat 0.18.0\nDistributions 0.12.2\n",
     "testrequires": ""
    }
   }
