@@ -3693,6 +3693,16 @@
    }
   }
  },
+ "BioSequences": {
+  "url": "https://github.com/BioJulia/BioSequences.jl.git",
+  "versions": {
+   "0.5.0": {
+    "sha1": "8bcf4a068bb42417a279387ae7ad172db2c7aebe",
+    "requires": "Automa\nBioCore\nBioSymbols\nBufferedStreams\nCombinatorics\nIndexableBitVectors\nIterators\nIntervalTrees\njulia 0.5\nPairwiseListMatrices\nTwiddle\nDataStructures\n",
+    "testrequires": "StatsBase\nYAML\n"
+   }
+  }
+ },
  "BioSymbols": {
   "url": "git://github.com/BioJulia/BioSymbols.jl.git",
   "versions": {
@@ -7353,12 +7363,32 @@
    }
   }
  },
+ "CodecXz": {
+  "url": "https://github.com/bicycle1885/CodecXz.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "ce7f73b019ef9930f445349598f1e89edfd14495",
+    "requires": "julia 0.6-rc1\nTranscodingStreams 0.1\n",
+    "testrequires": ""
+   }
+  }
+ },
  "CodecZlib": {
   "url": "https://github.com/bicycle1885/CodecZlib.jl.git",
   "versions": {
    "0.1.0": {
     "sha1": "875a0c8ae95def1f2ed1bf8542dc23a210f9e1c8",
     "requires": "julia 0.6.0-rc1\nTranscodingStreams 0.1\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "CodecZstd": {
+  "url": "https://github.com/bicycle1885/CodecZstd.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "52bc25f44233dd30233ac5db9b006af54c7764a7",
+    "requires": "julia 0.6-rc1\nBinDeps\nTranscodingStreams 0.1\n",
     "testrequires": ""
    }
   }
@@ -9838,7 +9868,7 @@
   "versions": {
    "0.0.1": {
     "sha1": "72f6b724b0bd56c988b240aa22c0a4889c005290",
-    "requires": "julia 0.6.0-pre\nProximalBase\nDataStructures\n",
+    "requires": "julia 0.6.0-pre\nProximalBase 0.0.0 0.0.3\nDataStructures\n",
     "testrequires": "FactCheck\nProximalBase\nConvex\nSCS\n"
    }
   }
@@ -21407,6 +21437,11 @@
     "sha1": "859c66ce5bc6984068cc291a848c1555f7d63f8c",
     "requires": "julia 0.4\nQuadGK 0.1.2\n",
     "testrequires": "BaseTestNext\n"
+   },
+   "0.8.7": {
+    "sha1": "fa159f56b8a6e8aad0221be32463deadba07148c",
+    "requires": "julia 0.4\nQuadGK 0.1.2\n",
+    "testrequires": "BaseTestNext\n"
    }
   }
  },
@@ -27358,6 +27393,16 @@
    }
   }
  },
+ "ImputeNaNs": {
+  "url": "https://github.com/JeffreySarnoff/ImputeNaNs.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "b15d70952ad18de8dd8f5f48a5588a72ff820f12",
+    "requires": "julia 0.6.0-rc1.0\n",
+    "testrequires": ""
+   }
+  }
+ },
  "IncGammaBeta": {
   "url": "git://github.com/jkovacic/IncGammaBeta.jl.git",
   "versions": {
@@ -30023,6 +30068,11 @@
    },
    "0.17.0": {
     "sha1": "cb9f85a6f5d2f6e8de1a3ed656b10fcf50f81222",
+    "requires": "julia 0.5\nMathProgBase 0.6 0.7\nReverseDiffSparse 0.7 0.8\nForwardDiff 0.3 0.5\nCalculus\nCompat 0.18\n",
+    "testrequires": "Cbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\nOffsetArrays 0.2.13\n"
+   },
+   "0.17.1": {
+    "sha1": "0bed3704dde263cc3c010daf591e2e7f6702c3d0",
     "requires": "julia 0.5\nMathProgBase 0.6 0.7\nReverseDiffSparse 0.7 0.8\nForwardDiff 0.3 0.5\nCalculus\nCompat 0.18\n",
     "testrequires": "Cbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\nOffsetArrays 0.2.13\n"
    }
@@ -35687,6 +35737,11 @@
    "0.4.12": {
     "sha1": "f125e1adc5432ba45f52829cd5aa5145b425b1cd",
     "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nODE\nNMF\nBlackBoxOptim\nKlara 0.7\nOptim 0.7\nStatsBase 0.15\nJuMP 0.15\nMathProgBase 0.5.10\n",
+    "testrequires": ""
+   },
+   "0.4.13": {
+    "sha1": "67093eb101f9a83e3873ca95bd2ba1f1657bc736",
+    "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nODE\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
     "testrequires": ""
    }
   }
@@ -42961,6 +43016,11 @@
     "sha1": "a7871cb072f73f4792c43a70a295c1ef8b03c593",
     "requires": "julia 0.4\nCompat 0.18.0\n",
     "testrequires": ""
+   },
+   "0.7.0": {
+    "sha1": "490112262b3670021ca9e40f890189347a3556ce",
+    "requires": "julia 0.5\nCompat 0.18.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -46385,6 +46445,11 @@
     "sha1": "2d73fae36e53ebb5b6e02ef0c1dc2ad4af482c26",
     "requires": "julia 0.6.0-pre\n",
     "testrequires": "Distributions\nJuMP\nIpopt\nFactCheck\n"
+   },
+   "0.0.3": {
+    "sha1": "3c2488fa5ba14b16a167ee1d00c57860da8c6102",
+    "requires": "julia 0.6.0-pre\n",
+    "testrequires": "Distributions\nJuMP\nIpopt\nFactCheck\n"
    }
   }
  },
@@ -48997,6 +49062,11 @@
    "0.1.0": {
     "sha1": "700de20b7cddf3b8ed62664027f65cfd8c38810a",
     "requires": "julia 0.5-\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "6d5b844d63c7bb854461b75a2ae599cb36776cc3",
+    "requires": "julia 0.6-pre\n",
     "testrequires": ""
    }
   }
