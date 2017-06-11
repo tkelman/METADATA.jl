@@ -4150,6 +4150,11 @@
     "sha1": "bbabcf08e43e55ec438b6db10e7e3dac21026a6a",
     "requires": "julia 0.4\nBinDeps\n",
     "testrequires": "BaseTestNext\n"
+   },
+   "0.3.0": {
+    "sha1": "0053a3029451815e8f6632ae8848c30e5ef42364",
+    "requires": "julia 0.5\nBinDeps\n",
+    "testrequires": "BaseTestNext\n"
    }
   }
  },
@@ -5303,6 +5308,16 @@
    }
   }
  },
+ "CSVFiles": {
+  "url": "https://github.com/davidanthoff/CSVFiles.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "8c3e9e04d2c91be8358c79d77cde991c721813fa",
+    "requires": "julia 0.6-pre\nTextParse 0.1.6\nIterableTables 0.2.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.3.1\n",
+    "testrequires": "DataFrames 0.10.0\n"
+   }
+  }
+ },
  "CUBLAS": {
   "url": "git://github.com/JuliaGPU/CUBLAS.jl.git",
   "versions": {
@@ -6358,6 +6373,11 @@
    },
    "0.1.3": {
     "sha1": "8434ae6abd79a1e44744e93e58afb2d1234c9037",
+    "requires": "julia 0.5.0\nCompat 0.19.0\nNullableArrays\n",
+    "testrequires": "NullableArrays 0.0.8\n"
+   },
+   "0.1.4": {
+    "sha1": "76cf24739159e720533677c76290461b4292be91",
     "requires": "julia 0.5.0\nCompat 0.19.0\nNullableArrays\n",
     "testrequires": "NullableArrays 0.0.8\n"
    }
@@ -13344,6 +13364,11 @@
     "sha1": "6de09407a74e30b6d8c24ca758b7d6d796ffa39e",
     "requires": "julia 0.6-pre\nRecipesBase 0.1.0\nRecursiveArrayTools 0.9.0\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\n",
     "testrequires": "OrdinaryDiffEq 0.2.0\nStochasticDiffEq 0.1.0\nDiffEqDevTools 0.2.0\nDiffEqProblemLibrary 0.2.0\nSundials 0.4.1\nParameterizedFunctions 0.3.3\n"
+   },
+   "1.11.0": {
+    "sha1": "99e077dba8345f8490f09470da328dc567446f8b",
+    "requires": "julia 0.6-pre\nRecipesBase 0.1.0\nRecursiveArrayTools 0.9.0\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\n",
+    "testrequires": "OrdinaryDiffEq 0.2.0\nStochasticDiffEq 0.1.0\nDiffEqDevTools 0.2.0\nDiffEqProblemLibrary 0.2.0\nSundials 0.4.1\nParameterizedFunctions 0.3.3\n"
    }
   }
  },
@@ -16941,6 +16966,16 @@
    "0.4.1": {
     "sha1": "526e34fdca2e3bb6959e6a236f4d9d717d3026d9",
     "requires": "# This file lists the packages and version ranges required by this package.\n# It is used by the yet-to-be-written package metadata generator to automatically determine metadata for this package in the registry of Julia packages, and when a package is in an attached head state, determines what the requirements of the package are considered to be.\n# The format of the file is that ignore comments and blank lines, each line must have the form \"pkg v1 v2...\" where the zero or more version numbers in semantic version format [http://semver.org/] determine what intervals of versions of each package are required.\n# If no REQUIRE file is present, it means there are no requirements.\n# See README.md for more details.\njulia 0.3\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "ExcelFiles": {
+  "url": "https://github.com/davidanthoff/ExcelFiles.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "3e86f36fee9ae6624f4cc6b20de7c56851ff023e",
+    "requires": "julia 0.6-pre\nExcelReaders 0.7.0\nIterableTables 0.2.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.3.1\nDataFrames 0.9.0\n",
     "testrequires": ""
    }
   }
@@ -23414,6 +23449,16 @@
    }
   }
  },
+ "H5SectionsArrays": {
+  "url": "https://github.com/seung-lab/H5SectionsArrays.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "81ecf5b9bed19e64860d661d5d55ce40347747a8",
+    "requires": "julia 0.5\nHDF5\n",
+    "testrequires": ""
+   }
+  }
+ },
  "HDF5": {
   "url": "git://github.com/JuliaIO/HDF5.jl.git",
   "versions": {
@@ -27515,6 +27560,11 @@
     "sha1": "1ce6e0847ecdb3d63faf9b2b8330a392c75e7a1a",
     "requires": "julia v0.4\n",
     "testrequires": "BaseTestNext"
+   },
+   "0.1.2": {
+    "sha1": "a119793a5b2302e38276c4506c0c2ccf9ecbadeb",
+    "requires": "julia v0.4\nCompat 0.17\n",
+    "testrequires": "BaseTestNext"
    }
   }
  },
@@ -28438,6 +28488,11 @@
    },
    "0.2.0": {
     "sha1": "1f1bb8b510e508a1f8969f7e0ebde5968ecdbfd6",
+    "requires": "julia 0.5\nCompat 0.18\n",
+    "testrequires": "BaseTestNext\n"
+   },
+   "0.2.1": {
+    "sha1": "ddaa8cd512e5eed969d3e7c467aa42f1de403011",
     "requires": "julia 0.5\nCompat 0.18\n",
     "testrequires": "BaseTestNext\n"
    }
@@ -40172,6 +40227,16 @@
     "sha1": "4d0571e031225abc643d8c0064b4b1735564c188",
     "requires": "julia 0.6.0-pre\n",
     "testrequires": ""
+   },
+   "3.0.3": {
+    "sha1": "65c5caa4826ffcbab5200830ec4ed39eec12f367",
+    "requires": "julia 0.6.0-pre\n",
+    "testrequires": ""
+   },
+   "4.0.0": {
+    "sha1": "33f5f1397fe93ed329c80dacfaf77e3c0d99e505",
+    "requires": "julia 0.6.0-pre\n",
+    "testrequires": ""
    }
   }
  },
@@ -47968,7 +48033,7 @@
    },
    "0.5.0": {
     "sha1": "02d635573a73a6bb72e3d5ecf1b1232a7e114561",
-    "requires": "julia 0.6.0-rc1\nNamedTuples 3.0.2 4.0.0\nDataStructures 0.4.5\nRequires 0.4.3\nDocumenter 0.9.0\nIterableTables 0.1.0\nDataValues 0.0.2\n",
+    "requires": "julia 0.6.0-rc1\nNamedTuples 3.0.2\nDataStructures 0.4.5\nRequires 0.4.3\nDocumenter 0.9.0\nIterableTables 0.1.0\nDataValues 0.0.2\n",
     "testrequires": "DataFrames\nDataArrays\nDataTables\nTypedTables\nSQLite\nDataStreams\nCSV\nJSON\nFeather\nNullableArrays\nIndexedTables\n"
    }
   }
@@ -54004,6 +54069,16 @@
    }
   }
  },
+ "StatFiles": {
+  "url": "https://github.com/davidanthoff/StatFiles.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "94fad8c025ec09643176563cee8f9e55e63e08f9",
+    "requires": "julia 0.6-pre\nReadStat 0.1.1\nIterableTables 0.2.0\nDataValues 0.1.0\nDataFrames 0.10.0\nFileIO 0.3.1\n",
+    "testrequires": ""
+   }
+  }
+ },
  "StatPlots": {
   "url": "git://github.com/JuliaPlots/StatPlots.jl.git",
   "versions": {
@@ -58386,6 +58461,11 @@
     "sha1": "57a1f80c410ce2dcb7f17aa31b914e9515c39db1",
     "requires": "julia 0.6.0-rc1\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "8e01d239da09552bb44360d282e7b5320a2eb811",
+    "requires": "julia 0.6.0-rc1\n",
+    "testrequires": "CodecZlib 0.1\nCodecBzip2 0.1\nCodecXz 0.1\nCodecZstd 0.1\n"
    }
   }
  },
