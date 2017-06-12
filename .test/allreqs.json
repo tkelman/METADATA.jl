@@ -1456,6 +1456,11 @@
     "sha1": "e66d3fe55916425ae750b658403f6d447aad716e",
     "requires": "julia 0.5\nBinDeps 0.4.5\nCompat 0.9.5\nNemo 0.5.1\nReadableNumbers 0.0.2\n",
     "testrequires": ""
+   },
+   "0.1.16": {
+    "sha1": "591238c19d2a7b49851042200ff86c959c61a0ba",
+    "requires": "julia 0.5.0\nBinDeps 0.4.5\nCompat 0.9.5\nNemo 0.6.0\nReadableNumbers 0.0.3\n",
+    "testrequires": ""
    }
   }
  },
@@ -5215,6 +5220,11 @@
     "sha1": "f0b850b226f0b75698f8c48a9fcf26b0b75b1356",
     "requires": "julia 0.6.0-pre.beta\nTokenize 0.1.7",
     "testrequires": ""
+   },
+   "0.0.6": {
+    "sha1": "3eb416382f12e385d36ea7da8dc1417b7d09cb69",
+    "requires": "julia 0.6.0-pre.beta\nTokenize 0.1.7",
+    "testrequires": ""
    }
   }
  },
@@ -5455,6 +5465,11 @@
     "sha1": "0721783db9ac4cc2c2948cbf8cbff4aa5f7c4271",
     "requires": "julia 0.6.0-pre\nCUDAdrv 0.2\nLLVM 0.2\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "d2d7e28acda43271551ebf7ceda3954b50b74d02",
+    "requires": "julia 0.6.0-pre\nCUDAdrv 0.4\nLLVM 0.2\n",
+    "testrequires": "Documenter\n\n"
    }
   }
  },
@@ -7380,6 +7395,11 @@
     "sha1": "48ecb6c455cc78f5040ceaf0317bc1dcb7f78bb9",
     "requires": "julia 0.6-rc1\nTranscodingStreams 0.1\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "dc697b1deb68286ea9869103dc6e8379e58dde74",
+    "requires": "julia 0.6-rc1\nTranscodingStreams 0.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -7389,6 +7409,11 @@
    "0.1.0": {
     "sha1": "ce7f73b019ef9930f445349598f1e89edfd14495",
     "requires": "julia 0.6-rc1\nTranscodingStreams 0.1\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "e89efb7510d6ed853dc4e19a62eb1a95c86ebf26",
+    "requires": "julia 0.6-rc1\nTranscodingStreams 0.2\n",
     "testrequires": ""
    }
   }
@@ -7400,6 +7425,11 @@
     "sha1": "875a0c8ae95def1f2ed1bf8542dc23a210f9e1c8",
     "requires": "julia 0.6.0-rc1\nTranscodingStreams 0.1\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "1628c7da97f0a3a2a600528ccec8761753737045",
+    "requires": "julia 0.6.0-rc1\nTranscodingStreams 0.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -7409,6 +7439,11 @@
    "0.1.0": {
     "sha1": "52bc25f44233dd30233ac5db9b006af54c7764a7",
     "requires": "julia 0.6-rc1\nBinDeps\nTranscodingStreams 0.1\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "dfe9bd437fefdea78bf39c931b40c73d5c54a931",
+    "requires": "julia 0.6-rc1\nBinDeps\nTranscodingStreams 0.2\n",
     "testrequires": ""
    }
   }
@@ -10498,6 +10533,16 @@
    "1.2.1": {
     "sha1": "aac74165d6348e51ca60fc0694c519e803d83135",
     "requires": "BinDeps\njulia 0.4\nCompat 0.8\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "Cumulants": {
+  "url": "https://github.com/ZKSI/Cumulants.jl.git",
+  "versions": {
+   "0.2.0": {
+    "sha1": "ad473396f0c8680d4147895dcb1848c55bcbc601",
+    "requires": "julia 0.5\nSymmetricTensors\nNullableArrays\nIterators\nCombinatorics\nDistributions\nFactCheck\nNPZ\nPyPlot\nPyCall\nArgParse\n",
     "testrequires": ""
    }
   }
@@ -16024,6 +16069,11 @@
     "sha1": "19898728d90f758b5ffc6c7020aab742abdfe4e1",
     "requires": "julia 0.5\nBinDeps\nMathProgBase 0.5 0.7\n@osx Homebrew\n",
     "testrequires": ""
+   },
+   "0.7.1": {
+    "sha1": "04ca4bbc98c4729970cf65e4c477824f19b81c52",
+    "requires": "julia 0.5\nBinDeps\nMathProgBase 0.5 0.7\n@osx Homebrew\n",
+    "testrequires": ""
    }
   }
  },
@@ -16698,6 +16748,11 @@
    "0.2.0": {
     "sha1": "a6fcbdac84fb750cc6e6b048c82994a88f50dbde",
     "requires": "julia 0.5\nGZip 0.2.20\nEzXML 0.4.0\nParserCombinator 1.7.11\nStatsFuns\nBlossomV 0.2\nClustering\nDataStructures 0.5.0\nCompat 0.18\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "56a464381c082929c10ca78cb86e5bc68f8d6100",
+    "requires": "julia 0.5\nGZip 0.2.20\nEzXML 0.4.0\nStatsFuns\nBlossomV 0.3\nClustering\nDataStructures 0.5.0\nCompat 0.18\n",
     "testrequires": ""
    }
   }
@@ -28694,6 +28749,11 @@
    "0.2.0": {
     "sha1": "e9b687c0e7b0fbf6d2e49341cb25c8be5da26775",
     "requires": "julia 0.6.0-rc1\nNamedTuples 3.0.2 4.0.0\nRequires 0.4.3\nDataValues 0.0.3\n",
+    "testrequires": "DataFrames 0.9\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDiffEqBase\nOrdinaryDiffEq\nParameterizedFunctions\nNullableArrays\nDataStreams\nGLM\nTemporal\n"
+   },
+   "0.3.0": {
+    "sha1": "3809e2b0d99358859a255ac0e21e3535e85583ea",
+    "requires": "julia 0.6.0-rc1\nNamedTuples 4.0.0\nRequires 0.4.3\nDataValues 0.0.3\n",
     "testrequires": "DataFrames 0.9\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDiffEqBase\nOrdinaryDiffEq\nParameterizedFunctions\nNullableArrays\nDataStreams\nGLM\nTemporal\n"
    }
   }
@@ -45396,6 +45456,11 @@
     "sha1": "df729cd0f6dd115e1e509372ae691efbedb0784a",
     "requires": "julia 0.5\n\nRecipesBase\nPlotUtils 0.4.1\nPlotThemes 0.1.3\nReexport\nFixedSizeArrays\nFixedPointNumbers 0.3\nMeasures\nShowoff\nStatsBase 0.14.0\nJSON\nNaNMath\n",
     "testrequires": "StatPlots\nFactCheck\nImages\nImageMagick\n@osx QuartzImageIO\nGR\nRDatasets\nVisualRegressionTests\nUnicodePlots\nGlob\n"
+   },
+   "0.12.0": {
+    "sha1": "228d3af1fa72bd2fca171e3379e20d9ac95d87f0",
+    "requires": "julia 0.6-pre\n\nRecipesBase 0.2.0\nPlotUtils 0.4.1\nPlotThemes 0.1.3\nReexport\nFixedSizeArrays\nFixedPointNumbers 0.3\nMeasures\nShowoff\nStatsBase 0.14.0\nJSON\nNaNMath\n",
+    "testrequires": "StatPlots\nFactCheck\nImages\nImageMagick\n@osx QuartzImageIO\nGR\nRDatasets\nVisualRegressionTests\nUnicodePlots\nGlob\n"
    }
   }
  },
@@ -48575,6 +48640,11 @@
     "sha1": "7cbe1f4cef10f8bd682fe5aa58b65f78d89a0616",
     "requires": "julia 0.4\nBinDeps\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "28af1f966f8f00692d38d6e22b97fd0b82cf7115",
+    "requires": "julia 0.5\nCxx 0.1.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -50862,6 +50932,11 @@
    "0.1.2": {
     "sha1": "718bda7ad2e784f1079b69d60b787850552041f9",
     "requires": "julia 0.5.0\nStatsBase 0.13.1\n",
+    "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "3c48c1df639fca39d7d52d67a908f7a86180fdfb",
+    "requires": "julia 0.6.0-rc.1.0\nStatsBase 0.13.1\n",
     "testrequires": ""
    }
   }
@@ -54121,6 +54196,11 @@
     "sha1": "5ae83617c34634678feeb0064ebb13f16c795d9c",
     "requires": "julia 0.5\n\nReexport\nPlots 0.10\nStatsBase\nDistributions\nDataFrames\nKernelDensity\nLoess\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "596aa19d8be848dcbec78d08906baccacc103015",
+    "requires": "julia 0.6-pre\n\nReexport\nPlots 0.12.0\nStatsBase\nDistributions\nDataFrames\nKernelDensity\nLoess\n",
+    "testrequires": ""
    }
   }
  },
@@ -56005,6 +56085,16 @@
    "0.0.1": {
     "sha1": "7fa32106076f6385c60c7cadcb60803688abb567",
     "requires": "julia 0.5\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "SymmetricTensors": {
+  "url": "https://github.com/ZKSI/SymmetricTensors.jl.git",
+  "versions": {
+   "0.1.1": {
+    "sha1": "700bccdd9b0bc0b58006b1477a1c307e38f1c27c",
+    "requires": "julia 0.5\nNullableArrays\nIterators\nCombinatorics\nFactCheck\n",
     "testrequires": ""
    }
   }
