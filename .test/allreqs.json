@@ -1526,6 +1526,11 @@
     "sha1": "57634bd7f18180331dac67a838077546c1877c50",
     "requires": "julia 0.5\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "6546d1293e08c0151805d0f320d303955fd81d77",
+    "requires": "julia 0.5\n",
+    "testrequires": "Compat\n"
    }
   }
  },
@@ -1960,6 +1965,11 @@
    "0.5.10": {
     "sha1": "f13924faddfff4efd25fe60b1188e2c45ae6e76a",
     "requires": "julia 0.5\nJuno 0.2.6\nLazy 0.11.3\nLNR\nJSON\nCodeTools\nHiccup\nMedia\nBlink\nReexport\nMacroTools\nASTInterpreter\nGallium\n",
+    "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "7a55deda388658fdafa875746cce3dbe71089054",
+    "requires": "julia 0.6.0-pre\nJuno 0.2.6\nLazy 0.11.3\nLNR\nJSON\nCodeTools\nHiccup\nMedia\nBlink\nReexport\nMacroTools\nASTInterpreter\nGallium\n",
     "testrequires": ""
    }
   }
@@ -4643,6 +4653,11 @@
    },
    "0.6.3": {
     "sha1": "0b317e971570a7c50eeac61d0d618a121af661ee",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.6.4": {
+    "sha1": "01da669ad06bec09a1b40b2863ced40a4d60f3c4",
     "requires": "julia 0.5\n",
     "testrequires": ""
    }
@@ -11119,6 +11134,11 @@
     "sha1": "e595ee8b746e0604e82dd77d18777045601545d9",
     "requires": "julia 0.5\nPolynomials 0.1.0\nReexport\nSpecialFunctions\nCompat 0.18.0\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "cfc3471ac26e0027c31fb39bd2d1af1b79ddebd6",
+    "requires": "julia 0.6-rc1\nPolynomials 0.1.0\nReexport\nSpecialFunctions\nAbstractFFTs\nFFTW\n",
+    "testrequires": ""
    }
   }
  },
@@ -15949,6 +15969,11 @@
     "sha1": "ad128ff9abf88cf5285fe4e6e380e1911d9329bd",
     "requires": "julia 0.5\nODE\nRecipesBase\nFixedSizeArrays\nRequires\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "3a74fab646935555b0c55eba186282233a53a20a",
+    "requires": "julia 0.6.0-pre\nODE\nRecipesBase\nRequires\n",
+    "testrequires": ""
    }
   }
  },
@@ -16223,7 +16248,7 @@
   }
  },
  "EMIRT": {
-  "url": "git://github.com/JuliaPackageMirrors/EMIRT.jl.git",
+  "url": "git://github.com/seung-lab/EMIRT.jl.git",
   "versions": {
    "0.0.1": {
     "sha1": "cc12981f25aa3340b754c708214f8ab487e619d1",
@@ -18210,6 +18235,11 @@
    },
    "0.3.1": {
     "sha1": "1e07cf37044c8273c6161de61a0248f0f8a76d8f",
+    "requires": "julia 0.5\nCompat 0.17.0\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "8919166891d4bb5489ed19a829ef861823b977cd",
     "requires": "julia 0.5\nCompat 0.17.0\n",
     "testrequires": ""
    }
@@ -26385,6 +26415,11 @@
     "sha1": "7c6e789fc9920fd1b7212424b94665de51fd7787",
     "requires": "julia 0.5\nCombinatorics\nStatsBase\nPrimes\nImages 0.7.0\nLightGraphs 0.6.1\nRecipesBase\nProgressMeter\nHwloc\n",
     "testrequires": "Plots\nGR\nGeoStatsImages\nVisualRegressionTests\n"
+   },
+   "0.4.6": {
+    "sha1": "299f72614c88ea771b3163495206ad4580a0da38",
+    "requires": "julia 0.5\nCombinatorics\nStatsBase\nPrimes\nImages 0.7.0\nLightGraphs 0.6.1\nRecipesBase\nProgressMeter\nHwloc\n",
+    "testrequires": "Plots\nGR\nGeoStatsImages\nVisualRegressionTests\n"
    }
   }
  },
@@ -27745,6 +27780,11 @@
     "sha1": "cb4494c37ff50be3b12af1ce9d66a5d3e18201ea",
     "requires": "julia 0.5\nCompat 0.19\nNamedTuples 2.1.0\nPooledArrays\n",
     "testrequires": "PooledArrays\n"
+   },
+   "0.1.5": {
+    "sha1": "c507a5625676d09bf56e737615616b389380c630",
+    "requires": "julia 0.5\nCompat 0.19\nNamedTuples 2.1.0\nPooledArrays\n",
+    "testrequires": "PooledArrays\n"
    }
   }
  },
@@ -28313,6 +28353,11 @@
    },
    "0.1.0": {
     "sha1": "01567e5725ef032da0f36c558c31b3bfffd11d7b",
+    "requires": "julia 0.5\nBusinessDays\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "9fb0d6ac16365dd4ddbe3e5bdd0d71d0aa6086fc",
     "requires": "julia 0.5\nBusinessDays\n",
     "testrequires": ""
    }
@@ -30655,6 +30700,11 @@
     "sha1": "18b8b190c7d55f61017a4bf1c527d15d615d87a2",
     "requires": "julia 0.4\nMacroTools\nHiccup\nMedia\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "bbde5558ca0b329ecde15e580ea977838f20ea51",
+    "requires": "julia 0.6-\nMacroTools\nHiccup\nMedia\n",
+    "testrequires": ""
    }
   }
  },
@@ -32501,6 +32551,11 @@
    },
    "0.2.1": {
     "sha1": "4fbbd6bfa95e1f32888694184287c0ff63700039",
+    "requires": "julia 0.4\nBinDeps\nCompat 0.8\n@windows WinRPM\n",
+    "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "94c22f41aed053eb41ce6a4df4a602511781dc0e",
     "requires": "julia 0.4\nBinDeps\nCompat 0.8\n@windows WinRPM\n",
     "testrequires": ""
    }
@@ -37577,6 +37632,11 @@
     "sha1": "dd6d2f1dda2aa6d183bbf4415f84a220cd184504",
     "requires": "julia 0.4\nMacroTools\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "da904a4103408cc8fc4bf46c0734f7ac97e24f4a",
+    "requires": "julia 0.6.0-pre\nMacroTools\n",
+    "testrequires": ""
    }
   }
  },
@@ -40006,6 +40066,16 @@
    "0.2.5": {
     "sha1": "bd01b7f0d480153d1734e9dc9d3f7961013f6e93",
     "requires": "julia 0.3\nCompat 0.8.0\nStatsBase\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "NOAAData": {
+  "url": "https://github.com/pazzo83/NOAAData.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "d1e7832c0b39ce884fa6edb60bf7eaefbcde6c46",
+    "requires": "julia 0.6-pre\nRequests\nDataTables\nIndexedTables\n",
     "testrequires": ""
    }
   }
@@ -56449,6 +56519,11 @@
    },
    "0.1.0": {
     "sha1": "9c3e0ca9ac2daff208a4ef2901c2becc204b6834",
+    "requires": "julia 0.5\nTaylorSeries 0.5.0\nFactCheck 0.4.2\n",
+    "testrequires": "TaylorSeries 0.4.0\n"
+   },
+   "0.1.1": {
+    "sha1": "afbc80100e0567f511ae44db012873838a3c9728",
     "requires": "julia 0.5\nTaylorSeries 0.5.0\nFactCheck 0.4.2\n",
     "testrequires": "TaylorSeries 0.4.0\n"
    }
