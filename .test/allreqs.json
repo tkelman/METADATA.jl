@@ -3755,6 +3755,11 @@
     "sha1": "992a8108e1025d9093790453aa9e8972b84878aa",
     "requires": "julia 0.5\nAutoma\nBioCore\nBioSymbols\nBufferedStreams\nCombinatorics\nCompat 0.18\nIndexableBitVectors\nIterators\nIntervalTrees\nTwiddle\nDataStructures\n",
     "testrequires": "StatsBase\nYAML\n"
+   },
+   "0.6.1": {
+    "sha1": "3904c46d6f513dae3cb13c533c46251e09adff5a",
+    "requires": "julia 0.5\nAutoma\nBioCore\nBioSymbols\nBufferedStreams\nCombinatorics\nCompat 0.18\nIndexableBitVectors\nIterators\nIntervalTrees\nTwiddle\nDataStructures\n",
+    "testrequires": "StatsBase\nYAML\n"
    }
   }
  },
@@ -8415,6 +8420,11 @@
     "sha1": "7f4b52d56213175df1f613fcb8dad49b2071984c",
     "requires": "julia 0.5\nQuantEcon\nBasisMatrices 0.3\nReexport\n",
     "testrequires": "BaseTestNext\n"
+   },
+   "0.3.1": {
+    "sha1": "b2fe0717127f11f3d2183a06c68f30786ebe4bac",
+    "requires": "julia 0.5\nQuantEcon\nBasisMatrices 0.3\nReexport\n",
+    "testrequires": "BaseTestNext\n"
    }
   }
  },
@@ -12392,6 +12402,11 @@
    },
    "0.1.0": {
     "sha1": "2356f617ccd6879fe76140330192b43a190fb2d0",
+    "requires": "julia 0.6.0-pre\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "f79fc8b3a42b0dd9428f3c6c20b89a3cdf2b3369",
     "requires": "julia 0.6.0-pre\n",
     "testrequires": ""
    }
@@ -27885,6 +27900,11 @@
     "sha1": "675b4cbf6713f55663a3b8d46d25fb178cdf66ef",
     "requires": "julia 0.4\nCompat\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "f51371e8e7f23c98fa29d44020043527999041a0",
+    "requires": "julia 0.5\nCompat 0.17\n",
+    "testrequires": ""
    }
   }
  },
@@ -31564,6 +31584,11 @@
     "sha1": "5a48f1108ea3e115e46b46b596c61a5dc06d1a2d",
     "requires": "julia 0.5\nBinDeps 0.4.0\n@osx Homebrew 0.3.0\nCMakeWrapper 0.0.1\n",
     "testrequires": ""
+   },
+   "0.0.4": {
+    "sha1": "85a57d79c23f69db1cd6620b8d3e1c5cf6117538",
+    "requires": "julia 0.5\nBinDeps 0.4.0\n@osx Homebrew 0.3.0\nCMakeWrapper 0.0.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -31798,6 +31823,11 @@
    "0.0.6": {
     "sha1": "2617deb25dfc737d986de50e2ca17477de7b703a",
     "requires": "julia 0.5\nBinDeps\nPolyhedra 0.1.3 0.2\n@osx Homebrew\n",
+    "testrequires": "FactCheck\nCombinatorics\nClp\n"
+   },
+   "0.1.0": {
+    "sha1": "ebf1d4f1a9fdf04c39635cabf3626c6f98f59abb",
+    "requires": "julia 0.6\nBinDeps\nPolyhedra 0.2 0.3\n@osx Homebrew\n",
     "testrequires": "FactCheck\nCombinatorics\nClp\n"
    }
   }
@@ -33633,6 +33663,11 @@
     "sha1": "33c9bd02eb7ce01c276724e0aa0df5c2d8678ae9",
     "requires": "julia 0.5\nNLSolversBase 2.0\nParameters\n",
     "testrequires": "\n"
+   },
+   "2.2.0": {
+    "sha1": "32f5337120338d7805e03f7f5eedcff2e96becad",
+    "requires": "julia 0.6-pre\nNLSolversBase 2.0\nParameters\n",
+    "testrequires": "Optim\n\n"
    }
   }
  },
@@ -38107,6 +38142,11 @@
     "sha1": "6722f25f79702120fd4d74070309ab98693db4d2",
     "requires": "julia 0.4\nGeometryTypes 0.1.6\nCompat 0.8.6\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "2ed69bf4487a3c81eceb080d4bce40f59f107cac",
+    "requires": "julia 0.6\nGeometryTypes 0.4\n",
+    "testrequires": ""
    }
   }
  },
@@ -41261,6 +41301,11 @@
    "0.0.2": {
     "sha1": "4a2a2ca5a58b049691ce89bf56b606380e291a21",
     "requires": "julia 0.6-\nCompat 0.13.0\n",
+    "testrequires": ""
+   },
+   "0.0.4": {
+    "sha1": "dd5c85728078e94d69f46121a7433e7fef273a60",
+    "requires": "julia 0.6\nCompat 0.13.0\n",
     "testrequires": ""
    }
   }
@@ -46021,6 +46066,11 @@
     "sha1": "91a0545c3ccb4ea33ac22817354ff0d9d51bdbdd",
     "requires": "julia 0.5\nFixedSizeArrays\nGeometryTypes\nDataStructures\nMathProgBase 0.5.10 0.7\nJuMP 0.16\n",
     "testrequires": "Combinatorics\nGLPK\nGLPKMathProgInterface\n"
+   },
+   "0.2.0": {
+    "sha1": "27dffa52398609c86eab262b77c8d3aa8a74a794",
+    "requires": "julia 0.6\nGeometryTypes 0.4\nStaticArrays 0.5\nMathProgBase 0.5.10 0.7\nJuMP 0.16\nRecipesBase 0.2\n",
+    "testrequires": "Combinatorics\nGLPK\nGLPKMathProgInterface\nCDDLib 0.2 0.3\nLRSLib 0.1 0.2\n"
    }
   }
  },
@@ -48354,7 +48404,7 @@
   }
  },
  "QuantumOptics": {
-  "url": "git://github.com/bastikr/QuantumOptics.jl.git",
+  "url": "git://github.com/qojulia/QuantumOptics.jl.git",
   "versions": {
    "0.1.0": {
     "sha1": "7f7b17075173d04c7ecc274ede37cdf191e44fde",
@@ -48369,6 +48419,11 @@
    "0.3.0": {
     "sha1": "ae69320f5c51a10588c1d69f0d256cc7e391e81c",
     "requires": "julia 0.5\nRoots\nODE\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "e80c03227ff9acbef5a08d68f237ab88fd666612",
+    "requires": "julia 0.5\nCompat 0.17\nRoots\n",
     "testrequires": ""
    }
   }
@@ -50863,6 +50918,11 @@
     "sha1": "307ae6dd2fd35529dc0f252d96d7777341e6d87e",
     "requires": "julia 0.5\nCalculus\nDataStructures\nMathProgBase\nNaNMath 0.2.1\nForwardDiff 0.3 0.5\n",
     "testrequires": "LightGraphs\nDualNumbers\nDistributions\n"
+   },
+   "0.8.0": {
+    "sha1": "6680f2ee700cf45f1c94af4920341bbb7782d934",
+    "requires": "julia 0.6.0\nCalculus\nDataStructures\nMathProgBase\nNaNMath 0.2.1\nForwardDiff 0.5 0.6\n",
+    "testrequires": "LightGraphs\nDualNumbers\nDistributions\n"
    }
   }
  },
@@ -50997,6 +51057,11 @@
    "0.1.1": {
     "sha1": "eedea02226b21ad866125013b5264c6aef1e48b4",
     "requires": "julia 0.5\nColorTypes 0.2.0\nRotations 0.3.3\nCoordinateTransformations 0.2.0\nDataStructures 0.4.3\nDrakeVisualizer 0.1.0\nFileIO 0.1.0\nGeometryTypes 0.1.6\nIJulia 1.3.2\nInteract 0.3.5\nInterpolations 0.3.6\nLightXML 0.4.0\nMeshIO 0.0.6\nRigidBodyDynamics 0.1.0 0.2.0\nStaticArrays 0.0.4\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "afd8982f3b547fdbf3f0562bbfb3e1293272e78a",
+    "requires": "julia 0.5\nColorTypes 0.2.0\nRotations 0.3.3\nCoordinateTransformations 0.2.0\nDataStructures 0.4.3\nDrakeVisualizer 0.1.0\nFileIO 0.1.0\nGeometryTypes 0.1.6\nIJulia 1.3.2\nInteract 0.3.5\nInterpolations 0.3.6\nLightXML 0.4.0\nMeshIO 0.0.6\nRigidBodyDynamics 0.2.0\nStaticArrays 0.0.4\n",
     "testrequires": ""
    }
   }
@@ -57116,6 +57181,11 @@
     "sha1": "db32d4b5169ef51be0f5de6b6a6a5434eecfe74b",
     "requires": "julia 0.5\nProtoBuf 0.3.0\nPyCall 1.7.1\nConda 0.2.3\nDistributions 0.10.2\nJLD 0.6.3\nFileIO 0.1.2\nJuno 0.2.3\nCompat 0.18\nMacroTools 0.3.6\nAutoHashEquals 0.1.0\nMNIST 0.0.2\n",
     "testrequires": ""
+   },
+   "0.6.3": {
+    "sha1": "161e07d954b9c67435fd53702f9ff1d5d97033d3",
+    "requires": "julia 0.5\nProtoBuf 0.3.0\nPyCall 1.7.1\nConda 0.2.3\nDistributions 0.10.2\nJLD 0.6.3\nFileIO 0.1.2\nJuno 0.2.3\nCompat 0.18\nMacroTools 0.3.6\nAutoHashEquals 0.1.0\nMNIST 0.0.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -57215,6 +57285,11 @@
    "0.7.0": {
     "sha1": "560bc99e40507b1ec9da9c4ae2c5ae682ccc93cd",
     "requires": "julia 0.6.0-pre.alpha.108\nForwardDiff\nSIMD\n",
+    "testrequires": "ForwardDiff\nDocumenter\nTimerOutputs\n"
+   },
+   "0.7.2": {
+    "sha1": "b72cad701c5007a417a882f939dfe6bb2616f864",
+    "requires": "julia 0.6\nForwardDiff\nSIMD\n",
     "testrequires": "ForwardDiff\nDocumenter\nTimerOutputs\n"
    }
   }
@@ -59790,6 +59865,16 @@
    "0.2.3": {
     "sha1": "fbd7d5bc3ac4084c4b71d3c5f13e73f41891ef32",
     "requires": "julia 0.5\nStatsBase\nCompat 0.17\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "UniqueVectors": {
+  "url": "https://github.com/garrison/UniqueVectors.jl.git",
+  "versions": {
+   "0.4.0": {
+    "sha1": "a7b83e82bc49763d31612fcf6595a60230d35e25",
+    "requires": "julia 0.5\nCompat 0.17\n",
     "testrequires": ""
    }
   }
