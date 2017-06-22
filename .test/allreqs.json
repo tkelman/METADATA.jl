@@ -2903,6 +2903,16 @@
    }
   }
  },
+ "BasisFunctionExpansions": {
+  "url": "https://github.com/baggepinnen/BasisFunctionExpansions.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "cea3d8a6a77c38ed764d0d5429dbc55bf7568ae2",
+    "requires": "julia 0.6\nPlotRecipes\nClustering\n",
+    "testrequires": ""
+   }
+  }
+ },
  "BasisMatrices": {
   "url": "https://github.com/QuantEcon/BasisMatrices.jl.git",
   "versions": {
@@ -4744,6 +4754,11 @@
    "0.1.4": {
     "sha1": "bc04e601fd973f9e79dc5e7a357d766a84210ed0",
     "requires": "julia 0.5\nBinDeps\nMathProgBase\nPolyhedra 0.1.5 0.2\n@windows WinRPM\n@osx Homebrew\n",
+    "testrequires": "Combinatorics\nJuMP\n"
+   },
+   "0.2.0": {
+    "sha1": "b5af78174ca5678a5c9ee0db946afcb5f1c71703",
+    "requires": "julia 0.6\nBinDeps\nMathProgBase 0.6\nPolyhedra 0.2 0.3\n@windows WinRPM\n@osx Homebrew\n",
     "testrequires": "Combinatorics\nJuMP\n"
    }
   }
@@ -15849,6 +15864,11 @@
     "sha1": "a91c8bf159d4feec52e3eeb0a60f25de6c3d320e",
     "requires": "julia 0.5\nLCMCore 0.0.2\nBinDeps 0.4.0\nGeometryTypes 0.1.6\nColorTypes 0.2.0\nMeshing 0.0.3\nRotations 0.2.0\nCoordinateTransformations 0.2.0\nStaticArrays 0.0.4\nDataStructures 0.4\nJSON 0.8\nCMakeWrapper 0.0.1\n",
     "testrequires": "Iterators 0.2\nNBInclude 1.1.0\nInteract 0.4\nMeshIO 0.0.6\nPolyhedra 0.1.4\nCDDLib 0.1.3\nReactive 0.3\n"
+   },
+   "0.2.0": {
+    "sha1": "4f056e6890f115c1993e4d1067e957ffddb5254c",
+    "requires": "julia 0.6\nLCMCore 0.0.4\nBinDeps 0.4.0\nGeometryTypes 0.4\nColorTypes 0.2.0\nMeshing 0.2.0\nRotations 0.5.0\nCoordinateTransformations 0.2.0\nStaticArrays 0.5\nDataStructures 0.4\nJSON 0.8\nCMakeWrapper 0.0.2\n",
+    "testrequires": "Iterators 0.2\nNBInclude 1.1.0\nInteract 0.4\nMeshIO 0.1.0\nPolyhedra 0.2.0\nCDDLib 0.2.0\nReactive 0.3\n"
    }
   }
  },
@@ -24888,6 +24908,11 @@
    },
    "0.5.7": {
     "sha1": "47b41ff865bdd4c5c302fd07a3f57f456700fc99",
+    "requires": "julia 0.4\nBinDeps\nJSON\nCompat 0.7.20\n",
+    "testrequires": ""
+   },
+   "0.5.8": {
+    "sha1": "1b27f2a5d75cf83bea37a7ae719af545c388a445",
     "requires": "julia 0.4\nBinDeps\nJSON\nCompat 0.7.20\n",
     "testrequires": ""
    }
@@ -38052,6 +38077,11 @@
     "sha1": "ef415a41fb14922a00867f592ef2b0cd93ec6e89",
     "requires": "julia 0.4\nGeometryTypes\nColorTypes\nCompat 0.8.7\nFileIO\n",
     "testrequires": "FactCheck"
+   },
+   "0.1.0": {
+    "sha1": "df3323bbb328b503acf832e60fb713c4f84f5bd9",
+    "requires": "julia 0.6\n\nGeometryTypes 0.4\nColorTypes\nFileIO\n",
+    "testrequires": "FactCheck"
    }
   }
  },
@@ -39412,6 +39442,11 @@
     "sha1": "ef502ba25c65cb559e8c086b1eac5e220ac80a3d",
     "requires": "julia 0.5\nStatsBase\nDistributions\nCompat 0.19.0\n",
     "testrequires": ""
+   },
+   "0.2.3": {
+    "sha1": "bdd9c0ea044250df6bb8b5a21aa51ef2d9c652c0",
+    "requires": "julia 0.5\nStatsBase 0.15.0\nDistributions\nCompat 0.19.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -39436,6 +39471,11 @@
    "0.0.1": {
     "sha1": "2f30dff3e774067666d4452a6441e13be6857e90",
     "requires": "julia 0.5\n",
+    "testrequires": "BenchmarkTools\n"
+   },
+   "0.0.2": {
+    "sha1": "6019e9cd14614ebd1997304b69dc5fe6d1ff2417",
+    "requires": "julia 0.5\nCompat 0.17\n",
     "testrequires": "BenchmarkTools\n"
    }
   }
@@ -50378,6 +50418,11 @@
     "sha1": "3f4059f5000e32bf9008c0936e788799d1f4191c",
     "requires": "julia 0.5-\n",
     "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "6d91e6a84d8a3c6baa98bf50f5f18bf33023a4ac",
+    "requires": "julia 0.5.0-rc1\n",
+    "testrequires": ""
    }
   }
  },
@@ -51151,6 +51196,11 @@
    },
    "0.1.6": {
     "sha1": "ee002e9ed4ec6689f59dbabb5e8c0eb0396eb778",
+    "requires": "julia 0.4\nBinDeps\nCompat 0.9.1\n",
+    "testrequires": ""
+   },
+   "0.1.7": {
+    "sha1": "1973a7049412e1f0ef7b7b9bf18249f37e5fd53d",
     "requires": "julia 0.4\nBinDeps\nCompat 0.9.1\n",
     "testrequires": ""
    }
@@ -52593,6 +52643,16 @@
     "sha1": "6a370c2f33aec8b4555f29e5166e0f7216e45778",
     "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.1.0\nDataFrames\nWeakRefStrings 0.1.3\nLegacyStrings\nCompat 0.9.5\n",
     "testrequires": "NullableArrays\nDataStreamsIntegrationTests\n"
+   }
+  }
+ },
+ "SQSChannels": {
+  "url": "https://github.com/seung-lab/SQSChannels.jl.git",
+  "versions": {
+   "0.5.0": {
+    "sha1": "29e6fc3a186aaf7eeb086a5be3b4929990374a5c",
+    "requires": "julia 0.5\nAWS\nRetry\n",
+    "testrequires": ""
    }
   }
  },
@@ -57186,6 +57246,11 @@
     "sha1": "161e07d954b9c67435fd53702f9ff1d5d97033d3",
     "requires": "julia 0.5\nProtoBuf 0.3.0\nPyCall 1.7.1\nConda 0.2.3\nDistributions 0.10.2\nJLD 0.6.3\nFileIO 0.1.2\nJuno 0.2.3\nCompat 0.18\nMacroTools 0.3.6\nAutoHashEquals 0.1.0\nMNIST 0.0.2\n",
     "testrequires": ""
+   },
+   "0.6.4": {
+    "sha1": "3d6d8b936f8bea8bef6e415c3d1d54023882a037",
+    "requires": "julia 0.5\nProtoBuf 0.3.0\nPyCall 1.7.1\nConda 0.2.3\nDistributions 0.10.2\nJLD 0.6.3\nFileIO 0.1.2\nJuno 0.2.3\nCompat 0.18\nMacroTools 0.3.6\nAutoHashEquals 0.1.0\nMNIST 0.0.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -57480,6 +57545,16 @@
    "0.2.0": {
     "sha1": "cadae855fa3c3e7f5536989a83e653c6287cc005",
     "requires": "julia 0.5-\nCompat\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "TerminalMenus": {
+  "url": "https://github.com/nick-paul/TerminalMenus.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "695d898c7b9010b05942fb735c86e4231c405eec",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
@@ -59864,6 +59939,11 @@
    },
    "0.2.3": {
     "sha1": "fbd7d5bc3ac4084c4b71d3c5f13e73f41891ef32",
+    "requires": "julia 0.5\nStatsBase\nCompat 0.17\n",
+    "testrequires": ""
+   },
+   "0.2.4": {
+    "sha1": "22b3b127cb4d8b697cbacb60f53dc0eb8927d6b7",
     "requires": "julia 0.5\nStatsBase\nCompat 0.17\n",
     "testrequires": ""
    }
