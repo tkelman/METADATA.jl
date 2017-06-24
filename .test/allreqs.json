@@ -21832,6 +21832,11 @@
     "sha1": "fa159f56b8a6e8aad0221be32463deadba07148c",
     "requires": "julia 0.4\nQuadGK 0.1.2\n",
     "testrequires": "BaseTestNext\n"
+   },
+   "0.9.0": {
+    "sha1": "c03c19370cd3c791cff84bdeedf1fd81a128bc81",
+    "requires": "julia 0.6\nQuadGK 0.1.2\nCompat 0.26.0",
+    "testrequires": "\n"
    }
   }
  },
@@ -28918,6 +28923,11 @@
    },
    "0.2.1": {
     "sha1": "ddaa8cd512e5eed969d3e7c467aa42f1de403011",
+    "requires": "julia 0.5\nCompat 0.18\n",
+    "testrequires": "BaseTestNext\n"
+   },
+   "0.3.0": {
+    "sha1": "9bcb231b70bd961839c773f8fcdfc9213f020b4b",
     "requires": "julia 0.5\nCompat 0.18\n",
     "testrequires": "BaseTestNext\n"
    }
@@ -41017,6 +41027,11 @@
     "sha1": "d59ac7b79c1797786a7a42e3eda5742f20a6af7c",
     "requires": "julia 0.5\nFixedPointNumbers 0.3.0\nColors\nColorVectorSpace\nFileIO\nImageCore\n",
     "testrequires": "IndirectArrays\n"
+   },
+   "0.2.1": {
+    "sha1": "538ba3dba894c79266460c11f58783dd363cc0a2",
+    "requires": "julia 0.5\nFixedPointNumbers 0.3.0\nColorTypes\nColorVectorSpace\nFileIO\nImageCore\n",
+    "testrequires": "IndirectArrays\nColorTypes\n"
    }
   }
  },
@@ -50013,6 +50028,11 @@
     "sha1": "a0b19122b439d82fc536673edbd83cedf17a90be",
     "requires": "julia 0.4\nCompat 0.9.2\nVideoIO 0.1.0\n",
     "testrequires": "Gadfly 0.5.0\nCompose 0.4.0"
+   },
+   "0.2.2": {
+    "sha1": "830246d478980862301675a2149ad1cfb12359cb",
+    "requires": "julia 0.4\nCompat 0.9.2\nVideoIO 0.1.0\n",
+    "testrequires": "Gadfly 0.5.0\nCompose 0.4.0"
    }
   }
  },
@@ -56726,6 +56746,11 @@
     "sha1": "c6d207a4354d6e4d9a27cb948f9b1fb8ab2ac551",
     "requires": "julia 0.4\nCompat 0.25.0\nPyCall 1.6.0\nRecipesBase 0.0.4\nBaseTestNext 0.2.2\n",
     "testrequires": ""
+   },
+   "0.5.3": {
+    "sha1": "81263a0557bc30974ad5f7dabd612517ef740dcf",
+    "requires": "julia 0.4\nCompat 0.25.0\nPyCall 1.6.0\nRecipesBase 0.0.4\nBaseTestNext 0.2.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -57090,6 +57115,11 @@
    "0.0.1": {
     "sha1": "8b8e08e76cf8ea48d90f1f1990899fd21f6ef72c",
     "requires": "julia 0.5\nLightXML\nDocumenter\n",
+    "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "0fda95aee315ef90d8cdc3798ab359708b59eb08",
+    "requires": "julia 0.5\n\nLightXML\nDocumenter\n",
     "testrequires": ""
    }
   }
