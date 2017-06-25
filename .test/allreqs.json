@@ -961,6 +961,11 @@
     "sha1": "eaa95b83a90d6700f4456702aba94c88a7284d20",
     "requires": "julia 0.5\nRobustPmap\n",
     "testrequires": ""
+   },
+   "0.2.6": {
+    "sha1": "104df63a5b9de2991793e1f99fc117f037b72357",
+    "requires": "julia 0.5\nRobustPmap\n",
+    "testrequires": ""
    }
   }
  },
@@ -1204,6 +1209,11 @@
    },
    "0.2.5": {
     "sha1": "181082fe34bdf8acf50b12e12b0524b5b8b38cb8",
+    "requires": "julia 0.5\nQuadGK\nDistributions\nMetaProgTools\nJLD\nCompat 0.7.15\nDocumentFunction\n",
+    "testrequires": ""
+   },
+   "0.2.6": {
+    "sha1": "f69b868235029fbb0ffe6f59fc89308cb3ab755a",
     "requires": "julia 0.5\nQuadGK\nDistributions\nMetaProgTools\nJLD\nCompat 0.7.15\nDocumentFunction\n",
     "testrequires": ""
    }
@@ -2713,6 +2723,11 @@
    },
    "0.3.1": {
     "sha1": "c553995a370305d99827b877c3f5cdad9e533cc2",
+    "requires": "julia 0.5\nRobustPmap\nAffineInvariantMCMC\nKlara 0.6\nDataFrames\nForwardDiff\nBlackBoxOptim\nDistributions\n",
+    "testrequires": ""
+   },
+   "0.3.2": {
+    "sha1": "770772d2a5e0c0945e40430564fa787fe9b47398",
     "requires": "julia 0.5\nRobustPmap\nAffineInvariantMCMC\nKlara 0.6\nDataFrames\nForwardDiff\nBlackBoxOptim\nDistributions\n",
     "testrequires": ""
    }
@@ -5525,6 +5540,11 @@
     "sha1": "1e3b110b06eb0d92633689b2b9a88964a0efc157",
     "requires": "julia 0.5\nCompat 0.18.0\n",
     "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "bd343e50fc2c2a830ed2baf1387fa8f43295f0fe",
+    "requires": "julia 0.5\nCompat 0.18.0\n",
+    "testrequires": "Documenter\n\n"
    }
   }
  },
@@ -8405,6 +8425,11 @@
     "sha1": "dca8530bfa4daeafab2f880230bf4a018a6a938f",
     "requires": "julia 0.5\nCompat 0.18.0\nPolynomials\nIterators\n",
     "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "84fe2fd43a945007fdf192bb959de24c48838435",
+    "requires": "julia 0.5\nCompat 0.18.0\nPolynomials\nIterTools\n",
+    "testrequires": ""
    }
   }
  },
@@ -11237,6 +11262,11 @@
    },
    "0.3.1": {
     "sha1": "a17a968d2c0c8a13a7aa1beb42f9730318667b92",
+    "requires": "julia 0.6-rc1\nPolynomials 0.1.0\nReexport\nSpecialFunctions\nAbstractFFTs\nFFTW\n",
+    "testrequires": ""
+   },
+   "0.3.2": {
+    "sha1": "b5d109d5040f339195c41440cbefcc6eb46b22db",
     "requires": "julia 0.6-rc1\nPolynomials 0.1.0\nReexport\nSpecialFunctions\nAbstractFFTs\nFFTW\n",
     "testrequires": ""
    }
@@ -15547,6 +15577,11 @@
    },
    "0.1.3": {
     "sha1": "d91fb5043ecc9ebb6989038b0667c704d0b04a35",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.1.4": {
+    "sha1": "d3db0c920e37b46a8ebac13fa09aa0f961f18399",
     "requires": "julia 0.5\n",
     "testrequires": ""
    }
@@ -22235,6 +22270,11 @@
    },
    "0.2.3": {
     "sha1": "c09122a71c22f04f444f71e8f84887ec4ccf355b",
+    "requires": "julia 0.5\nIterativeSolvers 0.3.0\nRobustPmap\nGrid\n",
+    "testrequires": ""
+   },
+   "0.2.4": {
+    "sha1": "21f2def57f284e1fa659aefb1b5107c63c182380",
     "requires": "julia 0.5\nIterativeSolvers 0.3.0\nRobustPmap\nGrid\n",
     "testrequires": ""
    }
@@ -36318,6 +36358,11 @@
     "sha1": "9d599594a26e3a9e968e1542a7d1cde26065b998",
     "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nODE\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
     "testrequires": ""
+   },
+   "0.4.15": {
+    "sha1": "eab0298d26b0a5ce46bac64b0707fef4e2e78b4b",
+    "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nODE\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
+    "testrequires": ""
    }
   }
  },
@@ -38292,6 +38337,11 @@
     "sha1": "413ed34ed78026d50508946d74b536d86710ebb9",
     "requires": "julia 0.5\n",
     "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "917cd20799fa87a6818303396fba7e6e4204538c",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -38412,6 +38462,16 @@
     "sha1": "9609060e58d8010f2912c60bd21bd2fcc59eb146",
     "requires": "julia 0.3\nGraphs 0.5.5\nBinDeps\nCompat\nLightGraphs\n@windows WinRPM\n",
     "testrequires": ""
+   }
+  }
+ },
+ "Microeconometrics": {
+  "url": "https://github.com/lbittarello/Microeconometrics.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "2314e89c82735418f679f13c339e047f96fef421",
+    "requires": "julia 0.6.0-pre\nDataFrames 0.10.0\nStatsBase 0.16.0\nStatsFuns 0.5.0\nOptim 0.9.1\nFormatting 0.2.1\n",
+    "testrequires": "RDatasets\n"
    }
   }
  },
@@ -50633,6 +50693,11 @@
     "sha1": "800938ac8f39e5339c62e5906bedb6f9008f8a07",
     "requires": "julia 0.5\nCompat 0.8\nDataStructures\nJLD\n",
     "testrequires": ""
+   },
+   "0.2.4": {
+    "sha1": "a9225cd3bc8ddc53da14afb71afafe37f4fafd84",
+    "requires": "julia 0.5\nCompat 0.8\nDataStructures\nJLD\n",
+    "testrequires": ""
    }
   }
  },
@@ -51521,6 +51586,11 @@
    },
    "0.2.4": {
     "sha1": "a10e4eb15d1344b8d2bb5be6699cd244ab21b39e",
+    "requires": "julia 0.5\nJLD\nCompat 0.7.15\n",
+    "testrequires": ""
+   },
+   "0.2.5": {
+    "sha1": "0f1103b4b3662b1375649eebbdebc58f4414da8d",
     "requires": "julia 0.5\nJLD\nCompat 0.7.15\n",
     "testrequires": ""
    }
@@ -52836,6 +52906,11 @@
    },
    "0.2.4": {
     "sha1": "03ed6924caee3499fa10726da1f635b05f73a3a7",
+    "requires": "julia 0.5\nJLD\nDocumentFunction\n",
+    "testrequires": ""
+   },
+   "0.2.5": {
+    "sha1": "e556259c38b77502ac65eba19db2be49a7bf0fb5",
     "requires": "julia 0.5\nJLD\nDocumentFunction\n",
     "testrequires": ""
    }
