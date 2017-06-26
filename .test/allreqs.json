@@ -13029,6 +13029,11 @@
     "sha1": "7edbbcfd7874ecf3779652dd06f91defa30a58b7",
     "requires": "julia 0.5\nDiffEqBase 0.15.0\nOrdinaryDiffEq 1.6.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\n",
     "testrequires": "DiffEqDevTools\n"
+   },
+   "0.5.0": {
+    "sha1": "118232270d498dac41ee022ec0b658cbffacbe8b",
+    "requires": "julia 0.6\nDiffEqBase 0.15.0\nOrdinaryDiffEq 2.9.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\n",
+    "testrequires": "DiffEqDevTools\nDiffEqCallbacks\n"
    }
   }
  },
@@ -18462,6 +18467,11 @@
     "sha1": "b3c8be670e78dfaf593bba8579e9ed9ebf9be7d0",
     "requires": "julia 0.5\nCompat 0.17.0\nURIParser 0.1.8\nGlob 1.1.1\nHumanize 0.4.1\n",
     "testrequires": "\n"
+   },
+   "0.2.0": {
+    "sha1": "1889287dae99d5b614fec41b9d5108a061a15476",
+    "requires": "julia 0.5\nCompat 0.17.0\nURIParser 0.1.8\nGlob 1.1.1\nHumanize 0.4.1\n",
+    "testrequires": "\n"
    }
   }
  },
@@ -19377,6 +19387,16 @@
     "sha1": "e6e1bfe21afaadb93f2e5f98e7a8845579dffa20",
     "requires": "julia 0.5\nNamedArrays\nDataArrays\nDataFrames\n",
     "testrequires": "RDatasets\n"
+   }
+  }
+ },
+ "Fuji": {
+  "url": "https://github.com/jackcook/Fuji.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "90c2319c821a8a5ed27baeaaadd4854d34343f13",
+    "requires": "julia 0.6\nHttpServer\n",
+    "testrequires": "Requests\n"
    }
   }
  },
@@ -21787,6 +21807,11 @@
     "sha1": "3619443128a09774fb6583f6d2ab651eb60245e3",
     "requires": "julia 0.5\nAutoma 0.2\nBioCore 1.0\nBioSequences 0.6\nBufferedStreams 0.3\nBGZFStreams 0.1\nColorTypes 0.5\nCompat 0.18\nDataStructures 0.5\nFixedPointNumbers 0.3\nIntervalTrees 0.2\nLibz 0.2\nURIParser 0.1\n",
     "testrequires": "Distributions\nYAML\n"
+   },
+   "0.2.0": {
+    "sha1": "baecd090de80b241c981ec4e195708abf1ed3c2f",
+    "requires": "julia 0.5\nAutoma 0.2\nBioCore 1.0\nBioSequences 0.6\nBufferedStreams 0.3\nBGZFStreams 0.1\nColorTypes 0.5\nCompat 0.18\nDataStructures 0.5\nFixedPointNumbers 0.3\nIntervalTrees 0.3\nLibz 0.2\nURIParser 0.1\n",
+    "testrequires": "Distributions\nYAML\n"
    }
   }
  },
@@ -22016,6 +22041,11 @@
    "0.2.1": {
     "sha1": "06a6539dbe8aaa458c91bb6e45014c78cb4b520d",
     "requires": "julia 0.5\nCombinatorics\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "38ab0047d681c63da629f4647abbe3298369b898",
+    "requires": "julia 0.6\nCombinatorics\nSpecialFunctions\n",
     "testrequires": ""
    }
   }
@@ -32378,6 +32408,11 @@
     "sha1": "5f219d93d21f7a43f641cb87157ffc7c30b2c0a3",
     "requires": "julia 0.5\nMacroTools\n",
     "testrequires": "Documenter\n"
+   },
+   "0.1.0": {
+    "sha1": "1d5442aa59110bcfbffb4b1141de3af6e9398eb8",
+    "requires": "julia 0.6\nMacroTools\n",
+    "testrequires": "Documenter\n"
    }
   }
  },
@@ -33781,6 +33816,11 @@
    },
    "2.2.0": {
     "sha1": "32f5337120338d7805e03f7f5eedcff2e96becad",
+    "requires": "julia 0.6-pre\nNLSolversBase 2.0\nParameters\n",
+    "testrequires": "Optim\n\n"
+   },
+   "2.2.1": {
+    "sha1": "f382f9c0f4ca18cbb205f61d41cc62342e784b1a",
     "requires": "julia 0.6-pre\nNLSolversBase 2.0\nParameters\n",
     "testrequires": "Optim\n\n"
    }
@@ -42529,6 +42569,16 @@
    }
   }
  },
+ "OnlineStatsBase": {
+  "url": "https://github.com/joshday/OnlineStatsBase.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "6f8e2052488d3375449c35e95f870becf1dab8cb",
+    "requires": "julia 0.6\nStatsBase\n",
+    "testrequires": ""
+   }
+  }
+ },
  "OpenCL": {
   "url": "git://github.com/JuliaGPU/OpenCL.jl.git",
   "versions": {
@@ -43509,6 +43559,11 @@
    },
    "2.8.0": {
     "sha1": "805468d7d385572f80beee42ef99693110f73a60",
+    "requires": "julia 0.6.0-pre\nDiffEqBase 1.11.0\nParameters 0.5.0\nForwardDiff 0.5.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.8.0\nJuno 0.2.5\nCalculus 0.1.15\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\n",
+    "testrequires": "ODEInterface 0.0.10\nUnitful 0.0.4\nDiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nODEInterfaceDiffEq\nDiffEqBase 0.10.0\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.9.0": {
+    "sha1": "3ef4a73dfa61d3e0f6a556288429d0d5e7eacb5e",
     "requires": "julia 0.6.0-pre\nDiffEqBase 1.11.0\nParameters 0.5.0\nForwardDiff 0.5.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.8.0\nJuno 0.2.5\nCalculus 0.1.15\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\n",
     "testrequires": "ODEInterface 0.0.10\nUnitful 0.0.4\nDiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nODEInterfaceDiffEq\nDiffEqBase 0.10.0\nSpecialMatrices\nStaticArrays\n"
    }
