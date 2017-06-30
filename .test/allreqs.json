@@ -896,6 +896,11 @@
     "sha1": "3df35777964a5eff7c15d9c4ccc48927c6621963",
     "requires": "julia 0.5.0\n",
     "testrequires": ""
+   },
+   "0.0.6": {
+    "sha1": "cc2ebbf9ccc5c02e1d040baadc8dd78aef5db534",
+    "requires": "julia 0.5.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -3630,6 +3635,16 @@
     "sha1": "485691fabf06d3a7a0397e00ebfb830fe24a712d",
     "requires": "julia 0.5\nBGZFStreams 0.1\nBufferedStreams 0.2\nColors\nDistributions\nIndexableBitVectors 0.1.1\nIntervalTrees 0.1 0.1.1\nIterators\nLibz 0.2\nLightGraphs\nLightXML\nRoots\nCombinatorics\n",
     "testrequires": "StatsBase\nYAML\n"
+   }
+  }
+ },
+ "BioAlignments": {
+  "url": "https://github.com/BioJulia/BioAlignments.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "b7f71910c25fbcdfcf18a78aebdadbc42586c4fb",
+    "requires": "julia 0.5\nAutoma\nBioCore 1.0\nBioSequences 0.5\nBioSymbols 1.0\nBufferedStreams\nBGZFStreams\nCompat 0.17\nGenomicFeatures 0.1\nIntervalTrees 0.2\n",
+    "testrequires": "YAML\n"
    }
   }
  },
@@ -10369,6 +10384,11 @@
     "sha1": "586c3c1a1936d336c359b4c586b40f1ddd992676",
     "requires": "julia 0.4\nJSON\nRequests\nGit\nCompat 0.9.5\n",
     "testrequires": "Docile\n"
+   },
+   "0.4.0": {
+    "sha1": "08f64bcc43ccac1b10382383db40942997c6669f",
+    "requires": "julia 0.5\nJSON\nRequests\nGit\nCompat 0.9.5\n",
+    "testrequires": "Docile\n"
    }
   }
  },
@@ -11193,6 +11213,11 @@
    "0.2.0": {
     "sha1": "e3347771c5bf9bc52ffee9ae886aff1edcdaa40d",
     "requires": "julia 0.4\nCalculus\nDataFrames\nDataStructures\nDistributions\nFredData\nHDF5\nJLD\nOptim 0.7\nQuantEcon\nRoots\nStateSpaceRoutines\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "62353c8861ad97c76b7561398614579f91c17501",
+    "requires": "julia 0.5\nCalculus\nDataFrames\nDataStructures\nDistributions\nFredData\nHDF5\nJLD\nOptim 0.7\nQuantEcon\nRoots\nStateSpaceRoutines\n",
     "testrequires": ""
    }
   }
@@ -13914,6 +13939,11 @@
     "sha1": "10b26ff5fbfbd89e31c241f7279793257fc4d239",
     "requires": "julia 0.6\nResettableStacks\nDataStructures\nDiffEqBase 1.13.0\nRecipesBase\nRecursiveArrayTools\nRandomNumbers\n",
     "testrequires": "StochasticDiffEq\nStatsBase\nDistributions\nHypothesisTests\nDiffEqProblemLibrary\nDiffEqMonteCarlo 0.4.0\n"
+   },
+   "0.3.1": {
+    "sha1": "12da4d398de85ad727c66c3d6fe2f2fa83ac7b59",
+    "requires": "julia 0.6\nResettableStacks\nDataStructures\nDiffEqBase 1.13.0\nRecipesBase\nRecursiveArrayTools\nRandomNumbers\n",
+    "testrequires": "StochasticDiffEq\nStatsBase\nDistributions\nHypothesisTests\nDiffEqProblemLibrary\nDiffEqMonteCarlo 0.4.0\n"
    }
   }
  },
@@ -14473,6 +14503,11 @@
    "1.0.0": {
     "sha1": "476bd074d12233baad9d87a4f63afeb7019b5766",
     "requires": "julia 0.5\nDataArrays 0.2.10\nStatsBase 0.8.0\nCompat 0.8.0\nDataStructures\n",
+    "testrequires": ""
+   },
+   "1.1.0": {
+    "sha1": "f983998c7ae579030a5815f902505af8595628c7",
+    "requires": "julia 0.5\nDataArrays 0.2.10\nStatsBase 0.8.0\nCompat 0.8.0\nDataStructures 0.5.0\n",
     "testrequires": ""
    }
   }
@@ -15163,6 +15198,11 @@
    "0.13.0": {
     "sha1": "29e996bad486ccf375a1ccf462c1d6a4153e208e",
     "requires": "julia 0.5\nPDMats 0.6.0\nStatsFuns 0.3.1\nCalculus\nStatsBase 0.8.3\nCompat 0.18.0\nQuadGK 0.1.1\nSpecialFunctions 0.1.0\n",
+    "testrequires": "JSON 0.4.0\nForwardDiff\nCompat\nCalculus\nPDMats\n"
+   },
+   "0.14.0": {
+    "sha1": "20f819333c83d19e849dd5e1c8cc5c58e96a9289",
+    "requires": "julia 0.6\nPDMats 0.6.0\nStatsFuns 0.3.1\nCalculus\nStatsBase 0.15.0\nCompat 0.18.0\nQuadGK 0.1.1\nSpecialFunctions 0.1.0\nFFTW\n",
     "testrequires": "JSON 0.4.0\nForwardDiff\nCompat\nCalculus\nPDMats\n"
    }
   }
@@ -17685,6 +17725,11 @@
    },
    "0.4.3": {
     "sha1": "627f93b24771c674eae2f1befc1ba8c253fb2b05",
+    "requires": "julia 0.5\nCompat 0.17\n@windows WinRPM\n",
+    "testrequires": "LightGraphs\n"
+   },
+   "0.4.4": {
+    "sha1": "b3f45752dad3a147925ccabffaa45aa5a9e7d847",
     "requires": "julia 0.5\nCompat 0.17\n@windows WinRPM\n",
     "testrequires": "LightGraphs\n"
    }
@@ -21826,7 +21871,7 @@
   }
  },
  "GenericSVD": {
-  "url": "git://github.com/simonbyrne/GenericSVD.jl.git",
+  "url": "https://github.com/JuliaMath/GenericSVD.jl.git",
   "versions": {
    "0.0.1": {
     "sha1": "7e31a5d8e5f4acd9cd2b30aa3bf78a748f7d13f1",
@@ -35803,6 +35848,11 @@
     "sha1": "f35034569e82ef9503a3e6e616b31c5fe618dd2b",
     "requires": "julia 0.4\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "9d5a683393f12283e0c10a6a2b18cb47a4ad01d2",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -39062,6 +39112,11 @@
     "sha1": "82b7bffc4ce10dc3cb98360ff7926e3a69c23cf9",
     "requires": "julia 0.5\nArgCheck\nBlockArrays\nCategoricalArrays\nCompat 0.19.0\nDataArrays\nDataStructures\nDataFrames 0.9\nDistributions 0.11\nGLM 0.6.1\nNamedArrays\nNLopt 0.3\nShowoff\nStatsBase 0.11\nStatsFuns 0.3\n",
     "testrequires": "RData\n"
+   },
+   "0.10.0": {
+    "sha1": "f63b21fc0cc79e7aee002c6d2f7d5d025d7d67e5",
+    "requires": "julia 0.5\nArgCheck\nBlockArrays\nCategoricalArrays\nCompat 0.19.0\nDataArrays\nDataStructures\nDataFrames 0.9\nDistributions 0.11\nGLM 0.6.1\nNamedArrays\nNLopt 0.3\nShowoff\nStatsBase 0.11\nStatsFuns 0.3\n",
+    "testrequires": "RData\n"
    }
   }
  },
@@ -41236,6 +41291,11 @@
    "0.4.1": {
     "sha1": "771e3c5cefc00270ec7d354033c95066a8b23ac4",
     "requires": "julia 0.5\nBinDeps 0.4\nConda 0.3\nFormatting 0.1\n",
+    "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "62db8552b6ed3d39edbef79c15839c50d44a18d0",
+    "requires": "julia 0.5\nBinDeps 0.4\nConda 0.3\nFormatting 0.1\nCompat 0.19\n",
     "testrequires": ""
    }
   }
@@ -51336,6 +51396,16 @@
    }
   }
  },
+ "Revise": {
+  "url": "https://github.com/timholy/Revise.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "30691f5c61062c172dfc13d40ccd01c34ab23235",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Rif": {
   "url": "git://github.com/lgautier/Rif.jl.git",
   "versions": {
@@ -59314,6 +59384,16 @@
    }
   }
  },
+ "TinySparse": {
+  "url": "https://github.com/mcovalt/TinySparse.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "5878f12020e32dde057bf2e5c35b7225c97d95b4",
+    "requires": "julia 0.5\nTinyInt\nLinearMaps\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Tk": {
   "url": "git://github.com/JuliaGraphics/Tk.jl.git",
   "versions": {
@@ -59885,6 +59965,11 @@
    "0.3.1": {
     "sha1": "53e63fb57754a093fc30cbfc78b4b829cf7cb584",
     "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "29a0b6f234cee344279e188ed0a96e057b511602",
+    "requires": "julia 0.5\nCompat 0.9.4\n",
     "testrequires": ""
    }
   }
