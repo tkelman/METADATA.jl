@@ -13024,6 +13024,11 @@
     "sha1": "2a90487b9612117486bbf6ab2f4d2c8eaa8866a3",
     "requires": "julia 0.5\nAutoHashEquals\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "d2bbd45ffe59191abbc3ded5fdc74c0f2ea80c1d",
+    "requires": "julia 0.5\nAutoHashEquals\n",
+    "testrequires": "Compat 0.9.5\n"
    }
   }
  },
@@ -13669,6 +13674,11 @@
     "sha1": "df01c646a3f8e38fbf4d254d1091520c5a2b35bc",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.9.0\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\n",
     "testrequires": "OrdinaryDiffEq 0.2.0\nStochasticDiffEq 0.1.0\nDiffEqDevTools 0.2.0\nDiffEqProblemLibrary 0.2.0\nSundials 0.4.1\nParameterizedFunctions 0.3.3\n"
+   },
+   "1.14.1": {
+    "sha1": "4843464fe92d951d65284d36270c6c1a7be73708",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.9.0\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\n",
+    "testrequires": "OrdinaryDiffEq 0.2.0\nStochasticDiffEq 0.1.0\nDiffEqDevTools 0.2.0\nDiffEqProblemLibrary 0.2.0\nSundials 0.4.1\nParameterizedFunctions 0.3.3\n"
    }
   }
  },
@@ -13819,6 +13829,11 @@
     "sha1": "6f5471b3dcd867a45dedde15e1cccb52ae8a5503",
     "requires": "julia 0.5\nDiffEqBase 1.0.0\nDiffEqNoiseProcess\n",
     "testrequires": "StochasticDiffEq\n"
+   },
+   "0.3.0": {
+    "sha1": "140af7eaa835767af7c3010ce665d320ab62251d",
+    "requires": "julia 0.6\nDiffEqBase 1.14.0\nDiffEqNoiseProcess 0.3.1\nRandomNumbers\n",
+    "testrequires": "StochasticDiffEq\n"
    }
   }
  },
@@ -13942,6 +13957,11 @@
    },
    "0.3.1": {
     "sha1": "12da4d398de85ad727c66c3d6fe2f2fa83ac7b59",
+    "requires": "julia 0.6\nResettableStacks\nDataStructures\nDiffEqBase 1.13.0\nRecipesBase\nRecursiveArrayTools\nRandomNumbers\n",
+    "testrequires": "StochasticDiffEq\nStatsBase\nDistributions\nHypothesisTests\nDiffEqProblemLibrary\nDiffEqMonteCarlo 0.4.0\n"
+   },
+   "0.3.2": {
+    "sha1": "854368b2e9d09531d77cc4c2d2d761ee60b008e2",
     "requires": "julia 0.6\nResettableStacks\nDataStructures\nDiffEqBase 1.13.0\nRecipesBase\nRecursiveArrayTools\nRandomNumbers\n",
     "testrequires": "StochasticDiffEq\nStatsBase\nDistributions\nHypothesisTests\nDiffEqProblemLibrary\nDiffEqMonteCarlo 0.4.0\n"
    }
@@ -16597,17 +16617,17 @@
   "versions": {
    "0.0.1": {
     "sha1": "96e0c4cfa937e615d1bc35a167e88d86a3e7d92c",
-    "requires": "julia 0.4\n",
+    "requires": "julia 0.4 0.6\n",
     "testrequires": "FactCheck\n"
    },
    "0.0.2": {
     "sha1": "29df2690c2c3ee8c0ae726b72170240b5222dc94",
-    "requires": "julia 0.4\nBaseTestNext\n",
+    "requires": "julia 0.4 0.5\nBaseTestNext\n",
     "testrequires": ""
    },
    "0.1.0": {
     "sha1": "32c9b9f9f6569ae95dd3273af0420f3c65c152d5",
-    "requires": "julia 0.4\nBaseTestNext\n",
+    "requires": "julia 0.4 0.5\nBaseTestNext\n",
     "testrequires": ""
    },
    "0.1.1": {
@@ -16617,7 +16637,12 @@
    },
    "0.2.0": {
     "sha1": "2c03a8fcaf859d956d25139962debcbf117d7267",
-    "requires": "julia 0.5-\n",
+    "requires": "julia 0.5- 0.6\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "f5362cadd3362cbcb6e0e592feb5bd00729ccd8c",
+    "requires": "julia 0.5- 0.6\n",
     "testrequires": ""
    }
   }
@@ -20757,6 +20782,11 @@
     "sha1": "c81699f9123c4fb299d5b76b61702f136fbb62a2",
     "requires": "julia 0.4\nCompat 0.8.0\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "e8535e792e9487527d079ec5d8773a035e9a41a8",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -21882,6 +21912,11 @@
     "sha1": "433f7a1b3fb7dc3f1edbde9ed453c52e03b86f7f",
     "requires": "julia 0.4\nCompat 0.8.6\n",
     "testrequires": "Quaternions\n"
+   },
+   "0.1.0": {
+    "sha1": "d8d48a0fca88ce92f5136ce7519fad277030f1f4",
+    "requires": "julia 0.5\n",
+    "testrequires": "Quaternions\n"
    }
   }
  },
@@ -22175,6 +22210,11 @@
    },
    "0.3.1": {
     "sha1": "78cecf429127592e0dfa8c098763bc3a462a5469",
+    "requires": "julia 0.6\nCombinatorics\nSpecialFunctions\nParameters\n",
+    "testrequires": ""
+   },
+   "0.3.2": {
+    "sha1": "45e1f3dc08da57e3e802a6b8d31e94d9cc33464f",
     "requires": "julia 0.6\nCombinatorics\nSpecialFunctions\nParameters\n",
     "testrequires": ""
    }
@@ -46726,6 +46766,11 @@
     "sha1": "27cf8e493df443d7b118c3a61e3041bf6e649965",
     "requires": "julia 0.5\n",
     "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "a25564f96185feb5796405958156669f457c4935",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -50306,6 +50351,11 @@
    },
    "0.10.1": {
     "sha1": "a941a733727a057b978fa6ab7f8601e016c92d47",
+    "requires": "julia 0.6-pre\nJuno\nRecipesBase 0.1.0\nStaticArrays\n",
+    "testrequires": "OrdinaryDiffEq 0.3.0\nParameterizedFunctions 0.3.0\nDiffEqBase 0.3.0\n"
+   },
+   "0.11.0": {
+    "sha1": "c049fc3eedea044892d7246c8e0c6cd187cca629",
     "requires": "julia 0.6-pre\nJuno\nRecipesBase 0.1.0\nStaticArrays\n",
     "testrequires": "OrdinaryDiffEq 0.3.0\nParameterizedFunctions 0.3.0\nDiffEqBase 0.3.0\n"
    }
@@ -55851,6 +55901,11 @@
     "sha1": "5e4fbd3c085231f304cb6704eb383aa49f57c6ca",
     "requires": "julia 0.5\nCompat 0.18.0\nDataStructures 0.5.0\nSpecialFunctions 0.1.0\n",
     "testrequires": "DataFrames\nGLM\n"
+   },
+   "0.17.0": {
+    "sha1": "6df21f0699a189a70938eec809e96ea11e1771f4",
+    "requires": "julia 0.5\nCompat 0.18.0\nDataStructures 0.5.0\nSpecialFunctions 0.1.0\n",
+    "testrequires": "DataFrames\nGLM\n"
    }
   }
  },
@@ -56204,6 +56259,11 @@
    },
    "2.7.0": {
     "sha1": "77f77a52c18bbc1ed0da2db1cee0d4060eab7b4f",
+    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 1.13.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.3.0\nNLsolve\nForwardDiff 0.5.0\nStaticArrays\nReexport\nRandomNumbers\n",
+    "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.7.1": {
+    "sha1": "044b6da9f84702cd81613a073f825d96e288ab6b",
     "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 1.13.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.3.0\nNLsolve\nForwardDiff 0.5.0\nStaticArrays\nReexport\nRandomNumbers\n",
     "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
    }
@@ -63185,6 +63245,16 @@
    "0.0.1": {
     "sha1": "bc52097cb9270bb48ce905a84eb1b90536b7529d",
     "requires": "julia 0.5\nBinDeps 0.4.2\nCompat 0.21\nCxxWrap 0.4\n",
+    "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "9c32700cd14ddc0e6e5bbf21213cf28ad65751f7",
+    "requires": "julia 0.5\nBinDeps 0.4.2\nCxxWrap 0.4.1\n",
+    "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "e0e8d048ffe6b1541ceab4ac15d8216302110944",
+    "requires": "julia 0.5\nBinDeps 0.4.2\nCxxWrap 0.4.1\n",
     "testrequires": ""
    }
   }
