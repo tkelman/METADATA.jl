@@ -9639,7 +9639,7 @@
   }
  },
  "ConfParser": {
-  "url": "git://github.com/furface/ConfParser.jl.git",
+  "url": "git://github.com/zznop/ConfParser.jl.git",
   "versions": {
    "0.0.1": {
     "sha1": "59a8a8e1a9df627bd66c872e90b01f7e2b861652",
@@ -24825,7 +24825,7 @@
   }
  },
  "HexEdit": {
-  "url": "git://github.com/furface/HexEdit.jl.git",
+  "url": "git://github.com/zznop/HexEdit.jl.git",
   "versions": {
    "0.0.1": {
     "sha1": "eaf2ae8a5ff2529a7d2e381632ae11eec50811fc",
@@ -30109,6 +30109,11 @@
    "0.1.1": {
     "sha1": "645084951386b33670bb07e1e76992ce299dd6e0",
     "requires": "julia 0.4\nDistributions\nDataFrames\nProgressMeter\nPlots\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "b3b39da497155eabb1d06213536dfe36c919af81",
+    "requires": "julia 0.5\nDistributions\nDataFrames\nProgressMeter\n",
     "testrequires": ""
    }
   }
@@ -40652,11 +40657,16 @@
     "sha1": "21c079d994f32b0982367c9c6f54164cc7f19a43",
     "requires": "julia 0.6.0-pre\nCalculus\nDistances\nForwardDiff 0.5.0\nLineSearches\nDiffBase\nNLSolversBase 2.1.0\n",
     "testrequires": ""
+   },
+   "0.11.0": {
+    "sha1": "fff21cf2f15cb0812e6a347d6f83f4710d67a454",
+    "requires": "julia 0.6.0-pre\nCalculus\nDistances\nForwardDiff 0.5.0\nLineSearches\nDiffBase\nNLSolversBase 2.1.0\n",
+    "testrequires": ""
    }
   }
  },
  "NMEA": {
-  "url": "git://github.com/furface/NMEA.jl.git",
+  "url": "git://github.com/zznop/NMEA.jl.git",
   "versions": {
    "0.0.1": {
     "sha1": "21b067aae5c9d94a5a5dbf1c11e6ad2da3d7b7f8",
@@ -42821,6 +42831,11 @@
     "sha1": "f772ea4ea8746f190b7fdabd8c783710571ad6fc",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "bff476415d3fdb63d4785da105c57e2045aaac9e",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -44956,6 +44971,11 @@
     "sha1": "b700fa3eeff29006878778043ad02e71fe15247e",
     "requires": "julia 0.5\nSymEngine 0.2.0\nDataStructures 0.4.6\nDiffEqBase 0.14.0\nSimpleTraits 0.1.1\n",
     "testrequires": "SpecialFunctions\nDiffEqProblemLibrary\n"
+   },
+   "2.1.1": {
+    "sha1": "b0bee6c0ae22b33f647a682d62cf00b9eb66de78",
+    "requires": "julia 0.5\nSymEngine 0.2.0\nDataStructures 0.4.6\nDiffEqBase 0.14.0\nSimpleTraits 0.1.1\n",
+    "testrequires": "SpecialFunctions\nDiffEqProblemLibrary\n"
    }
   }
  },
@@ -45400,7 +45420,7 @@
   }
  },
  "Pcap": {
-  "url": "git://github.com/furface/Pcap.jl.git",
+  "url": "git://github.com/zznop/Pcap.jl.git",
   "versions": {
    "0.0.1": {
     "sha1": "f278d8ffdab47d9192d09e4f886e7ed27a887888",
@@ -61299,6 +61319,16 @@
    }
   }
  },
+ "VehicleModels": {
+  "url": "https://github.com/JuliaMPC/VehicleModels.jl.git",
+  "versions": {
+   "0.1.2": {
+    "sha1": "94f4bc137ab3e5828c078a4fca945114c897eda8",
+    "requires": "julia 0.6\nNLOptControl\nParameters\nJuMP\nInterpolations\nOrdinaryDiffEq\nDiffEqBase\nRanges\n",
+    "testrequires": ""
+   }
+  }
+ },
  "VennEuler": {
   "url": "git://github.com/HarlanH/VennEuler.jl.git",
   "versions": {
@@ -63189,17 +63219,17 @@
    },
    "0.0.2": {
     "sha1": "94f4bb2fa966f9630a6e54621f492bfbef6771c7",
-    "requires": "julia 0.3-\nDistributions\n",
+    "requires": "julia 0.3 0.6\nDistributions\nJWAS 0.0 0.2\n",
     "testrequires": ""
    },
    "0.0.3": {
     "sha1": "89e197ec72e584601beff6c1ee09ec1e392cde28",
-    "requires": "julia 0.3\nDistributions\n",
+    "requires": "julia 0.3 0.6\nDistributions\nJWAS 0.0 0.2\n",
     "testrequires": ""
    },
    "0.1.0": {
     "sha1": "45e913ec7fbca4a5e46151f9521f6534767df74c",
-    "requires": "julia 0.4\nDataFrames\nDistributions\nJWAS 0.1-\n",
+    "requires": "julia 0.4 0.6\nDataFrames\nDistributions\nJWAS 0.1.1 0.2-\n",
     "testrequires": "StatsBase\n"
    }
   }
