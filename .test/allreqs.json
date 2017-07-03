@@ -5565,6 +5565,11 @@
     "sha1": "bd343e50fc2c2a830ed2baf1387fa8f43295f0fe",
     "requires": "julia 0.5\nCompat 0.18.0\n",
     "testrequires": "Documenter\n\n"
+   },
+   "0.4.2": {
+    "sha1": "22f4799cdbb038fdabbbf12fe2d92a3cabfc2ab1",
+    "requires": "julia 0.5\nCompat 0.18.0\n",
+    "testrequires": "Documenter\n\n"
    }
   }
  },
@@ -21992,6 +21997,16 @@
     "sha1": "1ce05169d21a93fd86e98d59fb4a9a324e4264df",
     "requires": "julia 0.5\nIntervalTrees\nAxisArrays\nRLEVectors\nBio\nDataFrames\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "c8e1c7f1d0e32c6990b8626d4915657196fe521f",
+    "requires": "julia 0.5\nGenomicFeatures 0.2.0\nAxisArrays 0.1.3\nRLEVectors 0.3.2\nDataTables 0.0.3\nCompat 0.17.0\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "1b29d72910587ea6bc5f2663845eab407b24d1e7",
+    "requires": "julia 0.5\nGenomicFeatures 0.2.0\nAxisArrays 0.1.3\nRLEVectors 0.3.2\nDataTables 0.0.3\nCompat 0.17.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -23657,6 +23672,11 @@
     "sha1": "5be3b115dce821e2f5c4ccdb8b146631ef6a42d4",
     "requires": "julia 0.4\nCairo 0.2.24\nGtk 0.8.4\nCompat 0.8.0\n",
     "testrequires": "Cairo\n"
+   },
+   "0.1.0": {
+    "sha1": "62b198996a9a81c771cc484f352255c0e52438ac",
+    "requires": "julia 0.5\nCairo 0.2.31\nGtk 0.11.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -32087,6 +32107,11 @@
    },
    "0.3.4": {
     "sha1": "25e8e956bd089eb6ca9409d5e8afaf6a463368af",
+    "requires": "julia 0.5\nCompat 0.17.0\n",
+    "testrequires": "Documenter\n\n"
+   },
+   "0.3.5": {
+    "sha1": "07ab967defa6051052f45988f9b1c667f8741d9e",
     "requires": "julia 0.5\nCompat 0.17.0\n",
     "testrequires": "Documenter\n\n"
    }
@@ -42816,6 +42841,11 @@
     "sha1": "7f31ade7d0c555ecd201438592510ba289154faf",
     "requires": "julia 0.6.0-pre\nStatsBase\nLearnBase\nDistributions\n",
     "testrequires": ""
+   },
+   "0.9.0": {
+    "sha1": "ad980232fbd8f2cf998895375fa83ab4e043ae1d",
+    "requires": "julia 0.6.0\nOnlineStatsBase 0.0.3\nStatsBase\nLearnBase\nDistributions\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\n",
+    "testrequires": ""
    }
   }
  },
@@ -53293,6 +53323,11 @@
     "sha1": "e556259c38b77502ac65eba19db2be49a7bf0fb5",
     "requires": "julia 0.5\nJLD\nDocumentFunction\n",
     "testrequires": ""
+   },
+   "0.2.6": {
+    "sha1": "b87f141cb55bf70460519796b38927326ab4bf04",
+    "requires": "julia 0.5\nJLD\nDocumentFunction\n",
+    "testrequires": ""
    }
   }
  },
@@ -57420,6 +57455,16 @@
    "0.0.1": {
     "sha1": "942c6131a5c9d19808546a55e778b4be9bec585d",
     "requires": "julia 0.5\nReexport 0.0.3\nCompat 0.9.2\nAbstractTables 0.0.1\nNullableArrays 0.0.9\nDataStreams 0.0.15\nCSV 0.0.14\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "TakingBroadcastSeriously": {
+  "url": "https://github.com/MikeInnes/TakingBroadcastSeriously.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "7aecd8b62a94b809d5ef10fd1a1096fe8742c81f",
+    "requires": "julia 0.5\n",
     "testrequires": ""
    }
   }
