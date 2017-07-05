@@ -9745,6 +9745,11 @@
     "sha1": "11a50fe956c907ded80260faa5b7b367d7b11ed7",
     "requires": "julia 0.5\nGZip\n",
     "testrequires": "MathProgBase\nECOS\nSCS\nConvex\nJuMP\n"
+   },
+   "0.2.3": {
+    "sha1": "02a1781862f71f6fbb9301cd7924016af5911ff4",
+    "requires": "julia 0.5\nGZip\n",
+    "testrequires": "MathProgBase\nECOS\nSCS\nConvex\nJuMP\n"
    }
   }
  },
@@ -26978,6 +26983,11 @@
    },
    "0.5.0": {
     "sha1": "262c8693797c93c4d87af19ec577cb3834914eea",
+    "requires": "julia 0.6\nCombinatorics\nStatsBase\nPrimes\nImages 0.7.0\nLightGraphs 0.6.1\nRecipesBase\nProgressMeter\nHwloc\n",
+    "testrequires": "Plots\nGR\nGeoStatsImages\nVisualRegressionTests\nGtk\n"
+   },
+   "0.5.1": {
+    "sha1": "44d70140e0b8652b31cc4775e6d86767a921322a",
     "requires": "julia 0.6\nCombinatorics\nStatsBase\nPrimes\nImages 0.7.0\nLightGraphs 0.6.1\nRecipesBase\nProgressMeter\nHwloc\n",
     "testrequires": "Plots\nGR\nGeoStatsImages\nVisualRegressionTests\nGtk\n"
    }
@@ -47380,6 +47390,11 @@
     "sha1": "c7bac29f3aa79f071417347dc609edb14626d829",
     "requires": "julia 0.4\nBinDeps\nCompat 0.8\n@osx Homebrew\n",
     "testrequires": "FactCheck"
+   },
+   "0.1.0": {
+    "sha1": "c1d8ec14c51987c04297b28affaf9c495933327b",
+    "requires": "julia 0.5\nBinDeps\nCompat 0.17\n@osx Homebrew\n",
+    "testrequires": "FactCheck"
    }
   }
  },
@@ -50263,6 +50278,11 @@
     "sha1": "5d05071c1ab3875af5b4805f535e924f697ba70d",
     "requires": "julia 0.6.0-pre\n",
     "testrequires": ""
+   },
+   "0.5.1": {
+    "sha1": "f29f5c533a0d3f2642217720ac1f033274920f93",
+    "requires": "julia 0.6.0-pre\n",
+    "testrequires": ""
    }
   }
  },
@@ -51593,6 +51613,16 @@
     "sha1": "30691f5c61062c172dfc13d40ccd01c34ab23235",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "8cb8b190ac3d66752db06e8ce39c70069e524980",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "76e2ce5643e1a35bd4ea680ac5832d76abed7339",
+    "requires": "julia 0.6\n",
+    "testrequires": "GSL\n"
    }
   }
  },
@@ -52741,6 +52771,11 @@
    },
    "0.3.1": {
     "sha1": "ebc8157363d0566288e48471029002f24958d614",
+    "requires": "julia 0.5\nMathProgBase 0.5 0.7\nBinDeps\n@osx Homebrew\n",
+    "testrequires": ""
+   },
+   "0.3.2": {
+    "sha1": "6cd9ffd67a22631aa294842ae4c68c346fd38828",
     "requires": "julia 0.5\nMathProgBase 0.5 0.7\nBinDeps\n@osx Homebrew\n",
     "testrequires": ""
    }
