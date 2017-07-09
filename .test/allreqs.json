@@ -36348,6 +36348,16 @@
     "sha1": "171569eb3aca85a13a2c2aa7fcc91029d9a1b409",
     "requires": "julia 0.4\nBinDeps\nCompat\n",
     "testrequires": ""
+   },
+   "0.5.1": {
+    "sha1": "6efa4902c4c03a6984ce4d29e3370ff1b11665ee",
+    "requires": "julia 0.4\nBinDeps\nCompat 0.9.5\n",
+    "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "2eafed4ae94f0e993a447022c4a570090582372c",
+    "requires": "julia 0.6\nBinDeps\nCompat 0.9.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -38356,7 +38366,7 @@
   }
  },
  "Measurements": {
-  "url": "git://github.com/giordano/Measurements.jl.git",
+  "url": "git://github.com/JuliaPhysics/Measurements.jl.git",
   "versions": {
    "0.0.1": {
     "sha1": "d1d98100bde67e5576c7e84ce95756026c3ea2d7",
@@ -38406,6 +38416,11 @@
    "0.4.0": {
     "sha1": "1eff4dda6582a3b4e09543a335fa9625221febb2",
     "requires": "julia 0.6.0-pre\nCalculus 0.1.5\nSpecialFunctions 0.1.0\nQuadGK 0.1.1\n",
+    "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "6c41199670374fdc749fc79bb3f63321368317bb",
+    "requires": "julia 0.6.0\nCalculus 0.1.5\nSpecialFunctions 0.1.0\nQuadGK 0.1.1\n",
     "testrequires": ""
    }
   }
@@ -63420,6 +63435,16 @@
    "0.0.5": {
     "sha1": "8470694f750e71adb9567bb4f45df082638718b0",
     "requires": "julia 0.3\nHTTPClient\nJSON\nDataArrays\nDataFrames\nCompat\n",
+    "testrequires": ""
+   },
+   "0.0.6": {
+    "sha1": "29772f8fdfb2a779ef1d5a2bda282d14405fe26e",
+    "requires": "julia 0.6\nHTTP\nJSON\nDataArrays\nDataFrames\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "29772f8fdfb2a779ef1d5a2bda282d14405fe26e",
+    "requires": "julia 0.6\nHTTP\nJSON\nDataArrays\nDataFrames\n",
     "testrequires": ""
    }
   }
