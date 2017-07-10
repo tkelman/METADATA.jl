@@ -1566,6 +1566,11 @@
     "sha1": "6546d1293e08c0151805d0f320d303955fd81d77",
     "requires": "julia 0.5\n",
     "testrequires": "Compat\n"
+   },
+   "0.2.1": {
+    "sha1": "fa0feb79d4d3d6fce8adeb7bb6de7ec43c7e5d58",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -2064,6 +2069,11 @@
    "0.1.0": {
     "sha1": "1ae9e33ab9ce5bfd0d8a7ec8d3479fa7c204d235",
     "requires": "julia 0.5\nImageCore 0.1.2\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
+    "testrequires": "FixedPointNumbers 0.3\nImageInTerminal\nTestImages\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
+   },
+   "0.2.0": {
+    "sha1": "31886c1ee09b86176d40354bf478dea09d842910",
+    "requires": "julia 0.6\nMappedArrays 0.0.3\nImageCore 0.1.2\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nMLDataPattern 0.1.2\nComputationalResources 0.0.2\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
     "testrequires": "FixedPointNumbers 0.3\nImageInTerminal\nTestImages\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
    }
   }
@@ -10682,6 +10692,11 @@
    },
    "0.3.1": {
     "sha1": "fcbd97ff3fdb72016539cea522ac3f03a7de9856",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "9d0354a19a3968d8f02c72d1291808cce8798908",
     "requires": "julia 0.5\n",
     "testrequires": ""
    }
@@ -28850,6 +28865,11 @@
     "sha1": "31bc0b1389a3e3cccf98fc6d4031e1ff6ad31acd",
     "requires": "julia 0.6.0-pre\nColors\nGtk\nGraphics\nCairo\nNumericIO\n",
     "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "6205596359ca3f10d2431578179d8729364a17a5",
+    "requires": "julia 0.6.0-pre\nColors\nGtk\nGraphics\nCairo\nNumericIO\n",
+    "testrequires": ""
    }
   }
  },
@@ -29985,6 +30005,21 @@
     "sha1": "5022d9bbf16f7e379c2e5e86c13406b17cceb893",
     "requires": "julia 0.4\nHDF5\nCompat 0.18.0\nFileIO\nLegacyStrings  # for julia-0.5\n",
     "testrequires": "DataFrames\n"
+   }
+  }
+ },
+ "JLD2": {
+  "url": "https://github.com/simonster/JLD2.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "c1df87ec20745a6f3e5d6ccdbf46313836aeb7f4",
+    "requires": "julia 0.6\nDataStructures\nLibz\nFileIO 0.5.0\n",
+    "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "6a415dd6b1d98baeb976babef8696ef243b709b5",
+    "requires": "julia 0.6\nDataStructures\nLibz\nFileIO 0.5.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -33663,6 +33698,11 @@
     "sha1": "c55da9ea0171e52d1582fdffda8107f338033c72",
     "requires": "julia 0.6-pre\nBinDeps\nFITSIO 0.10.0\nMacroTools\nStaticArrays 0.5.1\n\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "050d8a975954211691ef35b097a0b91fdca72b33",
+    "requires": "julia 0.6-pre\nBinDeps\nFITSIO 0.10.0\nMacroTools\nStaticArrays 0.5.1\n@osx Homebrew\n\n",
+    "testrequires": ""
    }
   }
  },
@@ -35062,6 +35102,11 @@
    "0.2.0": {
     "sha1": "3eab55acf9d367c0c53ed9aa804170b6b4467fc7",
     "requires": "julia 0.5\nCompat 0.17\nDistances\nIterators\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "bcc8f1a2488c0ebbbc97f6f9f6eda1eaba0705c6",
+    "requires": "julia 0.5\nCompat 0.17\nDistances\nIterTools\n",
     "testrequires": ""
    }
   }
@@ -54681,6 +54726,16 @@
    }
   }
  },
+ "SimpleWeightedGraphs": {
+  "url": "https://github.com/JuliaGraphs/SimpleWeightedGraphs.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "37b219bd8c2a794dae931a7877b40adeb600286d",
+    "requires": "julia 0.6\nLightGraphs 0.9.1\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Sims": {
   "url": "git://github.com/tshort/Sims.jl.git",
   "versions": {
@@ -54947,6 +55002,11 @@
    "0.1.1": {
     "sha1": "694b36655fac65e6a02389fa8571dd644305d203",
     "requires": "julia 0.5\nStatsBase 0.12.0\nReexport 0.0.3\n",
+    "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "e83f1621d95f854ac9d16a46bd9bbd85799322cc",
+    "requires": "julia 0.5\nStatsBase 0.15\nReexport 0.0.3\n",
     "testrequires": ""
    }
   }
