@@ -4970,6 +4970,11 @@
     "sha1": "5a3f81c4f0a3c03bc5de7663f9d559cee80a3506",
     "requires": "julia 0.5\nMathProgBase 0.6.1\nMAT 0.3.1\nRequests 0.4.1\n",
     "testrequires": "julia 0.5\nMathProgBase 0.6.1\nMAT 0.3.1\nGLPKMathProgInterface 0.2.3\nGLPK 0.3.0\nClp 0.2.2\nRequests 0.4.1\n"
+   },
+   "0.1.2": {
+    "sha1": "5d294ea233e80546d0c60e56db8070d352ca4a57",
+    "requires": "julia 0.5\nMathProgBase 0.6.1\nMAT 0.3.1\nRequests 0.4.1\n",
+    "testrequires": "julia 0.5\nMathProgBase 0.6.1\nMAT 0.3.1\nGLPKMathProgInterface 0.2.3\nGLPK 0.3.0\nClp 0.2.2\nRequests 0.4.1\n"
    }
   }
  },
@@ -6874,6 +6879,11 @@
    "0.0.4": {
     "sha1": "5bca5f4bcd610d247240703763e8da19900808d9",
     "requires": "julia 0.5\nCreateMacrosFrom\nMacroTools\nNumberedLines\nAtom\n",
+    "testrequires": "Documenter\n"
+   },
+   "0.1.0": {
+    "sha1": "5af676d51c598449322d6592e2a9f8d5e985f645",
+    "requires": "julia 0.6\nMacroTools 0.3.3\nNumberedLines\nAtom\n",
     "testrequires": "Documenter\n"
    }
   }
@@ -9865,6 +9875,11 @@
     "sha1": "879226387c4bf7cfa250035e17223d1e4533a125",
     "requires": "julia 0.3\nCompat 0.4.0\nPDMats 0.3.2 0.4\nDistributions 0.8.1\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "1606690b573b8f76e06879febbfec52da93bbfad",
+    "requires": "julia 0.6\nPDMats 0.6.0\nDistributions 0.14.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -12554,6 +12569,11 @@
     "sha1": "63038135479f953ade6571662f4638d9953ebb82",
     "requires": "julia 0.4\nCompat 0.17.0\n",
     "testrequires": "BaseTestNext\nPrimes 0.1.1\nCompat 0.9.5\n"
+   },
+   "0.6.0": {
+    "sha1": "ba696672be809f812dfef079819564b6065ffd36",
+    "requires": "julia 0.5\nCompat 0.17.0\n",
+    "testrequires": "BaseTestNext\nPrimes 0.1.1\nCompat 0.9.5\n"
    }
   }
  },
@@ -12988,6 +13008,11 @@
    "0.6.0": {
     "sha1": "5a06c3f66d28a8bc2fb583de6c92969fa0b4fafa",
     "requires": "julia 0.5\nScikitLearnBase 0.0.4\nCompat 0.8.4\n",
+    "testrequires": ""
+   },
+   "0.6.1": {
+    "sha1": "051271024754502c44957d4df4c6c2eade2f9ca9",
+    "requires": "julia 0.5\nScikitLearnBase 0.0.4\nCompat 0.18.0\n",
     "testrequires": ""
    }
   }
@@ -16589,6 +16614,11 @@
     "sha1": "04ca4bbc98c4729970cf65e4c477824f19b81c52",
     "requires": "julia 0.5\nBinDeps\nMathProgBase 0.5 0.7\n@osx Homebrew\n",
     "testrequires": ""
+   },
+   "0.7.2": {
+    "sha1": "472b3534951b89e1848db4dc806f4d25ffdb6686",
+    "requires": "julia 0.5\nBinDeps\nMathProgBase 0.5 0.7\n@osx Homebrew\n",
+    "testrequires": ""
    }
   }
  },
@@ -17307,6 +17337,11 @@
    },
    "0.4.0": {
     "sha1": "7e48013fb264137cceb291f7118cb7be20d07abc",
+    "requires": "julia 0.5\nGZip 0.2.20\nEzXML 0.4.0\nStatsFuns\nBlossomV 0.3\nClustering\nDataStructures 0.5.0\nCompat 0.18\n",
+    "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "462c82294cd1c2e84e5cbfdb0db5fb57102534fa",
     "requires": "julia 0.5\nGZip 0.2.20\nEzXML 0.4.0\nStatsFuns\nBlossomV 0.3\nClustering\nDataStructures 0.5.0\nCompat 0.18\n",
     "testrequires": ""
    }
@@ -19465,6 +19500,11 @@
    },
    "0.2.1": {
     "sha1": "94960d3443f80fcb1d364acb67bcf1551ae675c4",
+    "requires": "julia 0.5\nCompat 0.24\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "00c3e80af57f15a3d84762fa92e9356d5b74cae6",
     "requires": "julia 0.5\nCompat 0.24\n",
     "testrequires": ""
    }
@@ -22611,6 +22651,11 @@
    "0.4.0": {
     "sha1": "1075b6047cca8132253d6a36bb10dca26e90b525",
     "requires": "julia 0.6.0-pre\nStaticArrays\nColorTypes\nFixedPointNumbers 0.3\nIterators\n",
+    "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "40486bfd04e824a2509c99a3a1ed52c42f641b06",
+    "requires": "julia 0.6\n\nIterTools\nStaticArrays 0.5.1\nColorTypes 0.3.1\nFixedPointNumbers 0.3\n",
     "testrequires": ""
    }
   }
@@ -28670,6 +28715,11 @@
     "sha1": "acf423e033164742f8575874f533731da781ad32",
     "requires": "julia 0.5\nDiscretizers 0.3.0\n",
     "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "ab53da2223b84de2dca7bc40ac4a9814c84f67ca",
+    "requires": "julia 0.5\nDiscretizers 0.3.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -29660,6 +29710,16 @@
     "sha1": "3809e2b0d99358859a255ac0e21e3535e85583ea",
     "requires": "julia 0.6.0-rc1\nNamedTuples 4.0.0\nRequires 0.4.3\nDataValues 0.0.3\n",
     "testrequires": "DataFrames 0.9\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDiffEqBase\nOrdinaryDiffEq\nParameterizedFunctions\nNullableArrays\nDataStreams\nGLM\nTemporal\n"
+   },
+   "0.4.0": {
+    "sha1": "4c9ff466325b69498d5b9187708425add7b7dc5a",
+    "requires": "julia 0.6.0-rc1\nNamedTuples 4.0.0\nRequires 0.4.3\nDataValues 0.0.3\n",
+    "testrequires": "DataFrames 0.9\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDiffEqBase\nOrdinaryDiffEq\nParameterizedFunctions\nNullableArrays\nDataStreams\nGLM\nTemporal\nJuliaDB\n"
+   },
+   "0.4.1": {
+    "sha1": "1064c2543da788b1b6a63e90c4ef2f281878f0ac",
+    "requires": "julia 0.6.0-rc1\nNamedTuples 4.0.0\nRequires 0.4.3\nDataValues 0.0.3\n",
+    "testrequires": "DataFrames 0.9\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDiffEqBase\nOrdinaryDiffEq\nParameterizedFunctions\nNullableArrays\nDataStreams\nGLM\nTemporal\nJuliaDB\n"
    }
   }
  },
@@ -32898,6 +32958,11 @@
     "sha1": "1d5442aa59110bcfbffb4b1141de3af6e9398eb8",
     "requires": "julia 0.6\nMacroTools\n",
     "testrequires": "Documenter\n"
+   },
+   "0.1.1": {
+    "sha1": "efff10eb370f5407c3c7ce863973e03d8ee6ff25",
+    "requires": "julia 0.6\nMacroTools\n",
+    "testrequires": "Documenter\n"
    }
   }
  },
@@ -32907,6 +32972,11 @@
    "0.0.1": {
     "sha1": "e58692ea8e53e660ec67d18eb0f3d17feb780c1a",
     "requires": "julia 0.5\nDataFrames\nMacroTools\nLazyContext 0.0.1 0.1.0\n",
+    "testrequires": "Documenter\nChainRecursive\n"
+   },
+   "0.1.0": {
+    "sha1": "9df7ad86763b23a5083e92ff7c0821e41370d9e6",
+    "requires": "julia 0.6\nLazyContext 0.1.1\nDataFrames\nMacroTools 0.3.3\nQuery\nNamedTuples\nChainRecursive 0.0.3\n",
     "testrequires": "Documenter\nChainRecursive\n"
    }
   }
@@ -39707,6 +39777,11 @@
     "sha1": "9379b9c18db5cb57164c37f4bed9b1647bb23396",
     "requires": "julia 0.4\nCompat 0.7.20\n",
     "testrequires": "GLFW\n"
+   },
+   "0.2.0": {
+    "sha1": "bc26b6d82b70546c76c9aae62f353533150e4ffd",
+    "requires": "julia 0.6\n",
+    "testrequires": "GLFW\n"
    }
   }
  },
@@ -42941,6 +43016,11 @@
     "sha1": "bc41d268459ba750a2c0775f259f308c6de135b7",
     "requires": "julia 0.5\nPyCall 1.7\nDataFrames 0.8.0\nDataStructures 0.5.0\n",
     "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "7c161c183831497723b2e78c910e88e5976a3ea1",
+    "requires": "julia 0.5\nPyCall 1.7\nDataFrames 0.8.0\nDataStructures 0.5.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -44910,6 +44990,11 @@
    "0.0.4": {
     "sha1": "b7b42457b76f8d9074bd8300bc2a5d02a41982b8",
     "requires": "julia 0.4\nGeometryTypes\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "cbda53efe9c44669101713582a7d3c26d554b4c1",
+    "requires": "julia 0.5\nGeometryTypes\n",
     "testrequires": ""
    }
   }
@@ -51178,6 +51263,11 @@
     "sha1": "b37d61b8f52ea07db50f5ea3d2ac3d380c1f7620",
     "requires": "julia 0.4\nRequests\nJLD\n",
     "testrequires": "Requests\nJLD"
+   },
+   "0.1.0": {
+    "sha1": "9f9717e330fe49f5f913a08be89f291d1141e9a9",
+    "requires": "julia 0.6\nURIParser\nHttpCommon\nRequests\nJLD\n",
+    "testrequires": ""
    }
   }
  },
@@ -53068,6 +53158,11 @@
     "sha1": "6cd9ffd67a22631aa294842ae4c68c346fd38828",
     "requires": "julia 0.5\nMathProgBase 0.5 0.7\nBinDeps\n@osx Homebrew\n",
     "testrequires": ""
+   },
+   "0.3.3": {
+    "sha1": "5a60bd7852e0f6a3fd7bf14d7d6b2d445038eab5",
+    "requires": "julia 0.5\nMathProgBase 0.5 0.7\nBinDeps\n@osx Homebrew\n",
+    "testrequires": ""
    }
   }
  },
@@ -54457,6 +54552,11 @@
    "0.1.0": {
     "sha1": "150c9eb45fc77a2606d38491a8b67967aed013e1",
     "requires": "julia 0.4\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "d372267044c696df5a54c94e80acde176e17a220",
+    "requires": "julia 0.5\n",
     "testrequires": ""
    }
   }
@@ -56019,6 +56119,11 @@
    },
    "0.5.1": {
     "sha1": "2e9feffe066b1400f30f082e67559af0d517df89",
+    "requires": "julia 0.6.0-pre\n",
+    "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "eb408b9757496af6c3ff8fc503ce267526a4ba09",
     "requires": "julia 0.6.0-pre\n",
     "testrequires": ""
    }
@@ -58221,6 +58326,11 @@
     "sha1": "24e079ce7999a7b6a6c4c8203a89fa68ed3dcdd8",
     "requires": "julia 0.5\nRequests\nJSON\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "9de09ac6a0a5456a7aa2503e4c989442f1d61878",
+    "requires": "julia 0.6\nRequests\nJSON\n",
+    "testrequires": ""
    }
   }
  },
@@ -59365,6 +59475,11 @@
    "0.0.6": {
     "sha1": "a825687c0b1b563d8dad7069fec86aed59356231",
     "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "ff7bc0c5c253d13775ff302b8e5ceae1e1070d74",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
@@ -63819,6 +63934,11 @@
    },
    "0.3.0": {
     "sha1": "50ec26b777453baa2f08943ab8bc8f20e18d409c",
+    "requires": "julia 0.5\nMathProgBase 0.5 0.7\nCompat 0.18\n",
+    "testrequires": "MathProgBase\nJuMP \nOffsetArrays 0.2.13"
+   },
+   "0.4.0": {
+    "sha1": "ff16ad35d8acf035fc61d85d73f54a9e3cb8ee49",
     "requires": "julia 0.5\nMathProgBase 0.5 0.7\nCompat 0.18\n",
     "testrequires": "MathProgBase\nJuMP \nOffsetArrays 0.2.13"
    }
