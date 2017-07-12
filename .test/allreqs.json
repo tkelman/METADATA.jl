@@ -2515,6 +2515,11 @@
     "sha1": "ff82bc9d392bc5912648aae5ff871fb593ed4738",
     "requires": "julia 0.5\nIntervalSets\nRangeArrays\nCompat 0.19\n",
     "testrequires": "OffsetArrays\nUnitful 0.1.0\n"
+   },
+   "0.1.4": {
+    "sha1": "edd8884b8bb7d4255d7303236d782a315daa853f",
+    "requires": "julia 0.5\nIntervalSets 0.1\nRangeArrays\nCompat 0.19\n",
+    "testrequires": "OffsetArrays\nUnitful 0.2.6\n"
    }
   }
  },
@@ -7270,6 +7275,11 @@
     "sha1": "9aa781b4752fa270f707c89013f6fa7e5265f24d",
     "requires": "julia 0.5.0\nMacroTools 0.3.2\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "ebe0d3eb05cf71eade88a8ae343f73d9fc6e81fd",
+    "requires": "julia 0.5.0\nMacroTools 0.3.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -9534,6 +9544,11 @@
    "0.5.2": {
     "sha1": "7786bccfe9be94783727c041437c676014b1eedc",
     "requires": "julia 0.5\nColors\nCompat 0.18.0\nDataStructures\nIterators 0.1.5\nJSON\nMeasures\n",
+    "testrequires": "Cairo\n"
+   },
+   "0.5.3": {
+    "sha1": "5ddfae2eae52966b3aa73e659b8170e8aed4c50b",
+    "requires": "julia 0.5\nColors\nCompat 0.18.0\nDataStructures\nIterTools\nJSON\nMeasures\n",
     "testrequires": "Cairo\n"
    }
   }
@@ -14279,6 +14294,11 @@
     "sha1": "b570b8cf3833825e14af12de231624f92c476afe",
     "requires": "julia 0.5\nParameterizedFunctions 2.0.0\nDiffEqBase 0.15.0\nJLD 0.6.5\nDiffEqPDEBase\n",
     "testrequires": ""
+   },
+   "0.8.0": {
+    "sha1": "d60400bfd459c4019c7c40c7df1eadba9fb79743",
+    "requires": "julia 0.5\nParameterizedFunctions 2.0.0\nDiffEqBase 0.15.0\nJLD 0.6.5\nDiffEqPDEBase\n",
+    "testrequires": ""
    }
   }
  },
@@ -14683,6 +14703,11 @@
    "1.1.0": {
     "sha1": "f983998c7ae579030a5815f902505af8595628c7",
     "requires": "julia 0.5\nDataArrays 0.2.10\nStatsBase 0.8.0\nCompat 0.8.0\nDataStructures 0.5.0\n",
+    "testrequires": ""
+   },
+   "2.0.0": {
+    "sha1": "575339f0399f135c4710cb64e6106420e4f72048",
+    "requires": "julia 0.6\nStatsBase 0.8.0\nDataStructures 0.5.0\n",
     "testrequires": ""
    }
   }
@@ -15378,6 +15403,11 @@
    "0.14.0": {
     "sha1": "20f819333c83d19e849dd5e1c8cc5c58e96a9289",
     "requires": "julia 0.6\nPDMats 0.6.0\nStatsFuns 0.3.1\nCalculus\nStatsBase 0.15.0\nCompat 0.18.0\nQuadGK 0.1.1\nSpecialFunctions 0.1.0\nFFTW\n",
+    "testrequires": "JSON 0.4.0\nForwardDiff\nCompat\nCalculus\nPDMats\n"
+   },
+   "0.14.1": {
+    "sha1": "90519bcb9771a5d681ca0b726f5f90f49527d7b8",
+    "requires": "julia 0.6\nPDMats 0.6.0\nStatsFuns 0.3.1\nCalculus\nStatsBase 0.17.0\nCompat 0.18.0\nQuadGK 0.1.1\nSpecialFunctions 0.1.0\n",
     "testrequires": "JSON 0.4.0\nForwardDiff\nCompat\nCalculus\nPDMats\n"
    }
   }
@@ -19720,6 +19750,16 @@
    }
   }
  },
+ "FreeTypeAbstraction": {
+  "url": "https://github.com/JuliaGraphics/FreeTypeAbstraction.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "d515b91ee3ed79e368ba41a302767c94e314386e",
+    "requires": "julia 0.5\nFreeType\nStaticArrays\nColors\nColorVectorSpace\n",
+    "testrequires": ""
+   }
+  }
+ },
  "FreqTables": {
   "url": "git://github.com/nalimilan/FreqTables.jl.git",
   "versions": {
@@ -21787,6 +21827,11 @@
     "sha1": "05f4df1d6ac01eacdab415ea20e874be3623f6a4",
     "requires": "julia 0.5\nColors 0.3.4\nCompat 0.18.0\nCompose 0.5.1\nContour 0.1.1\nCoupledFields\nDataFrames 0.4.2\nDataStructures\nDistributions\nHexagons\nIterators 0.1.5\nJSON\nKernelDensity\nLoess\nShowoff 0.0.3\nStatsBase\nJuno\n",
     "testrequires": "RDatasets\nCairo\nCompose\n"
+   },
+   "0.6.3": {
+    "sha1": "11b9dc156a8a641825f8a2798fe301f70a70510b",
+    "requires": "julia 0.5\nColors 0.3.4\nCompat 0.18.0\nCompose 0.5.2\nContour 0.1.1\nCoupledFields\nDataFrames 0.4.2\nDataArrays\nDataStructures\nDistributions\nHexagons\nIterTools\nJSON\nKernelDensity\nLoess\nShowoff 0.0.3\nStatsBase\nJuno\n",
+    "testrequires": "RDatasets\nCairo\nFontconfig\n"
    }
   }
  },
@@ -31485,6 +31530,11 @@
     "sha1": "d2bffcd2877b9337e2656eeaba747624f41e9a96",
     "requires": "julia 0.4\nZMQ 0.3.3\nJSON\nLogging 0.3.1\nHttpCommon\nHttpServer 0.0.12\nCompat 0.17.0\n",
     "testrequires": "Requests\n"
+   },
+   "0.3.0": {
+    "sha1": "457dcd1cfcbef4b834a3f19eaa1560e74871e124",
+    "requires": "julia 0.5\nZMQ 0.3.3\nJSON\nLogging 0.3.1\nHttpCommon\nHttpServer 0.0.12\nCompat 0.17.0\n",
+    "testrequires": "Requests\n"
    }
   }
  },
@@ -37652,6 +37702,11 @@
    "0.3.0": {
     "sha1": "db46113d1c49583534d5c61e3ec208ac4bbcc311",
     "requires": "julia 0.5-\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "1c980a4299a04d2fc0d0ac5041ef122c38c6b736",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
@@ -45096,6 +45151,11 @@
     "sha1": "b77f0bb65628d4e818984e5e1191bb9b042ce47a",
     "requires": "julia 0.5\nIndexedArrays\nRequires\n",
     "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "6e5d3acf1665b8b69fe4a8dd1766973d5958b2a2",
+    "requires": "julia 0.5\nNamedArrays\nRecipesBase\n",
+    "testrequires": "DataFrames\n"
    }
   }
  },
@@ -48138,6 +48198,16 @@
    }
   }
  },
+ "Pushover": {
+  "url": "https://github.com/scls19fr/Pushover.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "0f14019e6da41d0e5f025ba479074fd3ca1092b8",
+    "requires": "julia 0.6\nRequests",
+    "testrequires": "Lint"
+   }
+  }
+ },
  "PyAMG": {
   "url": "git://github.com/cortner/PyAMG.jl.git",
   "versions": {
@@ -50967,6 +51037,11 @@
    "0.2.2": {
     "sha1": "830246d478980862301675a2149ad1cfb12359cb",
     "requires": "julia 0.4\nCompat 0.9.2\nVideoIO 0.1.0\n",
+    "testrequires": "Gadfly 0.5.0\nCompose 0.4.0"
+   },
+   "1.0.0": {
+    "sha1": "c2d818e270db1c197fda086fb5bf46aca5abf918",
+    "requires": "julia 0.6\nVideoIO 0.1.0\n",
     "testrequires": "Gadfly 0.5.0\nCompose 0.4.0"
    }
   }
