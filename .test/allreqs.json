@@ -3735,6 +3735,11 @@
     "sha1": "58c0db4e8c28aeb2b91e794c0ad2ba6951cb90a4",
     "requires": "julia 0.5\nCompat 0.17\nAutoma\nBufferedStreams\n",
     "testrequires": ""
+   },
+   "1.2.0": {
+    "sha1": "ceb7c992ba1022011af637075a6bbf830afb9974",
+    "requires": "julia 0.5\nCompat 0.17\nAutoma 0.3\nBufferedStreams\n",
+    "testrequires": ""
    }
   }
  },
@@ -4814,6 +4819,11 @@
    "0.6.4": {
     "sha1": "01da669ad06bec09a1b40b2863ced40a4d60f3c4",
     "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.7.0": {
+    "sha1": "e7490ea865f2e97d9665fb052ceb721a31249e47",
+    "requires": "julia 0.5\nCompat 0.17\n",
     "testrequires": ""
    }
   }
@@ -7134,6 +7144,16 @@
    "0.1.0": {
     "sha1": "ca3880c7c977a68193bcf2f570008a6a57eaf9e1",
     "requires": "julia 0.4-\nDataStructures\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "0b1be5deab6ae2014b20590fe48acbba4fc57cb4",
+    "requires": "julia 0.5\nDataStructures\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "4d636a3fd61e6e60b8659a873f3bd0a79b299d18",
+    "requires": "julia 0.6\nDataStructures\n",
     "testrequires": ""
    }
   }
@@ -13458,6 +13478,16 @@
    "0.4.2": {
     "sha1": "754cc06c169a300df975ce3cf228263d84ea0ffa",
     "requires": "julia 0.3\nCompat 0.7.1\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "Diana": {
+  "url": "https://github.com/codeneomatrix/Diana.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "59c9f516ef249ed266b1a9f020fef07287f7cd9b",
+    "requires": "julia 0.6\nRequests\n",
     "testrequires": ""
    }
   }
@@ -22587,6 +22617,11 @@
     "sha1": "de116064bfe0a669f4bcb47758417957ef9367e1",
     "requires": "julia 0.6\nCombinatorics\nSpecialFunctions\nParameters\nRecipesBase\n",
     "testrequires": "GR\nPlots\nGeoStatsImages\nVisualRegressionTests\n"
+   },
+   "0.3.7": {
+    "sha1": "2cd1b6327872cd26b88669ecf99e9f5e16fecfb4",
+    "requires": "julia 0.6\nCombinatorics\nSpecialFunctions\nParameters\nRecipesBase\n",
+    "testrequires": "GR\nPlots\nGeoStatsImages\nVisualRegressionTests\n"
    }
   }
  },
@@ -23370,6 +23405,11 @@
    },
    "0.1.0": {
     "sha1": "868929ef25bdfa4f29cea7e9255c8946cb081700",
+    "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "3a98bdfe862bbd11263d6bbd897dc6c21e03ef15",
     "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n",
     "testrequires": ""
    }
@@ -27168,17 +27208,17 @@
   "versions": {
    "0.1.0": {
     "sha1": "b47f688fa0b4fc582b049fb018cf6e36896e8e38",
-    "requires": "julia      0.4\nImages     0.5\nPyPlot     2.0\n",
+    "requires": "julia      0.4\nImages     0.5 0.11\nPyPlot     2.0\n",
     "testrequires": ""
    },
    "0.1.1": {
     "sha1": "db77d381297e35c7906b65b1cf1e31635b438827",
-    "requires": "julia      0.4\nImages     0.5\nPyPlot     2.0\n",
+    "requires": "julia      0.4\nImages     0.5 0.11\nPyPlot     2.0\n",
     "testrequires": ""
    },
    "0.1.2": {
     "sha1": "39180e341abd412e8a0bc167164b7563c1b04c53",
-    "requires": "julia      0.4\nImages     0.5\nPyPlot     2.0\nInterpolations \nCompat 0.8.7\n",
+    "requires": "julia      0.4\nImages     0.5 0.11\nPyPlot     2.0\nInterpolations \nCompat 0.8.7\n",
     "testrequires": ""
    }
   }
@@ -31503,6 +31543,11 @@
    },
    "0.1.3": {
     "sha1": "d5a82f1de40bfcd1ea7885d3e14d2e0a848ec6a3",
+    "requires": "julia 0.6\nIndexedTables 0.2.1\nNamedTuples 4.0.0\nTextParse 0.1.6\nDagger 0.2.0\nGlob 1.1.1\nPooledArrays 0.0.2\nNullableArrays\n",
+    "testrequires": ""
+   },
+   "0.1.4": {
+    "sha1": "e6cb1f30ad8a4b9988c44aae5a57d128813c8c09",
     "requires": "julia 0.6\nIndexedTables 0.2.1\nNamedTuples 4.0.0\nTextParse 0.1.6\nDagger 0.2.0\nGlob 1.1.1\nPooledArrays 0.0.2\nNullableArrays\n",
     "testrequires": ""
    }
@@ -49790,6 +49835,11 @@
     "sha1": "efb89816fe1a99fbcf413b94a5fc6710108eddb0",
     "requires": "julia 0.6.0-dev.2782\nFileIO 0.0.4\nImages 0.6\nColorTypes 0.3\nColorVectorSpace 0.2\nFixedPointNumbers 0.3.0\n",
     "testrequires": "TestImages 0.1.3\nImageAxes 0.2\n"
+   },
+   "0.3.1": {
+    "sha1": "55a70c80b8b91185c49fd1024c5f410781ed54d7",
+    "requires": "julia 0.6.0-dev.2782\nFileIO 0.0.4\nImages 0.6\nColorTypes 0.3\nColorVectorSpace 0.2\nFixedPointNumbers 0.3.0\n",
+    "testrequires": "TestImages 0.1.3\nImageAxes 0.2\nOffsetArrays\n"
    }
   }
  },
@@ -51881,6 +51931,11 @@
    },
    "0.2.4": {
     "sha1": "a9225cd3bc8ddc53da14afb71afafe37f4fafd84",
+    "requires": "julia 0.5\nCompat 0.8\nDataStructures\nJLD\n",
+    "testrequires": ""
+   },
+   "0.2.5": {
+    "sha1": "b1fedbd003e45ef7ae090a8f49fde1f4d2a1b8ad",
     "requires": "julia 0.5\nCompat 0.8\nDataStructures\nJLD\n",
     "testrequires": ""
    }
@@ -54488,6 +54543,11 @@
     "sha1": "75d52ff725cdc8f0c2638192115487aa81e67c2c",
     "requires": "julia 0.5\nMathProgBase\nGZip\n",
     "testrequires": "#CSDP\n"
+   },
+   "0.0.3": {
+    "sha1": "e5ca9c745d394dda426971e0b0d5c1fd11126cca",
+    "requires": "julia 0.5\nMathProgBase\nGZip\nCompat 0.17\n",
+    "testrequires": "CSDP\n"
    }
   }
  },
@@ -55701,6 +55761,11 @@
     "sha1": "4d82e68efda00cd5ad681260e9b702083fdd1b18",
     "requires": "julia 0.4\nFastGaussQuadrature 0.0.3\nIterators 0.1.9\n\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "cdbae3d2f1ed76165deb1a9efb5912355ddcb486",
+    "requires": "julia 0.5\nFastGaussQuadrature 0.0.3\nIterTools 0.1.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -55804,6 +55869,11 @@
    },
    "0.1.1": {
     "sha1": "6b686c0d6544a1e0ca59b627f22ea5559ba03e40",
+    "requires": "julia 0.5\nCompat 0.18.0\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "48429728a02828466b86feac267c88d85480ffbf",
     "requires": "julia 0.5\nCompat 0.18.0\n",
     "testrequires": ""
    }
@@ -59290,6 +59360,11 @@
    "0.1.0": {
     "sha1": "0a1c2b1a5d62b715ae3e919f39a10b316fc8e631",
     "requires": "julia 0.4\nLanguages 0.0.5+\nDataFrames\nBinDeps\nCompat 0.8.8\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "9724c7e55f40bc450d3b60721d0df2adc1bfe0e8",
+    "requires": "julia 0.5\nLanguages 0.1.0+\nDataFrames\nBinDeps\nCompat 0.17\n",
     "testrequires": ""
    }
   }
