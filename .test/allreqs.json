@@ -2350,6 +2350,11 @@
     "sha1": "a57c2fe19ff62bfe4954ce7bd9b0bd1b2765be22",
     "requires": "julia 0.5\nCompat 0.17.0\nDataStructures 0.5.1\n",
     "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "8ee444caa71d14b8555f34e912d79800eacd2477",
+    "requires": "julia 0.5\nCompat 0.17.0\nDataStructures 0.5.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -4853,6 +4858,11 @@
    },
    "0.7.0": {
     "sha1": "e7490ea865f2e97d9665fb052ceb721a31249e47",
+    "requires": "julia 0.5\nCompat 0.17\n",
+    "testrequires": ""
+   },
+   "0.7.1": {
+    "sha1": "86f2d3a22c94767ec9b1a61017e358403c6404cd",
     "requires": "julia 0.5\nCompat 0.17\n",
     "testrequires": ""
    }
@@ -8478,6 +8488,11 @@
    },
    "0.4.3": {
     "sha1": "87af6fbe4c9f9e96a53c0314f119cc7f3f369b5a",
+    "requires": "julia 0.5\nColors 0.7.1\nColorTypes 0.4\nFixedPointNumbers 0.3.0\nStatsBase 0.8.2\nCompat 0.18.0\n",
+    "testrequires": "BaseTestNext\nStatsBase\n"
+   },
+   "0.4.4": {
+    "sha1": "101823d221339ee9e65f424ee775f54ab4f66fa3",
     "requires": "julia 0.5\nColors 0.7.1\nColorTypes 0.4\nFixedPointNumbers 0.3.0\nStatsBase 0.8.2\nCompat 0.18.0\n",
     "testrequires": "BaseTestNext\nStatsBase\n"
    }
@@ -19407,6 +19422,11 @@
     "sha1": "65d1b00e02d2a1211ee8ffca2232db77e7c696fe",
     "requires": "julia 0.5\nCompat 0.17.0\n",
     "testrequires": ""
+   },
+   "0.3.9": {
+    "sha1": "1f7d94d4831df61f05f4c66448e2ab5fc01e0e5a",
+    "requires": "julia 0.5\nCompat 0.17.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -22867,6 +22887,11 @@
     "sha1": "daf55ad776aa5331eec77fd5e0a4a5db6e913852",
     "requires": "julia 0.4\nCompat 0.8.4\n",
     "testrequires": "BaseTestNext\n"
+   },
+   "0.1.0": {
+    "sha1": "f03fc09194369dd954658c5b978144d05002c5ca",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -43686,6 +43711,11 @@
     "sha1": "b83c83cbb832f52852d11ced4cf1f53bf3169b4c",
     "requires": "julia 0.6.0-pre\nCrayons\nTokenize\n",
     "testrequires": ""
+   },
+   "0.2.5": {
+    "sha1": "146fd2882c514d8499709b5e6a1af8ed96abf9f3",
+    "requires": "julia 0.6.0-pre\nCrayons\nTokenize\n",
+    "testrequires": "VT100 0.2.0\n"
    }
   }
  },
@@ -44944,6 +44974,11 @@
    },
    "0.0.4": {
     "sha1": "a2c84be2042dc1c95d3f76b348dda972e79c014e",
+    "requires": "julia 0.6\nCompat\nBufferedStreams 0.3\nLibz 0.2\nDocumenter\n",
+    "testrequires": ""
+   },
+   "0.0.5": {
+    "sha1": "b8d3dfb803628a63ed4e22440300ee4aaeb52d19",
     "requires": "julia 0.6\nCompat\nBufferedStreams 0.3\nLibz 0.2\nDocumenter\n",
     "testrequires": ""
    }
@@ -63001,6 +63036,11 @@
     "sha1": "18927c086d30aa6d4c0cb9bd0d2dd97aabd1ec2e",
     "requires": "julia 0.4\nVoronoiDelaunay 0.1.0\nCompat 0.8.4\n",
     "testrequires": "julia 0.4\nVoronoiDelaunay 0.1.0\nDeldir 0.0.3\nCompat 0.8.4\nBaseTestNext 0.2.2\n"
+   },
+   "0.1.4": {
+    "sha1": "db8b92ee54d7dcce982fe590e79c822bf790dbac",
+    "requires": "julia 0.4\nVoronoiDelaunay 0.1.0\nCompat 0.8.4\n",
+    "testrequires": "julia 0.4\nVoronoiDelaunay 0.1.0\nDeldir 0.0.3 1.0.0\nCompat 0.8.4\nBaseTestNext 0.2.2\n"
    }
   }
  },
