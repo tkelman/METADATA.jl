@@ -216,6 +216,11 @@
     "sha1": "5aba846a24145c027a2139b51fd212a41b9c76ac",
     "requires": "julia 0.5\nBinDeps\nLightXML\nRequests\nJSON\nURIParser\n@windows WinRPM\n",
     "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "b4edb3f8e950e9b6d0b9060cc176effc0c832dd6",
+    "requires": "julia 0.5\nLightXML\nRequests\nJSON\nURIParser\nMbedTLS\nCompat 0.17.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -4559,6 +4564,16 @@
    "0.2.0": {
     "sha1": "5d4704402afb1f6f47c4b0ebeb51c353ed29f523",
     "requires": "julia 0.4\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "Bridge": {
+  "url": "https://github.com/mschauer/Bridge.jl.git",
+  "versions": {
+   "0.4.1": {
+    "sha1": "88b4871a877920f9c1379ea77e579ec675f5b8b3",
+    "requires": "julia 0.6\nPolynomials\nDistributions 0.11.1\nStaticArrays 0.6.1\nCompat 0.28.0\n",
     "testrequires": ""
    }
   }
@@ -9253,6 +9268,11 @@
    },
    "0.27.0": {
     "sha1": "8567fd919da21bf14ad695ab98f2e76efdd5e284",
+    "requires": "julia 0.5\n",
+    "testrequires": "OffsetArrays\n"
+   },
+   "0.28.0": {
+    "sha1": "3f2391c34813b0aa930b4f08aafa92a9a1477b65",
     "requires": "julia 0.5\n",
     "testrequires": "OffsetArrays\n"
    }
@@ -37523,6 +37543,11 @@
     "sha1": "8fe02bd9b4e51b6edafeccfcaee730be08bb97f8",
     "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
     "testrequires": ""
+   },
+   "0.4.19": {
+    "sha1": "b78bed5941ca35b9a1f6df7c149712b005a5574b",
+    "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
+    "testrequires": ""
    }
   }
  },
@@ -44476,6 +44501,11 @@
     "sha1": "89675ad2a34ca75839a39ca1581cd9617ca3e8d8",
     "requires": "julia 0.6.0-pre\nPositiveFactorizations\nCompat 0.18.0\nLineSearches 2.1.0\nCalculus\nNLSolversBase 2.1.0\nForwardDiff 0.5.0\n",
     "testrequires": ""
+   },
+   "0.9.3": {
+    "sha1": "c4e0116a5a1df651c5df16afe6c4b80e7411d148",
+    "requires": "julia 0.6.0-pre\nPositiveFactorizations\nCompat 0.18.0\nLineSearches 2.1.0\nCalculus\nNLSolversBase 2.1.0\nForwardDiff 0.5.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -47065,6 +47095,11 @@
    "0.2.0": {
     "sha1": "d4ea10dccdeefeb1572cddb6acac25734cb1b114",
     "requires": "julia 0.4\nArgParse\nYAML\nMocking\nCompat\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "c08a8fbf1e7477a9362b8c7270ceeee354cb984c",
+    "requires": "julia 0.5\nArgParse\nYAML\nFilePaths 0.2.0\nMocking\nCompat 0.17.0\nMemento\n",
     "testrequires": ""
    }
   }
@@ -52746,6 +52781,11 @@
    },
    "0.0.4": {
     "sha1": "8bc57c1ec6909fb14b72fe34068320360f5a5aa2",
+    "requires": "julia 0.6\n",
+    "testrequires": "Example\n"
+   },
+   "0.0.5": {
+    "sha1": "0ab150ed5320b01851b3962e4f4c3a61b2e0b233",
     "requires": "julia 0.6\n",
     "testrequires": "Example\n"
    }
