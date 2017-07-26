@@ -13599,6 +13599,11 @@
     "sha1": "59c9f516ef249ed266b1a9f020fef07287f7cd9b",
     "requires": "julia 0.6\nRequests\n",
     "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "3568ccba29a1ab406db50eab42a43c2d3c2fdfc0",
+    "requires": "julia 0.6\nRequests\n",
+    "testrequires": ""
    }
   }
  },
@@ -17942,6 +17947,11 @@
     "sha1": "81fdd918a4c77e45fb9fd054c5bac005635e6b19",
     "requires": "julia 0.6.0-rc1\nDataArrays\nDataFrames\nDates\nPyCall 1.5\n",
     "testrequires": ""
+   },
+   "0.8.1": {
+    "sha1": "3e55cdb38d265f707773c51c08f23f2c103641d3",
+    "requires": "julia 0.6\nDataArrays\nDataFrames\nPyCall 1.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -19290,6 +19300,11 @@
   "versions": {
    "0.0.1": {
     "sha1": "0d87dfeb61cc69bc9528c2e6c57dd783d7034fa1",
+    "requires": "julia 0.5\nCompat 0.17.0\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "769a89e9b57bfd6def77478e5d14750529379eb3",
     "requires": "julia 0.5\nCompat 0.17.0\n",
     "testrequires": ""
    }
@@ -28563,6 +28578,11 @@
    },
    "0.11.0": {
     "sha1": "d1b67195ec35bb21b119ea79062ff16fa19e8568",
+    "requires": "julia 0.6.0\nReexport\nColors 0.7.0\nColorVectorSpace 0.2\nFixedPointNumbers 0.3.0\nImageCore\nImageTransformations 0.2.2\nImageFiltering\nAxisArrays\nImageAxes\nImageMetadata\nIndirectArrays\nMappedArrays\nSIUnits\nGraphics 0.1\nFileIO\nCompat 0.19\nStatsBase 0.14   # for histrange\nRequires\n",
+    "testrequires": "@osx TestImages\nFactCheck\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\nOffsetArrays\nTestImages\n"
+   },
+   "0.11.1": {
+    "sha1": "7c8a791d6622d94a8812198a8bfeb5e587bd2687",
     "requires": "julia 0.6.0\nReexport\nColors 0.7.0\nColorVectorSpace 0.2\nFixedPointNumbers 0.3.0\nImageCore\nImageTransformations 0.2.2\nImageFiltering\nAxisArrays\nImageAxes\nImageMetadata\nIndirectArrays\nMappedArrays\nSIUnits\nGraphics 0.1\nFileIO\nCompat 0.19\nStatsBase 0.14   # for histrange\nRequires\n",
     "testrequires": "@osx TestImages\nFactCheck\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\nOffsetArrays\nTestImages\n"
    }
@@ -44941,6 +44961,11 @@
     "sha1": "d79eb2bf8637726887b16a4d8d520308b9816bb5",
     "requires": "julia 0.6.0\nDiffEqBase 1.15.0\nParameters 0.5.0\nForwardDiff 0.5.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.8.0\nJuno 0.2.5\nCalculus 0.1.15\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\n",
     "testrequires": "ODEInterface 0.0.10\nUnitful 0.0.4\nDiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nODEInterfaceDiffEq\nDiffEqBase 0.10.0\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.11.2": {
+    "sha1": "3b8dd0dd341f65aa9654a92e636bc4436d25b198",
+    "requires": "julia 0.6.0\nDiffEqBase 1.15.0\nParameters 0.5.0\nForwardDiff 0.5.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.8.0\nJuno 0.2.5\nCalculus 0.1.15\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\n",
+    "testrequires": "ODEInterface 0.0.10\nUnitful 0.0.4\nDiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nODEInterfaceDiffEq\nDiffEqBase 0.10.0\nSpecialMatrices\nStaticArrays\n"
    }
   }
  },
@@ -50660,6 +50685,11 @@
     "sha1": "b357b6d842514252248d1b17ec62a90ae44442f8",
     "requires": "julia 0.5\nDataStructures 0.5.0\nDataFrames 0.9\nNullableArrays 0.1.0\nCategoricalArrays 0.1.0\nAxisArrays 0.0.6\nNamedArrays 0.5.3\nCompat 0.17.0\n@windows WinReg 0.2.0\n",
     "testrequires": ""
+   },
+   "0.7.4": {
+    "sha1": "0b45b5d5e8c2955775b10df3c323e1f10fa3b189",
+    "requires": "julia 0.5\nDataStructures 0.5.0\nDataFrames 0.9\nNullableArrays 0.1.0\nCategoricalArrays 0.1.0\nAxisArrays 0.0.6\nNamedArrays 0.5.3\nCompat 0.17.0\n@windows WinReg 0.2.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -51691,6 +51721,11 @@
    },
    "0.11.1": {
     "sha1": "06c800494be02cb8061cd02aba459667cf727e25",
+    "requires": "julia 0.6-pre\nJuno\nRecipesBase 0.1.0\nStaticArrays\n",
+    "testrequires": "OrdinaryDiffEq 0.3.0\nParameterizedFunctions 0.3.0\nDiffEqBase 0.3.0\n"
+   },
+   "0.11.2": {
+    "sha1": "876d5a4a12f4e3681bda45944b0c4ac63de2c0f6",
     "requires": "julia 0.6-pre\nJuno\nRecipesBase 0.1.0\nStaticArrays\n",
     "testrequires": "OrdinaryDiffEq 0.3.0\nParameterizedFunctions 0.3.0\nDiffEqBase 0.3.0\n"
    }
