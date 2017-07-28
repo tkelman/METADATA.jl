@@ -76,6 +76,11 @@
     "sha1": "08f2c42d89d95b1ee38ed566bf786f0331aa8a86",
     "requires": "julia 0.5\nCompat 0.17.0\n",
     "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "9491451f2798b0379fb0ad9dc0173cc3f2ad81ad",
+    "requires": "julia 0.5\nCompat 0.17.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -4945,6 +4950,11 @@
     "sha1": "cc95315799684837ac2d523998b3fdbb8fa446ab",
     "requires": "julia 0.6\nBinDeps\nMathProgBase 0.6\nPolyhedra 0.2 0.3\n@windows WinRPM\n@osx Homebrew\n",
     "testrequires": "Combinatorics\nJuMP\n"
+   },
+   "0.2.2": {
+    "sha1": "d4bd403fc08c030a58a89c54f974f406e9bc5c71",
+    "requires": "julia 0.6\nBinDeps\nMathProgBase 0.6\nPolyhedra 0.2 0.3\n@windows WinRPM\n@osx Homebrew\n",
+    "testrequires": "Combinatorics\nJuMP\n"
    }
   }
  },
@@ -5614,6 +5624,11 @@
    "0.1.1": {
     "sha1": "9686ca0143a042cbbd6f4a083ff403156e3b997e",
     "requires": "julia 0.6-pre\nTextParse 0.1.6\nIterableTables 0.2.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
+    "testrequires": "DataFrames 0.10.0\n"
+   },
+   "0.2.0": {
+    "sha1": "98e274eeb4939aaa7a6ebd2430a731c44a44ac80",
+    "requires": "julia 0.6\nTextParse 0.1.6\nIterableTables 0.4.0\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\n",
     "testrequires": "DataFrames 0.10.0\n"
    }
   }
@@ -18802,6 +18817,11 @@
     "sha1": "04a4364cf3da2a8cc2ace043aa2667d5c10bbbab",
     "requires": "julia 0.5.0\nAdjacentFloats 0.0.2\nErrorfreeArithmetic 0.0.3\n",
     "testrequires": ""
+   },
+   "0.0.5": {
+    "sha1": "56369a8f4e2a4af683eb5471ea2c802f7b7e0714",
+    "requires": "julia 0.5.0\nAdjacentFloats 0.0.2\nErrorfreeArithmetic 0.0.3\n",
+    "testrequires": ""
    }
   }
  },
@@ -21227,6 +21247,11 @@
     "sha1": "fd4fe050d8ead166dbcfaebf4fb8fcd34f94e807",
     "requires": "julia 0.6\n\nStaticArrays 0.6.0\nGeometryTypes 0.4.1\n\nGLWindow 0.5\nGLAbstraction 0.5\nModernGL 0.1.0\n\nMeshIO 0.1.0\nPacking 0.1\nReactive 0.5.2\n\n\nFixedPointNumbers 0.3.0\nFreeTypeAbstraction 0.1.0\nSignedDistanceFields 0.2.0\n\nFreeType\nIterTools\nFileIO\nUnicodeFun\nQuaternions\nGLFW\nColors\nColorVectorSpace\n\nImages 0.9.0 # first version working on 0.6\nAxisArrays\nImageAxes\n",
     "testrequires": "ImageMagick\nHighlights\nContour\n"
+   },
+   "0.5.1": {
+    "sha1": "c3e7a315887c513133266220bc3814188979ce90",
+    "requires": "julia 0.6\n\nStaticArrays 0.6.0\nGeometryTypes 0.4.1\n\nGLWindow 0.5\nGLAbstraction 0.5\nModernGL 0.1.0\n\nMeshIO 0.1.0\nPacking 0.1\nReactive 0.5.2\n\n\nFixedPointNumbers 0.3.0\nFreeTypeAbstraction 0.1.0\nSignedDistanceFields 0.2.0\n\nFreeType\nIterTools\nFileIO\nUnicodeFun\nQuaternions\nGLFW\nColors\nColorVectorSpace\n\nImages 0.9.0 # first version working on 0.6\nAxisArrays\nImageAxes\n",
+    "testrequires": "ImageMagick\nHighlights\nContour\n"
    }
   }
  },
@@ -23065,6 +23090,11 @@
    },
    "0.4.1": {
     "sha1": "40486bfd04e824a2509c99a3a1ed52c42f641b06",
+    "requires": "julia 0.6\n\nIterTools\nStaticArrays 0.5.1\nColorTypes 0.3.1\nFixedPointNumbers 0.3\n",
+    "testrequires": ""
+   },
+   "0.4.2": {
+    "sha1": "81dbd66f0ab8935a99ee2c82bfc885610b310cf6",
     "requires": "julia 0.6\n\nIterTools\nStaticArrays 0.5.1\nColorTypes 0.3.1\nFixedPointNumbers 0.3\n",
     "testrequires": ""
    }
@@ -31710,6 +31740,11 @@
     "sha1": "0bed3704dde263cc3c010daf591e2e7f6702c3d0",
     "requires": "julia 0.5\nMathProgBase 0.6 0.7\nReverseDiffSparse 0.7 0.8\nForwardDiff 0.3 0.5\nCalculus\nCompat 0.18\n",
     "testrequires": "Cbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\nOffsetArrays 0.2.13\n"
+   },
+   "0.18.0": {
+    "sha1": "ec30d38cc95b6f114ea136972920000f03834657",
+    "requires": "julia 0.6\nMathProgBase 0.6 0.7\nReverseDiffSparse 0.8 0.9\nForwardDiff 0.5 0.6\nCalculus\n",
+    "testrequires": "Cbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\nOffsetArrays 0.2.13\n"
    }
   }
  },
@@ -32154,6 +32189,16 @@
    "0.3.0": {
     "sha1": "bbde5558ca0b329ecde15e580ea977838f20ea51",
     "requires": "julia 0.6-\nMacroTools\nHiccup\nMedia\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "Jute": {
+  "url": "https://github.com/fjarri/Jute.jl.git",
+  "versions": {
+   "0.0.2": {
+    "sha1": "4833b707f9e11ee7c47f243752674ae1f3fdfc93",
+    "requires": "julia 0.6\nArgParse\nDataStructures\nIterTools\n",
     "testrequires": ""
    }
   }
@@ -33542,6 +33587,11 @@
    "0.1.1": {
     "sha1": "efff10eb370f5407c3c7ce863973e03d8ee6ff25",
     "requires": "julia 0.6\nMacroTools\n",
+    "testrequires": "Documenter\n"
+   },
+   "0.1.2": {
+    "sha1": "b6b81926af93a1803cfb3f7b22ea721fd8afc173",
+    "requires": "julia 0.6\nMacroTools 0.3.3\n",
     "testrequires": "Documenter\n"
    }
   }
@@ -36322,6 +36372,11 @@
    "0.8.6": {
     "sha1": "18f71b83cdbaeaf69755c67d657d48f15a8e2b1b",
     "requires": "julia 0.4\nCompat 0.9.1\nColors\nCairo\nFileIO\nJuno\nHiccup\n",
+    "testrequires": "BaseTestNext\n"
+   },
+   "0.9.0": {
+    "sha1": "474c33c2022fcced634d8a3e5ee00f76d3f96e41",
+    "requires": "julia 0.5\nCompat 0.9.1\nColors\nCairo\nFileIO\nJuno\nHiccup\n",
     "testrequires": "BaseTestNext\n"
    }
   }
@@ -46856,6 +46911,11 @@
     "sha1": "338ed058a7665a14248e184f3d0c547ca2790cd2",
     "requires": "julia 0.5\nPhyloTrees 0.7\nDistributions\n",
     "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "da38079d0a773ac5102bcff689bab26655bd3522",
+    "requires": "julia 0.5\nPhyloTrees 0.7\nDistributions\n",
+    "testrequires": ""
    }
   }
  },
@@ -47861,6 +47921,11 @@
     "sha1": "27dffa52398609c86eab262b77c8d3aa8a74a794",
     "requires": "julia 0.6\nGeometryTypes 0.4\nStaticArrays 0.5\nMathProgBase 0.5.10 0.7\nJuMP 0.16\nRecipesBase 0.2\n",
     "testrequires": "Combinatorics\nGLPK\nGLPKMathProgInterface\nCDDLib 0.2 0.3\nLRSLib 0.1 0.2\n"
+   },
+   "0.2.1": {
+    "sha1": "8608ea0307c40061e6dce6adb37ebf5afe479781",
+    "requires": "julia 0.6\nGeometryTypes 0.4\nStaticArrays 0.5\nMathProgBase 0.5.10 0.7\nJuMP 0.16\nRecipesBase 0.2\n",
+    "testrequires": "Combinatorics\nGLPK\nGLPKMathProgInterface\nCDDLib 0.2 0.3\n"
    }
   }
  },
@@ -61640,6 +61705,11 @@
    "0.0.1": {
     "sha1": "9e9a228c0dea99852bf7f75c3858eb57331f4917",
     "requires": "julia 0.5\nCompat 0.17.0\nSugar\nMatcha\nStaticArrays\nDataStructures\nOpenCL 0.5.2\nSpecialFunctions\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "f7454e95d44a0755e7e4a60843f8a83a5e2c3dc9",
+    "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.3.0\nMatcha\nStaticArrays 0.3.0\nDataStructures\nOpenCL 0.5.2\n#ModernGL\n#GLAbstraction\nSpecialFunctions\n",
     "testrequires": ""
    }
   }
