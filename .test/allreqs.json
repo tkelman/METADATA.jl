@@ -2655,6 +2655,11 @@
     "sha1": "71d8cd90e9396ccb74ebee213306c9f4211c2140",
     "requires": "Compat 0.7.18\nDocStringExtensions\nHDF5\njulia 0.5",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "7896d01dd55c8f1ad32f1decd5b4e1f165578672",
+    "requires": "Compat 0.7.18\nDocStringExtensions\nHDF5\njulia 0.6\n\n",
+    "testrequires": ""
    }
   }
  },
@@ -5520,6 +5525,11 @@
     "sha1": "3eb416382f12e385d36ea7da8dc1417b7d09cb69",
     "requires": "julia 0.6.0-pre.beta\nTokenize 0.1.7",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "daceb0cbfb3b06a135c8b324e041a7c214b1d11a",
+    "requires": "julia 0.6.0-pre.beta\nTokenize 0.1.10\n",
+    "testrequires": ""
    }
   }
  },
@@ -5755,6 +5765,11 @@
     "sha1": "22f4799cdbb038fdabbbf12fe2d92a3cabfc2ab1",
     "requires": "julia 0.5\nCompat 0.18.0\n",
     "testrequires": "Documenter\n\n"
+   },
+   "0.5.0": {
+    "sha1": "8ad446335847fe73babd8bdc35b49723388ce32e",
+    "requires": "julia 0.5\nCompat 0.18.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -10772,6 +10787,11 @@
    },
    "0.1.9": {
     "sha1": "2514bad52449b099a1d0f05b683a6019c0ed4f0d",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.1.10": {
+    "sha1": "e70e564a12c70255fbdafb9378c1ebfb63daf63f",
     "requires": "julia 0.5\n",
     "testrequires": ""
    }
@@ -26985,6 +27005,11 @@
     "sha1": "1b17812b9ee2a544821fe4d00cfd9ac93a2491e5",
     "requires": "julia 0.5\nMbedTLS 0.4.3\nJSON 0.5\nZMQ 0.3.3\nCompat 0.25.1\nConda 0.1.5\n",
     "testrequires": ""
+   },
+   "1.6.0": {
+    "sha1": "806cbf09421d4e945b728d657769f7e25e584d62",
+    "requires": "julia 0.5\nMbedTLS 0.4.3\nJSON 0.5\nZMQ 0.3.3\nCompat 0.27.0\nConda 0.1.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -34281,6 +34306,11 @@
    },
    "0.2.6": {
     "sha1": "2fd1837cbd04a46b51da3ce802cec2c6eef6fc60",
+    "requires": "julia 0.4\nCompat 0.9.5\n",
+    "testrequires": ""
+   },
+   "0.2.8": {
+    "sha1": "1b2f3a2774a2202f7d40ee1e3d9a0d542d934f15",
     "requires": "julia 0.4\nCompat 0.9.5\n",
     "testrequires": ""
    }
@@ -48299,6 +48329,26 @@
    }
   }
  },
+ "PowerModelsAnnex": {
+  "url": "https://github.com/lanl-ansi/PowerModelsAnnex.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "7b4726b2148ece1b48a968a33fa5b0adfbad9df2",
+    "requires": "julia 0.5\nJuMP 0.17 0.18-\nPowerModels 0.3 0.4-\nCompat 0.17\n",
+    "testrequires": "julia 0.5\n\nIpopt 0.2.6\n\nLogging 0.3.1\n"
+   },
+   "0.0.2": {
+    "sha1": "1b672c5a797b0f9e61eb1d259240ade5ec8d2d9e",
+    "requires": "julia 0.5\nJuMP 0.17 0.18-\nPowerModels 0.3 0.4-\nCompat 0.17\n",
+    "testrequires": "julia 0.5\n\nLogging 0.3.1\n\nIpopt\n"
+   },
+   "0.0.3": {
+    "sha1": "13fdf1f9c523f0300cbd7190c9f36c83fa0aca75",
+    "requires": "julia 0.5\nJuMP 0.17 0.18-\nPowerModels 0.3 0.4-\nCompat 0.17\n",
+    "testrequires": "julia 0.5\n\nLogging 0.2\n\nIpopt\n"
+   }
+  }
+ },
  "PowerSeries": {
   "url": "git://github.com/jwmerrill/PowerSeries.jl.git",
   "versions": {
@@ -52118,6 +52168,16 @@
     "sha1": "03fc369a8fc54cd4e60255dc7a674600e0281b6f",
     "requires": "julia 0.4\nCompat 0.8.8\n",
     "testrequires": "BaseTestNext\n"
+   }
+  }
+ },
+ "RemoteFiles": {
+  "url": "https://github.com/helgee/RemoteFiles.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "4a07537af2eee828494e1d415aef3dac3952c576",
+    "requires": "julia 0.6\nURIParser 0.1.8\n",
+    "testrequires": ""
    }
   }
  },
@@ -62200,6 +62260,11 @@
    "0.1.8": {
     "sha1": "933fbcd20be0b31e457c7ab81a5766cd1b361c06",
     "requires": "julia 0.4\nCompat 0.9.5\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "0ee051738dab941a467f1d49bead09b1d100a1c0",
+    "requires": "julia 0.5\nCompat 0.9.5\n",
     "testrequires": ""
    }
   }
