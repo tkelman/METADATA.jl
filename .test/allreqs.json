@@ -2510,6 +2510,11 @@
     "sha1": "6cbd6b9f5c5e06bac562e83dda291a769d1c8623",
     "requires": "julia 0.4\nWoodburyMatrices\nCompat 0.8\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "f1f3d0f9601a04bb098cada9c5a8f2b2844206d6",
+    "requires": "julia 0.5\nWoodburyMatrices\n",
+    "testrequires": ""
    }
   }
  },
@@ -2964,6 +2969,11 @@
    "0.2.3": {
     "sha1": "2effd518e6efcbdd21458fed32dd0c12eaf3c995",
     "requires": "julia 0.5\nCompat 0.19\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "2ff93a71333a6966223735b5372a7a04862452ae",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
@@ -5843,6 +5853,11 @@
    },
    "0.4.0": {
     "sha1": "1da524d321686e3f124bb2555914110c98bce646",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.8\n",
+    "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "1bb9162e2613dc2c7010bf66cf5973d0898839b8",
     "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.8\n",
     "testrequires": ""
    }
@@ -14702,6 +14717,11 @@
    },
    "0.9.0": {
     "sha1": "a57d3ed8e33a5ee6595a2dce7ad78663be40b359",
+    "requires": "julia 0.5\nParameterizedFunctions 2.0.0\nDiffEqBase 0.15.0\nDiffEqPDEBase\n",
+    "testrequires": ""
+   },
+   "0.9.1": {
+    "sha1": "61cf58991f979eedfe4899bb7c73075f824c0225",
     "requires": "julia 0.5\nParameterizedFunctions 2.0.0\nDiffEqBase 0.15.0\nDiffEqPDEBase\n",
     "testrequires": ""
    }
@@ -37953,6 +37973,11 @@
     "sha1": "b78bed5941ca35b9a1f6df7c149712b005a5574b",
     "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
     "testrequires": ""
+   },
+   "0.4.20": {
+    "sha1": "31f0460929e3b234ed7f8b8a1ba71a8e4921c944",
+    "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
+    "testrequires": ""
    }
   }
  },
@@ -41701,6 +41726,11 @@
    "0.2.0": {
     "sha1": "5b3735adc7cc7192e8a60d8138f6da87ed931691",
     "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "c574920570aaf7966287d9dc98f016c1db67e08c",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
@@ -46609,6 +46639,11 @@
    },
    "2.1.2": {
     "sha1": "576950d89396474e94c0bf357ddc7a155b957f17",
+    "requires": "julia 0.5\nSymEngine 0.2.0\nDataStructures 0.4.6\nDiffEqBase 0.14.0\nSimpleTraits 0.1.1\n",
+    "testrequires": "SpecialFunctions\nDiffEqProblemLibrary\n"
+   },
+   "2.2.0": {
+    "sha1": "796d9082ef7a0cc578990bc610a60f876a4c046b",
     "requires": "julia 0.5\nSymEngine 0.2.0\nDataStructures 0.4.6\nDiffEqBase 0.14.0\nSimpleTraits 0.1.1\n",
     "testrequires": "SpecialFunctions\nDiffEqProblemLibrary\n"
    }
