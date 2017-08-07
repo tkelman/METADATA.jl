@@ -18013,6 +18013,11 @@
     "sha1": "fa72b59dec93a08fdb19d9ff68a5fbbf91487d98",
     "requires": "julia 0.5\nEinsum 0.1\nDataStructures 0.5.1\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "ddb6d41ef01d8c025b155903d8da1bda04b84e0b",
+    "requires": "julia 0.6\nEinsum\nDataStructures 0.5.2\nSugar\n",
+    "testrequires": ""
    }
   }
  },
@@ -27660,6 +27665,11 @@
     "sha1": "94c3f76c3b586bb61a2f0c771324aa7f321191f2",
     "requires": "julia 0.6.0\nFixedPointNumbers 0.3.0\nColorTypes 0.4\nColors\nMappedArrays 0.0.3\nPaddedViews 0.0.2\nGraphics\nShowItLikeYouBuildIt\nOffsetArrays\nCompat 0.19\n",
     "testrequires": "ColorVectorSpace\nOffsetArrays\n"
+   },
+   "0.4.1": {
+    "sha1": "421026f2af11a07b67d99168e588f44a849c330b",
+    "requires": "julia 0.6.0\nFixedPointNumbers 0.3.0\nColorTypes 0.4\nColors\nMappedArrays 0.0.3\nPaddedViews 0.0.2\nGraphics\nShowItLikeYouBuildIt 0.1\nOffsetArrays\nCompat 0.19\n",
+    "testrequires": "ColorVectorSpace\nOffsetArrays\n"
    }
   }
  },
@@ -32284,6 +32294,11 @@
    "0.3.0": {
     "sha1": "419edd97c825a3a5bbac62d55fb6f466d163ec6c",
     "requires": "julia 0.6\nForwardDiff\nLightXML 0.4\nHDF5 0.7\nDataFrames\nFormatting\nLogging\nTimerOutputs\nAbaqusReader\nFEMQuad\nAsterReader\n",
+    "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "6fcba926d0fb1d2d86007a9388e1dea67809be3e",
+    "requires": "julia 0.6\nForwardDiff\nLightXML 0.4\nHDF5 0.7\nDataFrames\nFormatting\nLogging\nTimerOutputs\nAbaqusReader\nAsterReader\nFEMBasis\nFEMQuad\n",
     "testrequires": ""
    }
   }
@@ -43180,6 +43195,16 @@
    }
   }
  },
+ "NodeNumbering": {
+  "url": "https://github.com/JuliaFEM/NodeNumbering.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "df58e63351df841365dac581bec1ed6507a97c2d",
+    "requires": "julia 0.6\nLogging\n",
+    "testrequires": "TimerOutputs\n"
+   }
+  }
+ },
  "NonNegLeastSquares": {
   "url": "git://github.com/ahwillia/NonNegLeastSquares.jl.git",
   "versions": {
@@ -44068,8 +44093,18 @@
     "requires": "julia 0.4\n",
     "testrequires": ""
    },
+   "0.1.5": {
+    "sha1": "e884f71a5c271615de5a0cb6587b959274ceba8a",
+    "requires": "julia 0.4\n",
+    "testrequires": ""
+   },
    "0.4.0": {
     "sha1": "140bfaf1ddab8f4bc7226e7ea630cd2e0fd1fd6d",
+    "requires": "julia 0.7-DEV\n",
+    "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "711156af959f98130472708375d05898f2410e47",
     "requires": "julia 0.7-DEV\n",
     "testrequires": ""
    }
@@ -53671,6 +53706,16 @@
    },
    "0.0.6": {
     "sha1": "17bacf0da01abd04e79dccacbcb8f4f706064c4e",
+    "requires": "julia 0.6\nDataStructures\n",
+    "testrequires": "Example\n"
+   },
+   "0.0.7": {
+    "sha1": "416ff37ea2080b0bb4c55b66f757d05ecb412d26",
+    "requires": "julia 0.6\nDataStructures\n",
+    "testrequires": "Example\n"
+   },
+   "0.0.8": {
+    "sha1": "454379abaa01dfdf43e74a4c5690e5ae6c6291bf",
     "requires": "julia 0.6\nDataStructures\n",
     "testrequires": "Example\n"
    }
@@ -66479,7 +66524,12 @@
    },
    "1.0.5": {
     "sha1": "e95c11cae95a0fd0f060dc5c053af7384b6bb78f",
-    "requires": "julia 0.4\nRequests 0.3.9\nLightXML\nHttpCommon\nHttpParser 0.2.0\nJSON\nDataFrames\nFormatting\n",
+    "requires": "julia 0.4\nRequests 0.3.9\nLightXML\nHttpCommon\nHttpParser 0.2.0\nJSON\nDataFrames 0.7.3\nFormatting\n",
+    "testrequires": ""
+   },
+   "1.0.6": {
+    "sha1": "f9ab84e72761a229dc1ea4a8e17a544fe9de3886",
+    "requires": "julia 0.4\nRequests 0.3.9\nLightXML\nHttpCommon\nHttpParser 0.2.0\nJSON\nDataFrames 0.7.3\nFormatting\n",
     "testrequires": ""
    }
   }
