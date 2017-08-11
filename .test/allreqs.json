@@ -341,6 +341,16 @@
     "sha1": "f1c400b847a2c507611d441eacaa50a31bd13bbb",
     "requires": "julia 0.5\nRetry\nSymDict 0.1.2\nXMLDict\nJSON\nIniFile\nURIParser 0.1.2\nRequests\nMbedTLS\nHttpCommon\nDataStructures\n",
     "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "df1216674082eeecd2a511599820c924f5c7ca3d",
+    "requires": "julia 0.5\nRetry\nSymDict 0.1.2\nXMLDict\nJSON\nIniFile\nURIParser 0.1.2\nRequests\nMbedTLS\nHttpCommon\nDataStructures\n",
+    "testrequires": ""
+   },
+   "0.2.3": {
+    "sha1": "be6551cdf6af85799143958aab9e227a4e33f5c3",
+    "requires": "julia 0.5\nRetry\nSymDict 0.1.2\nXMLDict\nJSON\nIniFile\nURIParser 0.1.2\nRequests\nMbedTLS\nHttpCommon\nDataStructures\n",
+    "testrequires": ""
    }
   }
  },
@@ -3738,7 +3748,7 @@
    },
    "0.7.0": {
     "sha1": "e2553e57468d5692f7e13f45ddc888670bcbbfda",
-    "requires": "julia 0.7.0-DEV.1287\nURIParser\nSHA\nCompat 0.17.0\n",
+    "requires": "julia 0.5\n@linux julia 0.7.0-DEV.1287\nURIParser\nSHA\nCompat 0.17.0\n",
     "testrequires": "Cairo\nHttpParser\nGSL\n"
    }
   }
@@ -5789,6 +5799,11 @@
    "0.1.0": {
     "sha1": "0f19aac8e811b446539992ac66e505a86856a735",
     "requires": "julia 0.5\nCUDArt 0.3.0\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "c053b1d81e2e57330d6e5b7a7e6cd744678f73d1",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0\n",
     "testrequires": ""
    }
   }
@@ -9523,6 +9538,11 @@
    },
    "0.29.0": {
     "sha1": "b56640999f12d6d4a7f89e5deb72708f7c922fdf",
+    "requires": "julia 0.5\n",
+    "testrequires": "OffsetArrays\n"
+   },
+   "0.30.0": {
+    "sha1": "5883a74bcd743bbee356c335df3d4afff1532556",
     "requires": "julia 0.5\n",
     "testrequires": "OffsetArrays\n"
    }
@@ -15359,6 +15379,11 @@
     "sha1": "d8ee095eaee727ed1ac35a9e56b00fa320d4d6ac",
     "requires": "julia 0.5 0.7-\nLightGraphs 0.7.0\nIterators 0.2.0\nDeferredFutures 0.3.0\nDataStructures 0.5.0\nAutoHashEquals 0.0.10\nMemento 0.1.0\nResultTypes\n",
     "testrequires": "Iterators\n"
+   },
+   "0.3.0": {
+    "sha1": "9a06c2529aaf75228005dfaee162d87d24ab51d4",
+    "requires": "julia 0.5 0.7-\nCompat 0.18.0\nIterTools 0.1.0\nLightGraphs 0.7.0\nDeferredFutures 0.5.0\nDataStructures 0.5.0\nAutoHashEquals 0.0.10\nMemento 0.1.0\nResultTypes\n",
+    "testrequires": ""
    }
   }
  },
@@ -18128,6 +18153,11 @@
     "sha1": "ddb6d41ef01d8c025b155903d8da1bda04b84e0b",
     "requires": "julia 0.6\nEinsum\nDataStructures 0.5.2\nSugar\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "8c2696c0233ebf7f3716eb942be2188420aedfde",
+    "requires": "julia 0.6\nEinsum\nDataStructures 0.5.2\nSugar\n",
+    "testrequires": ""
    }
   }
  },
@@ -20805,6 +20835,11 @@
    },
    "0.2.2": {
     "sha1": "997a6f58e5fcc0608c136a6e9aa2e7e31f384726",
+    "requires": "julia 0.4\nOpenGene\n",
+    "testrequires": ""
+   },
+   "0.2.3": {
+    "sha1": "fb094f3211337881761c73cf5867a0876cfb19e9",
     "requires": "julia 0.4\nOpenGene\n",
     "testrequires": ""
    }
@@ -31175,6 +31210,11 @@
     "sha1": "6a415dd6b1d98baeb976babef8696ef243b709b5",
     "requires": "julia 0.6\nDataStructures\nLibz\nFileIO 0.5.0\n",
     "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "190da18d0dc3295f83f9d33f49c5119e10a0e635",
+    "requires": "julia 0.6\nDataStructures\nLibz\nFileIO 0.5.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -41100,6 +41140,16 @@
    }
   }
  },
+ "ModelReduction": {
+  "url": "https://github.com/JuliaFEM/ModelReduction.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "29ece42fb6e0ac6677c40a0b6105962b5a6d73c8",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   }
+  }
+ },
  "ModernGL": {
   "url": "git://github.com/JuliaGL/ModernGL.jl.git",
   "versions": {
@@ -43125,6 +43175,11 @@
    },
    "0.6.2": {
     "sha1": "331f82ab5c3c0a9028ff2c535cfb93b94c3cd1ff",
+    "requires": "julia 0.5\n\n",
+    "testrequires": ""
+   },
+   "0.6.3": {
+    "sha1": "58e80e13410c968f12caa8f0771d19da9e5ff645",
     "requires": "julia 0.5\n\n",
     "testrequires": ""
    }
@@ -45159,6 +45214,11 @@
    },
    "0.1.10": {
     "sha1": "10a3f9e63191ecc073eb4ecd5e1f3771c5fd3545",
+    "requires": "julia 0.4\nGZip\nDataStructures\nDataFrames\nSHA\nCompat\n",
+    "testrequires": ""
+   },
+   "0.1.11": {
+    "sha1": "332055212d0301dbc13b056298c3541888065cf4",
     "requires": "julia 0.4\nGZip\nDataStructures\nDataFrames\nSHA\nCompat\n",
     "testrequires": ""
    }
@@ -54583,6 +54643,11 @@
     "sha1": "8ae444ba6f6edddb21dc2bfaa2b74dd9b19993f9",
     "requires": "julia 0.5\nPrimes\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "596e4b33ab9946bbd69985a6b843089e0e676c9a",
+    "requires": "julia 0.5\nPrimes\nCompat 0.9.4\n",
+    "testrequires": ""
    }
   }
  },
@@ -55018,6 +55083,11 @@
     "sha1": "f04b314a293511a441e3792d2cf0210d582c0189",
     "requires": "julia 0.5\nBinDeps\nMathProgBase 0.5 0.7\nCompat 0.8.6\n",
     "testrequires": "JuMP 0.16\nGLPKMathProgInterface\nOffsetArrays 0.2.13\n"
+   },
+   "0.4.0": {
+    "sha1": "ab5119ddf1272254b507c428195640262ae162ab",
+    "requires": "julia 0.6\nBinDeps\nMathProgBase 0.5 0.7\nCompat 0.8.6\n",
+    "testrequires": "JuMP 0.16\nOffsetArrays 0.2.13\n"
    }
   }
  },
@@ -56226,6 +56296,11 @@
    },
    "0.1.0": {
     "sha1": "883f516a8cac4ce2a69f14f23652011036f8ed55",
+    "requires": "julia 0.4\nOpenGene\nJSON\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "0494b275efe9133cf85945e3e08e9f25b31a1ed0",
     "requires": "julia 0.4\nOpenGene\nJSON\n",
     "testrequires": ""
    }
