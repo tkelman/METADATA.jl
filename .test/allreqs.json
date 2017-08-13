@@ -28083,6 +28083,16 @@
    }
   }
  },
+ "ImageMorphology": {
+  "url": "https://github.com/JuliaImages/ImageMorphology.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "971e354bc0dfde54c969d8599639854160c4b465",
+    "requires": "julia 0.6\nImageCore\nImageMetadata\n",
+    "testrequires": ""
+   }
+  }
+ },
  "ImageProjectiveGeometry": {
   "url": "git://github.com/peterkovesi/ImageProjectiveGeometry.jl.git",
   "versions": {
@@ -66176,6 +66186,16 @@
     "sha1": "987daebf4634ee3be19857ac677decb3eda2786a",
     "requires": "julia 0.2 0.6\nDataStructures\n",
     "testrequires": ""
+   }
+  }
+ },
+ "XDiff": {
+  "url": "https://github.com/dfdx/XDiff.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "7b2aac77f362fee4043212056fd8d39861dcc25c",
+    "requires": "julia 0.6\nIterTools\nEspresso 0.2.1\n",
+    "testrequires": "ReverseDiff 0.0.2"
    }
   }
  },
