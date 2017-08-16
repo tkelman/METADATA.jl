@@ -4720,6 +4720,11 @@
     "sha1": "88b4871a877920f9c1379ea77e579ec675f5b8b3",
     "requires": "julia 0.6\nPolynomials\nDistributions 0.11.1\nStaticArrays 0.6.1\nCompat 0.28.0\n",
     "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "5ec71525b4f4878150b9e7ef2dd5b3a765eb7efa",
+    "requires": "julia 0.6\nPolynomials\nDistributions 0.11.1\nStaticArrays 0.6.1\nCompat 0.28.0\n",
+    "testrequires": "Documenter"
    }
   }
  },
@@ -13794,6 +13799,11 @@
     "sha1": "fc7eadeded8835b5f182a6c98ccba695e97f77c9",
     "requires": "julia 0.6\nDiffEqBase 1.16.0\nOrdinaryDiffEq 2.13.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary\nUnitful\n"
+   },
+   "0.9.0": {
+    "sha1": "ca571ed0920965b31025ce4e87dff5b7d8baf0ed",
+    "requires": "julia 0.6\nDiffEqBase 1.16.0\nOrdinaryDiffEq 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
+    "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary\nUnitful\n"
    }
   }
  },
@@ -21037,6 +21047,11 @@
     "sha1": "310668b5fb861cfaa9a9a035eecd33d0d62a7ff7",
     "requires": "julia 0.6\n\nModernGL 0.1.0\n\nStaticArrays 0.6.0\nGeometryTypes 0.4.1\nReactive 0.5.2\nFixedPointNumbers 0.3.0\nColorTypes 0.3.1\n\n\nQuaternions\nFileIO\nGLFW\n",
     "testrequires": "GLWindow\nGLFW\n"
+   },
+   "0.5.1": {
+    "sha1": "7f20d624abac28c333ca22922803b03138c293e6",
+    "requires": "julia 0.6\n\nModernGL 0.1.0\n\nStaticArrays 0.6.0\nGeometryTypes 0.4.1\nReactive 0.6.0\nFixedPointNumbers 0.3.0\nColorTypes 0.3.1\n\n\nQuaternions\nFileIO\nGLFW\n",
+    "testrequires": "GLWindow\nGLFW\n"
    }
   }
  },
@@ -24660,6 +24675,11 @@
    },
    "0.1.0": {
     "sha1": "aa3f8ca9cfc48c62b0d31438fe6651b698506d80",
+    "requires": "julia 0.6\nFileIO\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "1028c48de8bd7f6c2e9d0c4fc324ff944d1b2138",
     "requires": "julia 0.6\nFileIO\n",
     "testrequires": ""
    }
@@ -32895,6 +32915,11 @@
     "sha1": "4833b707f9e11ee7c47f243752674ae1f3fdfc93",
     "requires": "julia 0.6\nArgParse\nDataStructures\nIterTools\n",
     "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "8e3d0fa0da20e05edc44f313549c616d0c1648de",
+    "requires": "julia 0.6\nArgParse\nDataStructures\n",
+    "testrequires": ""
    }
   }
  },
@@ -35612,6 +35637,11 @@
    "0.9.5": {
     "sha1": "e6c60016463314a4030a5d6d3403745bf7f19d4f",
     "requires": "julia 0.6.0-pre\nCodecZlib 0.2\nDataStructures 0.5.0\nSimpleTraits 0.4.0\n",
+    "testrequires": ""
+   },
+   "0.10.0": {
+    "sha1": "dab281af840ef1be1767ef21e39612e70819b59d",
+    "requires": "julia 0.6.0-pre\nCodecZlib 0.2\nDataStructures 0.6\nSimpleTraits 0.4.0\n",
     "testrequires": ""
    }
   }
@@ -46646,6 +46676,11 @@
     "sha1": "2a35eafbe4acaf9cacb63f6f739265ffdb69d5af",
     "requires": "julia 0.6\nPOMDPs 0.6\nIterators\nProgressMeter\nDistributions\nStatsBase 0.15\n",
     "testrequires": "POMDPModels\n"
+   },
+   "0.2.2": {
+    "sha1": "e8a8fdf9ead914945740608a5c3c744d66b49457",
+    "requires": "julia 0.6\nPOMDPs 0.6\nIterators\nProgressMeter\nDistributions\nStatsBase 0.15\n",
+    "testrequires": "POMDPModels\n"
    }
   }
  },
@@ -48956,6 +48991,11 @@
     "sha1": "8608ea0307c40061e6dce6adb37ebf5afe479781",
     "requires": "julia 0.6\nGeometryTypes 0.4\nStaticArrays 0.5\nMathProgBase 0.5.10 0.7\nJuMP 0.16\nRecipesBase 0.2\n",
     "testrequires": "Combinatorics\nGLPK\nGLPKMathProgInterface\nCDDLib 0.2 0.3\n"
+   },
+   "0.2.2": {
+    "sha1": "f4139981de46d6171c1f539ba246f70162124a70",
+    "requires": "julia 0.6\nGeometryTypes 0.4\nStaticArrays 0.5\nMathProgBase 0.5.10 0.7\nJuMP 0.16\nRecipesBase 0.2\n",
+    "testrequires": "Combinatorics\nGLPK\nGLPKMathProgInterface\nCDDLib 0.2.1 0.3\nLRSLib 0.1.1 0.2\n"
    }
   }
  },
@@ -63249,6 +63289,11 @@
   "versions": {
    "0.0.1": {
     "sha1": "fc4686896f772644824d4380866c67ec78f5fb93",
+    "requires": "julia 0.6\nCompat 0.27 # for Val constructor\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "3da5437514a291b7b5dd9120d9b3d57cc2ca41db",
     "requires": "julia 0.6\nCompat 0.27 # for Val constructor\n",
     "testrequires": ""
    }
