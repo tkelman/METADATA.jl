@@ -43922,6 +43922,11 @@
     "sha1": "212b3b8767ce67661be0c8fdbdd2d28169e83a85",
     "requires": "julia 0.5\nCompat 0.19.0\nReexport\nStatsBase 0.14\n",
     "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "d44f078baaebd5d96d099a5f7b0f232d707b1c50",
+    "requires": "julia 0.5\nCompat 0.19.0\nReexport\nStatsBase 0.14\n",
+    "testrequires": ""
    }
   }
  },
