@@ -1556,6 +1556,11 @@
     "sha1": "7a20a13d029560ad7dc95ec897fcf12ed1d0ca3a",
     "requires": "julia 0.5\nFastGaussQuadrature 0.2.1\nFastTransforms 0.2\nRecipesBase 0.1\nDualNumbers 0.2.2\nBandedMatrices 0.2.3\nToeplitzMatrices 0.2\nCalculus 0.1.15\nIntervalSets 0.0.2\nStaticArrays 0.3\nCompat 0.19\n",
     "testrequires": ""
+   },
+   "0.7.0": {
+    "sha1": "a4141f6562eec07ec85752af355e744bf1a3a5f7",
+    "requires": "julia 0.6\nFastGaussQuadrature 0.2.1\nFastTransforms 0.2\nRecipesBase 0.1\nDualNumbers 0.2.2\nBandedMatrices 0.3\nToeplitzMatrices 0.2\nCalculus 0.1.15\nIntervalSets 0.0.2\nStaticArrays 0.3\nCompat 0.19\n",
+    "testrequires": ""
    }
   }
  },
@@ -3270,6 +3275,11 @@
     "sha1": "335d3ccf4919e0c0b0d5276f4b3ec6dadab284f5",
     "requires": "julia 0.4\nCompat 0.9.2\nDistributions 0.11.0\nDiscretizers 0.3.0\nIterators 0.1.9\nLightGraphs 0.6.0\nDataFrames 0.8.0\nTikzGraphs 0.1.1\nLightXML 0.3.0\nReexport 0.0.3\n",
     "testrequires": "RDatasets 0.2.0\nNBInclude 1.0.1"
+   },
+   "2.1.0": {
+    "sha1": "7fe51df44fd867da8e3df32dcf22a07ddd7ea5fc",
+    "requires": "julia 0.6\nDistributions 0.11.0\nDiscretizers 0.3.0\nIterators 0.1.9\nLightGraphs 0.6.0\nDataFrames 0.8.0\nTikzGraphs 0.1.1\nLightXML 0.3.0\nReexport 0.0.3\nParameters 0.5.0\nDataStructures 0.5.0\n",
+    "testrequires": "RDatasets 0.2.0\nNBInclude 1.0.1"
    }
   }
  },
@@ -3494,6 +3504,16 @@
    "0.0.1": {
     "sha1": "67dab5cf345eaf6aa6a3b3292ee87bde776087bd",
     "requires": "julia 0.3\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "BigArrays": {
+  "url": "https://github.com/seung-lab/BigArrays.jl.git",
+  "versions": {
+   "0.5.2": {
+    "sha1": "dbb9d520a9753d6f7905d04dc0076b1d54cff511",
+    "requires": "julia 0.5\nJSON\nHDF5\nMemoize\n#ImageMagick\nBlosc\nLibz\nEMIRT\n",
     "testrequires": ""
    }
   }
@@ -5263,12 +5283,12 @@
   "versions": {
    "0.0.1": {
     "sha1": "898361c92bed996c06e6368b6cbd002d49254fa4",
-    "requires": "julia 0.5-\nObjFileBase\nStructIO\nDWARF\n",
+    "requires": "julia 0.5-\nObjFileBase\nStructIO 0.0.1 0.1.0\nDWARF\n",
     "testrequires": ""
    },
    "0.0.2": {
     "sha1": "39c350110965350e077248b770996692ce5393e3",
-    "requires": "julia 0.5-\nObjFileBase\nStructIO\nDWARF\n",
+    "requires": "julia 0.5-\nObjFileBase\nStructIO 0.0.1 0.1.0\nDWARF\n",
     "testrequires": ""
    }
   }
@@ -5830,6 +5850,11 @@
     "sha1": "c053b1d81e2e57330d6e5b7a7e6cd744678f73d1",
     "requires": "julia 0.6\nCUDAdrv 0.5.0\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "746505a74d6b716fef71d593d58de138dc756ee0",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -5938,6 +5963,11 @@
    },
    "0.5.1": {
     "sha1": "d56a6187219807329b8a37a291a1a0d166fec7fb",
+    "requires": "julia 0.5\nCompat 0.18.0\n",
+    "testrequires": ""
+   },
+   "0.5.2": {
+    "sha1": "a1a36a4a0f337736ad2407f864d14fbf02888dfb",
     "requires": "julia 0.5\nCompat 0.18.0\n",
     "testrequires": ""
    }
@@ -11517,6 +11547,16 @@
    }
   }
  },
+ "Curvelet": {
+  "url": "https://github.com/fundamental/Curvelet.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "d5fdd82c2285bd0abfa518d1d61d1ce3443c02d2",
+    "requires": "julia 0.6\nFFTW\nDSP\n",
+    "testrequires": ""
+   }
+  }
+ },
  "CustomUnitRanges": {
   "url": "https://github.com/JuliaArrays/CustomUnitRanges.jl.git",
   "versions": {
@@ -11997,27 +12037,27 @@
   "versions": {
    "0.0.0": {
     "sha1": "07b9a470fa1d90e57d6abd1e99c9344a93b7a74f",
-    "requires": "julia 0.2-\nELF\nStrPack\n",
+    "requires": "julia 0.2- 0.5\nELF\nStrPack\n",
     "testrequires": ""
    },
    "0.0.1": {
     "sha1": "20676c2cbd675a837f18d5e204c870811592d1bf",
-    "requires": "julia 0.5-\nStructIO\nObjFileBase\nAbstractTrees\n",
+    "requires": "julia 0.5-\nStructIO 0.0.1 0.1.0\nObjFileBase\nAbstractTrees\n",
     "testrequires": ""
    },
    "0.0.2": {
     "sha1": "1821f32c9d76fd858fdd831f7e43dc004369858a",
-    "requires": "julia 0.5-\nStructIO\nObjFileBase\nAbstractTrees\n",
+    "requires": "julia 0.5-\nStructIO 0.0.1 0.1.0\nObjFileBase\nAbstractTrees\n",
     "testrequires": ""
    },
    "0.0.3": {
     "sha1": "e86a73af156ee68929615824e6d78f9c95b35a5c",
-    "requires": "julia 0.5-\nStructIO\nObjFileBase\nAbstractTrees\n",
+    "requires": "julia 0.5-\nStructIO 0.0.1 0.1.0\nObjFileBase\nAbstractTrees\n",
     "testrequires": ""
    },
    "0.1.0": {
     "sha1": "015d4053830f7d07c304db7642356161afff538c",
-    "requires": "julia 0.5-\nStructIO\nObjFileBase\nAbstractTrees\n",
+    "requires": "julia 0.5-\nStructIO 0.0.1 0.1.0\nObjFileBase\nAbstractTrees\n",
     "testrequires": ""
    }
   }
@@ -13248,6 +13288,11 @@
    "0.1.1": {
     "sha1": "f79fc8b3a42b0dd9428f3c6c20b89a3cdf2b3369",
     "requires": "julia 0.6.0-pre\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "ed78d05bf74c89bb6ce02f758ddf5a14a097a280",
+    "requires": "julia 0.6.0\n",
     "testrequires": ""
    }
   }
@@ -14687,6 +14732,16 @@
    }
   }
  },
+ "DiffEqDiffTools": {
+  "url": "https://github.com/JuliaDiffEq/DiffEqDiffTools.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "d21022ea4364554ec4877a107df28c95cbb82f36",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   }
+  }
+ },
  "DiffEqFinancial": {
   "url": "https://github.com/JuliaDiffEq/DiffEqFinancial.jl.git",
   "versions": {
@@ -15452,6 +15507,11 @@
    },
    "2.0.0": {
     "sha1": "575339f0399f135c4710cb64e6106420e4f72048",
+    "requires": "julia 0.6\nStatsBase 0.8.0\nDataStructures 0.5.0\n",
+    "testrequires": ""
+   },
+   "2.1.0": {
+    "sha1": "d84cc06fc6ef968b43c3f12e50a2920c12381978",
     "requires": "julia 0.6\nStatsBase 0.8.0\nDataStructures 0.5.0\n",
     "testrequires": ""
    }
@@ -16358,6 +16418,11 @@
    "0.3.4": {
     "sha1": "a4cf2b837d59fa5f7b73848ce764ba4b75485ae9",
     "requires": "julia 0.4\nCompat 0.18\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "0fb7e6c7b05faa4da41aec44cfed29562accbc12",
+    "requires": "julia 0.6\nCompat 0.27 # for Sys.iswindows\n",
     "testrequires": ""
    }
   }
@@ -17477,27 +17542,27 @@
   "versions": {
    "0.0.0": {
     "sha1": "d621003a06ee750127a287a7158adda8f3da9363",
-    "requires": "julia 0.2-\nStrPack\n",
+    "requires": "julia 0.2- 0.5\nStrPack\n",
     "testrequires": ""
    },
    "0.0.1": {
     "sha1": "9883e7a7888492412735a8a2c4fbbd3714602102",
-    "requires": "julia 0.5-\nStructIO\nDWARF\nObjFileBase\nFileIO\n",
+    "requires": "julia 0.5-\nStructIO 0.0.1 0.1.0\nDWARF\nObjFileBase\nFileIO\n",
     "testrequires": ""
    },
    "0.0.2": {
     "sha1": "2b8dc5efd98354951b1b189a22e1e90b2349274e",
-    "requires": "julia 0.5-\nStructIO\nDWARF\nObjFileBase\nFileIO\n",
+    "requires": "julia 0.5-\nStructIO 0.0.1 0.1.0\nDWARF\nObjFileBase\nFileIO\n",
     "testrequires": ""
    },
    "0.0.3": {
     "sha1": "a4b1cc52833d333b83639ff2107521e5db723202",
-    "requires": "julia 0.5-\nStructIO\nDWARF\nObjFileBase\nFileIO\n",
+    "requires": "julia 0.5-\nStructIO 0.0.1 0.1.0\nDWARF\nObjFileBase\nFileIO\n",
     "testrequires": ""
    },
    "0.1.0": {
     "sha1": "07a2a38bd3d637be2d078fc586274d74f5eb0d71",
-    "requires": "julia 0.5-\nStructIO\nDWARF\nObjFileBase\nFileIO\n",
+    "requires": "julia 0.5-\nStructIO 0.0.1 0.1.0\nDWARF\nObjFileBase\nFileIO\n",
     "testrequires": ""
    }
   }
@@ -17893,6 +17958,11 @@
    "0.3.0": {
     "sha1": "ff9e2eb06304219ad3936e766b407b09fd64383d",
     "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "cdbb7ea57ffd6026a7385b98053b9aea91c040ca",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
@@ -18790,6 +18860,11 @@
    },
    "0.1.2": {
     "sha1": "ee8f2d9b791b18143a36782892c5c80e1ed13184",
+    "requires": "julia 0.6\nLogging\nCalculus\n",
+    "testrequires": "TimerOutputs\n"
+   },
+   "0.1.3": {
+    "sha1": "e19eaefc3cc7c5c50111a24993881c3dbb55b71c",
     "requires": "julia 0.6\nLogging\nCalculus\n",
     "testrequires": "TimerOutputs\n"
    }
@@ -21852,6 +21927,11 @@
     "sha1": "bbdaf87c61f777f7438bc7244c24e5b3f647fe83",
     "requires": "julia 0.6\n\nStaticArrays 0.6.0\nGeometryTypes 0.4.1\n\nGLWindow 0.6 # 0.6 for fullscreen\nGLAbstraction 0.5\nModernGL 0.1.0\n\nMeshIO 0.1.0\nPacking 0.1\nReactive 0.5.2\n\n\nFixedPointNumbers 0.3.0\nFreeTypeAbstraction 0.1.0\nSignedDistanceFields 0.2.0\n\nFreeType\nIterTools\nFileIO\nUnicodeFun\nQuaternions\nGLFW\nColors\nColorVectorSpace\n\nImages 0.9.0 # first version working on 0.6\nAxisArrays\nImageAxes\n",
     "testrequires": "ImageMagick\nHighlights\nContour\n"
+   },
+   "0.6.1": {
+    "sha1": "2f422f3be9cc4380b013df6cff2aed689124ed5b",
+    "requires": "julia 0.6\n\nStaticArrays 0.6.0\nGeometryTypes 0.4.1\n\nGLWindow 0.7 # 0.7 for reactive_run_till_now\nGLAbstraction 0.5\nModernGL 0.1.0\n\nMeshIO 0.1.0\nPacking 0.1\nReactive 0.5.2\n\n\nFixedPointNumbers 0.3.0\nFreeTypeAbstraction 0.1.0\nSignedDistanceFields 0.2.0\n\nFreeType\nIterTools\nFileIO\nUnicodeFun\nQuaternions\nGLFW\nColors\nColorVectorSpace\n\nImages 0.9.0 # first version working on 0.6\nAxisArrays\nImageAxes\n",
+    "testrequires": "ImageMagick\nHighlights\nContour\n"
    }
   }
  },
@@ -24200,6 +24280,16 @@
    }
   }
  },
+ "Graph500": {
+  "url": "https://github.com/somil55/Graph500.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "11b2d50a90019f3a31555f71e61939a37e27b437",
+    "requires": "julia 0.6\nLightGraphs v0.10.0\nSimpleWeightedGraphs v0.0.1\nStatsBase v0.17.0\n",
+    "testrequires": ""
+   }
+  }
+ },
  "GraphCentrality": {
   "url": "git://github.com/JuliaGraphs/GraphCentrality.jl.git",
   "versions": {
@@ -26094,6 +26184,11 @@
    },
    "0.2.1": {
     "sha1": "8f5268191ecf2d396c9746e507ba49e0a5dc716f",
+    "requires": "julia 0.4\nCompat 0.9.4\n",
+    "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "e9a455e8bac5f75bddf9f275d2ba817de13f527a",
     "requires": "julia 0.4\nCompat 0.9.4\n",
     "testrequires": ""
    }
@@ -28008,6 +28103,26 @@
    }
   }
  },
+ "ImageDraw": {
+  "url": "https://github.com/JuliaImages/ImageDraw.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "2c38a2bb773204109ec1fa2c047ccc21314aa11c",
+    "requires": "julia 0.6\nColorTypes 0.3.2\nImageCore 0.1.1\nDistances 0.1.0\nCompat 0.17.0\n",
+    "testrequires": "FixedPointNumbers 0.3\nColorVectorSpace 0.2\n"
+   }
+  }
+ },
+ "ImageFeatures": {
+  "url": "https://github.com/JuliaImages/ImageFeatures.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "b1c80864b3c0f1dde55bcd84390681d033af410d",
+    "requires": "julia 0.6\nColorTypes\nImages 0.6\nDistributions 0.12\nFixedPointNumbers 0.3\nCompat 0.17\n",
+    "testrequires": "Colors\nTestImages\n@linux ImageMagick\n@windows ImageMagick\n@osx QuartzImageIO\n"
+   }
+  }
+ },
  "ImageFiltering": {
   "url": "https://github.com/JuliaImages/ImageFiltering.jl.git",
   "versions": {
@@ -28044,6 +28159,16 @@
    "0.1.4": {
     "sha1": "fbc621cabc48ef608ef26f77dc7cd8b2ea16e092",
     "requires": "julia 0.5\nFixedPointNumbers 0.3.0\nColors\nColorVectorSpace\nImageCore\nOffsetArrays\nCatIndices\nStaticArrays 0.0.5\nMappedArrays\nFFTViews\nComputationalResources\nDataStructures 0.4.6\nTiledIteration\nCompat 0.18\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "8e1541ee19c611ef98a168ec35739c9bb6de722f",
+    "requires": "julia 0.6\nFixedPointNumbers 0.3.0\nColors\nColorVectorSpace\nImageCore\nOffsetArrays\nCatIndices\nStaticArrays 0.0.5\nMappedArrays\nFFTViews\nComputationalResources\nDataStructures 0.4.6\nTiledIteration\nCompat 0.18\n",
+    "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "533edd83a0b50baaa89afcc34e1e50bc9e760340",
+    "requires": "julia 0.6\nFixedPointNumbers 0.3.0\nColors\nColorVectorSpace\nImageCore\nOffsetArrays\nCatIndices\nStaticArrays 0.0.5\nMappedArrays\nFFTViews\nComputationalResources\nDataStructures 0.4.6\nTiledIteration\nCompat 0.18\n",
     "testrequires": ""
    }
   }
@@ -28199,6 +28324,11 @@
    "0.2.3": {
     "sha1": "f7c96fa8f7800d127324e3d9441c4228c218858e",
     "requires": "julia 0.5\nIndirectArrays\nFixedPointNumbers 0.3.0\nColors\nColorVectorSpace 0.1.11\nImageCore\nImageAxes\nCompat 0.19\n",
+    "testrequires": "SimpleTraits\n"
+   },
+   "0.3.0": {
+    "sha1": "228fd883411d6c287bc28d3a08597d08ebcf6af1",
+    "requires": "julia 0.6\nIndirectArrays\nFixedPointNumbers 0.3.0\nColors\nColorVectorSpace 0.1.11\nImageCore\nImageAxes\nCompat 0.19\n",
     "testrequires": "SimpleTraits\n"
    }
   }
@@ -28444,6 +28574,11 @@
    "0.3.1": {
     "sha1": "333f9469a94fcbcc224a901ca6ddab1530240e17",
     "requires": "julia 0.5\nImageCore 0.1.2\nCoordinateTransformations 0.4.0\nInterpolations 0.4\nAxisAlgorithms\nOffsetArrays\nStaticArrays\nIdentityRanges\nColors 0.7.0\nColorVectorSpace 0.2\nFixedPointNumbers 0.3\nShowItLikeYouBuildIt\nCompat 0.19\n",
+    "testrequires": "TestImages\nFixedPointNumbers 0.3.0\nImageInTerminal\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
+   },
+   "0.4.0": {
+    "sha1": "d40d668d78f34176aebc107432dc096f444ae216",
+    "requires": "julia 0.6\nImageCore 0.1.2\nCoordinateTransformations 0.4.0\nInterpolations 0.4\nAxisAlgorithms\nOffsetArrays\nStaticArrays\nIdentityRanges\nColorTypes\nColors 0.7.0\nColorVectorSpace 0.2\nFixedPointNumbers 0.3\nShowItLikeYouBuildIt\nCompat 0.27\n",
     "testrequires": "TestImages\nFixedPointNumbers 0.3.0\nImageInTerminal\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
    }
   }
@@ -29375,6 +29510,11 @@
     "sha1": "23358ebbc7c25f10f60d247cc8a4c4f0e96e7f4b",
     "requires": "julia 0.6.0\nReexport\nColors 0.7.0\nColorVectorSpace 0.2\nFixedPointNumbers 0.3.0\nImageCore\nImageTransformations 0.2.2\nImageFiltering\nImageMorphology\nAxisArrays\nImageAxes\nImageMetadata\nIndirectArrays\nMappedArrays\nSIUnits\nGraphics 0.1\nFileIO\nCompat 0.19\nStatsBase 0.14   # for histrange\nRequires\n",
     "testrequires": "@osx TestImages\nFactCheck\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\nOffsetArrays\nTestImages\n"
+   },
+   "0.11.3": {
+    "sha1": "9ee8146a52aac267cf5bbe80dd82840619f0c543",
+    "requires": "julia 0.6.0\nReexport\nColors 0.7.0\nColorVectorSpace 0.2\nFixedPointNumbers 0.3.0\nImageCore\nImageTransformations 0.2.2\nImageFiltering\nImageMorphology\nAxisArrays\nImageAxes\nImageMetadata\nIndirectArrays\nMappedArrays\nSIUnits\nGraphics 0.1\nFileIO\nCompat 0.19\nStatsBase 0.14   # for histrange\nRequires\n",
+    "testrequires": "@osx TestImages\nFactCheck\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\nOffsetArrays\nTestImages\n"
    }
   }
  },
@@ -29700,6 +29840,16 @@
     "sha1": "0448fb7490a79b13455f246b4649f182d76f2acc",
     "requires": "julia 0.3.11\nDistributions 0.0 0.10\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "42a88daf86ad0251a7ee7fd15e0092c207f7b73f",
+    "requires": "julia 0.6\nDistributions\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "42a88daf86ad0251a7ee7fd15e0092c207f7b73f",
+    "requires": "julia 0.6\nDistributions\n",
+    "testrequires": ""
    }
   }
  },
@@ -29873,6 +30023,11 @@
    },
    "0.2.0": {
     "sha1": "2f1827d5b5d30bd8ae1359b9a7950361b4ce05d6",
+    "requires": "julia 0.5\nTemporal\n",
+    "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "76c6da66a700d82805d150fa74c72c93c5cf3195",
     "requires": "julia 0.5\nTemporal\n",
     "testrequires": ""
    }
@@ -33593,6 +33748,16 @@
    "0.0.3": {
     "sha1": "6fd733ce03c6159ea08137754e68c3f33cbf82c6",
     "requires": "julia 0.3-\nDistributions\nArrayViews\nCompat\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "LCA": {
+  "url": "https://github.com/fundamental/LCA.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "c357c03ea6138a51f61584d846a3d758882e2911",
+    "requires": "julia 0.4\n",
     "testrequires": ""
    }
   }
@@ -38161,22 +38326,22 @@
   "versions": {
    "0.0.1": {
     "sha1": "0fed9c0fd31898b3466ba73dd06286b6816280f3",
-    "requires": "julia 0.5-\nObjFileBase\nStructIO\n",
+    "requires": "julia 0.5-\nObjFileBase\nStructIO 0.0.1 0.1.0\n",
     "testrequires": ""
    },
    "0.0.2": {
     "sha1": "e87d90699d13e8bd600600f48c5b380d1ace74cd",
-    "requires": "julia 0.5-\nObjFileBase\nStructIO\n",
+    "requires": "julia 0.5-\nObjFileBase\nStructIO 0.0.1 0.1.0\n",
     "testrequires": ""
    },
    "0.0.3": {
     "sha1": "c9e938f3603d9d856f0cd8e7482d3ae919ef7974",
-    "requires": "julia 0.5-\nObjFileBase\nStructIO\n",
+    "requires": "julia 0.5-\nObjFileBase\nStructIO 0.0.1 0.1.0\n",
     "testrequires": ""
    },
    "0.0.4": {
     "sha1": "865953f718ccb241c6896413c18cfb160e7eb9a0",
-    "requires": "julia 0.5-\nObjFileBase\nStructIO\n",
+    "requires": "julia 0.5-\nObjFileBase\nStructIO 0.0.1 0.1.0\n",
     "testrequires": ""
    }
   }
@@ -38631,6 +38796,11 @@
    },
    "0.4.21": {
     "sha1": "284939efd1b90c343ce113cb14a8ccb069644dc3",
+    "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
+    "testrequires": ""
+   },
+   "0.4.22": {
+    "sha1": "ae5fac714124f314e5f867857d45f7dd8bdd3ebf",
     "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
     "testrequires": ""
    }
@@ -39202,6 +39372,11 @@
    "0.0.1": {
     "sha1": "f81ee0395fa01660b18afa99284a93aa385eb18a",
     "requires": "julia 0.6\nDistributions\n",
+    "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "6779880fdd8aa7f3ae96e896fd26912fb9bdbc32",
+    "requires": "julia 0.6\n\nDistributions\n",
     "testrequires": ""
    }
   }
@@ -45116,6 +45291,11 @@
     "sha1": "9619b4aad89787db03865715bd4758bbdd95b398",
     "requires": "julia 0.6.0\nOnlineStatsBase 0.0.6\nStatsBase\nLearnBase\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\n",
     "testrequires": ""
+   },
+   "0.11.0": {
+    "sha1": "ff57a1ef6189dce139d60f78ad799cb90b1b811a",
+    "requires": "julia 0.6.0\nOnlineStatsBase 0.0.6\nStatsBase\nLearnBase\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\n",
+    "testrequires": ""
    }
   }
  },
@@ -45149,6 +45329,11 @@
    },
    "0.0.6": {
     "sha1": "cab12070db57571d194137cc4355db5a10fccc6e",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.0.7": {
+    "sha1": "3aa989ae5170b7d7aeeefe2788ace4d27ef5650b",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
@@ -46206,6 +46391,11 @@
     "sha1": "78d8bcf3107e8404dbe0dc0e2dfd515e46aa5420",
     "requires": "julia 0.6.0\nDiffEqBase 1.20.0\nParameters 0.5.0\nForwardDiff 0.5.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.8.0\nJuno 0.2.5\nCalculus 0.1.15\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.16.0": {
+    "sha1": "764191802c95b8e8559d9821edaafc983b7af81b",
+    "requires": "julia 0.6.0\nDiffEqBase 1.20.0\nParameters 0.5.0\nForwardDiff 0.5.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.8.0\nJuno 0.2.5\nCalculus 0.1.15\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    }
   }
  },
@@ -46660,6 +46850,11 @@
    "1.7.0": {
     "sha1": "546a5f2775c88932c5fd2fbe9972466ab4ba4fcd",
     "requires": "julia 0.5\nTikzPictures 0.3.4\nImages 0.6.0\nCompat 0.17.0\nColors 0.6.7\nColorBrewer 0.3.0\nContour 0.2.0\nImageMagick 0.2.3\nDiscretizers\nStatsBase 0.9.0\nDataFrames 0.8.0\nReel 0.1.0\nIndirectArrays 0.1.1\n\n",
+    "testrequires": "NBInclude\n"
+   },
+   "2.0.0": {
+    "sha1": "8cb3b5cb2cd80ddf22268483e96b0deb70aaab25",
+    "requires": "julia 0.6\nTikzPictures 1.1.0\nImages 0.11.0\nColors 0.8.0\nColorBrewer 0.3.0\nContour 0.4.0\nImageMagick 0.2.3\nDiscretizers 2.0.0\nStatsBase 0.9.0\nDataFrames 0.9.0\nReel 1.0.1\nIndirectArrays 0.1.1\n\n",
     "testrequires": "NBInclude\n"
    }
   }
@@ -48956,6 +49151,11 @@
     "sha1": "92672ffddfef671812377cd7bab89c20a899b897",
     "requires": "julia 0.6-pre\n\nRecipesBase 0.2.0\nPlotUtils 0.4.1\nPlotThemes 0.1.3\nReexport\nStaticArrays 0.5\nFixedPointNumbers 0.3\nMeasures\nShowoff\nStatsBase 0.14.0\nJSON\nNaNMath\nRequires\nContour\n",
     "testrequires": "StatPlots\nImages\nImageMagick\n@osx QuartzImageIO\nGR\nRDatasets\nVisualRegressionTests\nUnicodePlots\n"
+   },
+   "0.12.3": {
+    "sha1": "d0a89858003ec6724f9043c20eab9ff16ff73e21",
+    "requires": "julia 0.6-pre\n\nRecipesBase 0.2.0\nPlotUtils 0.4.1\nPlotThemes 0.1.3\nReexport\nStaticArrays 0.5\nFixedPointNumbers 0.3\nMeasures\nShowoff\nStatsBase 0.14.0\nJSON\nNaNMath\nRequires\nContour\n",
+    "testrequires": "StatPlots\nImages\nImageMagick\n@osx QuartzImageIO\nGR\nRDatasets\nVisualRegressionTests\nUnicodePlots\n"
    }
   }
  },
@@ -49205,6 +49405,16 @@
    "0.1.0": {
     "sha1": "36c07f7d4a9e22c7f8e6a6209b7b68a943223724",
     "requires": "julia 0.5\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "PolynomialZeros": {
+  "url": "https://github.com/jverzani/PolynomialZeros.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "752dcb1125bbd30b985eee9cf4df25947a9351de",
+    "requires": "julia 0.5\nPolynomials 0.1.2\nPolynomialRoots 0.0.4\nPolynomialFactors 0.0.6\nValidatedNumerics 0.9.0\nRoots 0.4.0\nCompat v0.17.0\n",
     "testrequires": ""
    }
   }
@@ -51510,6 +51720,11 @@
     "sha1": "f744b5bd0dbe0f65cf0ff32bc5a744948435e4ec",
     "requires": "julia 0.5\nDSP\nDistributions 0.8.9\nLightGraphs\nPrimes\nCompat 0.18.0\nStatsBase\n",
     "testrequires": "QuantEcon\nHDF5\nMAT\nJLD\nDataStructures\n"
+   },
+   "0.13.0": {
+    "sha1": "f9a34ddcf2f97e3b989e05030ae5b7d13c395f25",
+    "requires": "julia 0.5\nDSP\nDistributions 0.8.9\nLightGraphs\nPrimes\nCompat 0.18.0\nStatsBase\nOptim 0.7.3\nNLopt 0.3.4\n",
+    "testrequires": "QuantEcon\nHDF5\nMAT\nJLD\nDataStructures\n"
    }
   }
  },
@@ -52968,6 +53183,11 @@
     "sha1": "47606801541592ffde15d04edc38bbd487cac117",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "91bba81675b779a9e50e36fc094e24758548649a",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -53121,6 +53341,11 @@
    },
    "0.12.0": {
     "sha1": "09e4ad153052dbb2606c8d1deaf6f2813acb1a86",
+    "requires": "julia 0.6-pre\nJuno\nRecipesBase 0.1.0\nStaticArrays\n",
+    "testrequires": "OrdinaryDiffEq 0.3.0\nParameterizedFunctions 0.3.0\nDiffEqBase 0.3.0\n"
+   },
+   "0.12.1": {
+    "sha1": "df0c00e5c4300c4c4501295102cd8be8a6b5593f",
     "requires": "julia 0.6-pre\nJuno\nRecipesBase 0.1.0\nStaticArrays\n",
     "testrequires": "OrdinaryDiffEq 0.3.0\nParameterizedFunctions 0.3.0\nDiffEqBase 0.3.0\n"
    }
@@ -53636,6 +53861,11 @@
    },
    "0.1.0": {
     "sha1": "82b01b8cdd3f8ef44a7ab17b2d9014b5fb606e38",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "a736e8ed3794e6175ee3dfa44efb62ac9c395478",
     "requires": "julia 0.5\n",
     "testrequires": ""
    }
@@ -55138,6 +55368,11 @@
     "sha1": "b15036fe00ce404429d50a1a7c7b1c99a54f2017",
     "requires": "julia 0.5\nForwardDiff 0.2.0\nCompat 0.17.0\n",
     "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "0b804a868d43d35053d83af2f2109be61678d05a",
+    "requires": "julia 0.5\nForwardDiff 0.2.0\nCompat 0.17.0\n",
+    "testrequires": "SpecialFunctions 0.1.1"
    }
   }
  },
@@ -59601,6 +59836,11 @@
     "sha1": "56866046379ab51ffaa3a31cbd06060b4aef112c",
     "requires": "julia 0.5-\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "98eed1e536452d5fc922bf13ac5ca9e7cbbfa8fe",
+    "requires": "julia 0.5\nCompat 0.17.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -60530,6 +60770,26 @@
    "0.3.0": {
     "sha1": "5688783577fa82471cce02633326969d4ceaab1d",
     "requires": "julia 0.3\nJSON\nCompat\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "TSne": {
+  "url": "https://github.com/lejon/TSne.jl.git",
+  "versions": {
+   "1.0.0": {
+    "sha1": "ded85efa5d47cc8d9dbb5d58b773ed58f4e414df",
+    "requires": "julia 0.6\nProgressMeter\n",
+    "testrequires": "RDatasets\nMNIST\n"
+   }
+  }
+ },
+ "TableTraits": {
+  "url": "https://github.com/davidanthoff/TableTraits.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "21a114eeb43283dc4a00f5ce73bd250c34bd3743",
+    "requires": "julia 0.6\nNamedTuples 1.0.0\n",
     "testrequires": ""
    }
   }
@@ -62969,6 +63229,16 @@
    }
   }
  },
+ "TotalVariation": {
+  "url": "https://github.com/fundamental/TotalVariation.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "a2b5f77d46ebb84a78a8f0664023132c9625da94",
+    "requires": "julia 0.6\nDSP\n",
+    "testrequires": ""
+   }
+  }
+ },
  "TraceCalls": {
   "url": "https://github.com/cstjean/TraceCalls.jl.git",
   "versions": {
@@ -62994,6 +63264,11 @@
    },
    "0.0.5": {
     "sha1": "69a66dbc4f1195fc3c3224c7878efc87334cf142",
+    "requires": "julia 0.6\nMacroTools 0.3.3\nMemoize 0.1.0\nClobberingReload 0.2.1\nDataStructures\nRequires\nRevise 0.0.6\nCrayons",
+    "testrequires": "NBInclude\n\nJuMP\nGadfly\nDataStructures\nPyCall\nOptim\nOrdinaryDiffEq\nClp\nDiffEqBase\nLightGraphs\nCalculus\nBenchmarkTools\n"
+   },
+   "0.0.6": {
+    "sha1": "76ed7f1f11acce91f86aa25e634f59066fece6b2",
     "requires": "julia 0.6\nMacroTools 0.3.3\nMemoize 0.1.0\nClobberingReload 0.2.1\nDataStructures\nRequires\nRevise 0.0.6\nCrayons",
     "testrequires": "NBInclude\n\nJuMP\nGadfly\nDataStructures\nPyCall\nOptim\nOrdinaryDiffEq\nClp\nDiffEqBase\nLightGraphs\nCalculus\nBenchmarkTools\n"
    }
