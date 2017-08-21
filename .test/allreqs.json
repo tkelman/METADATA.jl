@@ -42462,6 +42462,11 @@
     "sha1": "90abdef9c497da238d8f98aa4cf7e68545018958",
     "requires": "julia 0.4\nDataFrames\nCompat 0.8.0\nConfParser\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "99da11396366c41fc48b364ca26ebe5457230d1f",
+    "requires": "julia 0.5\nDataFrames\nCompat 0.17.0\nConfParser\n",
+    "testrequires": ""
    }
   }
  },
