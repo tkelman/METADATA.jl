@@ -669,6 +669,16 @@
    }
   }
  },
+ "AWSSDK": {
+  "url": "https://github.com/JuliaCloud/AWSSDK.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "28d8302e1a145ead37cef5578763de761b9a20c3",
+    "requires": "julia 0.5\nAWSCore 0.2.2\n",
+    "testrequires": ""
+   }
+  }
+ },
  "AWSSES": {
   "url": "git://github.com/samoconnor/AWSSES.jl.git",
   "versions": {
@@ -3388,6 +3398,16 @@
    }
   }
  },
+ "BedgraphFiles": {
+  "url": "https://github.com/CiaranOMara/BedgraphFiles.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "771144ceb43704510349ed5d8b6688253f0488cf",
+    "requires": "julia 0.6\nIterableTables 0.4.2\nFileIO 0.5.1\nDataFrames 0.10.0\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Benchmark": {
   "url": "git://github.com/johnmyleswhite/Benchmark.jl.git",
   "versions": {
@@ -5808,22 +5828,22 @@
   "versions": {
    "0.0.1": {
     "sha1": "8c3e9e04d2c91be8358c79d77cde991c721813fa",
-    "requires": "julia 0.6-pre\nTextParse 0.1.6\nIterableTables 0.2.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
+    "requires": "julia 0.6-pre\nTextParse 0.1.6\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
     "testrequires": "DataFrames 0.10.0\n"
    },
    "0.1.0": {
     "sha1": "59037c3cd7d3a60919e11a03b5cfe54600644725",
-    "requires": "julia 0.6-pre\nTextParse 0.1.6\nIterableTables 0.2.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
+    "requires": "julia 0.6-pre\nTextParse 0.1.6\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
     "testrequires": "DataFrames 0.10.0\n"
    },
    "0.1.1": {
     "sha1": "9686ca0143a042cbbd6f4a083ff403156e3b997e",
-    "requires": "julia 0.6-pre\nTextParse 0.1.6\nIterableTables 0.2.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
+    "requires": "julia 0.6-pre\nTextParse 0.1.6\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
     "testrequires": "DataFrames 0.10.0\n"
    },
    "0.2.0": {
     "sha1": "98e274eeb4939aaa7a6ebd2430a731c44a44ac80",
-    "requires": "julia 0.6\nTextParse 0.1.6\nIterableTables 0.4.0\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\n",
+    "requires": "julia 0.6\nTextParse 0.1.6\nIterableTables 0.4.0 0.5.0\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\n",
     "testrequires": "DataFrames 0.10.0\n"
    }
   }
@@ -14919,6 +14939,11 @@
     "sha1": "42db3d5cf9a33cf5cd6139fb91bb1b3f0afd54a1",
     "requires": "julia 0.6\nResettableStacks\nDataStructures\nDiffEqBase 1.13.0\nRecipesBase\nRecursiveArrayTools\nRandomNumbers\n",
     "testrequires": "StochasticDiffEq\nStatsBase\nDistributions\nHypothesisTests\nDiffEqProblemLibrary\nDiffEqMonteCarlo 0.4.0\n"
+   },
+   "0.5.0": {
+    "sha1": "cb9d1e7e6e14ae45a53566464170c4b068c7ad9b",
+    "requires": "julia 0.6\nResettableStacks 0.2.0\nDataStructures\nDiffEqBase 1.13.0\nRecipesBase\nRecursiveArrayTools\nRandomNumbers\n",
+    "testrequires": "StochasticDiffEq\nStatsBase\nDistributions\nHypothesisTests\nDiffEqProblemLibrary\nDiffEqMonteCarlo 0.4.0\n"
    }
   }
  },
@@ -16687,6 +16712,16 @@
    }
   }
  },
+ "DocumentFormat": {
+  "url": "https://github.com/ZacLN/DocumentFormat.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "dc3163ef1fec03a095e65285070a38a85c04c37c",
+    "requires": "julia 0.6\nCSTParser 0.2\nTokenize\n",
+    "testrequires": ""
+   }
+  }
+ },
  "DocumentFunction": {
   "url": "https://github.com/madsjulia/DocumentFunction.jl.git",
   "versions": {
@@ -17960,6 +17995,11 @@
     "requires": "julia 0.5\n",
     "testrequires": ""
    },
+   "0.4.0": {
+    "sha1": "9b903e261f4144424bcd6521c973318655d30b0e",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
    "0.4.1": {
     "sha1": "cdbb7ea57ffd6026a7385b98053b9aea91c040ca",
     "requires": "julia 0.6\n",
@@ -18510,12 +18550,12 @@
   "versions": {
    "0.0.1": {
     "sha1": "3e86f36fee9ae6624f4cc6b20de7c56851ff023e",
-    "requires": "julia 0.6-pre\nExcelReaders 0.7.0\nIterableTables 0.2.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\nDataFrames 0.9.0\n",
+    "requires": "julia 0.6-pre\nExcelReaders 0.7.0\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\nDataFrames 0.9.0\n",
     "testrequires": ""
    },
    "0.1.0": {
     "sha1": "4f1154c76fe697c15fb8693b3944600b437dab43",
-    "requires": "julia 0.6-pre\nExcelReaders 0.7.0\nIterableTables 0.2.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\nDataFrames 0.9.0\n",
+    "requires": "julia 0.6-pre\nExcelReaders 0.7.0\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\nDataFrames 0.9.0\n",
     "testrequires": ""
    }
   }
@@ -19660,12 +19700,12 @@
   "versions": {
    "0.0.1": {
     "sha1": "8312610cc5859642c63c8c57d07cb90720e813a9",
-    "requires": "julia 0.6-pre\nFeather 0.2.4\nIterableTables 0.2.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
+    "requires": "julia 0.6-pre\nFeather 0.2.4\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
     "testrequires": "DataFrames 0.10.0\n"
    },
    "0.0.2": {
     "sha1": "fd89a7e0b079e6879c99b23d476842ca7943c5be",
-    "requires": "julia 0.6-pre\nFeather 0.2.4\nIterableTables 0.2.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
+    "requires": "julia 0.6-pre\nFeather 0.2.4\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
     "testrequires": "DataFrames 0.10.0\n"
    }
   }
@@ -51993,17 +52033,17 @@
    },
    "0.4.1": {
     "sha1": "5d21aa6a8260a2222147ba2747628cdfafd70176",
-    "requires": "julia 0.5\nNamedTuples 2.0.0 3.0.0\nDataStructures 0.4.5\nRequires 0.3.0\nDocumenter 0.9.0\nIterableTables 0.0.1\n",
+    "requires": "julia 0.5\nNamedTuples 2.0.0 3.0.0\nDataStructures 0.4.5\nRequires 0.3.0\nDocumenter 0.9.0\nIterableTables 0.0.1 0.5.0\n",
     "testrequires": "DataFrames\nDataArrays\nDataTables\nTypedTables\nSQLite\nDataStreams\nCSV\nJSON\nFeather\nNullableArrays\nIndexedTables\n"
    },
    "0.5.0": {
     "sha1": "02d635573a73a6bb72e3d5ecf1b1232a7e114561",
-    "requires": "julia 0.6.0-rc1\nNamedTuples 3.0.2\nDataStructures 0.4.5\nRequires 0.4.3\nDocumenter 0.9.0\nIterableTables 0.1.0\nDataValues 0.0.2\n",
+    "requires": "julia 0.6.0-rc1\nNamedTuples 3.0.2\nDataStructures 0.4.5\nRequires 0.4.3\nDocumenter 0.9.0\nIterableTables 0.1.0 0.5.0\nDataValues 0.0.2\n",
     "testrequires": "DataFrames\nDataArrays\nDataTables\nTypedTables\nSQLite\nDataStreams\nCSV\nJSON\nFeather\nNullableArrays\nIndexedTables\n"
    },
    "0.6.0": {
     "sha1": "dfce164d30b81b1735a0fca9eed962c486445b42",
-    "requires": "julia 0.6.0-rc1\nNamedTuples 3.0.2\nDataStructures 0.4.5\nRequires 0.4.3\nDocumenter 0.9.0\nIterableTables 0.1.0\nDataValues 0.0.2\n",
+    "requires": "julia 0.6.0-rc1\nNamedTuples 3.0.2\nDataStructures 0.4.5\nRequires 0.4.3\nDocumenter 0.9.0\nIterableTables 0.1.0 0.5.0\nDataValues 0.0.2\n",
     "testrequires": "DataFrames\nDataArrays\nDataTables\nTypedTables\nSQLite\nDataStreams\nCSV\nJSON\nFeather\nNullableArrays\nIndexedTables\n"
    }
   }
@@ -54662,6 +54702,11 @@
    "0.2.0": {
     "sha1": "9943a0dacf37568969d11976a7a6d3d442341936",
     "requires": "julia 0.5\nStaticArrays 0.2.1\nRotations 0.3.4\nDataStructures 0.4.6\nLightXML 0.4.0\nDocStringExtensions 0.3.1\nCompat 0.19.0\n",
+    "testrequires": "ForwardDiff 0.3.1\nBenchmarkTools 0.0.5\nSymPy 0.5.1\nNBInclude 1.1.0\n"
+   },
+   "0.3.0": {
+    "sha1": "cd58a541cf085b31913e8a22c3206fff0003a751",
+    "requires": "julia 0.6-rc3\nStaticArrays 0.6.2\nRotations 0.6.0\nTypeSortedCollections 0.1\nLightXML 0.4.0\nDocStringExtensions 0.4.0\nCompat 0.27 # for Val constructor\n",
     "testrequires": "ForwardDiff 0.3.1\nBenchmarkTools 0.0.5\nSymPy 0.5.1\nNBInclude 1.1.0\n"
    }
   }
@@ -58584,12 +58629,12 @@
   "versions": {
    "0.0.1": {
     "sha1": "94fad8c025ec09643176563cee8f9e55e63e08f9",
-    "requires": "julia 0.6-pre\nReadStat 0.1.1\nIterableTables 0.2.0\nDataValues 0.1.0\nDataFrames 0.10.0\nFileIO 0.4.0\n",
+    "requires": "julia 0.6-pre\nReadStat 0.1.1\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataFrames 0.10.0\nFileIO 0.4.0\n",
     "testrequires": ""
    },
    "0.0.2": {
     "sha1": "556a73a59c949314160a097e16873bd33c4324b4",
-    "requires": "julia 0.6-pre\nReadStat 0.1.1\nIterableTables 0.2.0\nDataValues 0.1.0\nDataFrames 0.10.0\nFileIO 0.4.0\n",
+    "requires": "julia 0.6-pre\nReadStat 0.1.1\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataFrames 0.10.0\nFileIO 0.4.0\n",
     "testrequires": ""
    }
   }
@@ -60795,6 +60840,16 @@
    "0.0.1": {
     "sha1": "21a114eeb43283dc4a00f5ce73bd250c34bd3743",
     "requires": "julia 0.6\nNamedTuples 1.0.0\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "TableTraitsUtils": {
+  "url": "https://github.com/davidanthoff/TableTraitsUtils.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "3f21e1490ac507e920bbd3fca29165ae838fdc26",
+    "requires": "julia 0.6\nNamedTuples 4.0.0\nDataValues 0.0.1\nTableTraits 0.0.1\n",
     "testrequires": ""
    }
   }
@@ -63140,6 +63195,11 @@
    "0.2.0": {
     "sha1": "0cad9e47e24ec699c3a490faf6a346d3d09d98ef",
     "requires": "julia 0.5\nCompat 0.18.0\nStatsBase 0.8.0\n",
+    "testrequires": "FastTransforms"
+   },
+   "0.3.0": {
+    "sha1": "a6c839ae3415c4083ad22de65cdfd8acbf8a3209",
+    "requires": "julia 0.6\nCompat 0.18.0\nStatsBase 0.8.0\nFFTW\n",
     "testrequires": "FastTransforms"
    }
   }
@@ -66725,6 +66785,16 @@
    "0.5.1": {
     "sha1": "29db8c4454c7e1a0308b664e15195e66177a8642",
     "requires": "julia 0.4\nLightXML 0.4.0\nLibz 0.2.1\nBufferedStreams 0.2.0\nCompat 0.17.0\n",
+    "testrequires": "SHA 0.3.0\n"
+   },
+   "0.5.2": {
+    "sha1": "72e7b86c1aa2d572437a7ba271ea19c9ec2a40b5",
+    "requires": "julia 0.4\nLightXML 0.4.0\nLibz 0.2.1\nBufferedStreams 0.2.0\nCompat 0.17.0\n",
+    "testrequires": "SHA 0.3.0\n"
+   },
+   "0.6.0": {
+    "sha1": "9e65e79bfd23c2eaaa1e310a0e7cccd0251456ed",
+    "requires": "julia 0.5\nLightXML 0.4.0\nLibz 0.2.1\nBufferedStreams 0.2.0\nCompat 0.17.0\n",
     "testrequires": "SHA 0.3.0\n"
    }
   }
