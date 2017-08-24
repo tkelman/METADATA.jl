@@ -3286,6 +3286,11 @@
     "requires": "julia 0.4\nCompat 0.9.2\nDistributions 0.11.0\nDiscretizers 0.3.0\nIterators 0.1.9\nLightGraphs 0.6.0\nDataFrames 0.8.0\nTikzGraphs 0.1.1\nLightXML 0.3.0\nReexport 0.0.3\n",
     "testrequires": "RDatasets 0.2.0\nNBInclude 1.0.1"
    },
+   "2.0.0": {
+    "sha1": "5febf756d38194712cfb8c0c2294252931611afa",
+    "requires": "julia 0.6\nDistributions 0.11.0\nDiscretizers 0.3.0\nIterators 0.1.9\nLightGraphs 0.6.0\nDataFrames 0.8.0\nTikzGraphs 0.1.1\nLightXML 0.3.0\nReexport 0.0.3\nParameters 0.5.0\nDataStructures 0.5.0\n",
+    "testrequires": "RDatasets 0.2.0\nNBInclude 1.0.1"
+   },
    "2.1.0": {
     "sha1": "7fe51df44fd867da8e3df32dcf22a07ddd7ea5fc",
     "requires": "julia 0.6\nDistributions 0.11.0\nDiscretizers 0.3.0\nIterators 0.1.9\nLightGraphs 0.6.0\nDataFrames 0.8.0\nTikzGraphs 0.1.1\nLightXML 0.3.0\nReexport 0.0.3\nParameters 0.5.0\nDataStructures 0.5.0\n",
@@ -3404,6 +3409,11 @@
    "0.1.0": {
     "sha1": "771144ceb43704510349ed5d8b6688253f0488cf",
     "requires": "julia 0.6\nIterableTables 0.4.2 0.5.0\nFileIO 0.5.1\nDataFrames 0.10.0\n",
+    "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "b1cbbf035ed9153361828c849c2b64a3bad4f9eb",
+    "requires": "julia 0.6\nIterableTables 0.4.2\nFileIO 0.5.1\nDataFrames 0.9.1\n",
     "testrequires": ""
    }
   }
@@ -4723,6 +4733,16 @@
    }
   }
  },
+ "BoundaryValueDiffEq": {
+  "url": "https://github.com/JuliaDiffEq/BoundaryValueDiffEq.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "a29fbdf83020f27765e5e80391d90cdc4f972912",
+    "requires": "julia 0.6\nDiffEqBase\nReexport\nNLsolve\nDiffEqDiffTools\nBandedMatrices\n",
+    "testrequires": "DiffEqDevTools\nOrdinaryDiffEq\nSundials\n"
+   }
+  }
+ },
  "BoundingBoxes": {
   "url": "git://github.com/voxel8/BoundingBoxes.jl.git",
   "versions": {
@@ -5845,6 +5865,11 @@
     "sha1": "98e274eeb4939aaa7a6ebd2430a731c44a44ac80",
     "requires": "julia 0.6\nTextParse 0.1.6\nIterableTables 0.4.0 0.5.0\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\n",
     "testrequires": "DataFrames 0.10.0\n"
+   },
+   "0.3.0": {
+    "sha1": "648d243221adf70ab2c7cc06014cb4d71a6da242",
+    "requires": "julia 0.6\nTextParse 0.1.6\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\n",
+    "testrequires": "DataFrames 0.10.0\nIterableTables 0.5.0\n"
    }
   }
  },
@@ -13924,6 +13949,11 @@
     "sha1": "765287bef6a43647aec0b4e95316853198825705",
     "requires": "julia 0.6\nDiffEqBase 1.16.0\nOrdinaryDiffEq 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary\nUnitful\n"
+   },
+   "0.10.0": {
+    "sha1": "87cfee41d426c251f73a14024dc979ceb2aefd63",
+    "requires": "julia 0.6\nDiffEqBase 1.21.0\nOrdinaryDiffEq 2.17.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
+    "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary\nUnitful\n"
    }
   }
  },
@@ -15064,6 +15094,11 @@
     "sha1": "9417bb21944d4fd7ff7f039eeb392e0998fa112e",
     "requires": "julia 0.6-pre\nLsqFit 0.0.2\nDiffEqBase 1.7.0\nLossFunctions 0.0.2\nRecursiveArrayTools 0.0.2\nForwardDiff\nCalculus\nOptim\nCompat 0.17.0\n",
     "testrequires": "Optim\nParameterizedFunctions 0.4.0\nLeastSquaresOptim\nOrdinaryDiffEq 0.1.1\nStochasticDiffEq\nNLopt\nDiffEqMonteCarlo\n"
+   },
+   "0.6.0": {
+    "sha1": "0642a7103f28ced165250ff46e8ce405735a33ca",
+    "requires": "julia 0.6\nLsqFit 0.0.2\nDiffEqBase 1.7.0\nLossFunctions 0.0.2\nRecursiveArrayTools 0.10.0\nForwardDiff\nCalculus\nOptim\nCompat 0.17.0\nPenaltyFunctions\n",
+    "testrequires": "Optim\nParameterizedFunctions 0.4.0\nLeastSquaresOptim\nOrdinaryDiffEq 0.1.1\nStochasticDiffEq\nNLopt\nDiffEqMonteCarlo\nDelayDiffEq\nEvolutionary\nBlackBoxOptim\n"
    }
   }
  },
@@ -18571,6 +18606,11 @@
    "0.1.0": {
     "sha1": "4f1154c76fe697c15fb8693b3944600b437dab43",
     "requires": "julia 0.6-pre\nExcelReaders 0.7.0\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\nDataFrames 0.9.0\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "d4c74c0ca96acf707408a241ffa70458a371945c",
+    "requires": "julia 0.6\nTableTraits 0.0.1\nExcelReaders 0.7.0\nIterableTables 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\nDataFrames 0.9.0\n",
     "testrequires": ""
    }
   }
@@ -24266,6 +24306,11 @@
    "0.0.4": {
     "sha1": "9dd6c30b82bee444e30bf0a336d16c8f205a4a3d",
     "requires": "julia 0.5.0\n\nCompat 0.17.0\nJSON 0.7.0\nMbedTLS 0.3.1\nRequests\nLibz\nMsgPack\nURIParser\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "6934ac06900dfdea8f5d433b819582a2cf8177fa",
+    "requires": "julia 0.6\n\nJSON 0.7.0\nMbedTLS 0.3.1\nRequests\nLibz\nMsgPack\nURIParser\n",
     "testrequires": ""
    }
   }
@@ -50035,6 +50080,11 @@
     "sha1": "006f1195dad0823050e7dc7e6af86dfbf65eb555",
     "requires": "julia 0.5\nGtk\nGtkReactive 0.0.3\nCairo 0.2.5\nColors\nGraphics 0.2\nFileIO\nIntervalSets\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "6052b422cabf7c2e8fa7e479faee5a220049dc0b",
+    "requires": "julia 0.5\nGtk\nGtkReactive 0.0.3\nCairo 0.2.5\nColors\nGraphics 0.2\nFileIO\nIntervalSets\n",
+    "testrequires": ""
    }
   }
  },
@@ -54783,6 +54833,11 @@
     "sha1": "52c02afb4da1a6e89f239319a6902c39b347dae9",
     "requires": "julia 0.6\nColorTypes 0.2.0\nRotations 0.5\nCoordinateTransformations 0.4.1\nDataStructures 0.4.3\nDrakeVisualizer 0.2.0\nFileIO 0.1.0\nGeometryTypes 0.4.0\nIJulia 1.3.2\nInteract 0.3.5\nInterpolations 0.3.6\nLightXML 0.4.0\nMeshIO 0.1.0\nRigidBodyDynamics 0.2.0\nStaticArrays 0.5\n",
     "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "8f18dcd30fb6e5da16a92a6712a738cd40b59d81",
+    "requires": "julia 0.6\nColorTypes 0.2.0\nRotations 0.5\nCoordinateTransformations 0.4.1\nDataStructures 0.4.3\nDrakeVisualizer 0.2.1\nFileIO 0.1.0\nGeometryTypes 0.4.0\nIJulia 1.3.2\nInteract 0.3.5\nInterpolations 0.3.6\nLightXML 0.4.0\nMeshIO 0.1.0\nRigidBodyDynamics 0.3\nStaticArrays 0.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -58081,6 +58136,11 @@
     "sha1": "46fbd7434482e1969c6abfbef674422d95e7c61d",
     "requires": "julia 0.6.0\n",
     "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "fad0dde74af1295e4143fd02a9f5e67774e71b95",
+    "requires": "julia 0.6.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -58685,6 +58745,11 @@
    "0.0.2": {
     "sha1": "556a73a59c949314160a097e16873bd33c4324b4",
     "requires": "julia 0.6-pre\nReadStat 0.1.1\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataFrames 0.10.0\nFileIO 0.4.0\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "4d6549db9cca9bf54388df1d19fdd2c83453cf7e",
+    "requires": "julia 0.6\nTableTraits 0.0.1\nReadStat 0.1.1\nIterableTables 0.5.0\nDataValues 0.1.0\nDataFrames 0.10.0\nFileIO 0.4.0\n",
     "testrequires": ""
    }
   }
