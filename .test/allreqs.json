@@ -4128,6 +4128,16 @@
    }
   }
  },
+ "BioStructures": {
+  "url": "https://github.com/BioJulia/BioStructures.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "3c302833b4a66c59c32a92acafcdb97b5eb606aa",
+    "requires": "julia 0.6\nLibz 0.2\nBioCore\nBioSymbols\nBioSequences\n",
+    "testrequires": ""
+   }
+  }
+ },
  "BioSymbols": {
   "url": "git://github.com/BioJulia/BioSymbols.jl.git",
   "versions": {
@@ -17474,6 +17484,11 @@
     "sha1": "444cdf1afc921f78325513396dc794beb1600010",
     "requires": "julia 0.5\nStaticArrays\n",
     "testrequires": ""
+   },
+   "1.3.0": {
+    "sha1": "4e994b33b35ffcdc52fa703d8e6c51a5b45a87e3",
+    "requires": "julia 0.6\nStaticArrays\n",
+    "testrequires": ""
    }
   }
  },
@@ -19055,7 +19070,7 @@
   "versions": {
    "0.0.1": {
     "sha1": "84e753925a06cbe9f752aa0e23af205a9c0e3a2d",
-    "requires": "julia 0.5\nPyCall\nConda\n",
+    "requires": "julia 0.6\nPyCall\nConda\n",
     "testrequires": "PyPlot\nPlots\n"
    }
   }
@@ -28470,6 +28485,11 @@
     "sha1": "b0bc710b36608ec5c759f6babe9252794a5e3348",
     "requires": "julia 0.5\nCompat 0.24\nFixedPointNumbers 0.3.0\nColorTypes 0.2.7\nImages 0.6\nFileIO\n@osx Homebrew\nBinDeps\n",
     "testrequires": "ColorTypes\nFixedPointNumbers 0.3.0\nIndirectArrays\nFileIO\nImages\nZipFile\nCompat\nOffsetArrays\n"
+   },
+   "0.5.0": {
+    "sha1": "78e573c541a63fac98e01909ca82ef0f3d093cc7",
+    "requires": "julia 0.6\nCompat 0.24\nFixedPointNumbers 0.3.0\nColorTypes 0.2.7\nImages 0.6\nFileIO\n@osx Homebrew\nBinDeps\n",
+    "testrequires": "IndirectArrays\nZipFile\nOffsetArrays\n"
    }
   }
  },
@@ -48840,6 +48860,16 @@
    "0.1.5": {
     "sha1": "8303eb8d5cd7b7e0bbe673d9758f8db613b6b7f3",
     "requires": "julia 0.5\nJSON\nURIParser\nCompat 0.9.5\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "PkgTemplates": {
+  "url": "https://github.com/invenia/PkgTemplates.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "f4e75f3a574929b30dffeaf5f088cb0fffd55246",
+    "requires": "julia 0.6\nAutoHashEquals\nMustache\nTerminalMenus\nURIParser\n",
     "testrequires": ""
    }
   }
