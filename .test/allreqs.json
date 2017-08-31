@@ -4063,42 +4063,42 @@
   "versions": {
    "0.0.1": {
     "sha1": "f53683dfb10d80c09b21a60838469c0f400258f5",
-    "requires": "julia 0.4.1\nArgParse 0.3.0\nDataStreams 0.0.6 0.0.7\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.3\nZipFile 0.2.6\nXMLconvert 0.0.1\n",
+    "requires": "julia 0.4.1 0.5\nArgParse 0.3.0\nDataStreams 0.0.6 0.0.7\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.3\nZipFile 0.2.6\nXMLconvert 0.0.1\n",
     "testrequires": ""
    },
    "0.0.2": {
     "sha1": "568cb6cff27748c9a6aa6524d843a7f44ec7bf03",
-    "requires": "julia 0.4.1\nArgParse 0.3.0\nDataStreams 0.0.6 0.0.7\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.3\nZipFile 0.2.6\nXMLconvert 0.0.1\n",
+    "requires": "julia 0.4.1 0.5\nArgParse 0.3.0\nDataStreams 0.0.6 0.0.7\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.3\nZipFile 0.2.6\nXMLconvert 0.0.1\n",
     "testrequires": ""
    },
    "0.0.3": {
     "sha1": "d22c0643a2a3b84f7e96dd12b9a7af2f33ce8a2c",
-    "requires": "julia 0.4.1\nArgParse 0.3.0\nDataStreams 0.0.6 0.0.7\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.3\nZipFile 0.2.6\nXMLconvert 0.0.1\n",
+    "requires": "julia 0.4.1 0.5\nArgParse 0.3.0\nDataStreams 0.0.6 0.0.7\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.3\nZipFile 0.2.6\nXMLconvert 0.0.1\n",
     "testrequires": ""
    },
    "0.1.0": {
     "sha1": "21aa56e7236f6a8dc3dc7b853dd3e7a02f4b51e4",
-    "requires": "julia 0.4.1\nArgParse 0.3.0\nDataStreams 0.0.10\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.5\nZipFile 0.2.6\nXMLconvert 0.0.1\nMySQL 0.0.2\n",
+    "requires": "julia 0.4.1\nArgParse 0.3.0\nDataStreams 0.0.10 0.2.0\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.5\nZipFile 0.2.6\nXMLconvert 0.0.1\nMySQL 0.0.2\n",
     "testrequires": ""
    },
    "0.1.1": {
     "sha1": "a59fad12ef3be0d6fa9352133199cc991357aef4",
-    "requires": "julia 0.4.1\nArgParse 0.3.0\nDataStreams 0.0.10\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.5\nZipFile 0.2.6\nXMLconvert 0.0.1\nMySQL 0.0.2\nDataFrames 0.8.3\nNullableArrays 0.0.8\n",
+    "requires": "julia 0.4.1\nArgParse 0.3.0\nDataStreams 0.0.10 0.2.0\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.5\nZipFile 0.2.6\nXMLconvert 0.0.1\nMySQL 0.0.2\nDataFrames 0.8.3\nNullableArrays 0.0.8\n",
     "testrequires": ""
    },
    "0.2.0": {
     "sha1": "6784d8728ec34959a797e41b8178c17a1243251d",
-    "requires": "julia 0.5\nArgParse 0.3.0\nDataStreams 0.0.10\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.5\nZipFile 0.2.6\nXMLconvert 0.0.1\nMySQL 0.0.2\nDataFrames 0.8.3\nNullableArrays 0.0.8\nDataStructures 0.4.6\n",
+    "requires": "julia 0.5\nArgParse 0.3.0\nDataStreams 0.0.10 0.2.0\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.5\nZipFile 0.2.6\nXMLconvert 0.0.1\nMySQL 0.0.2\nDataFrames 0.8.3\nNullableArrays 0.0.8\nDataStructures 0.4.6\n",
     "testrequires": ""
    },
    "0.2.1": {
     "sha1": "00f5dbd686d1f413f66546e505ff606979a4e9b7",
-    "requires": "julia 0.5\nArgParse 0.3.0\nDataStreams 0.0.10\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.5\nZipFile 0.2.6\nXMLconvert 0.0.1\nMySQL 0.0.2\nDataFrames 0.8.3\nNullableArrays 0.0.8\nDataStructures 0.4.6\n",
+    "requires": "julia 0.5\nArgParse 0.3.0\nDataStreams 0.0.10 0.2.0\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.5\nZipFile 0.2.6\nXMLconvert 0.0.1\nMySQL 0.0.2\nDataFrames 0.8.3\nNullableArrays 0.0.8\nDataStructures 0.4.6\n",
     "testrequires": ""
    },
    "0.2.2": {
     "sha1": "c07871d62bf67ec695d3e0124da56df6c36a0813",
-    "requires": "julia 0.5\nArgParse 0.3.0\nDataStreams 0.0.10\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.5\nZipFile 0.2.6\nXMLconvert 0.0.1\nMySQL 0.0.2\nDataFrames 0.8.3\nNullableArrays 0.0.8\nDataStructures 0.4.6\n",
+    "requires": "julia 0.5\nArgParse 0.3.0\nDataStreams 0.0.10 0.2.0\nGumbo 0.2.0\nRequests 0.3.8\nLightXML 0.2.1\nHttpCommon 0.2.6\nBaseTestNext 0.2.1\nSQLite 0.3.5\nZipFile 0.2.6\nXMLconvert 0.0.1\nMySQL 0.0.2\nDataFrames 0.8.3\nNullableArrays 0.0.8\nDataStructures 0.4.6\n",
     "testrequires": ""
    }
   }
@@ -5843,87 +5843,87 @@
   "versions": {
    "0.0.1": {
     "sha1": "f92ce72ff65b4277b5c594cf2b0dde8bd63493f1",
-    "requires": "julia 0.4\nCompat\nNullableArrays\nLibz\nDataStreams 0.0.1 0.0.13\n",
+    "requires": "julia 0.4 0.5\nCompat\nNullableArrays\nLibz\nDataStreams 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.2": {
     "sha1": "80ad23bafbd625d0960708e366e0517185bfb895",
-    "requires": "julia 0.4\nCompat\nNullableArrays\nLibz\nDataStreams 0.0.1 0.0.13\n",
+    "requires": "julia 0.4 0.5\nCompat\nNullableArrays\nLibz\nDataStreams 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.3": {
     "sha1": "40edb693796375841f1837ac3a7fec0db5f54760",
-    "requires": "julia 0.4.1\nCompat\nNullableArrays\nLibz\nDataStreams 0.0.1 0.0.13\n",
+    "requires": "julia 0.4.1 0.5\nCompat\nNullableArrays\nLibz\nDataStreams 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.4": {
     "sha1": "40edb693796375841f1837ac3a7fec0db5f54760",
-    "requires": "julia 0.4.1\nCompat\nNullableArrays\nLibz\nDataStreams 0.0.1 0.0.13\n",
+    "requires": "julia 0.4.1 0.5\nCompat\nNullableArrays\nLibz\nDataStreams 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.5": {
     "sha1": "8f65b720e761a5a33d38b3abd17e62e21b898842",
-    "requires": "julia 0.4.1\nCompat\nNullableArrays\nDataStreams 0.0.1 0.0.5\n",
+    "requires": "julia 0.4.1 0.5\nCompat\nNullableArrays\nDataStreams 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.6": {
     "sha1": "042a38abaa1e1efdca8503a30a6735625d3fb7e7",
-    "requires": "julia 0.4.1\nDataStreams 0.0.1 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings\n",
+    "requires": "julia 0.4.1\nDataStreams 0.0.5 0.0.7\nDataFrames\nNullableArrays\nWeakRefStrings 0.0.0 0.3.0\n",
     "testrequires": ""
    },
    "0.0.7": {
     "sha1": "e4e772bb613c8eea6b76fd37e0e0754e11d27673",
-    "requires": "julia 0.4.1\nDataStreams 0.0.1 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings\n",
+    "requires": "julia 0.4.1\nDataStreams 0.0.5 0.0.7\nDataFrames\nNullableArrays\nWeakRefStrings 0.0.0 0.3.0\n",
     "testrequires": ""
    },
    "0.0.8": {
     "sha1": "f8826a278862d70f7d180b1fb31acd0d68dd1f77",
-    "requires": "julia 0.4.1\nDataStreams 0.0.1 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings\n",
+    "requires": "julia 0.4.1\nDataStreams 0.0.5 0.0.7\nDataFrames\nNullableArrays\nWeakRefStrings 0.0.0 0.3.0\n",
     "testrequires": ""
    },
    "0.0.9": {
     "sha1": "8b43c4d01d18c891c0af90ebf8dfd889856b3a93",
-    "requires": "julia 0.4.1\nDataStreams 0.0.1 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings\n",
+    "requires": "julia 0.4.1\nDataStreams 0.0.5 0.0.7\nDataFrames\nNullableArrays\nWeakRefStrings 0.0.0 0.3.0\n",
     "testrequires": ""
    },
    "0.0.11": {
     "sha1": "e9f151b085d0ceb1ab157c8ae5d91d80446c6de4",
-    "requires": "julia 0.4.1\nDataStreams 0.0.8 0.0.13\nDataFrames\nWeakRefStrings 0.1.2\n",
+    "requires": "julia 0.4.1\nDataStreams 0.0.8 0.0.13\nDataFrames\nWeakRefStrings 0.1.2 0.3.0\n",
     "testrequires": "Libz\nDecFP\n"
    },
    "0.0.12": {
     "sha1": "9e0f1da839dccc001177c3dff83fa60413c4de43",
-    "requires": "julia 0.4.1\nDataStreams 0.0.10 0.0.13\nDataFrames\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.4.1\nDataStreams 0.0.10 0.0.13\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": "Libz\nDecFP\n"
    },
    "0.0.13": {
     "sha1": "7e0c5fba80012f29d7365f2d85e7dd1d3ee08a20",
-    "requires": "julia 0.4.1\nDataStreams 0.0.12 0.0.13\nDataFrames\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.4.1\nDataStreams 0.0.12 0.0.13\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": "Libz\nDecFP\n"
    },
    "0.0.14": {
     "sha1": "c8c4c3b6acc6a3c3ad86294dcad6532a5ba46bb6",
-    "requires": "julia 0.4.1\nDataStreams 0.0.13\nDataFrames\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.4.1\nDataStreams 0.0.13 0.2.0\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": "Libz\nDecFP\n"
    },
    "0.1.0": {
     "sha1": "a7066df5ff21a431d43fb5a96c0659c5588b3007",
-    "requires": "julia 0.5\nDataStreams 0.1.0\nDataFrames\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.5\nDataStreams 0.1.0 0.2.0\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": "Libz\nDecFP\n"
    },
    "0.1.1": {
     "sha1": "e08c50da9c28458f8341fb9e9bc749e4aee46255",
-    "requires": "julia 0.5\nDataStreams 0.1.0\nDataFrames\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.5\nDataStreams 0.1.0 0.2.0\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": "Libz\nDecFP\nDataStreamsIntegrationTests\n"
    },
    "0.1.2": {
     "sha1": "38a36939e086fd97f44912beea812d9fcfeaf33c",
-    "requires": "julia 0.5\nDataStreams 0.1.0\nDataFrames\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.5\nDataStreams 0.1.0 0.2.0\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": "Libz\nDecFP\nDataStreamsIntegrationTests\n"
    },
    "0.1.4": {
     "sha1": "49e914ad55c36e036cdcf51ade9ea87d81f34299",
-    "requires": "julia 0.5\nCompat 0.9.5\nDataStreams 0.1.0\nDataFrames\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.5\nCompat 0.9.5\nDataStreams 0.1.0 0.2.0\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": "Libz\nDataStreamsIntegrationTests\n"
    },
    "0.1.5": {
@@ -6269,6 +6269,11 @@
    "0.3.2": {
     "sha1": "622dfa539fa53c3eca434cff40af37ced69d533f",
     "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.4.1\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "d9b78c53c8223833412557433a8b5970b6d6e7f1",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.4.1\nCUDAapi\n",
     "testrequires": ""
    }
   }
@@ -13127,97 +13132,97 @@
   "versions": {
    "0.0.1": {
     "sha1": "a09a18b9559f1da81cfca3175b8c9f3da1c97b2c",
-    "requires": "julia 0.4\nNullableArrays\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4 0.6\nNullableArrays\nCategoricalArrays 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.2": {
     "sha1": "5ae8d79f1356741c74ee55e36794407eb46c9cbd",
-    "requires": "julia 0.4\nNullableArrays\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4 0.6\nNullableArrays\nCategoricalArrays 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.3": {
     "sha1": "b94a6cece84f576c7b20e82804e73a93335b84d3",
-    "requires": "julia 0.4\nNullableArrays\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4 0.6\nNullableArrays\nCategoricalArrays 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.4": {
     "sha1": "8ee82fa0e6802faf185ccf4bf525b9139d132b2d",
-    "requires": "julia 0.4\nNullableArrays\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4 0.6\nNullableArrays\nCategoricalArrays 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.5": {
     "sha1": "f75f579b0e4476ffff8736ebbd900c1bb9efbb1d",
-    "requires": "julia 0.4\nNullableArrays\nDataFrames\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4\nNullableArrays\nDataFrames\nCategoricalArrays 0.0.1 0.0.5\nWeakRefStrings 0.0.0 0.3.0\n",
     "testrequires": ""
    },
    "0.0.6": {
     "sha1": "f530cb450a06ef29caf37be19bf02c37af2c4112",
-    "requires": "julia 0.4\nNullableArrays\nDataFrames\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4\nNullableArrays\nDataFrames\nCategoricalArrays 0.0.1 0.0.5\nWeakRefStrings 0.0.0 0.3.0\n",
     "testrequires": ""
    },
    "0.0.7": {
     "sha1": "1f3b0d0ce4a0ff69035ce173cfb6495ba2a24998",
-    "requires": "julia 0.4\nDataFrames\nNullableArrays\nWeakRefStrings 0.1.2\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4\nDataFrames\nNullableArrays\nWeakRefStrings 0.1.2 0.3.0\nCategoricalArrays 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.8": {
     "sha1": "d0969d1d10fd330cbf8d16a515f73b82f7d0139c",
-    "requires": "julia 0.4\nDataFrames\nNullableArrays\nWeakRefStrings 0.1.3\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4\nDataFrames\nNullableArrays\nWeakRefStrings 0.1.3 0.3.0\nCategoricalArrays 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.9": {
     "sha1": "19f2c94c77a54d53e19861b4eed9f6cac2d67e5a",
-    "requires": "julia 0.4\nDataFrames\nNullableArrays\nWeakRefStrings 0.1.3\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4\nDataFrames\nNullableArrays\nWeakRefStrings 0.1.3 0.3.0\nCategoricalArrays 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.10": {
     "sha1": "50a20a4d8fe8130948efc2451e2b5899095f2121",
-    "requires": "julia 0.4\nDataFrames\nNullableArrays\nWeakRefStrings 0.1.3\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4\nDataFrames\nNullableArrays\nWeakRefStrings 0.1.3 0.3.0\nCategoricalArrays 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.0.11": {
     "sha1": "6a9996b1be3ad208d0eefad0c57958a34db19f4a",
-    "requires": "julia 0.4\nDataFrames\nNullableArrays 0.0.8\nCategoricalArrays 0.0.3 0.0.5\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.4\nDataFrames\nNullableArrays 0.0.8\nCategoricalArrays 0.0.3 0.0.5\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": ""
    },
    "0.0.12": {
     "sha1": "b5f575059b661b63f983dac276652d7777bc6e42",
-    "requires": "julia 0.4\nDataFrames\nNullableArrays 0.0.8\nCategoricalArrays 0.0.4 0.0.5\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.4\nDataFrames\nNullableArrays 0.0.8\nCategoricalArrays 0.0.4 0.0.5\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": ""
    },
    "0.0.13": {
     "sha1": "7ef58fbaef1c4bb848b1123f5b6332abc7a4e456",
-    "requires": "julia 0.4\nDataFrames\nNullableArrays 0.0.8\nCategoricalArrays 0.0.4 0.0.5\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.4\nDataFrames\nNullableArrays 0.0.8\nCategoricalArrays 0.0.4 0.0.5\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": ""
    },
    "0.0.14": {
     "sha1": "3bab4d16e54108c0276be5e348f40e9ff73001fe",
-    "requires": "julia 0.4\nDataFrames\nNullableArrays 0.0.8\nCategoricalArrays 0.0.5\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.4\nDataFrames\nNullableArrays 0.0.8\nCategoricalArrays 0.0.5\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": ""
    },
    "0.0.15": {
     "sha1": "7ef58fbaef1c4bb848b1123f5b6332abc7a4e456",
-    "requires": "julia 0.4\nDataFrames\nNullableArrays 0.0.8\nCategoricalArrays 0.0.4 0.0.5\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.4\nDataFrames\nNullableArrays 0.0.8\nCategoricalArrays 0.0.4 0.0.5\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": ""
    },
    "0.1.0": {
     "sha1": "53521cb03de5e24ab9b509e05eac49b58dce7aaf",
-    "requires": "julia 0.5\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.5\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": ""
    },
    "0.1.1": {
     "sha1": "9c52c498dbfb80850ff38df04c7cf45264495ff9",
-    "requires": "julia 0.5\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.5\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": ""
    },
    "0.1.2": {
     "sha1": "2cca825fecb314e827f43009b10bc6359a5a0d8f",
-    "requires": "julia 0.5\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.5\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": ""
    },
    "0.1.3": {
     "sha1": "399831f36db3d5054a2f84f3bad82ee88240ba0f",
-    "requires": "julia 0.5\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings 0.1.3\nCompat 0.17",
+    "requires": "julia 0.5\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings 0.1.3 0.3.0\nCompat 0.17",
     "testrequires": ""
    }
   }
@@ -13227,12 +13232,12 @@
   "versions": {
    "0.0.1": {
     "sha1": "e92cc45b94ae5dcd12b2a1a48423d1133762b243",
-    "requires": "julia 0.5\nDataStreams\nNullableArrays\n",
+    "requires": "julia 0.5 0.7\nDataStreams 0.0.0 0.2.0\nNullableArrays\n",
     "testrequires": ""
    },
    "0.0.2": {
     "sha1": "39607c912872eec9d370f50714dc69a49cedb3f6",
-    "requires": "julia 0.5\nDataStreams\nNullableArrays\n",
+    "requires": "julia 0.5 0.7\nDataStreams 0.0.0 0.2.0\nNullableArrays\n",
     "testrequires": ""
    }
   }
@@ -13467,17 +13472,17 @@
   "versions": {
    "0.0.1": {
     "sha1": "4316fa2af83330cd9dac2b099f431bef705874fc",
-    "requires": "julia 0.5\nNullableArrays 0.1.0\nCategoricalArrays 0.0.6\nStatsBase 0.11.0\nGZip\nSortingAlgorithms\nReexport\nCompat 0.19.0\nFileIO 0.1.2\nJuno 0.2.4\n",
+    "requires": "julia 0.5\nNullableArrays 0.1.0\nCategoricalArrays 0.0.6\nStatsBase 0.11.0\nGZip\nSortingAlgorithms\nReexport\nCompat 0.19.0\nFileIO 0.1.2\nJuno 0.2.4\nDataStreams 0.0.0 0.2.0\n",
     "testrequires": "Compat 0.9.0\nDataStructures\nRDatasets # can be removed when deprecated.jl doesn't test read_rda anymore\nRData\nLaTeXStrings\nAtom\n"
    },
    "0.0.2": {
     "sha1": "9902e6eb2b233d7e2528379def3e86d2c4ad0b9e",
-    "requires": "julia 0.5\nNullableArrays 0.1.0\nCategoricalArrays 0.0.6\nStatsBase 0.11.0\nGZip\nSortingAlgorithms\nReexport\nCompat 0.19.0\nFileIO 0.1.2\n",
+    "requires": "julia 0.5\nNullableArrays 0.1.0\nCategoricalArrays 0.0.6\nStatsBase 0.11.0\nGZip\nSortingAlgorithms\nReexport\nCompat 0.19.0\nFileIO 0.1.2\nDataStreams 0.0.0 0.2.0\n",
     "testrequires": "Compat 0.9.0\nDataStructures\nRDatasets # can be removed when deprecated.jl doesn't test read_rda anymore\nRData\nLaTeXStrings\nAtom\n"
    },
    "0.0.3": {
     "sha1": "46a4f3fa364ee32b85d6484006bcf8f593e9bcc5",
-    "requires": "julia 0.5\nNullableArrays 0.1.0\nCategoricalArrays 0.1.2\nStatsBase 0.11.0\nSortingAlgorithms\nReexport\nCompat 0.19.0\nWeakRefStrings 0.1.3\nDataStreams 0.1.0\n",
+    "requires": "julia 0.5\nNullableArrays 0.1.0\nCategoricalArrays 0.1.2\nStatsBase 0.11.0\nSortingAlgorithms\nReexport\nCompat 0.19.0\nWeakRefStrings 0.1.3\nDataStreams 0.1.0 0.2.0\n",
     "testrequires": "Compat 0.9.0\nDataStructures\nLaTeXStrings\nCSV"
    }
   }
@@ -19950,52 +19955,52 @@
   "versions": {
    "0.1.1": {
     "sha1": "1b36d435f4ee9b0bc4fbf9b830d1335629668863",
-    "requires": "julia 0.4\nFlatBuffers 0.1.0 0.2.0\nDataStreams 0.0.1 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4\nFlatBuffers 0.1.0 0.2.0\nDataStreams 0.0.1 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings 0.0.0 0.3.0\nCategoricalArrays 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.1.2": {
     "sha1": "3d275a07c8a8584f83c6d4191f2dfa1d41d8db45",
-    "requires": "julia 0.4\nFlatBuffers 0.1.0 0.2.0\nDataStreams 0.0.1 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4\nFlatBuffers 0.1.0 0.2.0\nDataStreams 0.0.1 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings 0.0.0 0.3.0\nCategoricalArrays 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.1.3": {
     "sha1": "d2f2e9b9f212c12a96807ab3359ae749e734da7b",
-    "requires": "julia 0.4\nFlatBuffers 0.1.1 0.2.0\nDataStreams 0.0.10 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings 0.1.3\nCategoricalArrays 0.0.1 0.0.5\n",
+    "requires": "julia 0.4\nFlatBuffers 0.1.1 0.2.0\nDataStreams 0.0.10 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings 0.1.3 0.3.0\nCategoricalArrays 0.0.1 0.0.5\n",
     "testrequires": ""
    },
    "0.1.4": {
     "sha1": "97bc8ca9da87dad8264b6df18a97dcfcccebd2b6",
-    "requires": "julia 0.4\nFlatBuffers 0.1.1 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.4 0.0.5\nDataFrames\nDataStreams 0.0.12 0.0.13\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.4\nFlatBuffers 0.1.1 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.4 0.0.5\nDataFrames\nDataStreams 0.0.12 0.0.13\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": ""
    },
    "0.1.5": {
     "sha1": "703485656607a7ceeff9c88ec385a943c37847c0",
-    "requires": "julia 0.4\nFlatBuffers 0.1.1 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.4 0.0.5\nDataFrames\nDataStreams 0.0.13\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.4\nFlatBuffers 0.1.1 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.4 0.0.5\nDataFrames\nDataStreams 0.0.13 0.2.0\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": ""
    },
    "0.2.0": {
     "sha1": "b14fef74e8372a9062be7ab90fbd1637fc48f92c",
-    "requires": "julia 0.5\nFlatBuffers 0.1.1 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.6\nDataFrames\nDataStreams 0.1.0\nWeakRefStrings 0.1.3\n",
+    "requires": "julia 0.5\nFlatBuffers 0.1.1 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.6\nDataFrames\nDataStreams 0.1.0 0.2.0\nWeakRefStrings 0.1.3 0.3.0\n",
     "testrequires": ""
    },
    "0.2.1": {
     "sha1": "05a768c10e2ffce7bd3750ba569ed03806057148",
-    "requires": "julia 0.5\nFlatBuffers 0.1.1 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.6\nDataFrames\nDataStreams 0.1.0\nWeakRefStrings 0.1.3\nDataArrays\n",
+    "requires": "julia 0.5\nFlatBuffers 0.1.1 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.6\nDataFrames\nDataStreams 0.1.0 0.2.0\nWeakRefStrings 0.1.3 0.3.0\nDataArrays\n",
     "testrequires": ""
    },
    "0.2.2": {
     "sha1": "22975d921a91148aa99c7aa86795309cc1156ef3",
-    "requires": "julia 0.5\nFlatBuffers 0.1.1 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.6\nDataFrames\nDataStreams 0.1.0\nWeakRefStrings 0.1.3\nDataArrays\n",
+    "requires": "julia 0.5\nFlatBuffers 0.1.1 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.6\nDataFrames\nDataStreams 0.1.0 0.2.0\nWeakRefStrings 0.1.3 0.3.0\nDataArrays\n",
     "testrequires": "DataStreamsIntegrationTests\n"
    },
    "0.2.3": {
     "sha1": "18b7c297c331d6cd960af082d772e4c35834f796",
-    "requires": "julia 0.5\nFlatBuffers 0.1.1 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.6\nDataFrames\nDataStreams 0.1.0\nWeakRefStrings 0.1.3\nDataArrays\n",
+    "requires": "julia 0.5\nFlatBuffers 0.1.1 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.6\nDataFrames\nDataStreams 0.1.0 0.2.0\nWeakRefStrings 0.1.3 0.3.0\nDataArrays\n",
     "testrequires": "DataStreamsIntegrationTests\n"
    },
    "0.2.5": {
     "sha1": "3d8a1f9d3d00ea7e05729434f075d55f9f299bd6",
-    "requires": "julia 0.5\nFlatBuffers 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.6\nDataFrames\nDataStreams 0.1.0\nWeakRefStrings 0.1.3\nDataArrays\n",
+    "requires": "julia 0.5\nFlatBuffers 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.6\nDataFrames\nDataStreams 0.1.0 0.2.0\nWeakRefStrings 0.1.3 0.3.0\nDataArrays\n",
     "testrequires": "DataStreamsIntegrationTests\n"
    }
   }
@@ -24656,6 +24661,11 @@
    "0.0.1": {
     "sha1": "11b2d50a90019f3a31555f71e61939a37e27b437",
     "requires": "julia 0.6\nLightGraphs v0.10.0\nSimpleWeightedGraphs v0.0.1\nStatsBase v0.17.0\n",
+    "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "9ce1bd4a8ee169ea6072e4e46bf648210ad02f5d",
+    "requires": "julia 0.6\nLightGraphs 0.10.0\nStatsBase 0.8.2\nProgressMeter\n",
     "testrequires": ""
    }
   }
@@ -33465,6 +33475,11 @@
     "sha1": "e5dc0addfcb33539d72fc1a904b6e5df5188de5b",
     "requires": "julia 0.5\nZMQ 0.3.3\nJSON\nLogging 0.3.1\nHttpCommon\nHttpServer 0.0.12\nCompat 0.17.0\n",
     "testrequires": "Requests\n"
+   },
+   "0.3.4": {
+    "sha1": "12fad944dd723f45f11942d325fbdf996f8e8561",
+    "requires": "julia 0.5\nZMQ 0.3.3\nJSON\nLogging 0.3.1\nHttpCommon\nHttpServer 0.0.12\nCompat 0.17.0\n",
+    "testrequires": "Requests\n"
    }
   }
  },
@@ -41395,7 +41410,7 @@
   "versions": {
    "0.0.1": {
     "sha1": "8a527d4b7b7a99936e490e045f6ddfc91925f323",
-    "requires": "julia 0.4.1\nCSV 0.0.5 0.0.6\nCompat\n",
+    "requires": "julia 0.4.1 0.5\nCSV 0.0.5 0.0.6\nCompat\n",
     "testrequires": ""
    },
    "0.1.0": {
@@ -45080,67 +45095,67 @@
    },
    "0.2.0": {
     "sha1": "f450a51e6674c864be9e73530882d250d8e2264b",
-    "requires": "DataFrames v0.2.0\nDatetime\nProgressMeter\njulia 0.2-\n",
+    "requires": "DataFrames v0.2.0\nDatetime\nProgressMeter\njulia 0.2- 0.3\n",
     "testrequires": ""
    },
    "0.2.1": {
     "sha1": "3dc859a49fcb89bdce160f77db5e8740f3944541",
-    "requires": "DataFrames v0.2.0\nDatetime\nProgressMeter\njulia 0.2-\n",
+    "requires": "DataFrames v0.2.0\nDatetime\nProgressMeter\njulia 0.2- 0.3\n",
     "testrequires": ""
    },
    "0.3.0": {
     "sha1": "c48347ff45bc7496e994eeb3cba81cc3d7af8510",
-    "requires": "DataFrames v0.2.0\nDatetime\nUTF16\njulia 0.2-\n",
+    "requires": "DataFrames v0.2.0\nDatetime\nUTF16\njulia 0.2- 0.3\n",
     "testrequires": ""
    },
    "0.3.1": {
     "sha1": "8fb00af72d4357d64d2b6d68238d73031e63711b",
-    "requires": "DataFrames 0.3-\nDatetime 0.1-\nUTF16\njulia 0.2-\n",
+    "requires": "DataFrames 0.3-\nDatetime 0.1-\nUTF16\njulia 0.2- 0.3\n",
     "testrequires": ""
    },
    "0.3.2": {
     "sha1": "0d2144638d34a8cd98022abbec89e29725285a0c",
-    "requires": "DataFrames 0.4-\nDatetime 0.1-\njulia 0.3-\n",
+    "requires": "DataFrames 0.4-\nDatetime 0.1-\njulia 0.3- 0.4\n",
     "testrequires": ""
    },
    "0.3.3": {
     "sha1": "d79b72f8a951d6a19e96336f8c9ee83ab99b0467",
-    "requires": "DataFrames 0.4-\nDatetime 0.1-\njulia 0.3-\n",
+    "requires": "DataFrames 0.4-\nDatetime 0.1-\njulia 0.3- 0.4\n",
     "testrequires": ""
    },
    "0.3.4": {
     "sha1": "837c361c91564e6108df8f77861ee2ae1df91229",
-    "requires": "DataFrames 0.4-\nDatetime 0.1-\njulia 0.3-\n",
+    "requires": "DataFrames 0.4-\nDatetime 0.1-\njulia 0.3- 0.4\n",
     "testrequires": ""
    },
    "0.3.5": {
     "sha1": "e30fa4c60d7e71b86facea775f71b9a7b447bd67",
-    "requires": "DataFrames 0.4-\nDatetime 0.1-\njulia 0.3-\n",
+    "requires": "DataFrames 0.4-\nDatetime 0.1-\njulia 0.3- 0.4\n",
     "testrequires": ""
    },
    "0.3.6": {
     "sha1": "90d2f4392056dc22cb4053c18e5dd34a85f95281",
-    "requires": "DataFrames v0.5.2\nDatetime v0.1.2\njulia 0.3-\n\n",
+    "requires": "DataFrames v0.5.2\nDatetime v0.1.2\njulia 0.3- 0.4\n\n",
     "testrequires": ""
    },
    "0.3.7": {
     "sha1": "820d07d8d57c88c0cdfc9e33cbdda1018864155f",
-    "requires": "DataFrames v0.5.2\nDatetime v0.1.2\njulia 0.3-\n\n",
+    "requires": "DataFrames v0.5.2\nDatetime v0.1.2\njulia 0.3- 0.4\n\n",
     "testrequires": ""
    },
    "0.3.8": {
     "sha1": "f614eb01596a5fc517c277e6460132eaccc49806",
-    "requires": "DataFrames 0.5.2\nDatetime 0.1.2\njulia 0.3-\n\n",
+    "requires": "DataFrames 0.5.2\nDatetime 0.1.2\njulia 0.3- 0.4\n\n",
     "testrequires": ""
    },
    "0.3.9": {
     "sha1": "7bc22671adbc51660c99083ee7560d4c6ddb6d08",
-    "requires": "DataFrames 0.5.2\nDates 0.3.1-\njulia 0.3-\n\n",
+    "requires": "DataFrames 0.5.2\nDates 0.3.1-\njulia 0.3- 0.4\n\n",
     "testrequires": ""
    },
    "0.3.10": {
     "sha1": "65ed481c112a79f342fcf4618aa8a51b23bc095d",
-    "requires": "DataFrames 0.5.2\nDates 0.3.1-\njulia 0.3-\n\n",
+    "requires": "DataFrames 0.5.2\nDates 0.3.1-\njulia 0.3- 0.4\n\n",
     "testrequires": ""
    },
    "0.3.11": {
@@ -45150,32 +45165,32 @@
    },
    "0.4.0": {
     "sha1": "7ae7ebfac60ed3ffb1ccefd552993a3073f8b77b",
-    "requires": "julia 0.4\nCompat\nNullableArrays\nDataStreams\nCSV\nSQLite\nDecFP\n",
+    "requires": "julia 0.4 0.5\nCompat\nNullableArrays\nDataStreams\nCSV\nSQLite\nDecFP\n",
     "testrequires": "HDF5\nJLD\n"
    },
    "0.4.1": {
     "sha1": "7ae7ebfac60ed3ffb1ccefd552993a3073f8b77b",
-    "requires": "julia 0.4\nCompat\nNullableArrays\nDataStreams\nCSV\nSQLite\nDecFP\n",
+    "requires": "julia 0.4 0.5\nCompat\nNullableArrays\nDataStreams\nCSV\nSQLite\nDecFP\n",
     "testrequires": "HDF5\nJLD\n"
    },
    "0.4.2": {
     "sha1": "e194699064fad016ee2b6ace5780e59f85670701",
-    "requires": "julia 0.4.1\nSQLite\nCSV\nDataStreams\nDataFrames\nNullableArrays\nWeakRefStrings\nDecFP\n\n",
+    "requires": "julia 0.4.1 0.5\nSQLite\nCSV\nDataStreams\nDataFrames\nNullableArrays\nWeakRefStrings\nDecFP\n\n",
     "testrequires": "HDF5\nJLD\n"
    },
    "0.5.0": {
     "sha1": "880d4b1a8120236df6cb7a02264226f92f76cb62",
-    "requires": "julia 0.5\nDataStreams 0.1.0\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings\n@unix DecFP\n",
+    "requires": "julia 0.5 0.7\nDataStreams 0.1.0 0.2.0\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings\n@unix DecFP\n",
     "testrequires": "CSV\nSQLite\nFeather\n"
    },
    "0.5.1": {
     "sha1": "e12d9edecfafb9f16d2e8ed144b128982a4980d3",
-    "requires": "julia 0.5\nDataStreams 0.1.0\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings\n@unix DecFP\n",
+    "requires": "julia 0.5 0.7\nDataStreams 0.1.0 0.2.0\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings\n@unix DecFP\n",
     "testrequires": "DataStreamsIntegrationTests\n"
    },
    "0.5.2": {
     "sha1": "f0afedead6354c9ce69b264454e32d92adc62d98",
-    "requires": "julia 0.5\nDataStreams 0.1.0\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings\nDecFP 0.3.0\n",
+    "requires": "julia 0.5 0.7\nDataStreams 0.1.0 0.2.0\nDataFrames\nNullableArrays 0.0.9\nCategoricalArrays 0.0.5\nWeakRefStrings\nDecFP 0.3.0\n",
     "testrequires": "DataStreamsIntegrationTests\n"
    }
   }
@@ -56886,67 +56901,67 @@
    },
    "0.2.2": {
     "sha1": "470b5cf34318eba4265ef032a961f3533efde526",
-    "requires": "julia 0.4\nBinDeps\nCompat\nDataStreams 0.0.1 0.0.13\nNullableArrays\nCSV\n@osx Homebrew\n@windows WinRPM\n",
+    "requires": "julia 0.4\nBinDeps\nCompat\nDataStreams 0.0.1 0.0.13\nNullableArrays\nCSV\n@osx Homebrew\n@windows WinRPM\nWeakRefStrings 0.0.0 0.3.0\n",
     "testrequires": ""
    },
    "0.3.0": {
     "sha1": "470b5cf34318eba4265ef032a961f3533efde526",
-    "requires": "julia 0.4\nBinDeps\nCompat\nDataStreams 0.0.1 0.0.13\nNullableArrays\nCSV\n@osx Homebrew\n@windows WinRPM\n",
+    "requires": "julia 0.4\nBinDeps\nCompat\nDataStreams 0.0.1 0.0.13\nNullableArrays\nCSV\n@osx Homebrew\n@windows WinRPM\nWeakRefStrings 0.0.0 0.3.0\n",
     "testrequires": ""
    },
    "0.3.1": {
     "sha1": "a227bc47d3a70bd533e4a8922df8c547a028aba4",
-    "requires": "julia 0.4.1\nBinDeps\nCompat\nDataStreams 0.0.1 0.0.13\nNullableArrays\nCSV\n@osx Homebrew\n@windows WinRPM\n",
+    "requires": "julia 0.4.1\nBinDeps\nCompat\nDataStreams 0.0.1 0.0.13\nNullableArrays\nCSV\n@osx Homebrew\n@windows WinRPM\nWeakRefStrings 0.0.0 0.3.0\n",
     "testrequires": ""
    },
    "0.3.2": {
     "sha1": "1123351beaba878eaf45cbc94a0ad1149273b1ef",
-    "requires": "julia 0.4.1\nBinDeps\nCSV 0.0.8\nDataStreams 0.0.1 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings\n@osx Homebrew\n@windows WinRPM\n",
+    "requires": "julia 0.4.1\nBinDeps\nCSV 0.0.8\nDataStreams 0.0.1 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings 0.0.0 0.3.0\n@osx Homebrew\n@windows WinRPM\n",
     "testrequires": ""
    },
    "0.3.3": {
     "sha1": "5cdf8d9670c6a383146c7c54ceab2f23fad2ba70",
-    "requires": "julia 0.4.1\nBinDeps\nCSV 0.0.8\nDataStreams 0.0.1 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings\n@osx Homebrew\n@windows WinRPM\n",
+    "requires": "julia 0.4.1\nBinDeps\nCSV 0.0.8\nDataStreams 0.0.1 0.0.13\nDataFrames\nNullableArrays\nWeakRefStrings 0.0.0 0.3.0\n@osx Homebrew\n@windows WinRPM\n",
     "testrequires": ""
    },
    "0.3.4": {
     "sha1": "5d08685129e615592b284ebfb857252faed39317",
-    "requires": "julia 0.4.1\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.0.9 0.0.13\nDataFrames\nWeakRefStrings 0.1.3\nLegacyStrings\n",
+    "requires": "julia 0.4.1\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.0.9 0.0.13\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\nLegacyStrings\n",
     "testrequires": "CSV\n"
    },
    "0.3.5": {
     "sha1": "dc4bee41d039a93e9281c598232ff3c1cf43243e",
-    "requires": "julia 0.4.1\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.0.10 0.0.13\nDataFrames\nWeakRefStrings 0.1.3\nLegacyStrings\n",
+    "requires": "julia 0.4.1\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.0.10 0.0.13\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\nLegacyStrings\n",
     "testrequires": "CSV\nNullableArrays\n"
    },
    "0.3.6": {
     "sha1": "238ca4ff379a5da36a864c022c652c5189150a79",
-    "requires": "julia 0.4.1\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.0.12 0.0.13\nDataFrames\nWeakRefStrings 0.1.3\nLegacyStrings\n",
+    "requires": "julia 0.4.1\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.0.12 0.0.13\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\nLegacyStrings\n",
     "testrequires": "CSV 0.0.13\nNullableArrays\n"
    },
    "0.3.7": {
     "sha1": "73d26f5b3ce4f54066d87484190d1e42e3d23465",
-    "requires": "julia 0.4.1\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.0.13\nDataFrames\nWeakRefStrings 0.1.3\nLegacyStrings\n",
+    "requires": "julia 0.4.1\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.0.13 0.2.0\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\nLegacyStrings\n",
     "testrequires": "CSV 0.0.14\nNullableArrays\n"
    },
    "0.4.0": {
     "sha1": "ba8ee892bbfbcba8d8ccfec4072254c2d1c47b76",
-    "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.1.0\nDataFrames\nWeakRefStrings 0.1.3\nLegacyStrings\n",
+    "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.1.0 0.2.0\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\nLegacyStrings\n",
     "testrequires": "CSV\nNullableArrays\n"
    },
    "0.4.1": {
     "sha1": "3f15c075bdce52661f28b104d97dc493a0654ccd",
-    "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.1.0\nDataFrames\nWeakRefStrings 0.1.3\nLegacyStrings\n",
+    "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.1.0 0.2.0\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\nLegacyStrings\n",
     "testrequires": "NullableArrays\nDataStreamsIntegrationTests\n"
    },
    "0.4.2": {
     "sha1": "2610faaaeea7cd92c38c29221101727445f7ab25",
-    "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.1.0\nDataFrames\nWeakRefStrings 0.1.3\nLegacyStrings\n",
+    "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.1.0 0.2.0\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\nLegacyStrings\n",
     "testrequires": "NullableArrays\nDataStreamsIntegrationTests\n"
    },
    "0.4.5": {
     "sha1": "6a370c2f33aec8b4555f29e5166e0f7216e45778",
-    "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.1.0\nDataFrames\nWeakRefStrings 0.1.3\nLegacyStrings\nCompat 0.9.5\n",
+    "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n@windows WinRPM\nDataStreams 0.1.0 0.2.0\nDataFrames\nWeakRefStrings 0.1.3 0.3.0\nLegacyStrings\nCompat 0.9.5\n",
     "testrequires": "NullableArrays\nDataStreamsIntegrationTests\n"
    }
   }
@@ -61469,7 +61484,7 @@
   "versions": {
    "0.0.1": {
     "sha1": "942c6131a5c9d19808546a55e778b4be9bec585d",
-    "requires": "julia 0.5\nReexport 0.0.3\nCompat 0.9.2\nAbstractTables 0.0.1\nNullableArrays 0.0.9\nDataStreams 0.0.15\nCSV 0.0.14\n",
+    "requires": "julia 0.5\nReexport 0.0.3\nCompat 0.9.2\nAbstractTables 0.0.1\nNullableArrays 0.0.9\nDataStreams 0.0.15 0.2.0\nCSV 0.0.14\n",
     "testrequires": ""
    }
   }
@@ -62489,42 +62504,42 @@
   "versions": {
    "0.1.0": {
     "sha1": "44a36131a6a592f612ea65c0bac009612a3cc112",
-    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings\n",
+    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings 0.1.0 0.3.0\n",
     "testrequires": ""
    },
    "0.1.1": {
     "sha1": "f007c88f2eac02a5f072038a39eaa6a8a8ddfd74",
-    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings\n",
+    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings 0.1.0 0.3.0\n",
     "testrequires": ""
    },
    "0.1.3": {
     "sha1": "f9932a7fde58aad515b7ffa027f64b5f868ee20e",
-    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays v0.0.2\nWeakRefStrings\n",
+    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays v0.0.2\nWeakRefStrings 0.1.0 0.3.0\n",
     "testrequires": ""
    },
    "0.1.4": {
     "sha1": "9e67e1b4428d17e437b7134758851c2d01c402b6",
-    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings\n",
+    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings 0.1.0 0.3.0\n",
     "testrequires": ""
    },
    "0.1.5": {
     "sha1": "48dda26682286f85eabe4c38093f35642446d06b",
-    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings\n",
+    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings 0.1.0 0.3.0\n",
     "testrequires": ""
    },
    "0.1.6": {
     "sha1": "d76878234f74bd54d178212eb660dcbc4873ea90",
-    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings\n",
+    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings 0.1.0 0.3.0\n",
     "testrequires": ""
    },
    "0.1.7": {
     "sha1": "1fc592eecd20a8f9caf83035d4a0e07e0d27b0f0",
-    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings\n",
+    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings 0.1.0 0.3.0\n",
     "testrequires": ""
    },
    "0.1.8": {
     "sha1": "13e5fd9e224fdbbd27303f10b8b23bac704a49da",
-    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings\n",
+    "requires": "julia 0.5\nCompat 0.17\nNullableArrays\nPooledArrays 0.0.2\nWeakRefStrings 0.1.0 0.3.0\n",
     "testrequires": ""
    }
   }
