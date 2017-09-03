@@ -6405,6 +6405,11 @@
     "sha1": "3deca2c8c90c4239eb9d3a9630a65466c1f983ef",
     "requires": "julia 0.4-\nCUDArt 0.2\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "65d2644bdb40e3c35b83c3f307b614e961777a09",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0",
+    "testrequires": ""
    }
   }
  },
@@ -10320,6 +10325,11 @@
     "sha1": "5ddfae2eae52966b3aa73e659b8170e8aed4c50b",
     "requires": "julia 0.5\nColors\nCompat 0.18.0\nDataStructures\nIterTools\nJSON\nMeasures\n",
     "testrequires": "Cairo\n"
+   },
+   "0.5.4": {
+    "sha1": "a1eed124ef4e350cb890357bdb593cb4d62933fb",
+    "requires": "julia 0.5\nColors\nCompat 0.18.0\nDataStructures\nIterTools\nJSON\nMeasures\n",
+    "testrequires": "Cairo\n"
    }
   }
  },
@@ -13503,6 +13513,11 @@
    "0.6.1": {
     "sha1": "c3059a99d867b681fce562c1c463968428226737",
     "requires": "julia 0.5\nCompat 0.17.0\n",
+    "testrequires": "Primes 0.1.1\n"
+   },
+   "0.7.0": {
+    "sha1": "4b8de289604760b99d9a85691027710a74bc46a9",
+    "requires": "julia 0.6\n",
     "testrequires": "Primes 0.1.1\n"
    }
   }
@@ -19792,6 +19807,11 @@
     "sha1": "e2b851582d9fe9384a6e49bec3b78febf54ae10c",
     "requires": "julia 0.5\nCompat 0.26.0\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "170cad9e26326d6f6f664912e46b918b2f83c5ea",
+    "requires": "julia 0.6\nCompat 0.26.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -23312,6 +23332,11 @@
     "sha1": "11b9dc156a8a641825f8a2798fe301f70a70510b",
     "requires": "julia 0.5\nColors 0.3.4\nCompat 0.18.0\nCompose 0.5.2\nContour 0.1.1\nCoupledFields\nDataFrames 0.4.2\nDataArrays\nDataStructures\nDistributions\nHexagons\nIterTools\nJSON\nKernelDensity\nLoess\nShowoff 0.0.3\nStatsBase\nJuno\n",
     "testrequires": "RDatasets\nCairo\nFontconfig\n"
+   },
+   "0.6.4": {
+    "sha1": "aa6a1ad45e701a5af5a7761721dd617af8ee5c42",
+    "requires": "julia 0.5\nColors 0.3.4\nCompat 0.18.0\nCompose 0.5.2\nContour 0.1.1\nCoupledFields\nDataFrames 0.4.2\nDataArrays\nDataStructures\nDistributions\nHexagons\nIterTools\nJSON\nKernelDensity\nLoess\nShowoff 0.0.3\nStatsBase\nJuno\n",
+    "testrequires": "RDatasets\nCairo\nFontconfig\n"
    }
   }
  },
@@ -23992,6 +24017,16 @@
     "sha1": "2cd1b6327872cd26b88669ecf99e9f5e16fecfb4",
     "requires": "julia 0.6\nCombinatorics\nSpecialFunctions\nParameters\nRecipesBase\n",
     "testrequires": "GR\nPlots\nGeoStatsImages\nVisualRegressionTests\n"
+   }
+  }
+ },
+ "GeoStatsBase": {
+  "url": "https://github.com/juliohm/GeoStatsBase.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "7f744b6ab81f33276b46deda810c6755fea5ec2a",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -28993,6 +29028,16 @@
    }
   }
  },
+ "ImageSegmentation": {
+  "url": "https://github.com/JuliaImages/ImageSegmentation.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "cdad66a0f0ccf009bb5f0355c068d8c5d79c2d47",
+    "requires": "julia 0.6\nImages 0.9\nImageFiltering 0.1.4\nDataStructures 0.5.3\nStaticArrays 0.6.0\nLightGraphs 0.9.2\nSimpleWeightedGraphs 0.0.1\nRegionTrees 0.1.0\nDistances\nStaticArrays\nClustering\n",
+    "testrequires": ""
+   }
+  }
+ },
  "ImageTransformations": {
   "url": "https://github.com/JuliaImages/ImageTransformations.jl.git",
   "versions": {
@@ -33310,6 +33355,11 @@
     "sha1": "cc63236c7799b7e6fd5e5137c1ec776439eb6609",
     "requires": "julia 0.6\nIndexedTables 0.3.0\nNamedTuples 4.0.0\nTextParse 0.1.6\nDagger 0.3.0\nGlob 1.1.1\nPooledArrays 0.0.2\nNullableArrays\n",
     "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "cc59503e9dd1f417f76e0e338fc0dcd115fa14cf",
+    "requires": "julia 0.6\nIndexedTables 0.3.0\nNamedTuples 4.0.0\nTextParse 0.1.6\nDagger 0.3.0\nGlob 1.1.1\nPooledArrays 0.0.2\nNullableArrays\n",
+    "testrequires": ""
    }
   }
  },
@@ -34338,6 +34388,11 @@
    "0.7.0": {
     "sha1": "4f2973ab8ec916a395e07ed7bccf3b2a0216c06b",
     "requires": "julia 0.5\nBinDeps 0.4.5\nCompat 0.8.0\nCxxWrap 0.4.1 0.5-\n",
+    "testrequires": ""
+   },
+   "0.8.0": {
+    "sha1": "19d080b0416cd7601fff18b380eadd6749a29c43",
+    "requires": "julia 0.5\nBinDeps 0.4.5\nCompat 0.8.0\nCxxWrap 0.5 0.6-\n",
     "testrequires": ""
    }
   }
@@ -41550,6 +41605,16 @@
    }
   }
  },
+ "MicroLogging": {
+  "url": "https://github.com/c42f/MicroLogging.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "f8d43d1bc7e26d22e18d42c66d2e973f7e7022e5",
+    "requires": "julia 0.6\nCompat 0.25.0\nFastClosures\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Microeconometrics": {
   "url": "https://github.com/lbittarello/Microeconometrics.jl.git",
   "versions": {
@@ -47491,6 +47556,11 @@
     "sha1": "8cb3b5cb2cd80ddf22268483e96b0deb70aaab25",
     "requires": "julia 0.6\nTikzPictures 1.1.0\nImages 0.11.0\nColors 0.8.0\nColorBrewer 0.3.0\nContour 0.4.0\nImageMagick 0.2.3\nDiscretizers 2.0.0\nStatsBase 0.9.0\nDataFrames 0.9.0\nReel 1.0.1\nIndirectArrays 0.1.1\n\n",
     "testrequires": "NBInclude\n"
+   },
+   "2.1.0": {
+    "sha1": "be57c62990dafc657c08f2fe8c57048a5c7c4687",
+    "requires": "julia 0.6\nTikzPictures 1.1.0\nImages 0.11.0\nColors 0.8.0\nColorBrewer 0.3.0\nContour 0.4.0\nImageMagick 0.2.3\nDiscretizers 2.0.0\nStatsBase 0.9.0\nDataFrames 0.9.0\nIndirectArrays 0.1.1\n\n",
+    "testrequires": "NBInclude\nReel 1.0.1"
    }
   }
  },
@@ -49894,7 +49964,7 @@
   "versions": {
    "0.0.1": {
     "sha1": "c4207f0d1d28ec421d684e0f06ff0eb61f85d2d8",
-    "requires": "julia 0.5\nMultivariatePolynomials 0.0.1\nJuMP\n",
+    "requires": "julia 0.5\nMultivariatePolynomials 0.0.1 0.1.0\nJuMP\n",
     "testrequires": "CSDP\nSCS\n"
    }
   }
@@ -54486,6 +54556,16 @@
    }
   }
  },
+ "RequirementVersions": {
+  "url": "https://github.com/bramtayl/RequirementVersions.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "1acfca84c5f93edc096aba58a7decb5ab2b388a6",
+    "requires": "julia 0.6",
+    "testrequires": "Documenter\nSimpleTraits\n"
+   }
+  }
+ },
  "Requires": {
   "url": "git://github.com/MikeInnes/Requires.jl.git",
   "versions": {
@@ -54637,6 +54717,16 @@
    "0.1.1": {
     "sha1": "6d91e6a84d8a3c6baa98bf50f5f18bf33023a4ac",
     "requires": "julia 0.5.0-rc1\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "ResumableFunctions": {
+  "url": "https://github.com/BenLauwens/ResumableFunctions.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "c551c6844fa2a0391ad12810895e32cf339c8020",
+    "requires": "julia 0.6\n\nMacroTools",
     "testrequires": ""
    }
   }
@@ -58566,6 +58656,16 @@
    }
   }
  },
+ "SnowballStemmer": {
+  "url": "https://github.com/sadit/SnowballStemmer.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "475c6511caf87570b78d233ab1f419b00ba011b5",
+    "requires": "julia 0.6\nBinDeps\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Sobol": {
   "url": "git://github.com/stevengj/Sobol.jl.git",
   "versions": {
@@ -60784,7 +60884,7 @@
   "versions": {
    "0.0.1": {
     "sha1": "a088d2fc63f99b6a9d324749a980d87243777bcf",
-    "requires": "julia 0.5\nMultivariatePolynomials 0.0.1\nJuMP\nPolyJuMP 0.0.1\n",
+    "requires": "julia 0.5\nMultivariatePolynomials 0.0.1 0.1.0\nJuMP\nPolyJuMP 0.0.1\n",
     "testrequires": "PolyJuMP\nCSDP\nSCS\n"
    }
   }
@@ -61589,6 +61689,11 @@
   "versions": {
    "0.0.1": {
     "sha1": "3f21e1490ac507e920bbd3fca29165ae838fdc26",
+    "requires": "julia 0.6\nNamedTuples 4.0.0\nDataValues 0.0.1\nTableTraits 0.0.1\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "1ee00f82119d1e7e69a1cd9c18751d92a902e608",
     "requires": "julia 0.6\nNamedTuples 4.0.0\nDataValues 0.0.1\nTableTraits 0.0.1\n",
     "testrequires": ""
    }
