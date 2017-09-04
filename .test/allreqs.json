@@ -5195,6 +5195,11 @@
     "sha1": "86f2d3a22c94767ec9b1a61017e358403c6404cd",
     "requires": "julia 0.5\nCompat 0.17\n",
     "testrequires": ""
+   },
+   "0.7.2": {
+    "sha1": "270522af681f7e13fbe87f2809f79bb089ad01a7",
+    "requires": "julia 0.5\nCompat 0.17\n",
+    "testrequires": ""
    }
   }
  },
@@ -8368,6 +8373,11 @@
    },
    "0.3.0": {
     "sha1": "ac6157425d18850718c9044972f51b351c5cccdb",
+    "requires": "julia 0.6.0\nTranscodingStreams 0.3\n",
+    "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "4bf80b243567e3b052c27c078bbaa09fc1bb5a10",
     "requires": "julia 0.6.0\nTranscodingStreams 0.3\n",
     "testrequires": ""
    }
@@ -12743,7 +12753,7 @@
   }
  },
  "DataFlow": {
-  "url": "https://github.com/MikeInnes/DataFlow.jl.git",
+  "url": "https://github.com/FluxML/DataFlow.jl.git",
   "versions": {
    "0.1.0": {
     "sha1": "50fb74fd838e1c07f1048ff2341c0a0d21a57a24",
@@ -17387,6 +17397,16 @@
    }
   }
  },
+ "DotOverloading": {
+  "url": "https://github.com/bramtayl/DotOverloading.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "5ffb825561ea8c5246a8da1e2138ffdedda9b8e9",
+    "requires": "julia 0.6\nMacroTools 0.3.1\n",
+    "testrequires": "Documenter\nValuedTuples\n"
+   }
+  }
+ },
  "DoubleDouble": {
   "url": "git://github.com/JuliaMath/DoubleDouble.jl.git",
   "versions": {
@@ -17712,8 +17732,13 @@
   "versions": {
    "0.1.0": {
     "sha1": "839f85ab012297aa241bf7f4d58becfb110a6fd8",
-    "requires": "julia 0.6\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\nRequires 0.4.3\nLsqFit 0.3.0\n",
+    "requires": "julia 0.6\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\nRequires 0.4.3\nLsqFit 0.3.0\nStaticArrays 0.5.0\nStatsBase 0.8.2\nRecursiveArrayTools 0.12.0\n",
     "testrequires": "julia 0.6\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\n"
+   },
+   "0.2.0": {
+    "sha1": "920dc0a7c98ccde364c671af3c3b2ce50ea07f98",
+    "requires": "julia 0.6\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\nRequires 0.4.3\nLsqFit 0.3.0\nStaticArrays 0.5.0\nStatsBase 0.8.2\nRecursiveArrayTools 0.12.0\nNearestNeighbors 0.1.0\nIterTools 0.1.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -42821,6 +42846,11 @@
    "0.0.2": {
     "sha1": "6019e9cd14614ebd1997304b69dc5fe6d1ff2417",
     "requires": "julia 0.5\nCompat 0.17\n",
+    "testrequires": "BenchmarkTools\n"
+   },
+   "0.1.0": {
+    "sha1": "b76f4bb9d7c49f110d3e3bf2690e9eb04669b2c4",
+    "requires": "julia 0.6\n",
     "testrequires": "BenchmarkTools\n"
    }
   }
