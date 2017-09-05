@@ -18539,6 +18539,11 @@
     "sha1": "dc37d19526ac577b450a87d3ee4de99c8dbb8ceb",
     "requires": "julia 0.5\n\nJSON 0.8.2\nCompat 0.17.0\n",
     "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "31205e66adb8763e71496a4439d469cdb35e4cd1",
+    "requires": "julia 0.6\n\nJSON 0.8.2\n",
+    "testrequires": "Compat 0.30.0\n"
    }
   }
  },
@@ -24041,6 +24046,11 @@
    "0.3.7": {
     "sha1": "2cd1b6327872cd26b88669ecf99e9f5e16fecfb4",
     "requires": "julia 0.6\nCombinatorics\nSpecialFunctions\nParameters\nRecipesBase\n",
+    "testrequires": "GR\nPlots\nGeoStatsImages\nVisualRegressionTests\n"
+   },
+   "0.4.0": {
+    "sha1": "ef6c5637422ec0460b493530c8a0ab3aaff0f574",
+    "requires": "julia 0.6\nReexport\nGeoStatsBase\nDataFrames\nCombinatorics\nSpecialFunctions\nParameters\nNamedTuples\nRecipesBase\n",
     "testrequires": "GR\nPlots\nGeoStatsImages\nVisualRegressionTests\n"
    }
   }
@@ -34612,6 +34622,11 @@
    },
    "0.3.9": {
     "sha1": "fdb1a8fc549a307c105948a6514ed159444f59aa",
+    "requires": "julia 0.5\nCompat 0.17.0\n",
+    "testrequires": ""
+   },
+   "0.3.10": {
+    "sha1": "e434b172ab8972fc8d87a9ee053f5e74be28525a",
     "requires": "julia 0.5\nCompat 0.17.0\n",
     "testrequires": ""
    }
@@ -49920,6 +49935,11 @@
    "0.12.3": {
     "sha1": "d0a89858003ec6724f9043c20eab9ff16ff73e21",
     "requires": "julia 0.6-pre\n\nRecipesBase 0.2.0\nPlotUtils 0.4.1\nPlotThemes 0.1.3\nReexport\nStaticArrays 0.5\nFixedPointNumbers 0.3\nMeasures\nShowoff\nStatsBase 0.14.0\nJSON\nNaNMath\nRequires\nContour\n",
+    "testrequires": "StatPlots\nImages\nImageMagick\n@osx QuartzImageIO\nGR\nRDatasets\nVisualRegressionTests\nUnicodePlots\n"
+   },
+   "0.12.4": {
+    "sha1": "4c2b01ccb02569ef3ae3a7951958061bb2709cbf",
+    "requires": "julia 0.6\n\nRecipesBase 0.2.0\nPlotUtils 0.4.1\nPlotThemes 0.1.3\nReexport\nStaticArrays 0.5\nFixedPointNumbers 0.3\nMeasures\nShowoff\nStatsBase 0.14.0\nJSON\nNaNMath\nRequires\nContour\n",
     "testrequires": "StatPlots\nImages\nImageMagick\n@osx QuartzImageIO\nGR\nRDatasets\nVisualRegressionTests\nUnicodePlots\n"
    }
   }
