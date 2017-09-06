@@ -6183,47 +6183,47 @@
    },
    "0.1.2": {
     "sha1": "e16b4723ea6ecd72fad1e8951b7adfcc873afdd8",
-    "requires": "julia 0.6.0-pre\nCUDAdrv 0.2 0.5.0\nLLVM 0.2\n",
+    "requires": "julia 0.6.0-pre\nCUDAdrv 0.2 0.5.0\nLLVM 0.2 0.3.10\n",
     "testrequires": ""
    },
    "0.1.3": {
     "sha1": "25b395403b32c20e511ae8ade60119318560e0ec",
-    "requires": "julia 0.6.0-pre\nCUDAdrv 0.2 0.5.0\nLLVM 0.2\n",
+    "requires": "julia 0.6.0-pre\nCUDAdrv 0.2 0.5.0\nLLVM 0.2 0.3.10\n",
     "testrequires": ""
    },
    "0.2.0": {
     "sha1": "0721783db9ac4cc2c2948cbf8cbff4aa5f7c4271",
-    "requires": "julia 0.6.0-pre\nCUDAdrv 0.2 0.5.0\nLLVM 0.2\n",
+    "requires": "julia 0.6.0-pre\nCUDAdrv 0.2 0.5.0\nLLVM 0.2 0.3.10\n",
     "testrequires": ""
    },
    "0.3.0": {
     "sha1": "d2d7e28acda43271551ebf7ceda3954b50b74d02",
-    "requires": "julia 0.6.0-pre\nCUDAdrv 0.4 0.5.0\nLLVM 0.2\n",
+    "requires": "julia 0.6.0-pre\nCUDAdrv 0.4 0.5.0\nLLVM 0.2 0.3.10\n",
     "testrequires": "Documenter\n\n"
    },
    "0.3.1": {
     "sha1": "fe0214e942a347742da415565729a06efadd6595",
-    "requires": "julia 0.6\nCUDAdrv 0.4.2 0.5.0\nLLVM 0.3.5\n",
+    "requires": "julia 0.6\nCUDAdrv 0.4.2 0.5.0\nLLVM 0.3.5 0.3.10\n",
     "testrequires": "Documenter\n\n"
    },
    "0.4.0": {
     "sha1": "1da524d321686e3f124bb2555914110c98bce646",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.8\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.8 0.3.10\n",
     "testrequires": ""
    },
    "0.4.1": {
     "sha1": "1bb9162e2613dc2c7010bf66cf5973d0898839b8",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.8\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.8 0.3.10\n",
     "testrequires": ""
    },
    "0.4.2": {
     "sha1": "009039dbc03807324ba315e792ffcb76f8ec0a53",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.8\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.8 0.3.10\n",
     "testrequires": ""
    },
    "0.5.0": {
     "sha1": "20790dd9d8cfd358ac2499b7780e814f1b8dbfc9",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.8\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.8 0.3.10\n",
     "testrequires": ""
    }
   }
@@ -13529,6 +13529,11 @@
     "sha1": "4b8de289604760b99d9a85691027710a74bc46a9",
     "requires": "julia 0.6\n",
     "testrequires": "Primes 0.1.1\n"
+   },
+   "0.7.1": {
+    "sha1": "08683b47824957bd057d0db448d3efdfdc632cf7",
+    "requires": "julia 0.6\n",
+    "testrequires": "Primes 0.1.1\n"
    }
   }
  },
@@ -14887,6 +14892,11 @@
    },
    "1.22.0": {
     "sha1": "60718a2613d2cb6160bef2922e98ca4f70a86d50",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.9.0\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\n",
+    "testrequires": ""
+   },
+   "1.23.0": {
+    "sha1": "097119978b61710328f42606a78fd37fdc2a0d6f",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.9.0\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\n",
     "testrequires": ""
    }
@@ -54778,6 +54788,11 @@
     "sha1": "c551c6844fa2a0391ad12810895e32cf339c8020",
     "requires": "julia 0.6\n\nMacroTools",
     "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "8fab4fae752b3e73963a51d6419d25b173d29adf",
+    "requires": "julia 0.6\n\nMacroTools",
+    "testrequires": ""
    }
   }
  },
@@ -65645,6 +65660,11 @@
    "0.2.0": {
     "sha1": "ca386cd183e5fb012eb15eed16a46ad7f0f65213",
     "requires": "julia 0.5\nDataStructures 0.5\nRecipesBase 0.1\nCompat 0.17\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "ff93a1c5b4ad9e8a9a79ef33e48c4838ee4198db",
+    "requires": "julia 0.6\nDataStructures 0.5\nRecipesBase 0.1\nCompat 0.17\n",
     "testrequires": ""
    }
   }
