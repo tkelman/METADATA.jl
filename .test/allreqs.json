@@ -8295,6 +8295,11 @@
     "sha1": "818c95c6b8bf807b652875e39e38d6c95abb6096",
     "requires": "julia 0.5\nLazy 0.6\nLNR\nTokenize 0.1\n",
     "testrequires": ""
+   },
+   "0.4.7": {
+    "sha1": "e7fe89087407fc77ce87a9502de471eeb4fcc5ba",
+    "requires": "julia 0.5\nLazy 0.6\nLNR\nTokenize 0.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -12392,6 +12397,11 @@
    },
    "0.3.0": {
     "sha1": "6a9054bac7ced62525f0c48e6825cbf4391c45fe",
+    "requires": "julia 0.6\nCompat 0.19\nLogging\n",
+    "testrequires": "BaseTestNext\n"
+   },
+   "0.3.1": {
+    "sha1": "5328a33d21dc70808aea66fe12a0a0f003b38aa3",
     "requires": "julia 0.6\nCompat 0.19\nLogging\n",
     "testrequires": "BaseTestNext\n"
    }
@@ -29078,7 +29088,7 @@
   "versions": {
    "0.0.1": {
     "sha1": "cdad66a0f0ccf009bb5f0355c068d8c5d79c2d47",
-    "requires": "julia 0.6\nImages 0.9\nImageFiltering 0.1.4\nDataStructures 0.5.3\nStaticArrays 0.6.0\nLightGraphs 0.9.2\nSimpleWeightedGraphs 0.0.1\nRegionTrees 0.1.0\nDistances\nStaticArrays\nClustering\n",
+    "requires": "julia 0.6\nImages 0.9\nImageFiltering 0.1.4\nDataStructures 0.5.3\nStaticArrays 0.6.0\nLightGraphs 0.9.2\nSimpleWeightedGraphs 0.0.1\nRegionTrees 0.1.0\nDistances\nStaticArrays\nClustering 0.9.0\n",
     "testrequires": ""
    }
   }
