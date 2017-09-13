@@ -1871,6 +1871,11 @@
     "sha1": "c286d4ee1b4a5d36b4eb291ede945de099c36584",
     "requires": "julia 0.4\nCompat 0.8.6\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "a4b2a3bd509554771e1b11cee7a494e11e2abc52",
+    "requires": "julia 0.5\nCompat 0.8.6\nSpecialFunctions 0.0.1",
+    "testrequires": ""
    }
   }
  },
@@ -7275,6 +7280,16 @@
     "sha1": "183110adea7daa572f71eeb8dc71f65fe9d2e2dc",
     "requires": "julia 0.6\nCompat 0.19.0\nNulls 0.0.2\n",
     "testrequires": ""
+   }
+  }
+ },
+ "CausalInference": {
+  "url": "https://github.com/mschauer/CausalInference.jl.git",
+  "versions": {
+   "0.3.0": {
+    "sha1": "60159cc3e1d54100ea8ebc61f5fdf477454c9073",
+    "requires": "julia 0.6\nLightGraphs 0.9.0\nCombinatorics 0.4.1\n",
+    "testrequires": "Documenter"
    }
   }
  },
@@ -52060,6 +52075,11 @@
     "sha1": "f863d82b34969017432be784954029575b2e3e61",
     "requires": "julia 0.5\nCompat 0.20.0\nConda 0.2\nMacroTools 0.3\n",
     "testrequires": ""
+   },
+   "1.15.0": {
+    "sha1": "0550f890c86878375f74821a459da41e7cc943f6",
+    "requires": "julia 0.5\nCompat 0.27.0\nConda 0.2\nMacroTools 0.3\n",
+    "testrequires": ""
    }
   }
  },
@@ -64716,6 +64736,16 @@
     "sha1": "a6c839ae3415c4083ad22de65cdfd8acbf8a3209",
     "requires": "julia 0.6\nCompat 0.18.0\nStatsBase 0.8.0\nFFTW\n",
     "testrequires": "FastTransforms"
+   }
+  }
+ },
+ "Tokamak": {
+  "url": "https://github.com/FluxML/Tokamak.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "b7d5db8f91d8b6bced1b23cc20f1932934a9b06a",
+    "requires": "julia 0.6\nMacroTools\nDataFlow\n",
+    "testrequires": ""
    }
   }
  },
