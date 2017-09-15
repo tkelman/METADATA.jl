@@ -43660,6 +43660,16 @@
    }
   }
  },
+ "NCDatasets": {
+  "url": "https://github.com/Alexander-Barth/NCDatasets.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "4d80495834765ffb01ad312273567f1f331186db",
+    "requires": "julia 0.6\nDataArrays 0.5\nBinDeps 0.4\nConda 0.3\n",
+    "testrequires": ""
+   }
+  }
+ },
  "NEOS": {
   "url": "git://github.com/odow/NEOS.jl.git",
   "versions": {
@@ -61221,6 +61231,11 @@
     "sha1": "8518980759fe694ab56d685d7aef246dcbe03768",
     "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 1.16.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.3.0\nNLsolve\nForwardDiff 0.5.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.11.1": {
+    "sha1": "db687b77bc9f1e527e364acbb58c0bbc5ee4e146",
+    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 1.16.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.5.0\nNLsolve\nForwardDiff 0.5.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
+    "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
    }
   }
  },
@@ -67469,6 +67484,11 @@
    },
    "0.3.0": {
     "sha1": "152cb5e6698fb183429e9d9cc57c37917b208e5a",
+    "requires": "julia 0.6\nNulls\n",
+    "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "98be3ab08d94c2732f40e6f4923c6413e6dbd787",
     "requires": "julia 0.6\nNulls\n",
     "testrequires": ""
    }
