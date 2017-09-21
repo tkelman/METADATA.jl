@@ -2650,6 +2650,11 @@
     "sha1": "684405940f43a3a16a5b57d6829a15cacbcc47f6",
     "requires": "julia 0.4\nStatsBase\nUnicodePlots\nDistributions\nRecipesBase\n",
     "testrequires": "FactCheck\nPlots\n"
+   },
+   "0.6.0": {
+    "sha1": "db7a8747249735259aabe140e76ca2006c2284e1",
+    "requires": "julia 0.6\nStatsBase\nUnicodePlots\nRecipesBase\nDistributions\n",
+    "testrequires": ""
    }
   }
  },
@@ -20982,6 +20987,11 @@
     "sha1": "07acd3fda99275dabbcfce7f980763b7446cc662",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "d7ff5131551300892b5dadc9c694f6f48bf14ed2",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -29505,6 +29515,11 @@
     "sha1": "272ce68af0775c473c386ffffcaa377c90888ad5",
     "requires": "julia 0.6\nCombinatorics\nStatsBase\nPrimes\nImageFiltering\nImageMorphology\nLightGraphs 0.6.1\nRecipesBase\nProgressMeter\nHwloc\n",
     "testrequires": "Plots\nGR\nGeoStatsImages\nVisualRegressionTests\n"
+   },
+   "0.5.4": {
+    "sha1": "aadd4bc495fc117aa16c2ba9536152ddd3dbdea8",
+    "requires": "julia 0.6\nGeoStatsBase\nGeoStatsDevTools\nCombinatorics\nStatsBase\nPrimes\nImageFiltering\nImageMorphology\nLightGraphs 0.6.1\nRecipesBase\nProgressMeter\nHwloc\n",
+    "testrequires": "GR\nPlots\nGeoStats\nGeoStatsImages\nVisualRegressionTests\n"
    }
   }
  },
@@ -43982,6 +43997,11 @@
     "sha1": "00a31b3c49acae0eeb74965409e30ef01109a51c",
     "requires": "julia 0.4\nCodecs\nLightXML\nMathProgBase 0.4 0.6\nRequests\nLibz\n",
     "testrequires": "FactCheck\n"
+   },
+   "0.2.0": {
+    "sha1": "d64ca7a81fd7b776b57d5d82029b41afca27eab7",
+    "requires": "julia 0.5\nCodecs\nLightXML\nMathProgBase 0.5 0.7\nRequests\nLibz\nCompat 0.9.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -50856,6 +50876,11 @@
     "sha1": "26d3005556f7f8960d8a820f435a2b573ad29359",
     "requires": "julia 0.5\nApproxFun 0.6.0\nBandedMatrices 0.2\nDualNumbers 0.3.0\nStaticArrays 0.3\nIntervalSets 0.0.2\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "5ce82aa1cd4ff0bb7cc3dbb92c9602efcc46eedf",
+    "requires": "julia 0.6\nApproxFun 0.7\nBandedMatrices 0.2\nCompat 0.31.0\nDualNumbers 0.3.0\nStaticArrays 0.3\nIntervalSets 0.0.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -55243,6 +55268,11 @@
     "sha1": "4ecfa29a6f7b4c6b9f975008fb905713d07f5b05",
     "requires": "julia 0.6\nImages 0.6\nFileIO 0.4\nImageInTerminal 0.2\nColorTypes 0.4\nSHA\n",
     "testrequires": "FixedPointNumbers 0.3\nTestImages\nDataFrames\nCSVFiles 0.3\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
+   },
+   "0.0.2": {
+    "sha1": "7719d33e35db06a634c9da6de648cbd529caef88",
+    "requires": "julia 0.6\nImages 0.6\nFileIO 0.4\nImageInTerminal 0.2\nColorTypes 0.4\nSHA\n",
+    "testrequires": "FixedPointNumbers 0.3\nTestImages\nDataFrames\nCSVFiles 0.3\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
    }
   }
  },
@@ -56526,7 +56556,7 @@
    },
    "0.3.0": {
     "sha1": "cd58a541cf085b31913e8a22c3206fff0003a751",
-    "requires": "julia 0.6-rc3\nStaticArrays 0.6.2\nRotations 0.6.0\nTypeSortedCollections 0.1\nLightXML 0.4.0\nDocStringExtensions 0.4.0\nCompat 0.27 # for Val constructor\n",
+    "requires": "julia 0.6-rc3\nStaticArrays 0.6.2\nRotations 0.6.0\nTypeSortedCollections 0.1 0.1.1\nLightXML 0.4.0\nDocStringExtensions 0.4.0\nCompat 0.27 # for Val constructor\n",
     "testrequires": "ForwardDiff 0.3.1\nBenchmarkTools 0.0.5\nSymPy 0.5.1\nNBInclude 1.1.0\n"
    },
    "0.4.0": {
@@ -59022,6 +59052,16 @@
    "0.0.1": {
     "sha1": "55a4506eef75c4c011dacb47d53ddc88c75b4888",
     "requires": "",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "bc3fa2d7c061686684f6a228f0be8ca2a0adbd19",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "d2c33fe29d05a577464f094159d01940815e543e",
+    "requires": "julia 0.5\n",
     "testrequires": ""
    }
   }
@@ -65909,6 +65949,16 @@
    }
   }
  },
+ "TypedBools": {
+  "url": "https://github.com/bramtayl/TypedBools.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "4f40af249791f1a4135642a56fed61676e93e6b5",
+    "requires": "julia 0.6",
+    "testrequires": "Documenter"
+   }
+  }
+ },
  "TypedDelegation": {
   "url": "git://github.com/JuliaArbTypes/TypedDelegation.jl.git",
   "versions": {
@@ -66440,6 +66490,11 @@
    "0.2.6": {
     "sha1": "9bd63b4bd42855b8b44609e466daeee8f47762a6",
     "requires": "julia 0.5\nCompat 0.18.0\nRanges\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "dd7b31c70ff7d5f1544fadd4262044e0fd5972b8",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
