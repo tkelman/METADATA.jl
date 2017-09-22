@@ -2655,6 +2655,11 @@
     "sha1": "db7a8747249735259aabe140e76ca2006c2284e1",
     "requires": "julia 0.6\nStatsBase\nUnicodePlots\nRecipesBase\nDistributions\n",
     "testrequires": ""
+   },
+   "0.6.1": {
+    "sha1": "4d0bf0f5e96f94c940c28eabc24278aceb8c292c",
+    "requires": "julia 0.6\nStatsBase\nUnicodePlots\nRecipesBase\nDistributions\n",
+    "testrequires": ""
    }
   }
  },
@@ -5945,6 +5950,11 @@
     "sha1": "eaecd7929130cb66b20c74229e653d20d110194a",
     "requires": "julia 0.6.0\nTokenize 0.4.0\nAbstractTrees\n",
     "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "a21ad39ea79ac0127b2ea9fba5716eb2554675b3",
+    "requires": "julia 0.6.0\nTokenize 0.4.0\nAbstractTrees\n",
+    "testrequires": ""
    }
   }
  },
@@ -6314,6 +6324,11 @@
    "0.5.0": {
     "sha1": "20790dd9d8cfd358ac2499b7780e814f1b8dbfc9",
     "requires": "julia 0.6\nCUDAdrv 0.5.0 0.5.3\nLLVM 0.3.8 0.3.10\n",
+    "testrequires": ""
+   },
+   "0.5.1": {
+    "sha1": "b04f4ea250744c720f7bad594f520d0cfa085fa7",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.11\nCUDAapi\n",
     "testrequires": ""
    }
   }
@@ -7323,6 +7338,11 @@
    },
    "0.2.0": {
     "sha1": "183110adea7daa572f71eeb8dc71f65fe9d2e2dc",
+    "requires": "julia 0.6\nCompat 0.19.0\nNulls 0.0.2\n",
+    "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "874c6eb1e2fe09282982fbe7977950d71bec76ce",
     "requires": "julia 0.6\nCompat 0.19.0\nNulls 0.0.2\n",
     "testrequires": ""
    }
@@ -9095,6 +9115,11 @@
     "sha1": "618e10579799d76bc949632206f10ba4d2835f74",
     "requires": "julia 0.6\nCompat 0.26.0\nFixedPointNumbers 0.3.0\n",
     "testrequires": ""
+   },
+   "0.6.3": {
+    "sha1": "95afb932376b0b4cb70fb56863395451d0e6ab11",
+    "requires": "julia 0.6\nCompat 0.32.0\nFixedPointNumbers 0.3.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -9229,6 +9254,11 @@
    "0.4.4": {
     "sha1": "101823d221339ee9e65f424ee775f54ab4f66fa3",
     "requires": "julia 0.5\nColors 0.7.1\nColorTypes 0.4\nFixedPointNumbers 0.3.0\nStatsBase 0.8.2\nCompat 0.18.0\n",
+    "testrequires": "BaseTestNext\nStatsBase\n"
+   },
+   "0.5.0": {
+    "sha1": "39cd6264adb85bbb14f70e09045d6da4d453d52d",
+    "requires": "julia 0.6\nColors 0.7.1\nColorTypes 0.4\nFixedPointNumbers 0.3.0\nStatsBase 0.8.2\nCompat 0.18.0\n",
     "testrequires": "BaseTestNext\nStatsBase\n"
    }
   }
@@ -10524,6 +10554,11 @@
    "0.1.0": {
     "sha1": "99bfd1ec4315bcad238f97a44bf3172fcdafa303",
     "requires": "julia 0.4\nCompat 0.17\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "ece06ed22dc2e7ef074bbe9a9c77ffdf7a606e68",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
@@ -17074,6 +17109,11 @@
     "sha1": "0fb7e6c7b05faa4da41aec44cfed29562accbc12",
     "requires": "julia 0.6\nCompat 0.27 # for Sys.iswindows\n",
     "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "8fc791130354c09145df8721e638e132f02315ac",
+    "requires": "julia 0.6\nCompat 0.30 # @nospecialize\n",
+    "testrequires": ""
    }
   }
  },
@@ -19662,6 +19702,11 @@
     "sha1": "e43d7c7c59d7fe03020dfae036d886ead44694d0",
     "requires": "julia 0.5\nCustomUnitRanges\nCompat 0.17\n",
     "testrequires": "OffsetArrays\n"
+   },
+   "0.1.0": {
+    "sha1": "f12b9d8665de640c859df3141ee59cad2773f0be",
+    "requires": "julia 0.6\nCustomUnitRanges\nFFTW\nCompat 0.32\n",
+    "testrequires": "OffsetArrays\n"
    }
   }
  },
@@ -21502,6 +21547,11 @@
     "sha1": "55222a0fe5509c9dc1ecca88c314f0b57f529cd6",
     "requires": "julia 0.6.0-pre\nStaticArrays 0.5.0\nDiffBase 0.2.0 0.3.0\nNaNMath 0.2.2\nSpecialFunctions 0.1.0\nRealInterface 0.0.2\nCommonSubexpressions 0.0.1\n",
     "testrequires": "Calculus 0.2.0\n"
+   },
+   "0.6.0": {
+    "sha1": "1129f9be2b706e52a430d5b29f7ddf41bb49ca18",
+    "requires": "julia 0.6.0\nCompat 0.31.0\nStaticArrays 0.5.0\nDiffResults 0.0.1\nDiffRules 0.0.1\nNaNMath 0.2.2\nSpecialFunctions 0.1.0\nCommonSubexpressions 0.0.1\n",
+    "testrequires": "Calculus 0.2.0\nDiffTests 0.0.1\n"
    }
   }
  },
@@ -22302,6 +22352,11 @@
     "sha1": "dbad91a9598659380853b042e231af63b86f38d5",
     "requires": "julia 0.6\nCompat 0.18.0\nDistributions 0.10.0\nStatsBase 0.12.0\nStatsFuns 0.3.0\nReexport\nSpecialFunctions 0.1.0\n",
     "testrequires": "DataFrames 0.9.0\nStatsFuns 0.3.0\n"
+   },
+   "0.8.1": {
+    "sha1": "7419f5449fad90589783891111167bf2f9c3f4d4",
+    "requires": "julia 0.6\nCompat 0.18.0\nDistributions 0.10.0\nStatsBase 0.12.0\nStatsFuns 0.3.0\nReexport\nSpecialFunctions 0.1.0\n",
+    "testrequires": "DataFrames 0.9.0\nStatsFuns 0.3.0\n"
    }
   }
  },
@@ -22935,7 +22990,7 @@
    },
    "0.1.0": {
     "sha1": "26b32bffb826f46cb3c8357a0556ea0e2e945c91",
-    "requires": "julia 0.6\nStaticArrays\nColorTypes\n\nTranspiler 0.3\nSugar 0.3\nMatcha 0.0.2\n\nCUDAnative 0.4.1 # llvm codegen fix\nCUDAdrv 0.5.1\nCUDArt 0.4.0 # for cuda c compiler support\nCUBLAS 0.2.0 # for CUDAdrv support\nCUFFT\n\nOpenCL 0.6.0 #proper packed conversion\nCLBLAS 1.1.0\nCLFFT 0.4.0 # 0.5.0\n\nInterpolations\nIterTools\n",
+    "requires": "julia 0.6\nStaticArrays\nColorTypes\n\nTranspiler 0.3 0.4\nSugar 0.3 0.4\nMatcha 0.0.2\n\nCUDAnative 0.4.1 # llvm codegen fix\nCUDAdrv 0.5.1\nCUDArt 0.4.0 # for cuda c compiler support\nCUBLAS 0.2.0 # for CUDAdrv support\nCUFFT\n\nOpenCL 0.6.0 #proper packed conversion\nCLBLAS 1.1.0\nCLFFT 0.4.0 # 0.5.0\n\nInterpolations\nIterTools\n",
     "testrequires": "SpecialFunctions\n"
    }
   }
@@ -24486,6 +24541,11 @@
    "0.0.2": {
     "sha1": "57dabe976d5391bc47e296686db3b34cdd829e10",
     "requires": "julia 0.6\nGeoStatsBase\nDataFrames\nParameters\n",
+    "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "bac1b72610441e4dbc0d867ffffc7adf5cdda15c",
+    "requires": "julia 0.6\nGeoStatsBase\nDataFrames\nParameters 0.7.3\n",
     "testrequires": ""
    }
   }
@@ -26895,6 +26955,11 @@
    "0.8.5": {
     "sha1": "99c9718ba68825d7ab7fc53aa3c558cd3c40b1bf",
     "requires": "julia 0.5\nBinDeps 0.6.0\nBlosc\nCompat 0.24.0\n@osx Homebrew 0.3.1\n@windows WinRPM\n",
+    "testrequires": ""
+   },
+   "0.8.6": {
+    "sha1": "7cae2b4e5a82ece9cba50ba790808cc9752bbdec",
+    "requires": "julia 0.5\nBinDeps 0.6.0\nBlosc\nCompat 0.32.0\n@osx Homebrew 0.3.1\n@windows WinRPM\n",
     "testrequires": ""
    }
   }
@@ -31560,6 +31625,11 @@
     "sha1": "ba477da307fbf9d0573f61554e22ac79e520fa8b",
     "requires": "julia 0.5\nJSON 0.7\nCompat 0.17\nReactive 0.3.7\nDataStructures 0.2.10\n",
     "testrequires": "julia 0.4\nCompat 0.8.0\nBaseTestNext\nIJulia\n"
+   },
+   "0.6.2": {
+    "sha1": "045f0ea17b0bbe46b0f82c9cc25cabbddcd3f788",
+    "requires": "julia 0.5\nJSON 0.7\nCompat 0.17\nReactive 0.3.7\nDataStructures 0.2.10\n",
+    "testrequires": "julia 0.4\nCompat 0.8.0\nBaseTestNext\nIJulia\n"
    }
   }
  },
@@ -31779,6 +31849,11 @@
    "0.6.3": {
     "sha1": "b8bfd6ed17d81f17d2b8cb81d0ebfb5b6c2f1460",
     "requires": "julia 0.5\n\nShowItLikeYouBuildIt\nWoodburyMatrices 0.1.5\nRatios\nAxisAlgorithms\nCompat 0.19.0\nDualNumbers\n",
+    "testrequires": "OffsetArrays\n"
+   },
+   "0.7.0": {
+    "sha1": "62dd04b892e9461a42e23d905a357f010a68f2ef",
+    "requires": "julia 0.6\n\nShowItLikeYouBuildIt\nWoodburyMatrices 0.1.5\nRatios\nAxisAlgorithms\nCompat 0.19.0\nDualNumbers\n",
     "testrequires": "OffsetArrays\n"
    }
   }
@@ -37408,6 +37483,11 @@
     "sha1": "f382f9c0f4ca18cbb205f61d41cc62342e784b1a",
     "requires": "julia 0.6-pre\nNLSolversBase 2.0 3.0\nParameters\n",
     "testrequires": "Optim\n\n"
+   },
+   "3.0.0": {
+    "sha1": "5979facd949db19a0e5b66d24aa142f703578880",
+    "requires": "julia 0.6\nNLSolversBase 3.0\nParameters\n",
+    "testrequires": "Optim\n\n"
    }
   }
  },
@@ -41872,6 +41952,11 @@
     "sha1": "41a21248e32c63e128b499632f49809eedd09ede",
     "requires": "julia 0.6\nDataStructures\n",
     "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "28c1c04c2f17d3e081d9267d49132a0f6b616a83",
+    "requires": "julia 0.6\nDataStructures\n",
+    "testrequires": ""
    }
   }
  },
@@ -42802,6 +42887,11 @@
     "sha1": "f63b21fc0cc79e7aee002c6d2f7d5d025d7d67e5",
     "requires": "julia 0.5\nArgCheck\nBlockArrays\nCategoricalArrays 0.0.1 0.2.0\nCompat 0.19.0\nDataArrays\nDataStructures\nDataFrames 0.9\nDistributions 0.11\nGLM 0.6.1\nNamedArrays\nNLopt 0.3\nShowoff\nStatsBase 0.11\nStatsFuns 0.3\n",
     "testrequires": "RData\n"
+   },
+   "0.11.0": {
+    "sha1": "bb4b7fbe55b23b397e301c969b30a41ec9f8b22c",
+    "requires": "julia 0.6\nArgCheck\nBlockArrays\nDataArrays\nDataFrames 0.9\nDistributions 0.11\nGLM 0.7\nNamedArrays\nNLopt 0.3\nShowoff\nStatsBase 0.11\nStatsFuns 0.3\n",
+    "testrequires": "RData\n"
    }
   }
  },
@@ -43595,6 +43685,11 @@
    },
    "0.1.1": {
     "sha1": "2f68180ba9095f054fa63199ae8ea31ca93f9e22",
+    "requires": "julia 0.6\nDistances\nLIBSVM\nMultivariateStats\nCombinatorics\n",
+    "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "55dbe1673794cec3c18ac8715b2351cef9a347f0",
     "requires": "julia 0.6\nDistances\nLIBSVM\nMultivariateStats\nCombinatorics\n",
     "testrequires": ""
    }
@@ -46641,6 +46736,11 @@
     "sha1": "f6715506b026b0826174b35f0e889e1ea673121e",
     "requires": "julia 0.6\nCompat 0.19.0\n",
     "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "78055a6cebd93caf79a6240501261b40e21c9f7a",
+    "requires": "julia 0.6\nCompat 0.32\n",
+    "testrequires": ""
    }
   }
  },
@@ -47000,6 +47100,11 @@
    "0.6.0": {
     "sha1": "65bfef129e04d3c9846bf014d9160d6352c1940d",
     "requires": "julia 0.5\nCompat 0.18.0\n",
+    "testrequires": ""
+   },
+   "0.6.1": {
+    "sha1": "0a10e44fcf3f72060208ea519e6b3825d7b8a790",
+    "requires": "julia 0.5\nCompat 0.31\n",
     "testrequires": ""
    }
   }
@@ -48995,6 +49100,11 @@
    "0.6.0": {
     "sha1": "5d6efde998562caac597abbac4f5623e895d57b5",
     "requires": "julia 0.6\nPyCall 1.7.2\nPyPlot 2.2.4\nLazy 0.11.4\nCompat 0.17\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\n",
+    "testrequires": "NamedTuples 4.0.0\n"
+   },
+   "0.6.1": {
+    "sha1": "d6f558db1dc0038412b7afb987e318c8b88fd9b4",
+    "requires": "julia 0.6\nPyCall 1.7.2\nPyPlot 2.2.4\nLazy 0.11.4\nCompat 0.17\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\nDataValues 0.0.1\n",
     "testrequires": "NamedTuples 4.0.0\n"
    }
   }
@@ -56598,6 +56708,11 @@
     "sha1": "8f18dcd30fb6e5da16a92a6712a738cd40b59d81",
     "requires": "julia 0.6\nColorTypes 0.2.0\nRotations 0.5\nCoordinateTransformations 0.4.1\nDataStructures 0.4.3\nDrakeVisualizer 0.2.1\nFileIO 0.1.0\nGeometryTypes 0.4.0\nIJulia 1.3.2\nInteract 0.3.5\nInterpolations 0.3.6\nLightXML 0.4.0\nMeshIO 0.1.0\nRigidBodyDynamics 0.3\nStaticArrays 0.5\n",
     "testrequires": ""
+   },
+   "0.3.2": {
+    "sha1": "fb6924fda2bafd62578fe59148c8e554083c8cf1",
+    "requires": "julia 0.6\nColorTypes 0.2.0\nRotations 0.5\nCoordinateTransformations 0.4.1\nDataStructures 0.4.3\nDrakeVisualizer 0.2.1\nFileIO 0.1.0\nGeometryTypes 0.4.0\nIJulia 1.3.2\nInteract 0.3.5\nInterpolations 0.3.6\nLightXML 0.4.0\nMeshIO 0.1.0\nRigidBodyDynamics 0.4\nStaticArrays 0.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -62046,6 +62161,11 @@
     "sha1": "86a18817c5a5f376674deb73020bc88a51fa5258",
     "requires": "julia 0.6\nMacroTools\nMatcha\nDataStructures\nCompat 0.17.0\nStaticArrays 0.3.0\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "e6d85fe8f6799c5ec76856fb3ceb3fe88b4c2e57",
+    "requires": "julia 0.6\nMacroTools\nMatcha\nDataStructures\nCompat 0.17.0\nStaticArrays 0.3.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -63726,6 +63846,11 @@
     "sha1": "0df1d6f09dd0605f7cc784e0071f5b39d5c42771",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "fb3e7c7c1d337b101dd30094b1230ad584d41b9b",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -64370,6 +64495,11 @@
    "0.0.2": {
     "sha1": "62d7ed488a67e64f3f20605bbba194862eac2525",
     "requires": "julia 0.5\nOffsetArrays\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "95234d1692d843e02502ff8e261872915312c6b7",
+    "requires": "julia 0.6\nOffsetArrays\n",
     "testrequires": ""
    }
   }
@@ -65699,17 +65829,22 @@
    },
    "0.1.0": {
     "sha1": "f7454e95d44a0755e7e4a60843f8a83a5e2c3dc9",
-    "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.3.0\nMatcha\nStaticArrays 0.3.0\nDataStructures\nOpenCL 0.5.2\n#ModernGL\n#GLAbstraction\nSpecialFunctions\n",
+    "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.3 0.4\nMatcha\nStaticArrays 0.3.0\nDataStructures\nOpenCL 0.5.2\n#ModernGL\n#GLAbstraction\nSpecialFunctions\n",
     "testrequires": ""
    },
    "0.2.0": {
     "sha1": "ac7c633f4a374f4692bacead0f38b334c2945563",
-    "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.3.0\nMatcha\nStaticArrays 0.3.0\nDataStructures\nOpenCL 0.5.2\n#ModernGL\n#GLAbstraction\nSpecialFunctions\n",
+    "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.3 0.4\nMatcha\nStaticArrays 0.3.0\nDataStructures\nOpenCL 0.5.2\n#ModernGL\n#GLAbstraction\nSpecialFunctions\n",
     "testrequires": ""
    },
    "0.3.0": {
     "sha1": "39e0398df68cfa6aab2d2b17a3a7b0bb7f74eac1",
-    "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.3.0\nMatcha\nStaticArrays 0.3.0\nDataStructures\nSpecialFunctions\nMacroTools\n",
+    "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.3 0.4\nMatcha\nStaticArrays 0.3.0\nDataStructures\nSpecialFunctions\nMacroTools\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "9fa0922e4f3a08977e8d3b80928563379073b15f",
+    "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.4.0\nMatcha\nStaticArrays 0.3.0\nDataStructures\nSpecialFunctions\nMacroTools\n",
     "testrequires": ""
    }
   }
