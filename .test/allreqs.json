@@ -3193,6 +3193,16 @@
    }
   }
  },
+ "Bandits": {
+  "url": "git://github.com/rawls238/Bandits.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "9faa9033c8972fb3a6b1035a2d1c75947a07e404",
+    "requires": "julia 0.6\nDistributions 0.14.2\n",
+    "testrequires": ""
+   }
+  }
+ },
  "BaseTestDeprecated": {
   "url": "git://github.com/JuliaCI/BaseTestDeprecated.jl.git",
   "versions": {
@@ -6265,6 +6275,11 @@
     "sha1": "fc18bbad0c2286cbd42b2bc8b101663b18df38c5",
     "requires": "julia 0.5\nCompat 0.18.0\nCUDAapi 0.1.1\n",
     "testrequires": ""
+   },
+   "0.5.4": {
+    "sha1": "fd6bcf0ce096e19ab4317d0b412b3f1244eb509f",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAapi 0.1.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -9259,6 +9274,11 @@
    "0.5.0": {
     "sha1": "39cd6264adb85bbb14f70e09045d6da4d453d52d",
     "requires": "julia 0.6\nColors 0.7.1\nColorTypes 0.4\nFixedPointNumbers 0.3.0\nStatsBase 0.8.2\nCompat 0.18.0\n",
+    "testrequires": "BaseTestNext\nStatsBase\n"
+   },
+   "0.5.1": {
+    "sha1": "32835c2fc51862845b214d38143e98a211f03d1e",
+    "requires": "julia 0.6\nColors 0.7.1\nColorTypes 0.6.3\nFixedPointNumbers 0.3.0\nStatsBase 0.8.2\nCompat 0.18.0\n",
     "testrequires": "BaseTestNext\nStatsBase\n"
    }
   }
@@ -31715,6 +31735,11 @@
     "sha1": "18ade998bae00629d619e6c4d833d7a0057cd869",
     "requires": "julia 0.5\nBusinessDays\n",
     "testrequires": ""
+   },
+   "0.1.3": {
+    "sha1": "5ea65308d3e069e4c21fee3115faf6ab3cd89cec",
+    "requires": "julia 0.5\nBusinessDays\n",
+    "testrequires": ""
    }
   }
  },
@@ -32689,6 +32714,11 @@
    "0.8.1": {
     "sha1": "b273c5e468d68e2f8e78d2deff35e6df23b4b119",
     "requires": "julia 0.6\nHDF5\nCompat 0.25.0\nFileIO\nLegacyStrings\n",
+    "testrequires": "DataFrames\n"
+   },
+   "0.8.2": {
+    "sha1": "d89aa72d362c9b9b5082e149281478ac7732d591",
+    "requires": "julia 0.6\nHDF5\nCompat 0.32.0\nFileIO\nLegacyStrings\n",
     "testrequires": "DataFrames\n"
    }
   }
@@ -50346,6 +50376,11 @@
     "sha1": "3ec33bc02c901ed58e42ee4c367ae7ec7552ab5d",
     "requires": "julia 0.6\nAutoHashEquals\nMustache\nTerminalMenus\nURIParser\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "c7f9eb5974f90ac3a4903a354abc50012df9dad3",
+    "requires": "julia 0.6\nAutoHashEquals\nMustache\nTerminalMenus\nURIParser\n",
+    "testrequires": ""
    }
   }
  },
@@ -55098,6 +55133,16 @@
     "sha1": "878a5e6146ac84ee9bfeaa0952f4ffa5cc2805a0",
     "requires": "julia 0.5\nJLD\n",
     "testrequires": ""
+   }
+  }
+ },
+ "RecurUnroll": {
+  "url": "https://github.com/bramtayl/RecurUnroll.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "b0d87e4ed1d148c4f642fe9bb5cecef3be864238",
+    "requires": "julia 0.6",
+    "testrequires": "Documenter\nTypedBools\n"
    }
   }
  },
