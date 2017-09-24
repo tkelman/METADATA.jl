@@ -4940,6 +4940,11 @@
     "sha1": "5d4704402afb1f6f47c4b0ebeb51c353ed29f523",
     "requires": "julia 0.4\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "299581c6cdc70ed815c9ce2d99a1100f6e9df715",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -20440,6 +20445,11 @@
    },
    "0.1.2": {
     "sha1": "caf0537be36e21d90009f39dfa15e1db00215484",
+    "requires": "julia 0.5\nPyPlot\nSymPy\nColors\n",
+    "testrequires": ""
+   },
+   "0.1.3": {
+    "sha1": "0b62815dd98a0331a4a1d5b263187b40605ebab1",
     "requires": "julia 0.5\nPyPlot\nSymPy\nColors\n",
     "testrequires": ""
    }
