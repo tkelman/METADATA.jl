@@ -1254,6 +1254,16 @@
    }
   }
  },
+ "AmplNLReader": {
+  "url": "https://github.com/JuliaSmoothOptimizers/AmplNLReader.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "ec4c1f77562193e5b917218d45ac8e1f097bbe2a",
+    "requires": "julia 0.4\nBinDeps\nCompat 0.7.15\n@osx Homebrew 0.4.0\nNLPModels 0.0.1\n",
+    "testrequires": "Ipopt\nJuMP\n"
+   }
+  }
+ },
  "AmplNLWriter": {
   "url": "git://github.com/JuliaOpt/AmplNLWriter.jl.git",
   "versions": {
@@ -6073,37 +6083,37 @@
   "versions": {
    "0.0.1": {
     "sha1": "8c3e9e04d2c91be8358c79d77cde991c721813fa",
-    "requires": "julia 0.6-pre\nTextParse 0.1.6 0.3.0\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
+    "requires": "julia 0.6-pre\nTextParse 0.1.6\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
     "testrequires": "DataFrames 0.10.0\n"
    },
    "0.1.0": {
     "sha1": "59037c3cd7d3a60919e11a03b5cfe54600644725",
-    "requires": "julia 0.6-pre\nTextParse 0.1.6 0.3.0\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
+    "requires": "julia 0.6-pre\nTextParse 0.1.6\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
     "testrequires": "DataFrames 0.10.0\n"
    },
    "0.1.1": {
     "sha1": "9686ca0143a042cbbd6f4a083ff403156e3b997e",
-    "requires": "julia 0.6-pre\nTextParse 0.1.6 0.3.0\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
+    "requires": "julia 0.6-pre\nTextParse 0.1.6\nIterableTables 0.2.0 0.5.0\nDataValues 0.1.0\nDataTables 0.0.3\nFileIO 0.4.0\n",
     "testrequires": "DataFrames 0.10.0\n"
    },
    "0.2.0": {
     "sha1": "98e274eeb4939aaa7a6ebd2430a731c44a44ac80",
-    "requires": "julia 0.6\nTextParse 0.1.6 0.3.0\nIterableTables 0.4.0 0.5.0\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\n",
+    "requires": "julia 0.6\nTextParse 0.1.6\nIterableTables 0.4.0 0.5.0\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\n",
     "testrequires": "DataFrames 0.10.0\n"
    },
    "0.3.0": {
     "sha1": "648d243221adf70ab2c7cc06014cb4d71a6da242",
-    "requires": "julia 0.6\nTextParse 0.1.6 0.3.0\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\n",
+    "requires": "julia 0.6\nTextParse 0.1.6\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\n",
     "testrequires": "DataFrames 0.10.0\nIterableTables 0.5.0\n"
    },
    "0.3.1": {
     "sha1": "90da3b6fb8d24558d23ef16920cc674e1a34f57d",
-    "requires": "julia 0.6\nTextParse 0.1.6 0.3.0\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\nIterableTables 0.5.0\n",
+    "requires": "julia 0.6\nTextParse 0.1.6\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\nIterableTables 0.5.0\n",
     "testrequires": "DataFrames 0.10.0\n"
    },
    "0.4.0": {
     "sha1": "113e834a4669602cf5bd63587e84935ff9f77e68",
-    "requires": "julia 0.6\nTextParse 0.1.6 0.3.0\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\nIterableTables 0.5.0\n",
+    "requires": "julia 0.6\nTextParse 0.1.6\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\nIterableTables 0.5.0\n",
     "testrequires": "DataFrames 0.10.0\n"
    }
   }
@@ -11929,6 +11939,11 @@
     "sha1": "3194fa1ef83c88f350ddeafb1bcb289d75d69197",
     "requires": "julia 0.6\nSymmetricTensors\nNullableArrays\nCombinatorics\nDistributions\n",
     "testrequires": "NPZ\nPyPlot\nPyCall\nArgParse\n"
+   },
+   "0.3.1": {
+    "sha1": "df29e469195ceb7abc3a6338c3abc05b56ccdb48",
+    "requires": "julia 0.6\nSymmetricTensors\nNullableArrays\nCombinatorics\nDistributions\n",
+    "testrequires": "NPZ\nPyPlot\nPyCall\nArgParse\n"
    }
   }
  },
@@ -12552,6 +12567,11 @@
    },
    "0.3.2": {
     "sha1": "b5d109d5040f339195c41440cbefcc6eb46b22db",
+    "requires": "julia 0.6-rc1\nPolynomials 0.1.0\nReexport\nSpecialFunctions\nAbstractFFTs\nFFTW\n",
+    "testrequires": ""
+   },
+   "0.3.3": {
+    "sha1": "f2c056d9b367303d5e6e54f300056c0c693f52a1",
     "requires": "julia 0.6-rc1\nPolynomials 0.1.0\nReexport\nSpecialFunctions\nAbstractFFTs\nFFTW\n",
     "testrequires": ""
    }
@@ -18059,6 +18079,11 @@
     "sha1": "487945b6940c50cf2f0dddd2215536ec3593bf9c",
     "requires": "julia 0.6\nMultivariatePolynomials 0.1.0\n",
     "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "2af043b52d818efb98fdbdbe9b1f2834debd5ca6",
+    "requires": "julia 0.6\nMultivariatePolynomials 0.1.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -23037,6 +23062,11 @@
     "sha1": "26b32bffb826f46cb3c8357a0556ea0e2e945c91",
     "requires": "julia 0.6\nStaticArrays\nColorTypes\n\nTranspiler 0.3 0.4\nSugar 0.3 0.4\nMatcha 0.0.2\n\nCUDAnative 0.4.1 # llvm codegen fix\nCUDAdrv 0.5.1\nCUDArt 0.4.0 # for cuda c compiler support\nCUBLAS 0.2.0 # for CUDAdrv support\nCUFFT\n\nOpenCL 0.6.0 #proper packed conversion\nCLBLAS 1.1.0\nCLFFT 0.4.0 # 0.5.0\n\nInterpolations\nIterTools\n",
     "testrequires": "SpecialFunctions\n"
+   },
+   "0.2.0": {
+    "sha1": "5598067ef2ba804af994f60847164835d19c1af3",
+    "requires": "julia 0.6\n",
+    "testrequires": "StaticArrays\n"
    }
   }
  },
@@ -34060,6 +34090,11 @@
     "sha1": "0a777c5409af05ff660a3a52d3861ae961c2bc4c",
     "requires": "julia 0.6\nIndexedTables 0.3.0\nNamedTuples 4.0.0\nTextParse 0.3.0\nDagger 0.4.0\nMemPool\nGlob 1.1.1\nPooledArrays 0.0.2\nDataValues\n",
     "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "00238338701bc9da28c32846b3dac36fdab82b9a",
+    "requires": "julia 0.6\nIndexedTables 0.3.0\nNamedTuples 4.0.0\nTextParse 0.3.0\nMemPool\nDagger 0.4.0\nGlob 1.1.1\nPooledArrays 0.0.2\nDataValues\n",
+    "testrequires": ""
    }
   }
  },
@@ -34113,6 +34148,11 @@
    },
    "0.0.2": {
     "sha1": "da471b7bf9314acf42cf7d350b415b5cab538ad4",
+    "requires": "julia 0.6\nGtk\nLightXML",
+    "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "09d01d0811962406e62f3e46ae1faf04cc6a147a",
     "requires": "julia 0.6\nGtk\nLightXML",
     "testrequires": ""
    }
@@ -62266,6 +62306,11 @@
     "sha1": "e6d85fe8f6799c5ec76856fb3ceb3fe88b4c2e57",
     "requires": "julia 0.6\nMacroTools\nMatcha\nDataStructures\nCompat 0.17.0\nStaticArrays 0.3.0\n",
     "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "10aeb904259ffbaef3ee11f3dbd604e0bde07ae9",
+    "requires": "julia 0.6\nMacroTools\nMatcha 0.1.1 # for fixing matchreplace\nDataStructures\nCompat 0.17.0\nStaticArrays 0.3.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -62984,6 +63029,11 @@
    },
    "0.2.0": {
     "sha1": "a0ba28212a54d93378bf95c580a344cc84b4a169",
+    "requires": "julia 0.6\nNullableArrays\nIterTools\nCombinatorics\n",
+    "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "5a7e836f4f1489cc8016aca49f4ff2d0f3bfd0e5",
     "requires": "julia 0.6\nNullableArrays\nIterTools\nCombinatorics\n",
     "testrequires": ""
    }
@@ -65955,6 +66005,11 @@
    "0.4.0": {
     "sha1": "9fa0922e4f3a08977e8d3b80928563379073b15f",
     "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.4.0\nMatcha\nStaticArrays 0.3.0\nDataStructures\nSpecialFunctions\nMacroTools\n",
+    "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "2852d1308dab10a6297aa2b6277206aa93fdb9ce",
+    "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.4.1\nMatcha\nStaticArrays 0.3.0\nDataStructures\nSpecialFunctions\nMacroTools\n",
     "testrequires": ""
    }
   }
