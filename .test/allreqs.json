@@ -9150,6 +9150,11 @@
     "sha1": "95afb932376b0b4cb70fb56863395451d0e6ab11",
     "requires": "julia 0.6\nCompat 0.32.0\nFixedPointNumbers 0.3.0\n",
     "testrequires": ""
+   },
+   "0.6.4": {
+    "sha1": "4816539024b4924135b16ee41e6503b1ba732307",
+    "requires": "julia 0.6\nCompat 0.32.0\nFixedPointNumbers 0.3.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -20010,7 +20015,22 @@
   "versions": {
    "0.0.1": {
     "sha1": "6cc4f07920b9b8256b55b551e77a11fcd84333c6",
-    "requires": "julia 0.4\nOptim 0.0 0.5\nDataArrays\nDataFrames\n",
+    "requires": "julia 0.4\nOptim\nDataArrays\nDataFrames\n",
+    "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "401b43b91313364e6c248254068f8e6e8e9f8305",
+    "requires": "julia 0.5\nOptim\nDataArrays\nDataFrames\n",
+    "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "1147bb61ec4cee1777ce4ba5100f2155ccd20c65",
+    "requires": "julia 0.6\nOptim\nDataArrays\nDataFrames\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "ff01601b579b5561a3062689ad0b94d68aa29e2a",
+    "requires": "julia 0.6\nOptim\nDataArrays\nDataFrames\n",
     "testrequires": ""
    }
   }
@@ -21100,6 +21120,11 @@
    },
    "0.4.1": {
     "sha1": "d7ff5131551300892b5dadc9c694f6f48bf14ed2",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.4.2": {
+    "sha1": "c238d4205ee5abea6d596e71a3e1967e4b1c7080",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
@@ -33135,6 +33160,11 @@
     "sha1": "a36ec39a21dd5198f788fe8b1fbcb7ed058769b0",
     "requires": "julia 0.6\n",
     "testrequires": "DataStructures\nFixedPointNumbers\nOffsetArrays\nCompat 0.31.0\n"
+   },
+   "0.15.1": {
+    "sha1": "b5599252cff9d7c8e5bd8122b22a1a625ac0420b",
+    "requires": "julia 0.6\nCompat 0.30.0\n",
+    "testrequires": "DataStructures\nFixedPointNumbers\nOffsetArrays\nCompat 0.31.0\n"
    }
   }
  },
@@ -35709,6 +35739,11 @@
     "sha1": "c37b7a7846e13cf20ea6ecc962c7d2c9d1562938",
     "requires": "julia 0.6.0-rc1\nJSON 0.8.1\nURIParser 0.1.8\nCSTParser 0.0.2 0.2.0\nTokenize\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "21bc9e9dacba4d607ed686de49adcd3529fb9f12",
+    "requires": "julia 0.6.0-rc1\nJSON 0.8.1\nURIParser 0.1.8\nCSTParser 0.3.1\nTokenize 0.4.0\nDocumentFormat\n",
+    "testrequires": ""
    }
   }
  },
@@ -37696,6 +37731,11 @@
    },
    "1.0.1": {
     "sha1": "9c27037507c85dee9f938ed17dc969b71cadf90a",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "1.0.2": {
+    "sha1": "d4b734bc61c231c26c59afffba562d2dae3710a8",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
@@ -61121,6 +61161,11 @@
     "sha1": "9e720addb512e53b03aeb3f80fd2cedd343e67e9",
     "requires": "julia 0.6.0\n",
     "testrequires": ""
+   },
+   "0.6.3": {
+    "sha1": "12bab2aeb596fd5c8321ed0ceacaf205a877a964",
+    "requires": "julia 0.6.0\nCompat 0.26\n",
+    "testrequires": ""
    }
   }
  },
@@ -64284,7 +64329,12 @@
    },
    "0.3.0": {
     "sha1": "fe90ad7ea8b9f524688131a6d967d1dc71cb8d94",
-    "requires": "julia 0.5\nCompat 0.17\nDataValues\nPooledArrays 0.0.2\nWeakRefStrings\nDataStructures\n",
+    "requires": "julia 0.6\nCompat 0.17\nDataValues\nPooledArrays 0.0.2\nWeakRefStrings\nDataStructures\n",
+    "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "13433b098170f3c16cec038728ec738ef2791c47",
+    "requires": "julia 0.6\nCompat 0.17\nDataValues\nPooledArrays 0.0.2\nWeakRefStrings\nDataStructures\n",
     "testrequires": ""
    }
   }
@@ -66234,6 +66284,11 @@
    },
    "0.1.1": {
     "sha1": "622daf794a38a7a906a98b0ea7188bf282b9e0ab",
+    "requires": "julia 0.6\nCompat 0.27 # for Val constructor\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "0c3b3c65e68bb1fa68a7bad28b0e22eb617f3a60",
     "requires": "julia 0.6\nCompat 0.27 # for Val constructor\n",
     "testrequires": ""
    }
