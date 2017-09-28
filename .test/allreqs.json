@@ -11738,7 +11738,7 @@
   }
  },
  "CuArrays": {
-  "url": "https://github.com/FluxML/CuArrays.jl.git",
+  "url": "https://github.com/JuliaGPU/CuArrays.jl.git",
   "versions": {
    "0.1.0": {
     "sha1": "03ec146e2f8c158bec2a5cedb630c9d44481a31d",
@@ -11748,6 +11748,11 @@
    "0.1.1": {
     "sha1": "f989092aa5585056828b189257ef73ed5276187f",
     "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5\nCUBLAS 0.2.2\nCUDNN 0.4.0\nNNlib\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "54e550b2d8c3fcfaf0009341532d179497a642ba",
+    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5\nCUDAapi\nCUDNN 0.4.0\nNNlib\n",
     "testrequires": ""
    }
   }
@@ -21385,6 +21390,11 @@
    },
    "0.3.1": {
     "sha1": "f2052739c17aab1cf0fda0d1fcbea7288e28cfdd",
+    "requires": "julia 0.6.0\nDataFlow 0.2.1\nJuno\nMacroTools 0.3.3\nNNlib\nForwardDiff\nRequires\n",
+    "testrequires": ""
+   },
+   "0.3.2": {
+    "sha1": "d3419c943bd8c8c3d06ffa8ea5618625b3b14613",
     "requires": "julia 0.6.0\nDataFlow 0.2.1\nJuno\nMacroTools 0.3.3\nNNlib\nForwardDiff\nRequires\n",
     "testrequires": ""
    }
@@ -44227,6 +44237,11 @@
     "sha1": "4d80495834765ffb01ad312273567f1f331186db",
     "requires": "julia 0.6\nDataArrays 0.5\nBinDeps 0.4\nConda 0.3\n",
     "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "c574408d734d3f6b77ab0a2dda9a5bf650f32d21",
+    "requires": "julia 0.6\nDataArrays 0.5\nBinDeps 0.4\nConda 0.3\n",
+    "testrequires": ""
    }
   }
  },
@@ -56323,6 +56338,11 @@
     "sha1": "4f97151d4552c75a1a2eda35eed7e7128f064f4b",
     "requires": "julia 0.5\nDiffBase 0.0.3 0.4.0\nForwardDiff 0.3.4 0.5.0\nCompat 0.19.0\nFunctionWrappers 0.1\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "beb031ff6ae669eebcedbb4f9e380e8b41adf7bd",
+    "requires": "julia 0.6\nDiffResults 0.0.1\nDiffRules 0.0.1\nNaNMath 0.2.2\nSpecialFunctions 0.1.0\nForwardDiff 0.6.0\nStaticArrays 0.5.0\nCompat 0.19.0\nFunctionWrappers 0.1\n",
+    "testrequires": "DiffTests 0.0.1\n"
    }
   }
  },
