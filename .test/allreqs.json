@@ -2315,6 +2315,11 @@
     "sha1": "31886c1ee09b86176d40354bf478dea09d842910",
     "requires": "julia 0.6\nMappedArrays 0.0.3\nImageCore 0.1.2\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nMLDataPattern 0.1.2\nComputationalResources 0.0.2\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
     "testrequires": "FixedPointNumbers 0.3\nImageInTerminal\nTestImages\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
+   },
+   "0.3.0": {
+    "sha1": "7b9db6cf3ade32c68fe70e4ea5769c13a78296fb",
+    "requires": "julia 0.6\nMappedArrays 0.0.3\nImageCore 0.1.2\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nMLDataPattern 0.1.2\nComputationalResources 0.0.2\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
+    "testrequires": "FixedPointNumbers 0.3\nImageInTerminal\nTestImages\nReferenceTests\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
    }
   }
  },
@@ -7923,6 +7928,16 @@
    }
   }
  },
+ "Clarus": {
+  "url": "https://github.com/ClarusFinancialTechnology/Clarus.jl.git",
+  "versions": {
+   "0.0.4": {
+    "sha1": "57524ebb89be5d55c736d4a0cfe3b81bc62d11f8",
+    "requires": "julia 0.6\nRequests 0.5\nDataFrames\n",
+    "testrequires": ""
+   }
+  }
+ },
  "ClassicalCiphers": {
   "url": "git://github.com/Smaug123/ClassicalCiphers.jl.git",
   "versions": {
@@ -12259,6 +12274,16 @@
     "sha1": "9b5be121ce09047add2309bdcfe1797e582b6322",
     "requires": "julia 0.5\nBinDeps 0.4.2\nCompat 0.19\n",
     "testrequires": ""
+   }
+  }
+ },
+ "D3Trees": {
+  "url": "https://github.com/sisl/D3Trees.jl.git",
+  "versions": {
+   "0.1.2": {
+    "sha1": "6490b0ffaa8a3f91f1232ee67f2d421450e83e82",
+    "requires": "julia 0.6\nJSON\nBlink\n",
+    "testrequires": "NBInclude\n"
    }
   }
  },
@@ -18572,6 +18597,16 @@
    }
   }
  },
+ "Eglob": {
+  "url": "https://github.com/bmc/Eglob.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "ef65c5a69233620a58136d30037ebf723534c0ad",
+    "requires": "julia 0.6\nGlob 1.1.1\n",
+    "testrequires": ""
+   }
+  }
+ },
  "EgyptianFractions": {
   "url": "git://github.com/reallyasi9/EgyptianFractions.jl.git",
   "versions": {
@@ -19810,6 +19845,11 @@
    },
    "0.1.0": {
     "sha1": "16c27b0fee2dbebddb799c87811aa791130679d2",
+    "requires": "julia 0.7.0-DEV.602\nAbstractFFTs 0.2.0\nReexport\nCompat 0.27.0\nBinDeps 0.6.0\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "084713cbb4a3e7c44449ad6b2c630a2ae5ddcf1f",
     "requires": "julia 0.7.0-DEV.602\nAbstractFFTs 0.2.0\nReexport\nCompat 0.27.0\nBinDeps 0.6.0\n",
     "testrequires": ""
    }
@@ -39194,6 +39234,11 @@
     "requires": "julia 0.5\nCompat 0.9.5\n",
     "testrequires": ""
    },
+   "0.5.2": {
+    "sha1": "a1945a641281d5876f8e9c1c2193113c2e13dd37",
+    "requires": "julia 0.6\nCompat 0.27.0\n",
+    "testrequires": ""
+   },
    "0.6.0": {
     "sha1": "8fbc07142f62fad8d8565aa635a9745e2ab20d2b",
     "requires": "julia 0.6\nCompat 0.27.0\n",
@@ -40381,6 +40426,11 @@
    },
    "0.4.26": {
     "sha1": "ba31d323335994b5c9fd5b9c87624c5669428805",
+    "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
+    "testrequires": ""
+   },
+   "0.4.27": {
+    "sha1": "1ffe5a11fe62dd6e9a1c0bfb906d4f35efdef7cb",
     "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
     "testrequires": ""
    }
@@ -44605,6 +44655,11 @@
    },
    "0.3.5": {
     "sha1": "e7d5b9feedd2a60ae2dcf878112ddfaa2907a236",
+    "requires": "julia 0.4\n@osx Homebrew\nBinDeps\nMathProgBase 0.5 0.7\nCompat 0.8\n",
+    "testrequires": ""
+   },
+   "0.3.6": {
+    "sha1": "78a635d334b51dd6ab696bb7d2670973e794846e",
     "requires": "julia 0.4\n@osx Homebrew\nBinDeps\nMathProgBase 0.5 0.7\nCompat 0.8\n",
     "testrequires": ""
    }
@@ -55283,6 +55338,11 @@
     "sha1": "91bba81675b779a9e50e36fc094e24758548649a",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.2.3": {
+    "sha1": "7bced7d864627f889a1ded7f61a9970bde73ea26",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -55516,6 +55576,11 @@
    },
    "0.1.0": {
     "sha1": "cec4d29741f351666b6adcd360114bf2f189e6f9",
+    "requires": "julia 0.5\nCompat 0.9.5\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "4ce1030e336b93cbc461983ecbb7eaafb49ac1be",
     "requires": "julia 0.5\nCompat 0.9.5\n",
     "testrequires": ""
    }
@@ -56748,6 +56813,11 @@
     "sha1": "7b2266cdac3a6b1d8060140ce89cb09cdb5ac8fe",
     "requires": "julia 0.6\nDataStructures\n",
     "testrequires": "Example\n"
+   },
+   "0.0.10": {
+    "sha1": "703912621fd59b21b738cd21cff34d35a797892a",
+    "requires": "julia 0.6\nDataStructures\n",
+    "testrequires": "Example\nCompat 0.30\n"
    }
   }
  },
@@ -60330,6 +60400,11 @@
    "0.1.0": {
     "sha1": "d4bd3519a0682f7a81ae3b06e044eb1d9ed6d7e0",
     "requires": "julia 0.4\nJavaCall\nIterators\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "194b79528a51c7a59df7d9e604cd3306e79135b5",
+    "requires": "julia 0.5\nJavaCall 0.4.3\nCompat 0.26.0\n",
     "testrequires": ""
    }
   }
