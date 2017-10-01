@@ -7935,6 +7935,11 @@
     "sha1": "57524ebb89be5d55c736d4a0cfe3b81bc62d11f8",
     "requires": "julia 0.6\nRequests 0.5\nDataFrames\n",
     "testrequires": ""
+   },
+   "0.0.5": {
+    "sha1": "d5448b26639cd0f2a3108dcad5935365e14f8421",
+    "requires": "julia 0.6\nRequests 0.5\nDataFrames 0.10\nCSV 0.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -8634,6 +8639,11 @@
    "0.3.0": {
     "sha1": "3413ecbd244dd34a04b67a95035762088588c137",
     "requires": "julia 0.4\nCompat 0.17.0\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "e6dd7966fd1bc4a9bbffbd725f37da3a9a131a79",
+    "requires": "julia 0.5\nCompat 0.27.0\n",
     "testrequires": ""
    }
   }
@@ -16329,6 +16339,11 @@
     "sha1": "dc38058ffd8093ff92b0cc2d76ad5e497c77fc26",
     "requires": "julia 0.5\nDistributions\nRCall\nReexport\n",
     "testrequires": ""
+   },
+   "1.0.0": {
+    "sha1": "e1b6132c7dbb3bee0185ac27fb5cffae9627a41b",
+    "requires": "julia 0.6\nDistributions\nReexport\nFastGaussQuadrature\n",
+    "testrequires": ""
    }
   }
  },
@@ -18169,6 +18184,11 @@
     "sha1": "f2e1b987220e8bc79ce4500ca872ce732983eaa9",
     "requires": "julia 0.6\nStaticArrays\n",
     "testrequires": ""
+   },
+   "1.5.0": {
+    "sha1": "b7f2715f172c27e3b0f531d7886bab779ecf465d",
+    "requires": "julia 0.6\nStaticArrays\n",
+    "testrequires": ""
    }
   }
  },
@@ -19211,6 +19231,11 @@
    },
    "0.2.1": {
     "sha1": "8c2696c0233ebf7f3716eb942be2188420aedfde",
+    "requires": "julia 0.6\nEinsum\nDataStructures 0.5.2\nSugar\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "401b7a9dc3c9cf5943ffd72726f4379e3276c83f",
     "requires": "julia 0.6\nEinsum\nDataStructures 0.5.2\nSugar\n",
     "testrequires": ""
    }
@@ -34580,6 +34605,11 @@
     "sha1": "8e3d0fa0da20e05edc44f313549c616d0c1648de",
     "requires": "julia 0.6\nArgParse\nDataStructures\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "194a38746e411e2c25410bd43dd31139d97e22c3",
+    "requires": "julia 0.6\nArgParse\nDataStructures\n",
+    "testrequires": ""
    }
   }
  },
@@ -39422,6 +39452,11 @@
    "1.2.3": {
     "sha1": "66e8c36b13fd3095d98e43a4916b4d8b586de018",
     "requires": "julia 0.4\nLightXML\nGZip\nAutoHashEquals\nDataStructures\nFormatting\nIndexedArrays\nPairwiseListMatrices\nArgParse\nROCAnalysis 0.1.0\nClustering\nFixedSizeArrays 0.2.3\nFastaIO\nRecipesBase\n",
+    "testrequires": ""
+   },
+   "2.0.0": {
+    "sha1": "79c9c2417c538a371d895bfc90e3d613a3581a7b",
+    "requires": "julia 0.5\nLightXML\nGZip\nAutoHashEquals\nDataStructures\nFormatting\nPairwiseListMatrices\nArgParse\nROCAnalysis\nClustering\nFixedSizeArrays 0.2.3\nFastaIO\nRequests\nPkgBenchmark\nNamedArrays\nJLD\nRecipesBase\n",
     "testrequires": ""
    }
   }
@@ -46859,6 +46894,11 @@
    },
    "0.1.2": {
     "sha1": "7c161c183831497723b2e78c910e88e5976a3ea1",
+    "requires": "julia 0.5\nPyCall 1.7\nDataFrames 0.8.0\nDataStructures 0.5.0\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "41294b6168a1958202e60cc45e17a06189355d9c",
     "requires": "julia 0.5\nPyCall 1.7\nDataFrames 0.8.0\nDataStructures 0.5.0\n",
     "testrequires": ""
    }
