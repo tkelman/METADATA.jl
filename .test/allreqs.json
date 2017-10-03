@@ -4555,6 +4555,11 @@
     "sha1": "615a15862745b775d595df02f2fa829265a5c69a",
     "requires": "julia 0.6.0-pre\n",
     "testrequires": "Documenter\n"
+   },
+   "0.2.0": {
+    "sha1": "4fd38a2a9b3097b16c3a9c049e63d319d5aa8289",
+    "requires": "julia 0.6\nCompat 0.30.0\n",
+    "testrequires": "Documenter\n"
    }
   }
  },
@@ -19290,6 +19295,16 @@
    }
   }
  },
+ "EventSimulation": {
+  "url": "https://github.com/bkamins/EventSimulation.jl.git",
+  "versions": {
+   "0.3.1": {
+    "sha1": "43cf3b143b7d2758f003c555b040aca04ad989c3",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Evolutionary": {
   "url": "git://github.com/wildart/Evolutionary.jl.git",
   "versions": {
@@ -19976,6 +19991,11 @@
    "0.10.0": {
     "sha1": "d0f2fd2f4dfa3cd9e42d8c9ff73046649c829617",
     "requires": "julia 0.4\nBinDeps 0.3.12\nCompat 0.17.0\n",
+    "testrequires": ""
+   },
+   "0.11.0": {
+    "sha1": "87d7f3b30c27c134800bb2288c018e6c6094b311",
+    "requires": "julia 0.5\nBinDeps 0.3.12\nCompat 0.29.0\n@osx Homebrew\n",
     "testrequires": ""
    }
   }
@@ -22546,7 +22566,7 @@
   }
  },
  "GLMNet": {
-  "url": "git://github.com/simonster/GLMNet.jl.git",
+  "url": "https://github.com/JuliaStats/GLMNet.jl.git",
   "versions": {
    "0.0.1": {
     "sha1": "96a4871db6dce5ccfb630da0c2056d9b0ea31e37",
@@ -22576,6 +22596,11 @@
    "0.2.0": {
     "sha1": "6a5522cc1799dddb248c325747b2a0ac81f7e626",
     "requires": "julia 0.4\nDistributions\nStatsBase\nCompat 0.9.3\n",
+    "testrequires": "DataFrames\n"
+   },
+   "0.3.0": {
+    "sha1": "f3d7cf19e7684986f64bead9940fb553d13a6b69",
+    "requires": "julia 0.6\nDistributions\nStatsBase\nCompat 0.9.3\n",
     "testrequires": "DataFrames\n"
    }
   }
@@ -35204,6 +35229,21 @@
    "0.2.0": {
     "sha1": "bb2045ed51c77c5b4cf0149f602abd803db9dbee",
     "requires": "julia 0.6 0.7-\nClustering 0.9\nDistances 0.5\nFileIO 0.5\nGadfly 0.6\nJLD 0.8\nMeasures 0.1\nStatsBase 0.18\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "Kriging": {
+  "url": "https://github.com/madsjulia/Kriging.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "1fb5c1ac3a209cbc44a742927a44ec985fda7d83",
+    "requires": "julia 0.5\nNearestNeighbors\nDocumentFunction\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "50d2c6ab6b3fba784fd2a8f6f18c7584dceb6e84",
+    "requires": "julia 0.5\nNearestNeighbors\nDocumentFunction\n",
     "testrequires": ""
    }
   }
@@ -56273,6 +56313,11 @@
     "sha1": "24ca7473cfdde2e12c1828197f1bb5dc71121b7e",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "1.1.0": {
+    "sha1": "151d1e1e4c4ae1bebbee75375a85b8b2f9f49692",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -59568,6 +59613,11 @@
     "sha1": "ba6a7e1bcf723973bfa12a06dccc8d6b4f4d3373",
     "requires": "julia 0.6\n",
     "testrequires": "OffsetArrays\n"
+   },
+   "0.2.0": {
+    "sha1": "188ede139519b6728362a198d2b06fdc6beea4c2",
+    "requires": "julia 0.6\n",
+    "testrequires": "CustomUnitRanges\n"
    }
   }
  },
@@ -63955,6 +64005,11 @@
    "0.7.2": {
     "sha1": "4c729522d54bdbb87bc0fcc27ec870ffcc7f32a4",
     "requires": "julia 0.6\nProtoBuf 0.3.0\nPyCall 1.7.1\nConda 0.6.0\nDistributions 0.10.2\nJLD 0.6.3\nFileIO 0.1.2\nJuno 0.2.3\nCompat 0.18\nMacroTools 0.3.6\nAutoHashEquals 0.1.0\nMNIST 0.0.2\n",
+    "testrequires": ""
+   },
+   "0.7.3": {
+    "sha1": "6f19e0d44d6dba106b2e9e3e2d5571aae37f30fd",
+    "requires": "julia 0.6\nProtoBuf 0.3.0\nPyCall 1.7.1\nConda 0.6.0\nDistributions 0.10.2\nStatsFuns 0.3.0\nJLD 0.6.3\nFileIO 0.1.2\nJuno 0.2.3\nCompat 0.18\nMacroTools 0.3.6\nAutoHashEquals 0.1.0\nMNIST 0.0.2\n",
     "testrequires": ""
    }
   }
