@@ -19867,6 +19867,11 @@
     "sha1": "18202276bc5493b49165a32b92ac4bfe5992e41a",
     "requires": "julia 0.6\n@windows WinRPM\n",
     "testrequires": "LightGraphs\n"
+   },
+   "0.5.2": {
+    "sha1": "253f132d0d9340c17d72976fbd4e357e1fc67296",
+    "requires": "julia 0.6\n@windows WinRPM\n",
+    "testrequires": "LightGraphs\n"
    }
   }
  },
@@ -30990,6 +30995,11 @@
     "sha1": "2657497adf7038279f92761e232e0553213d77ff",
     "requires": "julia 0.6.0-pre\nAxisArrays\nImageMetadata 0.1.1\nFixedPointNumbers 0.3.0\nFileIO\nUnitful\n",
     "testrequires": "Images 0.6.0\n"
+   },
+   "0.6.0": {
+    "sha1": "c657a7cf45a05eb0945c0dc1d4b80e737793f908",
+    "requires": "julia 0.6.0-pre\nAxisArrays\nImageMetadata 0.1.1\nFixedPointNumbers 0.3.0\nFileIO\nUnitful\n",
+    "testrequires": "Images 0.6.0\n"
    }
   }
  },
@@ -35288,6 +35298,11 @@
    },
    "0.9.0": {
     "sha1": "d1bfefe8c20881685425dca9796bc8859aa78973",
+    "requires": "julia 0.6\nDiffBase 0.1\nDistributions 0.4.7\nFormatting 0.1.4\nForwardDiff 0.4 0.6\nReverseDiff 0.1\nStatsBase 0.7.4\n",
+    "testrequires": ""
+   },
+   "0.9.1": {
+    "sha1": "48046a816a0f915ce6e25dac66682db2c875d5f4",
     "requires": "julia 0.6\nDiffBase 0.1\nDistributions 0.4.7\nFormatting 0.1.4\nForwardDiff 0.4 0.6\nReverseDiff 0.1\nStatsBase 0.7.4\n",
     "testrequires": ""
    }
@@ -47047,6 +47062,11 @@
     "sha1": "e18efc7920aee767524569539e529a86da2ac703",
     "requires": "julia 0.6\nEzXML 0.4.2\nUnitful\nFixedPointNumbers\nFileIO\nColors\nAxisArrays\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "0b0190665b22c6af82a19c04527da706b28ffc98",
+    "requires": "julia 0.6\nEzXML 0.4.2\nUnitful\nFixedPointNumbers\nFileIO\nColors\nAxisArrays\nDataStructures\n",
+    "testrequires": "@unix @!osx ImageMagick\n@osx QuartzImageIO\n"
    }
   }
  },
@@ -60981,6 +61001,11 @@
     "sha1": "380b61737847e598291e6cc0b1702a3971a37a01",
     "requires": "julia 0.6\nCompat 0.30\nBinDeps\n",
     "testrequires": ""
+   },
+   "0.3.4": {
+    "sha1": "9f204e763ef54ec1a66299256b52fd5735ace555",
+    "requires": "julia 0.6\nCompat 0.30\nBinDeps\n",
+    "testrequires": ""
    }
   }
  },
@@ -61470,6 +61495,11 @@
    "0.5.0": {
     "sha1": "e2ed248111052998548203da11e665457a087bbc",
     "requires": "julia 0.6\n\nReexport\nPlots 0.12.4\nStatsBase\nDistributions\nDataFrames\nKernelDensity\nLoess\nIterableTables 0.5.0\nTableTraitsUtils 0.1.0\nTableTraits\nDataValues\n",
+    "testrequires": ""
+   },
+   "0.5.1": {
+    "sha1": "918d24309220c4403de01362ebc08a0032760e90",
+    "requires": "julia 0.6\n\nReexport\nPlots 0.13\nStatsBase\nDistributions\nDataFrames\nKernelDensity\nLoess\nIterableTables 0.5.0\nTableTraitsUtils 0.1.0\nTableTraits\nDataValues\n",
     "testrequires": ""
    }
   }
@@ -67615,6 +67645,11 @@
    "0.2.0": {
     "sha1": "eae296327e2cdc9fc7e14cb49f953bbe28da09ea",
     "requires": "julia 0.6\nColorTypes 0.3.4\nCompat 0.17.0\nFixedPointNumbers 0.3.0\n",
+    "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "a25a05bd860265772530948e55cb33491ca73b0a",
+    "requires": "julia 0.6\nColorTypes 0.3.4\nFixedPointNumbers 0.3.0\n",
     "testrequires": ""
    }
   }
