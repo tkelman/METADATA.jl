@@ -18274,6 +18274,11 @@
     "sha1": "b7f2715f172c27e3b0f531d7886bab779ecf465d",
     "requires": "julia 0.6\nStaticArrays\n",
     "testrequires": ""
+   },
+   "1.5.1": {
+    "sha1": "5e6a230fe855906967f86b0221e74994904cbf20",
+    "requires": "julia 0.6\nStaticArrays\n",
+    "testrequires": ""
    }
   }
  },
@@ -42935,6 +42940,16 @@
    }
   }
  },
+ "Microbiome": {
+  "url": "https://github.com/kescobo/Microbiome.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "eb8947946cafeda7cad50a5d97295ba34c11ed3b",
+    "requires": "julia 0.6-\nRecipesBase\nDistances\nDataFrames\nClustering\nColors\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Microeconometrics": {
   "url": "https://github.com/lbittarello/Microeconometrics.jl.git",
   "versions": {
@@ -44021,6 +44036,16 @@
    "0.0.2": {
     "sha1": "bd28abac776ea2417bd2250ae4f5b9bbba882400",
     "requires": "julia 0.6\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "MultiDimEquations": {
+  "url": "https://github.com/sylvaticus/MultiDimEquations.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "88d9b36682c1395fe31aa208ad2b94e3f5eec7e4",
+    "requires": "julia 0.6\nDataFrames\nDataStructures\nDataFramesMeta\nMacroTools\n",
     "testrequires": ""
    }
   }
@@ -62624,6 +62649,16 @@
    }
   }
  },
+ "Strategems": {
+  "url": "https://github.com/dysonance/Strategems.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "37202acb62ac4c8be1b19b7fd2972ca70fc7a2b9",
+    "requires": "julia 0.6\nTemporal\nIndicators\n",
+    "testrequires": ""
+   }
+  }
+ },
  "StreamStats": {
   "url": "git://github.com/johnmyleswhite/StreamStats.jl.git",
   "versions": {
@@ -63971,6 +64006,11 @@
     "sha1": "d4f0c20a4db83f84782daf617ef0944ce3673301",
     "requires": "julia 0.5\nCompat 0.17.0\n",
     "testrequires": ""
+   },
+   "0.5.1": {
+    "sha1": "909689b3db0521bcac203d19a1669d1cd05d44cb",
+    "requires": "julia 0.5\nCompat 0.17.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -64104,6 +64144,11 @@
    },
    "0.4.3": {
     "sha1": "4e736eae369fe2f2baf1a3832474cad3d06eda9c",
+    "requires": "julia 0.6\nRequests\nJSON\nRecipesBase\n",
+    "testrequires": ""
+   },
+   "0.4.4": {
+    "sha1": "a59a103d9d1683898502f7f1baac4157e30ae906",
     "requires": "julia 0.6\nRequests\nJSON\nRecipesBase\n",
     "testrequires": ""
    }
