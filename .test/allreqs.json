@@ -69,6 +69,16 @@
    }
   }
  },
+ "AMG": {
+  "url": "https://github.com/ranjanan/AMG.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "283491016ae89efded6f74084590d283fe080211",
+    "requires": "julia 0.6\nIterativeSolvers 0.4.1\n",
+    "testrequires": "JLD\n"
+   }
+  }
+ },
  "AMQPClient": {
   "url": "https://github.com/JuliaComputing/AMQPClient.jl.git",
   "versions": {
@@ -10843,6 +10853,11 @@
   "versions": {
    "0.0.1": {
     "sha1": "4bc28b8405846b400fc68fb01e3c62ae1e716231",
+    "requires": "julia 0.6\nJuMP 0.16 0.19\nIntervalArithmetic 0.9\n",
+    "testrequires": "Cbc\nPolyhedra\n"
+   },
+   "0.0.2": {
+    "sha1": "e7e4a4df881cdc9dfc8cd9a4ff312a79cdcc0081",
     "requires": "julia 0.6\nJuMP 0.16 0.19\nIntervalArithmetic 0.9\n",
     "testrequires": "Cbc\nPolyhedra\n"
    }
@@ -23555,6 +23570,11 @@
    },
    "0.23.0": {
     "sha1": "95d3600d761dc3c04d7432bc2c2265e0ce3eeb17",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.24.0": {
+    "sha1": "295f08eb7df6b5236a000928cb3f929661976afc",
     "requires": "julia 0.5\n",
     "testrequires": ""
    }
@@ -36683,6 +36703,11 @@
     "sha1": "ef9342c7610f47191a5cc81b86a609fe908ac0d2",
     "requires": "julia 0.3\nBinDeps\n",
     "testrequires": ""
+   },
+   "1.1.2": {
+    "sha1": "f9b42d88a215b4f6333c7e6dc929b0e85cc7a235",
+    "requires": "julia 0.5\nBinDeps\n",
+    "testrequires": ""
    }
   }
  },
@@ -38003,6 +38028,11 @@
     "sha1": "5979facd949db19a0e5b66d24aa142f703578880",
     "requires": "julia 0.6\nNLSolversBase 3.0\nParameters\n",
     "testrequires": "Optim\n\n"
+   },
+   "3.0.1": {
+    "sha1": "c8caed81cbe0093134e042dacca8a72082e01bde",
+    "requires": "julia 0.6\nNLSolversBase 3.0\nParameters\n",
+    "testrequires": "OptimTestProblems\n"
    }
   }
  },
@@ -45716,6 +45746,16 @@
    "0.0.2": {
     "sha1": "67674eba7eceb65667787ba92b823d2fb471422d",
     "requires": "julia 0.4\nFactCheck 0.4.3\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "NaturalSelection": {
+  "url": "https://github.com/BioJulia/NaturalSelection.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "2b833179891869138ca2abfb4be50c9e3d102fcf",
+    "requires": "julia 0.6\nBioSequences\nGeneticVariation 0.3.1\n",
     "testrequires": ""
    }
   }
@@ -56078,6 +56118,11 @@
     "sha1": "4ce1030e336b93cbc461983ecbb7eaafb49ac1be",
     "requires": "julia 0.5\nCompat 0.9.5\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "da8db01b9f1ce37b86e8c2d7ca71a70366295f23",
+    "requires": "julia 0.5\nCompat 0.9.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -57326,6 +57371,11 @@
    },
    "0.0.11": {
     "sha1": "147af43699e3e6c2a5bf69788b47c0f9378f91a0",
+    "requires": "julia 0.6\nDataStructures\n",
+    "testrequires": "Example\nCompat 0.30\n"
+   },
+   "0.1.0": {
+    "sha1": "ed7dedc11b9a9cf8e7c8ab5a872e1406306cbf14",
     "requires": "julia 0.6\nDataStructures\n",
     "testrequires": "Example\nCompat 0.30\n"
    }
@@ -58982,6 +59032,16 @@
    "0.1.0": {
     "sha1": "05a6da23847dac082879496be7a22cad1d4db56d",
     "requires": "julia 0.4\nTexExtensions\nCompat 0.8.0\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "SLEEF": {
+  "url": "https://github.com/musm/SLEEF.jl.git",
+  "versions": {
+   "0.4.3": {
+    "sha1": "414f0abbcbb4f970ba8c01435dae08e1f90b3975",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
@@ -64046,6 +64106,11 @@
     "sha1": "ea417f4ed9e3b2bdae881d5a98e7ae0d655b9afc",
     "requires": "julia 0.5\nTaylorSeries 0.5.1\n",
     "testrequires": "TaylorSeries 0.5.1\n"
+   },
+   "0.2.0": {
+    "sha1": "1816a9ec41b638a04d1fe3f9a0cd1961dc64f134",
+    "requires": "julia 0.6\nTaylorSeries 0.6.0\n",
+    "testrequires": "TaylorSeries 0.6.0\n"
    }
   }
  },
