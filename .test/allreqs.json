@@ -17884,6 +17884,11 @@
     "sha1": "fe5beddf966c6a525858656860c38bb95e66e9ad",
     "requires": "julia 0.5\nCompat 0.25\nDocStringExtensions 0.2\n",
     "testrequires": "BaseTestNext\n"
+   },
+   "0.12.0": {
+    "sha1": "273953b0dbb6fa5d56bfec888b987450c5f1df6f",
+    "requires": "julia 0.6\nCompat 0.32\nDocStringExtensions 0.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -27501,6 +27506,11 @@
     "sha1": "e915ff29eb8e93437864be325e9be10e3b9a8dd7",
     "requires": "julia 0.5\nMbedTLS 0.4.0\nCompat 0.17",
     "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "f4316604096119522963d04eaefa63d82ac00997",
+    "requires": "julia 0.6\nMbedTLS 0.4.0",
+    "testrequires": ""
    }
   }
  },
@@ -34480,6 +34490,11 @@
     "sha1": "2961426c2d5e85e0273b72ef23f5cf8b8ab37e49",
     "requires": "julia 0.6\nIndexedTables 0.3.0\nNamedTuples 4.0.0\nTextParse 0.3.0\nMemPool\nDagger 0.4.0\nGlob 1.1.1\nPooledArrays 0.0.2\nDataValues\n",
     "testrequires": ""
+   },
+   "0.3.3": {
+    "sha1": "bcd14df0e86d79a8f146e24ebe83cc013362f112",
+    "requires": "julia 0.6\nIndexedTables 0.3.0\nNamedTuples 4.0.0\nTextParse 0.3.0\nMemPool\nDagger 0.4.0\nGlob 1.1.1\nPooledArrays 0.0.2\nDataValues\n",
+    "testrequires": ""
    }
   }
  },
@@ -36708,6 +36723,11 @@
     "sha1": "f9b42d88a215b4f6333c7e6dc929b0e85cc7a235",
     "requires": "julia 0.5\nBinDeps\n",
     "testrequires": ""
+   },
+   "1.1.3": {
+    "sha1": "5bcfa0912b98f130004905b96b1dc186d1641899",
+    "requires": "julia 0.5\nBinDeps\n",
+    "testrequires": ""
    }
   }
  },
@@ -38141,6 +38161,11 @@
    },
    "1.0.2": {
     "sha1": "d4b734bc61c231c26c59afffba562d2dae3710a8",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "1.0.3": {
+    "sha1": "d5155c7323127bfa477513209fc4d123641aa330",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
@@ -39787,6 +39812,11 @@
    "2.0.0": {
     "sha1": "79c9c2417c538a371d895bfc90e3d613a3581a7b",
     "requires": "julia 0.5\nLightXML\nGZip\nAutoHashEquals\nDataStructures\nFormatting\nPairwiseListMatrices\nArgParse\nROCAnalysis\nClustering\nFixedSizeArrays 0.2.3\nFastaIO\nRequests\nPkgBenchmark\nNamedArrays\nJLD\nRecipesBase\n",
+    "testrequires": ""
+   },
+   "2.1.0": {
+    "sha1": "4ae2db5216ebfccacba96379bd0922176ddd41f2",
+    "requires": "julia 0.6\nLightXML\nGZip\nAutoHashEquals\nDataStructures\nFormatting\nPairwiseListMatrices\nArgParse\nROCAnalysis\nClustering\nStaticArrays\nFastaIO\nRequests\nPkgBenchmark\nNamedArrays\nJLD\nRecipesBase\n",
     "testrequires": ""
    }
   }
@@ -42261,6 +42291,11 @@
    "0.5.0": {
     "sha1": "e1d243fc4b10704cd79abfbdaf98952418d1a983",
     "requires": "julia 0.6\nBinDeps\n@osx Homebrew\nCompat 0.9.5\n",
+    "testrequires": ""
+   },
+   "0.5.1": {
+    "sha1": "43e1a4552063566761ea72bce47db0aee44666c8",
+    "requires": "julia 0.6\nBinDeps\n@osx Homebrew\nCompat 0.27.0\n",
     "testrequires": ""
    }
   }
@@ -50856,6 +50891,11 @@
     "sha1": "2aed689cf86bdcef2eabe1402c8b5937f8264281",
     "requires": "julia 0.5\nRecipesBase\n",
     "testrequires": ""
+   },
+   "0.8.0": {
+    "sha1": "f622c416daf285f12e0aa16ae0cf54af5a885c0d",
+    "requires": "julia 0.6\nRecipesBase\n",
+    "testrequires": ""
    }
   }
  },
@@ -56058,6 +56098,11 @@
     "sha1": "c7ee8d33617d7f726f19d51a7fa097312671557e",
     "requires": "julia 0.6-pre\nJuno\nRecipesBase 0.1.0\nStaticArrays\n",
     "testrequires": "OrdinaryDiffEq 0.3.0\nParameterizedFunctions 0.3.0\nDiffEqBase 0.3.0\n"
+   },
+   "0.12.4": {
+    "sha1": "97b3bb7d76fc80e3704797645a6eb97c3a321fab",
+    "requires": "julia 0.6-pre\nJuno\nRecipesBase 0.1.0\nStaticArrays\n",
+    "testrequires": "OrdinaryDiffEq 0.3.0\nParameterizedFunctions 0.3.0\nDiffEqBase 0.3.0\n"
    }
   }
  },
@@ -59423,6 +59468,11 @@
     "sha1": "f4c300d7280dcf83bdd38f9b930d5c8e7c610dd3",
     "requires": "julia 0.6.0-pre\nSIUnits\nFixedPointNumbers\nDSP\n",
     "testrequires": "BaseTestNext\nFixedPointNumbers\nGumbo\nWAV\nTestSetExtensions\n"
+   },
+   "1.1.0": {
+    "sha1": "5ce80a836d2b70093566937bcacd18a04a21a3fe",
+    "requires": "julia 0.6.0-pre\nSIUnits\nFixedPointNumbers\nDSP\n",
+    "testrequires": "BaseTestNext\nFixedPointNumbers\nGumbo\nWAV\nTestSetExtensions 1.0.0\n"
    }
   }
  },
@@ -62939,6 +62989,11 @@
    },
    "0.2.0": {
     "sha1": "2486cfe52e17ec6b5c6aa9710599a3ad0379021f",
+    "requires": "julia 0.6\nCompat 0.17.0\n",
+    "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "e36dc8268c9f6ed03ea8698a5343d18e60907d7d",
     "requires": "julia 0.6\nCompat 0.17.0\n",
     "testrequires": ""
    }
@@ -70845,6 +70900,11 @@
    "0.4.3": {
     "sha1": "581a9d6f1890973c168af89d87ebeeebc0d2881b",
     "requires": "julia 0.4\nBinDeps 0.3.21\n@osx Homebrew\nCompat 0.17.0\n@windows WinRPM\n",
+    "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "89f9e3f62fe990f33d5e38d3202e6466a2fe258b",
+    "requires": "julia 0.5\nBinDeps 0.3.21\n@osx Homebrew\nCompat 0.27.0\n@windows WinRPM\n",
     "testrequires": ""
    }
   }
