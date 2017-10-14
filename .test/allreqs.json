@@ -15747,6 +15747,16 @@
    }
   }
  },
+ "DiffEqOperators": {
+  "url": "https://github.com/JuliaDiffEq/DiffEqOperators.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "db4152af36a4b97e7327e344aa9e42d084947229",
+    "requires": "julia 0.6\nDiffEqBase 1.19.0\nLinearMaps\n",
+    "testrequires": "SpecialMatrices\nOrdinaryDiffEq\n"
+   }
+  }
+ },
  "DiffEqPDEBase": {
   "url": "https://github.com/JuliaDiffEq/DiffEqPDEBase.jl.git",
   "versions": {
@@ -18362,6 +18372,11 @@
    },
    "0.4.0": {
     "sha1": "2a8556ac9c0823ae354e8018f00744f661d8d028",
+    "requires": "julia 0.6\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\nRequires 0.4.3\nLsqFit 0.3.0\nStaticArrays 0.5.0\nStatsBase 0.8.2\nRecursiveArrayTools 0.12.0\nNearestNeighbors 0.1.0\nIterTools 0.1.0\nDistances\nCombinatorics\n",
+    "testrequires": ""
+   },
+   "0.4.5": {
+    "sha1": "2233e3a22cc1c88ebc20bca6e5fb66d72b4f3f9d",
     "requires": "julia 0.6\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\nRequires 0.4.3\nLsqFit 0.3.0\nStaticArrays 0.5.0\nStatsBase 0.8.2\nRecursiveArrayTools 0.12.0\nNearestNeighbors 0.1.0\nIterTools 0.1.0\nDistances\nCombinatorics\n",
     "testrequires": ""
    }
@@ -20992,6 +21007,11 @@
     "sha1": "fbe7e9c42f1e01b8420b869d65ab2e0ef5a82576",
     "requires": "julia 0.5\nCompat 0.17.0\nURIParser 0.1.8\nGlob 1.1.1\nHumanize 0.4.1\n",
     "testrequires": "\n"
+   },
+   "0.3.0": {
+    "sha1": "7ab745c5dd86cc0f576f3ec7d7e0d24d0323b725",
+    "requires": "julia 0.5\nCompat 0.17.0\nURIParser 0.1.8\nGlob 1.1.1\nHumanize 0.4.1\n",
+    "testrequires": "\n"
    }
   }
  },
@@ -21017,6 +21037,11 @@
     "sha1": "fc66102e94af21b5a1bd41dbaee73ccd90b96e41",
     "requires": "julia 0.5\nSpecialFunctions",
     "testrequires": "DualNumbers\nHyperDualNumbers"
+   },
+   "0.1.1": {
+    "sha1": "ec585b35adcf7d91e84de6a4b45323eb529bb830",
+    "requires": "julia 0.5\nSpecialFunctions",
+    "testrequires": "DualNumbers\nHyperDualNumbers 1.1.0"
    }
   }
  },
@@ -22295,6 +22320,16 @@
    }
   }
  },
+ "GAFramework": {
+  "url": "https://github.com/vvjn/GAFramework.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "6fe7428b8730d3cddfdf47de7ce966df30a0a734",
+    "requires": "julia 0.6\nJLD 0.8\nStaticArrays 0.6\n",
+    "testrequires": ""
+   }
+  }
+ },
  "GARCH": {
   "url": "git://github.com/AndreyKolev/GARCH.jl.git",
   "versions": {
@@ -23372,6 +23407,11 @@
     "sha1": "5598067ef2ba804af994f60847164835d19c1af3",
     "requires": "julia 0.6\n",
     "testrequires": "StaticArrays\n"
+   },
+   "0.2.1": {
+    "sha1": "ea9036ae68af60249bede743a00088c97951e2a9",
+    "requires": "julia 0.6\nStaticArrays\n",
+    "testrequires": ""
    }
   }
  },
@@ -28704,6 +28744,11 @@
    "1.0.0": {
     "sha1": "8f9bf3f276ae1da0d2e56b8e2dbd4db857118e37",
     "requires": "julia 0.4\nCompat\n",
+    "testrequires": ""
+   },
+   "1.1.0": {
+    "sha1": "3e8ad106c509ee04fa1cde6bf47cb7685c9e1a0e",
+    "requires": "julia 0.5.2\nCompat\nSpecialFunctions",
     "testrequires": ""
    }
   }
@@ -36043,6 +36088,11 @@
    "0.2.1": {
     "sha1": "a72f380981b68fb89f70155b3aa8c6e2df12f88e",
     "requires": "julia 0.4\nCompat 0.8.0\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "bc33e18dfe249c54cccbbf81560ee18f19515803",
+    "requires": "julia 0.6\nCompat 0.8.0\n",
     "testrequires": ""
    }
   }
@@ -46452,6 +46502,11 @@
     "sha1": "f54c091e6d0c6312f31a82d530de7a1fc5f52abc",
     "requires": "julia 0.6\nCompat 0.31\n",
     "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "e6b3163654788b806f49d2720a4df4880a6bc64c",
+    "requires": "julia 0.6\nCompat 0.31\n",
+    "testrequires": ""
    }
   }
  },
@@ -47306,6 +47361,16 @@
    "0.0.4": {
     "sha1": "350e2a754e4b681a81f05c3812e4a15b8ae729c7",
     "requires": "julia 0.5-\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "ObjectFile": {
+  "url": "https://github.com/staticfloat/ObjectFile.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "24a24a41b367f9c9b62cf115716316e7d6b80b7b",
+    "requires": "julia 0.6\nStructIO 0.2\nReexport\n",
     "testrequires": ""
    }
   }
@@ -52840,6 +52905,16 @@
     "sha1": "7d7121220a58711f0bb55f073812c09d398027d2",
     "requires": "julia 0.4.0\nMAT 0.2.9\nFactCheck 0.2.8\nCoverage\n",
     "testrequires": "MAT 0.2.9\nFactCheck 0.2.8\n"
+   }
+  }
+ },
+ "Promisables": {
+  "url": "git://github.com/jfarid27/Promisables.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "8e5afb76e2fb97044fc7ff67aeaf178fc67e116e",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -63915,6 +63990,11 @@
    "0.0.2": {
     "sha1": "cee6708fc77ae9e67208af60be58c6ddfc429466",
     "requires": "julia 0.6\nConda 0.5.3\nPyCall 1.10.0\nJSON 0.8.0\nJLD 0.6.6\nCSV 0.1.2\nAutoHashEquals 0.1.1\nGeodesy 0.3.0\nWeakRefStrings  0.1.0 0.2.9\n",
+    "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "0d73baff07f2a934c80e4382bbb851c3aedf353e",
+    "requires": "julia 0.6\nConda 0.5.3\nPyCall 1.10.0\nJSON 0.8.0\nCSV 0.1.2\nAutoHashEquals 0.1.1\nGeodesy 0.3.0\nWeakRefStrings  0.1.0 0.2.9\nHDF5 0.8.5\n",
     "testrequires": ""
    }
   }
