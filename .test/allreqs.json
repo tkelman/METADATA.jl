@@ -20617,6 +20617,11 @@
     "sha1": "f6b50605f6bb6e27167f37f7211fb089d4aa9e47",
     "requires": "julia 0.5\nCompat 0.8.8\nSpecialFunctions 0.1\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "b6c0971b8579a8da6a98da8fc2fe020f5f1ab9a6",
+    "requires": "julia 0.6\nCompat 0.8.8\nSpecialFunctions 0.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -22325,6 +22330,11 @@
   "versions": {
    "0.0.1": {
     "sha1": "6fe7428b8730d3cddfdf47de7ce966df30a0a734",
+    "requires": "julia 0.6\nJLD 0.8\nStaticArrays 0.6\n",
+    "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "66416c2660a11e73353910c2d1356a183f3ec518",
     "requires": "julia 0.6\nJLD 0.8\nStaticArrays 0.6\n",
     "testrequires": ""
    }
@@ -27435,6 +27445,16 @@
    "0.1.0": {
     "sha1": "0ebe2b33639cc19a024abac4de06d4696d3640de",
     "requires": "julia 0.3.6-\nURIParser\nCompat\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "HORIZONS": {
+  "url": "https://github.com/PerezHz/HORIZONS.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "863673c102d93614cc3bbe379daf4035e6547c6c",
+    "requires": "julia 0.6\n\nExpect 0.2.3\nFTPClient 0.2.1\n",
     "testrequires": ""
    }
   }
@@ -35525,6 +35545,11 @@
     "sha1": "e0951ae8ca2504d50e6b515c2fa7df251f6f8c72",
     "requires": "julia 0.5\nNearestNeighbors\nDocumentFunction\n",
     "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "0c6156b25533a54dfce320ffee41bfe0ee22aaa6",
+    "requires": "julia 0.5\nNearestNeighbors\nDocumentFunction\n",
+    "testrequires": ""
    }
   }
  },
@@ -40881,6 +40906,11 @@
    },
    "0.4.28": {
     "sha1": "71d6f8caadceeecaf680719a816f3de3d445b5f1",
+    "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nKriging\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
+    "testrequires": ""
+   },
+   "0.4.29": {
+    "sha1": "870186bb8c73017707e8585cb9773bc486ad3490",
     "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nKriging\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
     "testrequires": ""
    }
@@ -47370,6 +47400,11 @@
   "versions": {
    "0.1.0": {
     "sha1": "24a24a41b367f9c9b62cf115716316e7d6b80b7b",
+    "requires": "julia 0.6\nStructIO 0.2\nReexport\n",
+    "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "98d7b327448456df024ab87243520f972c715e16",
     "requires": "julia 0.6\nStructIO 0.2\nReexport\n",
     "testrequires": ""
    }
@@ -63151,6 +63186,11 @@
     "sha1": "8c1b4692fed14093688e58d39f7dd07787dd92db",
     "requires": "julia 0.5\nCompat 0.17\n",
     "testrequires": "StatsBase"
+   },
+   "0.0.3": {
+    "sha1": "091f03fa529ebf91a758abb964a4fdce337d3667",
+    "requires": "julia 0.5 0.7-\nCompat 0.17\n",
+    "testrequires": "StatsBase"
    }
   }
  },
@@ -67044,6 +67084,16 @@
    }
   }
  },
+ "TupleTools": {
+  "url": "https://github.com/Jutho/TupleTools.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "1c4efb559a22be15004fd8072625efb8474403eb",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Turing": {
   "url": "git://github.com/yebai/Turing.jl.git",
   "versions": {
@@ -67675,6 +67725,11 @@
    "0.4.0": {
     "sha1": "a7b83e82bc49763d31612fcf6595a60230d35e25",
     "requires": "julia 0.5\nCompat 0.17\n",
+    "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "bb2cee5a53dac023fdebb2e7f8a1f1b195f90e8a",
+    "requires": "julia 0.6\nCompat 0.33.0\n",
     "testrequires": ""
    }
   }
