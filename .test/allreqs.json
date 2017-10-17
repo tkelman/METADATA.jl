@@ -40538,6 +40538,11 @@
     "sha1": "101a82d1cb44c0c534dc3009a17e40aace59c967",
     "requires": "julia 0.4\nCompat 0.26.0\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "732cf05dd34fffacd44c6f5d41fb43d84199381d",
+    "requires": "julia 0.6\nCompat 0.30.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -65259,6 +65264,11 @@
    },
    "0.2.0": {
     "sha1": "9724c7e55f40bc450d3b60721d0df2adc1bfe0e8",
+    "requires": "julia 0.5\nLanguages 0.1.0+\nDataFrames\nBinDeps\nCompat 0.17\n",
+    "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "172f50377c1dbcb1ac85eece62dc7a719ddfdef5",
     "requires": "julia 0.5\nLanguages 0.1.0+\nDataFrames\nBinDeps\nCompat 0.17\n",
     "testrequires": ""
    }
