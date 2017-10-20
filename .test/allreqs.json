@@ -8645,6 +8645,11 @@
     "sha1": "66c4173bbeee5d472cb250cbdf727259cf6e26fc",
     "requires": "julia 0.6\nTranscodingStreams 0.3\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "32c01b14596fd6619f9858d6d469294ed517cd3a",
+    "requires": "julia 0.6\nTranscodingStreams 0.3\n",
+    "testrequires": ""
    }
   }
  },
@@ -9088,6 +9093,11 @@
    },
    "1.4.0": {
     "sha1": "0a613728153178b7b6f7912f18b0d89164e6d564",
+    "requires": "julia 0.6\nImages 0.9.1\nColors 0.7.0\nClustering\nFileIO\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n",
+    "testrequires": ""
+   },
+   "1.5.0": {
+    "sha1": "e883f597332224fcde2172a68d1a5c4b8d711b4f",
     "requires": "julia 0.6\nImages 0.9.1\nColors 0.7.0\nClustering\nFileIO\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n",
     "testrequires": ""
    }
@@ -10228,6 +10238,11 @@
    },
    "0.33.0": {
     "sha1": "a2b9b90d6542d36b48900e5b91272317fe65a2b2",
+    "requires": "julia 0.5\n",
+    "testrequires": "OffsetArrays\n"
+   },
+   "0.34.0": {
+    "sha1": "a75cf4fe8129939062ff82ae79883a7c4dc012fb",
     "requires": "julia 0.5\n",
     "testrequires": "OffsetArrays\n"
    }
@@ -15422,6 +15437,11 @@
    },
    "1.24.0": {
     "sha1": "876cd17228d6eff8f156ea8c191def45e0eac2b6",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\n",
+    "testrequires": ""
+   },
+   "1.24.1": {
+    "sha1": "e39e0c45f77aa04830a8c493754e873aeb4f3a42",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\n",
     "testrequires": ""
    }
@@ -21760,6 +21780,11 @@
    },
    "0.3.2": {
     "sha1": "d3419c943bd8c8c3d06ffa8ea5618625b3b14613",
+    "requires": "julia 0.6.0\nDataFlow 0.2.1\nJuno\nMacroTools 0.3.3\nNNlib\nForwardDiff\nRequires\n",
+    "testrequires": ""
+   },
+   "0.3.3": {
+    "sha1": "2a66545ef8d3e8d456718670e59d752e778e83c9",
     "requires": "julia 0.6.0\nDataFlow 0.2.1\nJuno\nMacroTools 0.3.3\nNNlib\nForwardDiff\nRequires\n",
     "testrequires": ""
    }
