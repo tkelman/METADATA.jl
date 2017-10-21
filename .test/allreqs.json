@@ -14672,67 +14672,67 @@
    },
    "0.3.0": {
     "sha1": "f0e6bdeb7529b9097b3268fc8ec2f49abbd68666",
-    "requires": "julia 0.5\nDiffEqBase 0.15.0\nOrdinaryDiffEq 1.6.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\n",
+    "requires": "julia 0.5\nDiffEqBase 0.15.0 2.0.0\nOrdinaryDiffEq 1.6.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\n",
     "testrequires": "DiffEqDevTools\n"
    },
    "0.4.0": {
     "sha1": "7edbbcfd7874ecf3779652dd06f91defa30a58b7",
-    "requires": "julia 0.5\nDiffEqBase 0.15.0\nOrdinaryDiffEq 1.6.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\n",
+    "requires": "julia 0.5\nDiffEqBase 0.15.0 2.0.0\nOrdinaryDiffEq 1.6.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\n",
     "testrequires": "DiffEqDevTools\n"
    },
    "0.5.0": {
     "sha1": "118232270d498dac41ee022ec0b658cbffacbe8b",
-    "requires": "julia 0.6\nDiffEqBase 0.15.0\nOrdinaryDiffEq 2.9.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\n",
+    "requires": "julia 0.6\nDiffEqBase 0.15.0 2.0.0\nOrdinaryDiffEq 2.9.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\n"
    },
    "0.5.1": {
     "sha1": "32ab4b458c7a50348135c6f7cf1ffbcea1a80a82",
-    "requires": "julia 0.6\nDiffEqBase 1.15.0\nOrdinaryDiffEq 2.10.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\n",
+    "requires": "julia 0.6\nDiffEqBase 1.15.0 2.0.0\nOrdinaryDiffEq 2.10.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nUnitful\n"
    },
    "0.5.2": {
     "sha1": "47342df9e537e6e3a044741a52a1e14ccccd0c12",
-    "requires": "julia 0.6\nDiffEqBase 1.15.0\nOrdinaryDiffEq 2.10.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\n",
+    "requires": "julia 0.6\nDiffEqBase 1.15.0 2.0.0\nOrdinaryDiffEq 2.10.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nUnitful\n"
    },
    "0.6.0": {
     "sha1": "f6a73dcc78438022d5871b4fd3fc5d556792b46a",
-    "requires": "julia 0.6\nDiffEqBase 1.16.0\nOrdinaryDiffEq 2.10.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
+    "requires": "julia 0.6\nDiffEqBase 1.16.0 2.0.0\nOrdinaryDiffEq 2.10.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary\nUnitful\n"
    },
    "0.7.0": {
     "sha1": "ec27c8dd3c4bc14a3c6534b3da5ee805e3dfc974",
-    "requires": "julia 0.6\nDiffEqBase 1.16.0\nOrdinaryDiffEq 2.13.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
+    "requires": "julia 0.6\nDiffEqBase 1.16.0 2.0.0\nOrdinaryDiffEq 2.13.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary\nUnitful\n"
    },
    "0.8.0": {
     "sha1": "fc7eadeded8835b5f182a6c98ccba695e97f77c9",
-    "requires": "julia 0.6\nDiffEqBase 1.16.0\nOrdinaryDiffEq 2.13.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
+    "requires": "julia 0.6\nDiffEqBase 1.16.0 2.0.0\nOrdinaryDiffEq 2.13.0 2.15.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary\nUnitful\n"
    },
    "0.9.0": {
     "sha1": "ca571ed0920965b31025ce4e87dff5b7d8baf0ed",
-    "requires": "julia 0.6\nDiffEqBase 1.16.0\nOrdinaryDiffEq 2.15.0 2.19.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
+    "requires": "julia 0.6\nDiffEqBase 1.16.0 2.0.0\nOrdinaryDiffEq 2.15.0 2.19.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary\nUnitful\n"
    },
    "0.9.1": {
     "sha1": "765287bef6a43647aec0b4e95316853198825705",
-    "requires": "julia 0.6\nDiffEqBase 1.16.0\nOrdinaryDiffEq 2.15.0 2.19.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
+    "requires": "julia 0.6\nDiffEqBase 1.16.0 2.0.0\nOrdinaryDiffEq 2.15.0 2.19.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary\nUnitful\n"
    },
    "0.10.0": {
     "sha1": "87cfee41d426c251f73a14024dc979ceb2aefd63",
-    "requires": "julia 0.6\nDiffEqBase 1.21.0\nOrdinaryDiffEq 2.17.0 2.19.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
+    "requires": "julia 0.6\nDiffEqBase 1.21.0 2.0.0\nOrdinaryDiffEq 2.17.0 2.19.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nCombinatorics\nCompat 0.17.0\nReexport\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary\nUnitful\n"
    },
    "1.0.0": {
     "sha1": "f89db6c24198c71e5effdaf7fe73c94db390d223",
-    "requires": "julia 0.6\nDiffEqBase 1.23.0\nOrdinaryDiffEq 2.19.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots",
+    "requires": "julia 0.6\nDiffEqBase 1.23.0 2.0.0\nOrdinaryDiffEq 2.19.0 2.20.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary 0.11.0\nUnitful\n"
    },
    "1.0.1": {
     "sha1": "abf856482b49d794f77b4d8134f9daff9a735e6a",
-    "requires": "julia 0.6\nDiffEqBase 1.23.0\nOrdinaryDiffEq 2.19.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots",
+    "requires": "julia 0.6\nDiffEqBase 1.23.0 2.0.0\nOrdinaryDiffEq 2.19.0 2.20.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary 0.11.0\nUnitful\n"
    }
   }
@@ -15444,6 +15444,11 @@
     "sha1": "e39e0c45f77aa04830a8c493754e873aeb4f3a42",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\n",
     "testrequires": ""
+   },
+   "2.0.0": {
+    "sha1": "263d46331a896f26cf1faefd2e09e64525863ad0",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\nFunctionWrappers\n",
+    "testrequires": ""
    }
   }
  },
@@ -15504,6 +15509,11 @@
     "sha1": "4f3f682b1c5c0f35d1b477007f02d57b11fd21bf",
     "requires": "julia 0.6.0\nDiffEqBase 0.6.0\nNLsolve\nForwardDiff 0.5.0 0.6.0\nDiffBase\nOrdinaryDiffEq\n",
     "testrequires": "OrdinaryDiffEq\nDiffEqProblemLibrary\n"
+   },
+   "0.4.0": {
+    "sha1": "94144deae64620446baf4b2bdbf19dda61e617b1",
+    "requires": "julia 0.6.0\nDiffEqBase 0.6.0\nNLsolve\nForwardDiff 0.5 0.6-\nDiffBase\nOrdinaryDiffEq\nRecursiveArrayTools\nDataStructures\nRecipesBase\n",
+    "testrequires": "DiffEqProblemLibrary\nPlots\nUnicodePlots\n"
    }
   }
  },
@@ -15752,6 +15762,11 @@
    },
    "0.9.0": {
     "sha1": "b75946b41c9f110befd80077a07ab33c220ed1d0",
+    "requires": "julia 0.6\nDiffEqBase 1.18.0\nRecursiveArrayTools 0.6.0\nDistributedArrays\n",
+    "testrequires": "StochasticDiffEq\nDiffEqBase\nDiffEqProblemLibrary\nOrdinaryDiffEq\n"
+   },
+   "0.9.1": {
+    "sha1": "6ab0632b05e8c6a024362d450ba234deee6bc309",
     "requires": "julia 0.6\nDiffEqBase 1.18.0\nRecursiveArrayTools 0.6.0\nDistributedArrays\n",
     "testrequires": "StochasticDiffEq\nDiffEqBase\nDiffEqProblemLibrary\nOrdinaryDiffEq\n"
    }
@@ -17965,6 +17980,11 @@
     "requires": "julia 0.5\nCompat 0.25\nDocStringExtensions 0.2\n",
     "testrequires": "BaseTestNext\n"
    },
+   "0.11.4": {
+    "sha1": "6648ea57a36651c82d4a7583352f9e658386381c",
+    "requires": "julia 0.5\nCompat 0.25\nDocStringExtensions 0.2\n",
+    "testrequires": "BaseTestNext\n"
+   },
    "0.12.0": {
     "sha1": "273953b0dbb6fa5d56bfec888b987450c5f1df6f",
     "requires": "julia 0.6\nCompat 0.32\nDocStringExtensions 0.2\n",
@@ -18452,6 +18472,11 @@
    },
    "0.4.5": {
     "sha1": "2233e3a22cc1c88ebc20bca6e5fb66d72b4f3f9d",
+    "requires": "julia 0.6\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\nRequires 0.4.3\nLsqFit 0.3.0\nStaticArrays 0.5.0\nStatsBase 0.8.2\nRecursiveArrayTools 0.12.0\nNearestNeighbors 0.1.0\nIterTools 0.1.0\nDistances\nCombinatorics\n",
+    "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "e1ff4a6052343c43b6b11469bef645574ea17fe3",
     "requires": "julia 0.6\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\nRequires 0.4.3\nLsqFit 0.3.0\nStaticArrays 0.5.0\nStatsBase 0.8.2\nRecursiveArrayTools 0.12.0\nNearestNeighbors 0.1.0\nIterTools 0.1.0\nDistances\nCombinatorics\n",
     "testrequires": ""
    }
@@ -45547,6 +45572,11 @@
     "sha1": "535b7361c700b39b6f1f1148f805c6036491ef55",
     "requires": "julia 0.6.0-pre\nCalculus\nDistances\nForwardDiff 0.5.0\nLineSearches 2.1.0\nDiffBase\nNLSolversBase 2.1.0\n",
     "testrequires": "DiffEqBase 1.23.0\n"
+   },
+   "0.12.1": {
+    "sha1": "0b1cdf8edf91f6d6eff6acfe3470e58ae977d031",
+    "requires": "julia 0.6.0-pre\nCalculus\nDistances\nForwardDiff 0.5.0\nLineSearches 2.1.0\nDiffBase\nNLSolversBase 2.1.0\n",
+    "testrequires": "DiffEqBase 1.23.0\n"
    }
   }
  },
@@ -49114,37 +49144,47 @@
    },
    "2.14.0": {
     "sha1": "28fe64b9b7be106f4e618719dd18341e23259f11",
-    "requires": "julia 0.6.0\nDiffEqBase 1.20.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.8.0\nJuno 0.2.5\nCalculus 0.1.15\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "requires": "julia 0.6.0\nDiffEqBase 1.20.0 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.8.0\nJuno 0.2.5\nCalculus 0.1.15\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    },
    "2.15.0": {
     "sha1": "78d8bcf3107e8404dbe0dc0e2dfd515e46aa5420",
-    "requires": "julia 0.6.0\nDiffEqBase 1.20.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.8.0\nJuno 0.2.5\nCalculus 0.1.15\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "requires": "julia 0.6.0\nDiffEqBase 1.20.0 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.8.0\nJuno 0.2.5\nCalculus 0.1.15\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    },
    "2.16.0": {
     "sha1": "764191802c95b8e8559d9821edaafc983b7af81b",
-    "requires": "julia 0.6.0\nDiffEqBase 1.20.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.8.0\nJuno 0.2.5\nCalculus 0.1.15\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "requires": "julia 0.6.0\nDiffEqBase 1.20.0 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.8.0\nJuno 0.2.5\nCalculus 0.1.15\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    },
    "2.17.0": {
     "sha1": "b035dacb92503bff20ab06560c36f758e076d288",
-    "requires": "julia 0.6.0\nDiffEqBase 1.20.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "requires": "julia 0.6.0\nDiffEqBase 1.20.0 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    },
    "2.18.0": {
     "sha1": "22b52572ebc3d03d2d42685c9cdd340a0d704511",
-    "requires": "julia 0.6.0\nDiffEqBase 1.20.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "requires": "julia 0.6.0\nDiffEqBase 1.20.0 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    },
    "2.19.0": {
     "sha1": "f2966ce4f44862989a8f7743bd3a27cc1bacedcb",
-    "requires": "julia 0.6.0\nDiffEqBase 1.23.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "requires": "julia 0.6.0\nDiffEqBase 1.23.0 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    },
    "2.19.1": {
     "sha1": "f1a265b042daa8bbd867b4ecbe54c7f12f59944e",
-    "requires": "julia 0.6.0\nDiffEqBase 1.23.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "requires": "julia 0.6.0\nDiffEqBase 1.23.0 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.20.0": {
+    "sha1": "d46d242936a88109f37a5866ec46845f27c16084",
+    "requires": "julia 0.6.0\nDiffEqBase 1.24.1\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.21.0": {
+    "sha1": "ad1e14e1910f67d94beb02a9999f6498003db8c1",
+    "requires": "julia 0.6.0\nDiffEqBase 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    }
   }
@@ -63124,17 +63164,32 @@
    },
    "2.10.0": {
     "sha1": "1b4c869860430e9846efd40a7c3af87c53fac170",
-    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 1.16.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.3.0\nNLsolve\nForwardDiff 0.5.0 0.6.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
+    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 1.16.0 2.0.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.3.0\nNLsolve\nForwardDiff 0.5.0 0.6.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
    },
    "2.11.0": {
     "sha1": "8518980759fe694ab56d685d7aef246dcbe03768",
-    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 1.16.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.3.0\nNLsolve\nForwardDiff 0.5.0 0.6.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
+    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 1.16.0 2.0.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.3.0\nNLsolve\nForwardDiff 0.5.0 0.6.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
    },
    "2.11.1": {
     "sha1": "db687b77bc9f1e527e364acbb58c0bbc5ee4e146",
-    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 1.16.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.5.0\nNLsolve\nForwardDiff 0.5.0 0.6.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
+    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 1.16.0 2.0.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.5.0\nNLsolve\nForwardDiff 0.5.0 0.6.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
+    "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.12.0": {
+    "sha1": "1e5a24cad6b1ffe84f030a4ed6341d6fda6f3fa0",
+    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 1.24.0 2.0.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.5.0\nNLsolve\nForwardDiff 0.5.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
+    "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.12.1": {
+    "sha1": "f53d32cbfba78920cbc2ad610f51a128cc68df66",
+    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 1.24.0 2.0.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.5.0\nNLsolve\nForwardDiff 0.5.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
+    "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.13.0": {
+    "sha1": "0cb4ec7a368b0a0c9a854e7c352050baf3bfd022",
+    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 2.0.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.5.0\nNLsolve\nForwardDiff 0.5.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
    }
   }
@@ -63699,6 +63754,11 @@
    },
    "0.14.0": {
     "sha1": "9df2a780e69e6a73c34b0f2a164e933d717016e4",
+    "requires": "julia 0.5\nBinDeps 0.4.3\nCompat 0.17.0\nDiffEqBase 1.5.1\n",
+    "testrequires": "DiffEqProblemLibrary\n"
+   },
+   "0.14.1": {
+    "sha1": "f474d7a00cc66071c2fef2aed502fb4a84404984",
     "requires": "julia 0.5\nBinDeps 0.4.3\nCompat 0.17.0\nDiffEqBase 1.5.1\n",
     "testrequires": "DiffEqProblemLibrary\n"
    }
@@ -64954,6 +65014,11 @@
    },
    "0.7.3": {
     "sha1": "6f19e0d44d6dba106b2e9e3e2d5571aae37f30fd",
+    "requires": "julia 0.6\nProtoBuf 0.3.0\nPyCall 1.7.1\nConda 0.6.0\nDistributions 0.10.2\nStatsFuns 0.3.0\nJLD 0.6.3\nFileIO 0.1.2\nJuno 0.2.3\nCompat 0.18\nMacroTools 0.3.6\nAutoHashEquals 0.1.0\nMNIST 0.0.2\n",
+    "testrequires": ""
+   },
+   "0.7.4": {
+    "sha1": "24b1930c3a12ed9f0e63df1777b2d4e1816d609d",
     "requires": "julia 0.6\nProtoBuf 0.3.0\nPyCall 1.7.1\nConda 0.6.0\nDistributions 0.10.2\nStatsFuns 0.3.0\nJLD 0.6.3\nFileIO 0.1.2\nJuno 0.2.3\nCompat 0.18\nMacroTools 0.3.6\nAutoHashEquals 0.1.0\nMNIST 0.0.2\n",
     "testrequires": ""
    }
