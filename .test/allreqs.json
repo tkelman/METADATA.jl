@@ -1821,6 +1821,11 @@
     "sha1": "6c730e24641b6590d075a1d974d43d61367b43d0",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "3740f2118dc7128a430d794185864248c98f0304",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -2140,6 +2145,11 @@
    "0.1.0": {
     "sha1": "0bd8f0c24a94128f32951611aa0379e3c3d5bdbc",
     "requires": "julia 0.6-\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "b14c418b91604b92cb2ca9ba0b1c5da2b4a24776",
+    "requires": "julia 0.6\nStaticArrays 0.5.0\n",
     "testrequires": ""
    }
   }
@@ -2713,6 +2723,11 @@
    },
    "0.6.1": {
     "sha1": "4d0bf0f5e96f94c940c28eabc24278aceb8c292c",
+    "requires": "julia 0.6\nStatsBase\nUnicodePlots\nRecipesBase\nDistributions\n",
+    "testrequires": ""
+   },
+   "0.6.2": {
+    "sha1": "03123c4ddc8565da09a301f3ea5a84f8304ce6c6",
     "requires": "julia 0.6\nStatsBase\nUnicodePlots\nRecipesBase\nDistributions\n",
     "testrequires": ""
    }
@@ -3739,6 +3754,11 @@
    "0.0.8": {
     "sha1": "6c77bdcbba203169fb1dd8e6f862c2c15657d7db",
     "requires": "julia 0.4\nCompat 0.9.0\nJLD 0.6.6\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "9e91a1787860eb06c9b727aecdfb9e76d0d87387",
+    "requires": "julia 0.6\nCompat 0.26\nJSON\n",
     "testrequires": ""
    }
   }
@@ -18112,6 +18132,11 @@
    },
    "0.12.2": {
     "sha1": "743a736ec9e0d3dce9bb20e6d52f07352b802671",
+    "requires": "julia 0.6\nCompat 0.32\nDocStringExtensions 0.2\n",
+    "testrequires": ""
+   },
+   "0.12.3": {
+    "sha1": "5a6cb83b46aa54a739ee5166582b8bb4c39a2ee8",
     "requires": "julia 0.6\nCompat 0.32\nDocStringExtensions 0.2\n",
     "testrequires": ""
    }
@@ -34970,6 +34995,11 @@
     "sha1": "1fc18d1f58c891eb19badfc734019337b1148f85",
     "requires": "julia 0.6\nIndexedTables 0.3.0\nNamedTuples 4.0.0\nTextParse 0.3.0\nMemPool\nDagger 0.4.0\nGlob 1.1.1\nPooledArrays 0.0.2\nDataValues\n",
     "testrequires": ""
+   },
+   "0.3.5": {
+    "sha1": "e301faf0b0c45d2e9c4f6d6d808b3d6a53645003",
+    "requires": "julia 0.6\nIndexedTables 0.3.0\nNamedTuples 4.0.0\nTextParse 0.3.0\nMemPool\nDagger 0.4.0\nGlob 1.1.1\nPooledArrays 0.0.2\nDataValues\n",
+    "testrequires": ""
    }
   }
  },
@@ -40323,6 +40353,11 @@
     "sha1": "24bb89fd9c759052d564b49a77bf860282809731",
     "requires": "julia 0.5\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "1e0190764bb2db48de65a3341ae1ffda85c63493",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -43261,6 +43296,16 @@
    "0.0.3": {
     "sha1": "50215f1edeaed0b9505947cbab6019b363271ad1",
     "requires": "julia 0.4\nCompat 0.8\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "Merlin": {
+  "url": "https://github.com/hshindo/Merlin.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "a1afaf1141e255251a839de4fb33bf0d965b0042",
+    "requires": "julia 0.6\nProtoBuf\nProgressMeter\n@windows WinRPM\nGZip\nJLD2\n",
     "testrequires": ""
    }
   }
@@ -56663,6 +56708,11 @@
     "sha1": "a6b6076a165218448415ba4456260447880de514",
     "requires": "julia 0.6.0-pre\n",
     "testrequires": ""
+   },
+   "0.6.1": {
+    "sha1": "f8987beac02d6429b8fd3042dc63cd0d39892233",
+    "requires": "julia 0.6.0-pre\n",
+    "testrequires": ""
    }
   }
  },
@@ -66149,6 +66199,11 @@
    },
    "0.3.2": {
     "sha1": "bdcecc419c680aff15e0219fbdb081344f50c79b",
+    "requires": "julia 0.6\nCompat 0.17\nDataValues\nPooledArrays 0.0.2\nDataStructures\n",
+    "testrequires": ""
+   },
+   "0.3.3": {
+    "sha1": "71a75782b971d926af9feb8165c71555e858750f",
     "requires": "julia 0.6\nCompat 0.17\nDataValues\nPooledArrays 0.0.2\nDataStructures\n",
     "testrequires": ""
    }
