@@ -16449,6 +16449,11 @@
     "sha1": "2e30206001f7c729a8115bcb3b567ec94eedcf7f",
     "requires": "julia 0.6\nReexport 0.0.3\nDiffEqBase 1.0.0\nStochasticDiffEq 2.11.1\nFiniteElementDiffEq 0.3.0\nBoundaryValueDiffEq\nDiffEqDevTools 0.8.0\nOrdinaryDiffEq 2.11.0\nAlgebraicDiffEq 0.1.0\nDiffEqParamEstim 0.3.0\nDiffEqSensitivity 0.2.1\nSundials 0.11.0\nParameterizedFunctions 2.0.0\nDiffEqPDEBase 0.3.0\nDelayDiffEq 0.3.0\nDiffEqCallbacks 0.0.2\nDiffEqMonteCarlo 0.3.0\nDiffEqJump 0.3.0\nDiffEqFinancial 0.2.0\nDiffEqBiological 0.0.1\nMultiScaleArrays 0.1.0\nDimensionalPlotRecipes 0.0.2\nRecursiveArrayTools 0.4.1\nDiffEqNoiseProcess 0.0.1\nSteadyStateDiffEq 0.0.1\nDiffEqUncertainty\nDiffEqPhysics\n",
     "testrequires": "DiffEqProblemLibrary 0.2.0\n"
+   },
+   "3.0.1": {
+    "sha1": "6cb39b8515e51f0db44c1b57bf1918db33c163e2",
+    "requires": "julia 0.6\nReexport 0.0.3\nDiffEqBase 1.0.0\nStochasticDiffEq 2.11.1\nFiniteElementDiffEq 0.3.0\nBoundaryValueDiffEq\nDiffEqDevTools 0.8.0\nOrdinaryDiffEq 2.11.0\nAlgebraicDiffEq 0.1.0\nDiffEqParamEstim 0.3.0\nDiffEqSensitivity 0.2.1\nSundials 0.11.0\nParameterizedFunctions 2.0.0\nDiffEqPDEBase 0.3.0\nDelayDiffEq 0.3.0\nDiffEqCallbacks 0.0.2\nDiffEqMonteCarlo 0.3.0\nDiffEqJump 0.3.0\nDiffEqFinancial 0.2.0\nDiffEqBiological 0.0.1\nMultiScaleArrays 0.1.0\nDimensionalPlotRecipes 0.0.2\nRecursiveArrayTools 0.4.1\nDiffEqNoiseProcess 0.0.1\nSteadyStateDiffEq 0.0.1\nDiffEqUncertainty\nDiffEqPhysics\n",
+    "testrequires": "DiffEqProblemLibrary 0.2.0\n"
    }
   }
  },
