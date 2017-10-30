@@ -7700,6 +7700,11 @@
     "sha1": "1d88b038aad438d17afa2f3e1e164a211d20eee3",
     "requires": "julia 0.6-\nCompat 0.18.0\nDataFrames\nDataStructures 0.5.2\nDistributions\nFITSIO 0.8.4\nDiffBase 0.0.3 0.3.0\nForwardDiff 0.3.4 0.5\nReverseDiff 0.1.1 0.1.3\nJLD 0.6.0\nOptim 0.7.4\nStaticArrays 0.1.4 0.5.0\nWCS 0.1.3\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "bd525cf5e6042640ef5c8a3c5bb122f5a6caf027",
+    "requires": "julia 0.6\nBinDeps\nCompat 0.18.0\nDataFrames\nDataStructures 0.7.0\nDistributions\nFITSIO 0.11.0\nDiffBase 0.0.3\nForwardDiff 0.3.4 0.5\nReverseDiff 0.1.1 0.1.3\nJLD 0.6.0\nOptim 0.7.4\nStaticArrays 0.5.1\nWCS 0.1.3\nYAML\nTranscodingStreams\nCodecBzip2\nCodecZlib\nNearestNeighbors\nInterpolations\n",
+    "testrequires": ""
    }
   }
  },
@@ -18949,6 +18954,11 @@
     "sha1": "357d7d40dfcb2eea82dee85dd0a2107525d2e120",
     "requires": "julia 0.6\nSmoothingSplines 0.1.1\nRemoteFiles 0.1.0\nOptionalData 0.1.0\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "04d751ed36aecbcec87c584d13fa726f24c167cb",
+    "requires": "julia 0.6\nCompat 0.33.0\nOptionalData 0.1.0\nRemoteFiles 0.1.0\nSmoothingSplines 0.1.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -27951,6 +27961,11 @@
     "sha1": "f8771109aceefe9f28ce24a6a3f435a58befcf62",
     "requires": "julia 0.6\nMbedTLS 0.4.0",
     "testrequires": ""
+   },
+   "0.5.4": {
+    "sha1": "7c80b6ff5f6a688d2637c381009284f5a3d0d33b",
+    "requires": "julia 0.6\nMbedTLS 0.4.0",
+    "testrequires": ""
    }
   }
  },
@@ -32813,6 +32828,11 @@
    },
    "0.7.0": {
     "sha1": "62dd04b892e9461a42e23d905a357f010a68f2ef",
+    "requires": "julia 0.6\n\nShowItLikeYouBuildIt\nWoodburyMatrices 0.1.5\nRatios\nAxisAlgorithms\nCompat 0.19.0\nDualNumbers\n",
+    "testrequires": "OffsetArrays\n"
+   },
+   "0.7.1": {
+    "sha1": "3d433dff8058bf507ee27e4d395ac2f4cecfdaa5",
     "requires": "julia 0.6\n\nShowItLikeYouBuildIt\nWoodburyMatrices 0.1.5\nRatios\nAxisAlgorithms\nCompat 0.19.0\nDualNumbers\n",
     "testrequires": "OffsetArrays\n"
    }
@@ -43312,6 +43332,11 @@
     "sha1": "a1afaf1141e255251a839de4fb33bf0d965b0042",
     "requires": "julia 0.6\nProtoBuf\nProgressMeter\n@windows WinRPM\nGZip\nJLD2\n",
     "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "75fec04f592a274a29765cf3fce76d31a3f3b296",
+    "requires": "julia 0.6\nProtoBuf\n@windows WinRPM\nGZip\nJLD2\n",
+    "testrequires": ""
    }
   }
  },
@@ -45576,6 +45601,11 @@
    "0.2.0": {
     "sha1": "af8c3cdfd84c886c12ed3e6d7d6d0862d3a91293",
     "requires": "julia 0.5\nGZip\nMappedArrays\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "98910e59f5f3d752b54132ee90fa7972ccbb7fda",
+    "requires": "julia 0.6\nGZip\nMappedArrays\n",
     "testrequires": ""
    }
   }
