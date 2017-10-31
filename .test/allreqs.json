@@ -5888,6 +5888,16 @@
    }
   }
  },
+ "CQLdriver": {
+  "url": "https://github.com/r3tex/CQLdriver.jl.git",
+  "versions": {
+   "0.8.3": {
+    "sha1": "01511a087c721dbb3be616a85bb68aad13bb8b5c",
+    "requires": "julia 0.6\nDataFrames\n",
+    "testrequires": ""
+   }
+  }
+ },
  "CRC": {
   "url": "git://github.com/andrewcooke/CRC.jl.git",
   "versions": {
@@ -38648,6 +38658,11 @@
     "sha1": "c8caed81cbe0093134e042dacca8a72082e01bde",
     "requires": "julia 0.6\nNLSolversBase 3.0\nParameters\n",
     "testrequires": "OptimTestProblems\n"
+   },
+   "3.1.0": {
+    "sha1": "675f5b5a17d70ea9e68295fe4d065bbc5821e1ed",
+    "requires": "julia 0.6\nNLSolversBase 3.0\nParameters\n",
+    "testrequires": "OptimTestProblems\n"
    }
   }
  },
@@ -46110,6 +46125,16 @@
    }
   }
  },
+ "NOMAD": {
+  "url": "https://github.com/jbrea/NOMAD.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "6771e7ab89c997811f94884127196ef8836dc5d9",
+    "requires": "julia 0.6\nCxx\nMathProgBase\n",
+    "testrequires": ""
+   }
+  }
+ },
  "NPZ": {
   "url": "git://github.com/fhs/NPZ.jl.git",
   "versions": {
@@ -48610,6 +48635,11 @@
    "0.6.1": {
     "sha1": "0a10e44fcf3f72060208ea519e6b3825d7b8a790",
     "requires": "julia 0.5\nCompat 0.31\n",
+    "testrequires": ""
+   },
+   "0.7.0": {
+    "sha1": "6c76c162e94d2562da75b58114290d97e73c5f2d",
+    "requires": "julia 0.6",
     "testrequires": ""
    }
   }
@@ -66471,6 +66501,11 @@
     "sha1": "cfb8981349a7aafa75172293b6c4e5042bad33c6",
     "requires": "julia 0.4\nTikzPictures 0.3.5\nLightGraphs 0.6.0\nCompat 0.17.0\n",
     "testrequires": "NBInclude\n"
+   },
+   "0.5.1": {
+    "sha1": "90521a479c2b0dfa828678c821adc353e6f8009b",
+    "requires": "julia 0.4\nTikzPictures 0.3.5\nLightGraphs 0.6.0\nCompat 0.8.0\n",
+    "testrequires": "NBInclude\n"
    }
   }
  },
@@ -67994,6 +68029,11 @@
    },
    "0.4.2": {
     "sha1": "2bc4c071f61ddf721f15d157410821a72c6dec85",
+    "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.4.1\nMatcha\nStaticArrays 0.3.0\nDataStructures\nSpecialFunctions\nMacroTools\n",
+    "testrequires": ""
+   },
+   "0.4.3": {
+    "sha1": "c464cfb5aa9f2e5286aff74be76e876a013df96a",
     "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.4.1\nMatcha\nStaticArrays 0.3.0\nDataStructures\nSpecialFunctions\nMacroTools\n",
     "testrequires": ""
    }
