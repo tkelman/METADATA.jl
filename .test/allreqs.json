@@ -3760,6 +3760,11 @@
     "sha1": "9e91a1787860eb06c9b727aecdfb9e76d0d87387",
     "requires": "julia 0.6\nCompat 0.26\nJSON\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "aafc7e19d240961c1817478bc01558c0196c727c",
+    "requires": "julia 0.6\nCompat 0.26\nJSON\n",
+    "testrequires": ""
    }
   }
  },
@@ -5474,6 +5479,11 @@
    "0.1.1": {
     "sha1": "534f164288b4739313949398cdd292b762c4c713",
     "requires": "julia 0.6\n\nGPUArrays 0.2.0\n\nStaticArrays\nColorTypes\n\nTranspiler 0.4.2\nSugar 0.4.1\nMatcha 0.1.1\n\nOpenCL 0.6.1 #proper packed pointer free\nCLBLAS 1.1.0\nCLFFT 0.4.0 # 0.5.0\n",
+    "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "8ff911e53f3bab06a0b2d80f4cfcd84946512c0b",
+    "requires": "julia 0.6\n\nGPUArrays 0.2.0\n\nStaticArrays\nColorTypes\n\nTranspiler 0.4.3\nSugar 0.4.1\nMatcha 0.1.1\n\nOpenCL 0.7.0 #proper packed pointer free\nCLBLAS 1.1.0\nCLFFT 0.4.0 # 0.5.0\n",
     "testrequires": ""
    }
   }
@@ -22042,6 +22052,11 @@
     "sha1": "2a66545ef8d3e8d456718670e59d752e778e83c9",
     "requires": "julia 0.6.0\nDataFlow 0.2.1\nJuno\nMacroTools 0.3.3\nNNlib\nForwardDiff\nRequires\n",
     "testrequires": ""
+   },
+   "0.3.4": {
+    "sha1": "0f8ba87dc68307050abb46f594280c1873ee4d84",
+    "requires": "julia 0.6.0\nDataFlow 0.2.1\nJuno\nMacroTools 0.3.3\nNNlib\nForwardDiff\nRequires\n",
+    "testrequires": ""
    }
   }
  },
@@ -25605,6 +25620,11 @@
    },
    "0.4.2": {
     "sha1": "81dbd66f0ab8935a99ee2c82bfc885610b310cf6",
+    "requires": "julia 0.6\n\nIterTools\nStaticArrays 0.5.1\nColorTypes 0.3.1\nFixedPointNumbers 0.3\n",
+    "testrequires": ""
+   },
+   "0.4.3": {
+    "sha1": "96daf9e2e8ead2f8aa85237b7e4e3083a5429908",
     "requires": "julia 0.6\n\nIterTools\nStaticArrays 0.5.1\nColorTypes 0.3.1\nFixedPointNumbers 0.3\n",
     "testrequires": ""
    }
@@ -30560,6 +30580,11 @@
     "sha1": "cdad66a0f0ccf009bb5f0355c068d8c5d79c2d47",
     "requires": "julia 0.6\nImages 0.9\nImageFiltering 0.1.4\nDataStructures 0.5.3\nStaticArrays 0.6.0\nLightGraphs 0.9.2\nSimpleWeightedGraphs 0.0.1\nRegionTrees 0.1.0\nDistances\nStaticArrays\nClustering 0.9.0\n",
     "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "502c4d65f75fcfbda0ff52aa79c09c140fede434",
+    "requires": "julia 0.6\nImages 0.9\nImageFiltering 0.1.3\nDataStructures 0.7.1\nStaticArrays 0.5.0\nLightGraphs 0.9.0\nSimpleWeightedGraphs 0.0.1\nRegionTrees 0.1.0\nDistances\nStaticArrays\nClustering 0.9.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -35034,6 +35059,11 @@
    "0.3.5": {
     "sha1": "e301faf0b0c45d2e9c4f6d6d808b3d6a53645003",
     "requires": "julia 0.6\nIndexedTables 0.3.0\nNamedTuples 4.0.0\nTextParse 0.3.0\nMemPool\nDagger 0.4.0\nGlob 1.1.1\nPooledArrays 0.0.2\nDataValues\n",
+    "testrequires": ""
+   },
+   "0.3.6": {
+    "sha1": "e39ff72a5da023280bf0652fb17527d34088599c",
+    "requires": "julia 0.6\nIndexedTables 0.3.3\nNamedTuples 4.0.0\nTextParse 0.3.0\nMemPool\nDagger 0.4.0\nGlob 1.1.1\nPooledArrays 0.0.2\nOnlineStatsBase v0.0.8\nStatsBase\nDataValues\n",
     "testrequires": ""
    }
   }
@@ -47570,6 +47600,11 @@
    },
    "0.0.2": {
     "sha1": "d999d21ff31664ac5ad7323b9a1a38e913c20092",
+    "requires": "julia 0.5\nCompat 0.17.0\n",
+    "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "5ee27b62431c0e57ca4fcfb4547788fe4887f0c1",
     "requires": "julia 0.5\nCompat 0.17.0\n",
     "testrequires": ""
    }
@@ -60431,6 +60466,16 @@
    }
   }
  },
+ "SaferIntegers": {
+  "url": "https://github.com/JeffreySarnoff/SaferIntegers.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "a290359e032ef05948817ecac6331d0894a0ca15",
+    "requires": "julia v0.6.0\n",
+    "testrequires": ""
+   }
+  }
+ },
  "SampledSignals": {
   "url": "https://github.com/JuliaAudio/SampledSignals.jl.git",
   "versions": {
@@ -64349,6 +64394,11 @@
    },
    "0.14.1": {
     "sha1": "f474d7a00cc66071c2fef2aed502fb4a84404984",
+    "requires": "julia 0.5\nBinDeps 0.4.3\nCompat 0.17.0\nDiffEqBase 1.5.1\n",
+    "testrequires": "DiffEqProblemLibrary\n"
+   },
+   "0.14.2": {
+    "sha1": "f840e38aa662cef6bf889329179700164794f482",
     "requires": "julia 0.5\nBinDeps 0.4.3\nCompat 0.17.0\nDiffEqBase 1.5.1\n",
     "testrequires": "DiffEqProblemLibrary\n"
    }
