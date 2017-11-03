@@ -6585,6 +6585,11 @@
     "sha1": "b04f4ea250744c720f7bad594f520d0cfa085fa7",
     "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.11\nCUDAapi\n",
     "testrequires": ""
+   },
+   "0.5.2": {
+    "sha1": "4001bf0e03e569864d387ed488e15e9af826995c",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.11\nCUDAapi 0.1.3\n",
+    "testrequires": ""
    }
   }
  },
@@ -9473,6 +9478,11 @@
    },
    "0.6.5": {
     "sha1": "ed6d14099d9257708c85569f2e932e1b9efb0b3f",
+    "requires": "julia 0.6\nCompat 0.32.0\nFixedPointNumbers 0.3.0\n",
+    "testrequires": ""
+   },
+   "0.6.6": {
+    "sha1": "5153675428134a4d843b7ac351fa6165b1817b7d",
     "requires": "julia 0.6\nCompat 0.32.0\nFixedPointNumbers 0.3.0\n",
     "testrequires": ""
    }
@@ -14494,6 +14504,11 @@
     "sha1": "5a890a9a6350dc10ec648d944b58c353e0677441",
     "requires": "julia 0.6\n",
     "testrequires": "VT100 0.2.0\n"
+   },
+   "0.1.1": {
+    "sha1": "7495c38e610d6a8f64b5500cbddee7f55186b46f",
+    "requires": "julia 0.6\n",
+    "testrequires": "VT100 0.2.2\nAbstractTrees 0.1.0\n"
    }
   }
  },
@@ -14942,6 +14957,11 @@
    },
    "1.2.0": {
     "sha1": "746d81fec06f594ad4c069daa90de9cdad7d8849",
+    "requires": "julia 0.6\nDiffEqBase 2.0.0\nOrdinaryDiffEq 2.21.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots\n",
+    "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary 0.11.0\nUnitful\n"
+   },
+   "1.2.1": {
+    "sha1": "58e5bda57ebee024b291460770daa1216499e4fb",
     "requires": "julia 0.6\nDiffEqBase 2.0.0\nOrdinaryDiffEq 2.21.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary 0.11.0\nUnitful\n"
    }
@@ -49936,6 +49956,11 @@
     "sha1": "3c4c01a2967ad7bbd5d42213c9f425c603e4d329",
     "requires": "julia 0.6\nCompat\nBufferedStreams 0.3\nLibz 0.2\nTimeZones\nDocumenter\nLabelNumerals\nIntervalTrees\nAdobeGlyphList\nDataStructures\n",
     "testrequires": ""
+   },
+   "0.0.9": {
+    "sha1": "475fcb08a5b8fc9e0ee8f6d465fa2c970d67ba60",
+    "requires": "julia 0.6\nCompat\nBufferedStreams 0.3\nLibz 0.2\nTimeZones\nDocumenter\nLabelNumerals\nIntervalTrees\nAdobeGlyphList\nDataStructures\n",
+    "testrequires": ""
    }
   }
  },
@@ -57951,6 +57976,11 @@
    },
    "0.1.5": {
     "sha1": "0ca36ae085e742904655bb0454c029dc0a5a2446",
+    "requires": "julia 0.6\n\nMacroTools",
+    "testrequires": ""
+   },
+   "0.1.6": {
+    "sha1": "519ff71062ee72dcc6992434cde4a1a57f13abbb",
     "requires": "julia 0.6\n\nMacroTools",
     "testrequires": ""
    }
@@ -67530,6 +67560,11 @@
    "0.4.2": {
     "sha1": "fc5f1451c313d7c45cc6435990dc711e34e32ebb",
     "requires": "julia 0.4\nCompat 0.25\nMocking 0.2\n@windows LightXML 0.2\n",
+    "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "ece22b3bec572790f561d5442099eada21491b6b",
+    "requires": "julia 0.6\nCompat 0.33\nMocking 0.4\n@windows LightXML 0.2\n",
     "testrequires": ""
    }
   }
