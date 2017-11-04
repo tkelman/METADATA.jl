@@ -15694,6 +15694,16 @@
     "sha1": "224d132d688ab881d0e25a90fba15e947d5fb483",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\nFunctionWrappers\n",
     "testrequires": ""
+   },
+   "2.2.0": {
+    "sha1": "158eecc43c61b05e4062778d074e2c6f03074fc8",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\nFunctionWrappers\n",
+    "testrequires": ""
+   },
+   "2.3.0": {
+    "sha1": "31d0f54f0627dec80b513e53dc8104ceb7d765e2",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\nFunctionWrappers\n",
+    "testrequires": ""
    }
   }
  },
@@ -16067,6 +16077,11 @@
    },
    "0.5.0": {
     "sha1": "cb9d1e7e6e14ae45a53566464170c4b068c7ad9b",
+    "requires": "julia 0.6\nResettableStacks 0.2.0\nDataStructures\nDiffEqBase 1.13.0\nRecipesBase\nRecursiveArrayTools\nRandomNumbers\n",
+    "testrequires": "StochasticDiffEq\nStatsBase\nDistributions\nHypothesisTests\nDiffEqProblemLibrary\nDiffEqMonteCarlo 0.4.0\n"
+   },
+   "0.6.0": {
+    "sha1": "bfbc93c67256043e24ba708dad9cfea2e55303de",
     "requires": "julia 0.6\nResettableStacks 0.2.0\nDataStructures\nDiffEqBase 1.13.0\nRecipesBase\nRecursiveArrayTools\nRandomNumbers\n",
     "testrequires": "StochasticDiffEq\nStatsBase\nDistributions\nHypothesisTests\nDiffEqProblemLibrary\nDiffEqMonteCarlo 0.4.0\n"
    }
@@ -20160,6 +20175,16 @@
    }
   }
  },
+ "ExpectationStubs": {
+  "url": "https://github.com/oxinabox/ExpectationStubs.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "b8aa50ae2dc7accb1d95db54ff2ead1cb5e38bcb",
+    "requires": "julia 0.6\nMacroTools\nDataStructures\n",
+    "testrequires": ""
+   }
+  }
+ },
  "ExperimentalAnalysis": {
   "url": "git://github.com/baggepinnen/ExperimentalAnalysis.jl.git",
   "versions": {
@@ -20181,6 +20206,16 @@
    "0.1.1": {
     "sha1": "545fdd2dc130765d3136d9c9aabd9a6935c7e948",
     "requires": "julia 0.5\nDataFrames\nPlots\nGLM\nCoverage\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "Expr2LaTeX": {
+  "url": "https://github.com/oxinabox/Expr2LaTeX.jl.git",
+  "versions": {
+   "0.2.0": {
+    "sha1": "2ad3a80cf199340e0d306fa1dae63f1e2fd8b25f",
+    "requires": "julia 0.6\nLaTeXStrings\nDocStringExtensions\n\n",
     "testrequires": ""
    }
   }
@@ -43712,6 +43747,11 @@
     "sha1": "130f60c0fab66fa183da1cf65bfbae93f6b66cc4",
     "requires": "julia 0.6\nLightGraphs 0.11\nJLD2\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "585ecf34b917a6676864740a0cc5b279f0febf61",
+    "requires": "julia 0.6\nLightGraphs 0.11\nJLD2\n",
+    "testrequires": ""
    }
   }
  },
@@ -49830,6 +49870,16 @@
    "2.21.2": {
     "sha1": "822ae9075e5fc1bf4ad70a02271168c729d52a21",
     "requires": "julia 0.6.0\nDiffEqBase 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.9.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.22.0": {
+    "sha1": "a2e129e0413e2fcfaaab806c9d8f5dc0f5170fb4",
+    "requires": "julia 0.6.0\nDiffEqBase 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.12.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.23.0": {
+    "sha1": "599fde7f6dfdbc169c1fa24b14bd11f147a148b1",
+    "requires": "julia 0.6.0\nDiffEqBase 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.12.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    }
   }
