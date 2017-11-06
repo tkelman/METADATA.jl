@@ -14977,7 +14977,12 @@
    },
    "1.3.0": {
     "sha1": "9c5a0f2afef430c7d586148ded682cb986ffa1ac",
-    "requires": "julia 0.6\nDiffEqBase 2.0.0\nOrdinaryDiffEq 2.22.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots\n",
+    "requires": "julia 0.6\nDiffEqBase 2.0.0\nOrdinaryDiffEq 2.22.0 2.24.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots\n",
+    "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary 0.11.0\nUnitful\n"
+   },
+   "1.4.0": {
+    "sha1": "67bd41944754cb8c36c99dfdaf61216dc56305a1",
+    "requires": "julia 0.6\nDiffEqBase 2.0.0\nOrdinaryDiffEq 2.24.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary 0.11.0\nUnitful\n"
    }
   }
@@ -15717,6 +15722,11 @@
    },
    "2.3.0": {
     "sha1": "31d0f54f0627dec80b513e53dc8104ceb7d765e2",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\nFunctionWrappers\n",
+    "testrequires": ""
+   },
+   "2.3.1": {
+    "sha1": "ea347b8d887ea1fcfcef06c0b5a4fed44605cdb6",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\nFunctionWrappers\n",
     "testrequires": ""
    }
@@ -20447,6 +20457,21 @@
     "sha1": "253f132d0d9340c17d72976fbd4e357e1fc67296",
     "requires": "julia 0.6\n@windows WinRPM\n",
     "testrequires": "LightGraphs\n"
+   },
+   "0.5.3": {
+    "sha1": "9f532f34f5806f948d31f5be28339ada50e60424",
+    "requires": "julia 0.6\n@windows WinRPM\n",
+    "testrequires": "LightGraphs\n"
+   }
+  }
+ },
+ "FEHM": {
+  "url": "https://github.com/zemjulia/FEHM.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "deb90ca4040afbe141bf5d4482d6a95cbfed97f3",
+    "requires": "julia 0.5\nJLD\nWriteVTK\nDocumentFunction\n",
+    "testrequires": ""
    }
   }
  },
@@ -21577,6 +21602,11 @@
     "sha1": "ec585b35adcf7d91e84de6a4b45323eb529bb830",
     "requires": "julia 0.5\nSpecialFunctions",
     "testrequires": "DualNumbers\nHyperDualNumbers 1.1.0"
+   },
+   "0.1.2": {
+    "sha1": "9fb071ebbe6dcf25bd921910d8ac11b27c44a731",
+    "requires": "julia 0.5\nSpecialFunctions",
+    "testrequires": "DualNumbers\nHyperDualNumbers 1.1.0"
    }
   }
  },
@@ -21965,6 +21995,11 @@
    },
    "0.1.1": {
     "sha1": "52ef79fa3269207be568cf03740eb2815472ce1f",
+    "requires": "julia 0.6\nMultivariatePolynomials 0.1.1\n",
+    "testrequires": "DynamicPolynomials 0.0.1\n"
+   },
+   "0.2.0": {
+    "sha1": "337278f75eb232c53dd219bc58ef3f9f11335345",
     "requires": "julia 0.6\nMultivariatePolynomials 0.1.1\n",
     "testrequires": "DynamicPolynomials 0.0.1\n"
    }
@@ -28563,6 +28598,21 @@
    }
   }
  },
+ "HigherPrecision": {
+  "url": "https://github.com/saschatimme/HigherPrecision.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "4bb623845de215d1913f8609a60e70d9fa60e362",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "d9878921c31d474c33196b0a45ab9c635c62c852",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Highlights": {
   "url": "git://github.com/JuliaDocs/Highlights.jl.git",
   "versions": {
@@ -30373,6 +30423,11 @@
    },
    "0.2.2": {
     "sha1": "7105d384f1329a7d7fc80c573c605eb90da3073d",
+    "requires": "julia 0.6\nFixedPointNumbers 0.3.0\nColors\nColorVectorSpace\nImageCore\nOffsetArrays\nCatIndices\nStaticArrays 0.0.5\nMappedArrays\nFFTViews\nComputationalResources\nDataStructures 0.4.6\nTiledIteration\nCompat 0.18\n",
+    "testrequires": ""
+   },
+   "0.2.3": {
+    "sha1": "f9195cc14f24dc5bcb3d45adb1608a7d7d103018",
     "requires": "julia 0.6\nFixedPointNumbers 0.3.0\nColors\nColorVectorSpace\nImageCore\nOffsetArrays\nCatIndices\nStaticArrays 0.0.5\nMappedArrays\nFFTViews\nComputationalResources\nDataStructures 0.4.6\nTiledIteration\nCompat 0.18\n",
     "testrequires": ""
    }
@@ -38978,6 +39033,11 @@
     "sha1": "0bc7ce93ae3d4eef3b3925e1d6bc2dbc2c54573f",
     "requires": "julia 0.4\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "cc91031f4bdc56d720f8dc62e5bb20b4286b269f",
+    "requires": "julia 0.5\nCompat\n",
+    "testrequires": ""
    }
   }
  },
@@ -40047,7 +40107,7 @@
   }
  },
  "LowRankApprox": {
-  "url": "https://github.com/klho/LowRankApprox.jl.git",
+  "url": "https://github.com/JuliaMatrices/LowRankApprox.jl.git",
   "versions": {
    "0.0.1": {
     "sha1": "3a394624d3499ccece64d44c4346f14def39b517",
@@ -40057,6 +40117,11 @@
    "0.0.2": {
     "sha1": "18095ab8ba331c2fe685b6e9090096bc3b648fc9",
     "requires": "julia 0.5\nCompat 0.18\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "d32fcad35d9ce39536b36e58421fbace2bb0ee73",
+    "requires": "julia 0.6\nCompat 0.18\nFFTW 0.0.4\n",
     "testrequires": ""
    }
   }
@@ -40888,6 +40953,11 @@
     "sha1": "2eded6599c8a9e1f23240ca051008ae8a9fda2fd",
     "requires": "julia 0.5\nStatsBase 0.13\nLearnBase 0.1.5 0.2.0\nMLLabelUtils 0.0.3\nShowItLikeYouBuildIt\nCompat 0.19\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "8730b3df5822893c0c744dbd1231085414758df3",
+    "requires": "julia 0.6\nStatsBase 0.13\nLearnBase 0.1.5 0.2.0\nMLLabelUtils 0.0.3\nShowItLikeYouBuildIt\nCompat 0.19\n",
+    "testrequires": "ReferenceTests 0.0.2\n"
    }
   }
  },
@@ -49946,6 +50016,11 @@
     "sha1": "599fde7f6dfdbc169c1fa24b14bd11f147a148b1",
     "requires": "julia 0.6.0\nDiffEqBase 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.12.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.24.0": {
+    "sha1": "c659a088699d2825a5337266c4afa53e183f6c5b",
+    "requires": "julia 0.6.0\nDiffEqBase 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.12.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    }
   }
  },
@@ -56274,6 +56349,11 @@
    "0.7.5": {
     "sha1": "9c795a58219aa653709643f46e5cfe311fd6419f",
     "requires": "julia 0.5\nDataStructures 0.5.0\nDataFrames 0.9\nNullableArrays 0.1.0\nCategoricalArrays 0.1.0\nAxisArrays 0.0.6\nNamedArrays 0.5.3\nCompat 0.17.0\n@windows WinReg 0.2.0\n",
+    "testrequires": ""
+   },
+   "0.8.0": {
+    "sha1": "a149e49a0d73ab70e232110b798c9f35eb2fbb5f",
+    "requires": "julia 0.6\nNulls 0.1.0\nDataStructures 0.5.0\nDataFrames 0.10\nDataArrays 0.5.0\nCategoricalArrays 0.1.0\nNullableArrays 0.1.0\nAxisArrays 0.0.6\nNamedArrays 0.5.3\nCompat 0.34.0\n@windows WinReg 0.2.0\n",
     "testrequires": ""
    }
   }
@@ -64154,6 +64234,11 @@
    },
    "2.14.0": {
     "sha1": "0420447d5ad31545072096e337cb61186e59d6ca",
+    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 2.0.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.5.0\nNLsolve\nForwardDiff 0.5.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
+    "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.15.0": {
+    "sha1": "745b3ae5a9ed66e6045f4c0018f9d02f0b35eb8d",
     "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 2.0.0\nRecursiveArrayTools 0.8.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.5.0\nNLsolve\nForwardDiff 0.5.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\n",
     "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
    }
