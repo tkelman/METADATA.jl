@@ -6600,6 +6600,11 @@
     "sha1": "4001bf0e03e569864d387ed488e15e9af826995c",
     "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.11\nCUDAapi 0.1.3\n",
     "testrequires": ""
+   },
+   "0.5.3": {
+    "sha1": "efd50d8efd94dcf0c5e792cdd5b1dc878c65a5f3",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.11\nCUDAapi 0.1.3\n",
+    "testrequires": ""
    }
   }
  },
@@ -14984,6 +14989,11 @@
     "sha1": "67bd41944754cb8c36c99dfdaf61216dc56305a1",
     "requires": "julia 0.6\nDiffEqBase 2.0.0\nOrdinaryDiffEq 2.24.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary 0.11.0\nUnitful\n"
+   },
+   "1.5.0": {
+    "sha1": "085d714bf74174581634204620e4301902307fca",
+    "requires": "julia 0.6\nDiffEqBase 2.0.0\nOrdinaryDiffEq 2.24.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots\n",
+    "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary 0.11.0\nUnitful\n"
    }
   }
  },
@@ -19414,6 +19424,11 @@
     "sha1": "94af2a2c58371d695736cf13a790186d559f6869",
     "requires": "julia 0.4\nCompat\nDistributedArrays 0.2.0\n",
     "testrequires": "MPI\nPrimes\n"
+   },
+   "0.2.0": {
+    "sha1": "72d1ba046aa4cfd3b561f6d2fc9b9321a7b209a0",
+    "requires": "julia 0.6\nCompat 0.31.0\nDistributedArrays 0.4.0\n",
+    "testrequires": "MPI\nPrimes\n"
    }
   }
  },
@@ -19733,6 +19748,11 @@
    "0.2.1": {
     "sha1": "5c19e6afe055a91052f78112eaa1369bbfcb2d2a",
     "requires": "julia 0.4\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "8a9c00b44eeac6f24d540a55e312f0e5d4b6fd12",
+    "requires": "julia 0.5\nCombinatorics\n",
     "testrequires": ""
    }
   }
@@ -21395,7 +21415,7 @@
    },
    "0.2.5": {
     "sha1": "3d8a1f9d3d00ea7e05729434f075d55f9f299bd6",
-    "requires": "julia 0.5\nFlatBuffers 0.2.0\nNullableArrays 0.0.8\nCategoricalArrays 0.0.6 0.2.0\nDataFrames\nDataStreams 0.1.0 0.2.0\nWeakRefStrings 0.1.3 0.3.0\nDataArrays\n",
+    "requires": "julia 0.5\nFlatBuffers 0.2.0 0.2.1\nNullableArrays 0.0.8\nCategoricalArrays 0.0.6 0.2.0\nDataFrames\nDataStreams 0.1.0 0.2.0\nWeakRefStrings 0.1.3 0.3.0\nDataArrays\n",
     "testrequires": "DataStreamsIntegrationTests\n"
    }
   }
@@ -23980,6 +24000,11 @@
    },
    "0.1.0": {
     "sha1": "e8535e792e9487527d079ec5d8773a035e9a41a8",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "afc3a155f7adf58fc263424d26ae13fc6bb8c9c6",
     "requires": "julia 0.5\n",
     "testrequires": ""
    }
@@ -28608,6 +28633,11 @@
    },
    "0.1.1": {
     "sha1": "d9878921c31d474c33196b0a45ab9c635c62c852",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.1.3": {
+    "sha1": "da4b534b0a1f8c2e5cc02cde1dae9b78b416dfaa",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
@@ -37416,6 +37446,11 @@
    },
    "0.1.2": {
     "sha1": "4ea05a847bca0ae00a113bd50ac5c92e9e684a2f",
+    "requires": "julia 0.6\nLazyContext 0.1.2\nDataFrames\nMacroTools 0.3.2\nQuery\nNamedTuples\nChainRecursive 0.0.3\nLazyCall 0.1.1\nDataArrays\n",
+    "testrequires": "Documenter\nChainRecursive\n"
+   },
+   "0.1.3": {
+    "sha1": "b1300d0f86fd19c61aa86a6a5b9c6a7e54b8aed1",
     "requires": "julia 0.6\nLazyContext 0.1.2\nDataFrames\nMacroTools 0.3.2\nQuery\nNamedTuples\nChainRecursive 0.0.3\nLazyCall 0.1.1\nDataArrays\n",
     "testrequires": "Documenter\nChainRecursive\n"
    }
@@ -46486,6 +46521,11 @@
    "0.1.0": {
     "sha1": "6771e7ab89c997811f94884127196ef8836dc5d9",
     "requires": "julia 0.6\nCxx\nMathProgBase\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "2c6367ea2b5804bf74a427e87526f8fb36426449",
+    "requires": "julia 0.6\nCxx\nMathProgBase\nBinDeps\n",
     "testrequires": ""
    }
   }
@@ -60881,6 +60921,11 @@
   "versions": {
    "0.0.1": {
     "sha1": "a290359e032ef05948817ecac6331d0894a0ca15",
+    "requires": "julia v0.6.0\n",
+    "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "4a27e6e8971552ad26e4236a7cc4d4c2a54cda9f",
     "requires": "julia v0.6.0\n",
     "testrequires": ""
    }
