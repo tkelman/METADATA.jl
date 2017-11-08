@@ -149,6 +149,16 @@
    }
   }
  },
+ "ASTInterpreter2": {
+  "url": "https://github.com/Keno/ASTInterpreter2.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "ee2e55fe8ef28240490c222f050b0699f573858a",
+    "requires": "julia 0.6\nDebuggerFramework 0.1.1\n",
+    "testrequires": "VT100 0.2.0\n"
+   }
+  }
+ },
  "AWS": {
   "url": "git://github.com/JuliaCloud/AWS.jl.git",
   "versions": {
@@ -28960,6 +28970,11 @@
     "sha1": "4809e555fad066c1882178d6ef8224170fa04c9f",
     "requires": "julia 0.6\nStaticArrays\nPyPlot\n",
     "testrequires": ""
+   },
+   "0.0.6": {
+    "sha1": "b669fb478dd2d4854cf5bae77c9a34910e97bb9c",
+    "requires": "julia 0.6\nStaticArrays\nPyPlot\n",
+    "testrequires": ""
    }
   }
  },
@@ -46472,6 +46487,11 @@
     "sha1": "bd01b7f0d480153d1734e9dc9d3f7961013f6e93",
     "requires": "julia 0.3\nCompat 0.8.0\nStatsBase\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "a89658e3492b5e80428da2abec360112ff03b6a8",
+    "requires": "julia 0.6\nCompat 0.34.0\nStatsBase\n",
+    "testrequires": ""
    }
   }
  },
@@ -48856,6 +48876,11 @@
     "sha1": "7fccfba53989a4d540992dfc612a7c57f3b76488",
     "requires": "julia 0.6.0\nOnlineStatsBase 0.1.0\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\nReexport\n",
     "testrequires": ""
+   },
+   "0.12.1": {
+    "sha1": "3cfb0d63c3647bae7a97dae273b4246bcd52dfb4",
+    "requires": "julia 0.6.0\nOnlineStatsBase 0.1.0\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\nReexport\n",
+    "testrequires": ""
    }
   }
  },
@@ -48904,6 +48929,11 @@
    },
    "0.1.0": {
     "sha1": "08c8146f76d32912c225af6604e14e634e093c8c",
+    "requires": "julia 0.6\nLearnBase\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "a843a0c5c183bc469fbc7c7e83560a5fd44407e6",
     "requires": "julia 0.6\nLearnBase\n",
     "testrequires": ""
    }
@@ -50059,6 +50089,11 @@
    },
    "2.24.0": {
     "sha1": "c659a088699d2825a5337266c4afa53e183f6c5b",
+    "requires": "julia 0.6.0\nDiffEqBase 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.12.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.24.1": {
+    "sha1": "4cd47304f140777614700db8209408cfd29dda91",
     "requires": "julia 0.6.0\nDiffEqBase 2.0.0\nParameters 0.5.0\nForwardDiff 0.5.0 0.6.0\nGenericSVD 0.0.2\nNLsolve 0.12.1\nRecursiveArrayTools 0.12.0\nJuno 0.2.5\nDiffEqDiffTools\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    }
@@ -62333,6 +62368,11 @@
     "sha1": "0e245f3d79955a0ca1cc2d8b403da061a6d06f51",
     "requires": "julia 0.4\nCompat\n",
     "testrequires": "ColorTypes\n"
+   },
+   "0.2.0": {
+    "sha1": "a0ef55d9b4793ea0b440b2d3290d52d05678b510",
+    "requires": "julia 0.6\nCompat\n",
+    "testrequires": "ColorTypes\n"
    }
   }
  },
@@ -64634,6 +64674,16 @@
    }
   }
  },
+ "SubstitutionModels": {
+  "url": "https://github.com/BioJulia/SubstitutionModels.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "602596cc3c45bfc3da8cc9b05afd3639076d69f4",
+    "requires": "julia 0.6\nBioSymbols 1.2.0\nStaticArrays 0.6.1\n",
+    "testrequires": ""
+   }
+  }
+ },
  "SuffixArrays": {
   "url": "git://github.com/quinnj/SuffixArrays.jl.git",
   "versions": {
@@ -65359,6 +65409,11 @@
    },
    "0.5.3": {
     "sha1": "81263a0557bc30974ad5f7dabd612517ef740dcf",
+    "requires": "julia 0.4\nCompat 0.25.0\nPyCall 1.6.0\nRecipesBase 0.0.4\nBaseTestNext 0.2.2\n",
+    "testrequires": ""
+   },
+   "0.5.4": {
+    "sha1": "f34e77460eb5334623b21e74f22e07a2d940c983",
     "requires": "julia 0.4\nCompat 0.25.0\nPyCall 1.6.0\nRecipesBase 0.0.4\nBaseTestNext 0.2.2\n",
     "testrequires": ""
    }
@@ -67824,6 +67879,11 @@
    },
    "0.5.0": {
     "sha1": "ece22b3bec572790f561d5442099eada21491b6b",
+    "requires": "julia 0.6\nCompat 0.33\nMocking 0.4\n@windows LightXML 0.2\n",
+    "testrequires": ""
+   },
+   "0.5.1": {
+    "sha1": "32abdeaeed4d5f3e2f2b56e16d400a149a20ddeb",
     "requires": "julia 0.6\nCompat 0.33\nMocking 0.4\n@windows LightXML 0.2\n",
     "testrequires": ""
    }
