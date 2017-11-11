@@ -2381,6 +2381,11 @@
     "sha1": "1d4513b031191124e2b15f5f95c1a54be5436570",
     "requires": "julia 0.6.0-pre\nJuno 0.2.6\nLazy 0.11.3\nLNR\nJSON\nCodeTools\nHiccup\nMedia\nBlink\nReexport\nMacroTools\nDocSeeker\nASTInterpreter2\n",
     "testrequires": ""
+   },
+   "0.6.4": {
+    "sha1": "5ab09d3e875cdfbacc9f5469f276abafe91a2dc0",
+    "requires": "julia 0.6.0-pre\nJuno 0.2.6\nLazy 0.11.3\nLNR\nJSON\nCodeTools\nHiccup\nMedia\nBlink\nReexport\nMacroTools\nDocSeeker\nASTInterpreter2\n",
+    "testrequires": ""
    }
   }
  },
@@ -3859,6 +3864,11 @@
    "0.2.1": {
     "sha1": "aafc7e19d240961c1817478bc01558c0196c727c",
     "requires": "julia 0.6\nCompat 0.26\nJSON\n",
+    "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "d0f48045f70b3233db4c291d6adfc39117566d35",
+    "requires": "julia 0.6\nCompat 0.33\nJSON\n",
     "testrequires": ""
    }
   }
@@ -8359,6 +8369,11 @@
    "0.2.0": {
     "sha1": "08603ab624007950b3458c490474b3300d8dd261",
     "requires": "julia 0.6\nNetCDF 0.4.1\nShapefile 0.2.0\nAxisArrays 0.1.3\nPyCall 1.11.1\nPyPlot 2.3.1\nArgCheck 0.1.0\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "499bc5a3d0f66cad82976d14235498252aef5b14",
+    "requires": "julia 0.6\nNetCDF 0.4.1\nShapefile 0.2.0\nAxisArrays 0.1.3\nPyCall 1.11.1\nPyPlot 2.3.2\nArgCheck 0.1.0\nInterpolations 0.7.0\n",
     "testrequires": ""
    }
   }
@@ -15794,6 +15809,11 @@
     "sha1": "ea347b8d887ea1fcfcef06c0b5a4fed44605cdb6",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\nFunctionWrappers\n",
     "testrequires": ""
+   },
+   "2.3.2": {
+    "sha1": "1bbf95d3beabc290df34b4d3d067b48f073d0d11",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\nFunctionWrappers\n",
+    "testrequires": ""
    }
   }
  },
@@ -19143,6 +19163,11 @@
    "0.5.0": {
     "sha1": "2287634af4918f9c1d91d94d583db6d9e08e5430",
     "requires": "julia 0.5\nHDF5\nFileIO\nColors\nFixedPointNumbers 0.3\n",
+    "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "4b54152a52165009cff5a3e25dea02466cc9e9a3",
+    "requires": "julia 0.6\nHDF5\nFileIO\nColors\nFixedPointNumbers \n",
     "testrequires": ""
    }
   }
@@ -28444,6 +28469,16 @@
    }
   }
  },
+ "HeadlessChromium": {
+  "url": "https://github.com/fredo-dedup/HeadlessChromium.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "89d01e0a0f6aedd122198904af1fa631b2c59f2e",
+    "requires": "julia 0.6\nHttpServer\nWebSockets\nJSON\nHTTP\nMustache\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Hecke": {
   "url": "git://github.com/thofma/Hecke.jl.git",
   "versions": {
@@ -34974,6 +35009,11 @@
    "0.1.1": {
     "sha1": "61adc07e8adb61acb00db944f9334a4229e3eb97",
     "requires": "julia 0.5\nPyCall\nStaticArrays\nOptim 0.7.5\nLineSearches\nCalculus\nPyAMG\nJSON\nReexport\nFunctionWrappers\nDierckx\nForwardDiff 0.4\nPositiveFactorizations\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "6a795c5ae2a4498081d8b4c689e95f79ebbac4ee",
+    "requires": "julia 0.6\nPyCall\nStaticArrays\nOptim 0.10\nLineSearches\nCalculus\nPyAMG\nJSON\nReexport\nFunctionWrappers\nDierckx 0.2.1\nForwardDiff 0.4\nPositiveFactorizations\n",
     "testrequires": ""
    }
   }
@@ -41963,6 +42003,11 @@
     "sha1": "870186bb8c73017707e8585cb9773bc486ad3490",
     "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nKriging\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
     "testrequires": ""
+   },
+   "0.4.30": {
+    "sha1": "9aff5a9b5757090ec4034d2d248293940b948a9c",
+    "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nKriging\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
+    "testrequires": ""
    }
   }
  },
@@ -46585,6 +46630,21 @@
    }
   }
  },
+ "NMR": {
+  "url": "https://github.com/hessammehr/NMR.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "bea29377d0b4fe9d3ba898e5837190f4033f187f",
+    "requires": "julia 0.6\nInterpolations\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "23fa29450de7267fab49d6f02071ed7bc2f3f3cb",
+    "requires": "julia 0.6\nFormatting\nInterpolations\nPlots\n",
+    "testrequires": ""
+   }
+  }
+ },
  "NNlib": {
   "url": "https://github.com/FluxML/NNlib.jl.git",
   "versions": {
@@ -49030,6 +49090,11 @@
    "0.1.1": {
     "sha1": "a843a0c5c183bc469fbc7c7e83560a5fd44407e6",
     "requires": "julia 0.6\nLearnBase\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "b70dc612bc46677c391baf7b91c37824e94a9df3",
+    "requires": "julia 0.6",
     "testrequires": ""
    }
   }
@@ -53805,6 +53870,11 @@
    "0.0.5": {
     "sha1": "5a79fe34fc8406b104a1fb20ea5bdb1d79006ff4",
     "requires": "julia 0.5\n\nJuMP 0.17 0.19-\nPowerModels 0.4 0.5-\nCompat 0.17\n",
+    "testrequires": "julia 0.5\n\nLogging 0.2\n\nIpopt\n"
+   },
+   "0.0.6": {
+    "sha1": "def98b42c8fd7f06d33c1f55224414ed6e2321bc",
+    "requires": "julia 0.5\n\nJuMP 0.17 0.19-\nPowerModels 0.5 0.6-\nCompat 0.17\n",
     "testrequires": "julia 0.5\n\nLogging 0.2\n\nIpopt\n"
    }
   }
@@ -60731,6 +60801,11 @@
    },
    "0.4.5": {
     "sha1": "6638284189c1646ac94217c4c4fc0c3ee8e49b12",
+    "requires": "julia 0.6\nCompat 0.33\n",
+    "testrequires": ""
+   },
+   "0.4.6": {
+    "sha1": "9a3bacf92ca1f22257141c386dced64afefe40f7",
     "requires": "julia 0.6\nCompat 0.33\n",
     "testrequires": ""
    }
