@@ -2231,6 +2231,11 @@
     "sha1": "b14c418b91604b92cb2ca9ba0b1c5da2b4a24776",
     "requires": "julia 0.6\nStaticArrays 0.5.0\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "73621b179b818464e72e942fd3a691ee79f14243",
+    "requires": "julia 0.6\nStaticArrays 0.5.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -2384,6 +2389,11 @@
    },
    "0.6.4": {
     "sha1": "5ab09d3e875cdfbacc9f5469f276abafe91a2dc0",
+    "requires": "julia 0.6.0-pre\nJuno 0.2.6\nLazy 0.11.3\nLNR\nJSON\nCodeTools\nHiccup\nMedia\nBlink\nReexport\nMacroTools\nDocSeeker\nASTInterpreter2\n",
+    "testrequires": ""
+   },
+   "0.6.5": {
+    "sha1": "19e3cd8682b823eb95c239196128dba3abd987ec",
     "requires": "julia 0.6.0-pre\nJuno 0.2.6\nLazy 0.11.3\nLNR\nJSON\nCodeTools\nHiccup\nMedia\nBlink\nReexport\nMacroTools\nDocSeeker\nASTInterpreter2\n",
     "testrequires": ""
    }
@@ -13154,6 +13164,11 @@
     "sha1": "fc4f5bfe7f0f997b9e5e6fcea86bbda30933c443",
     "requires": "julia 0.6\nMemPool 0.0.2\nCompat 0.19\nLogging\n",
     "testrequires": "BaseTestNext\n"
+   },
+   "0.5.0": {
+    "sha1": "09f122b70450fdef4a6b9e40329b3570a8a37715",
+    "requires": "julia 0.6\nMemPool 0.0.4\nCompat 0.19\nStatsBase\nLogging\n",
+    "testrequires": "BaseTestNext\n"
    }
   }
  },
@@ -20585,6 +20600,16 @@
    }
   }
  },
+ "FEMBase": {
+  "url": "https://github.com/JuliaFEM/FEMBase.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "110acde568e5906fe3e051a16b8087016107aa30",
+    "requires": "julia 0.6\nFEMBasis\nFEMQuad\nTimerOutputs\n",
+    "testrequires": ""
+   }
+  }
+ },
  "FEMBasis": {
   "url": "https://github.com/JuliaFEM/FEMBasis.jl.git",
   "versions": {
@@ -23310,6 +23335,11 @@
    },
    "1.4.0": {
     "sha1": "f5faa6e85e255618f53d5a09b84446e9bb4a3b78",
+    "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n",
+    "testrequires": "ModernGL\n"
+   },
+   "1.4.1": {
+    "sha1": "5d0c39117aa273cb01e5f28e71dfa793819dc81a",
     "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n",
     "testrequires": "ModernGL\n"
    }
@@ -27755,6 +27785,11 @@
    "0.0.1": {
     "sha1": "81ecf5b9bed19e64860d661d5d55ce40347747a8",
     "requires": "julia 0.5\nHDF5\n",
+    "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "fd2fe64d04c3f5ee8ca32f19238cc9179357bf7f",
+    "requires": "julia 0.6\nHDF5\n",
     "testrequires": ""
    }
   }
@@ -45430,6 +45465,16 @@
    }
   }
  },
+ "MultiJuMP": {
+  "url": "https://github.com/anriseth/MultiJuMP.jl.git",
+  "versions": {
+   "0.1.1": {
+    "sha1": "11c607bb1a5a70cb7421590fd29f7fa9aab91402",
+    "requires": "julia 0.6\nJuMP 0.17.1\nIpopt\nCombinatorics\nRecipesBase\nLaTeXStrings\n",
+    "testrequires": ""
+   }
+  }
+ },
  "MultiNest": {
   "url": "git://github.com/ntessore/MultiNest.jl.git",
   "versions": {
@@ -49035,6 +49080,11 @@
    "0.12.1": {
     "sha1": "3cfb0d63c3647bae7a97dae273b4246bcd52dfb4",
     "requires": "julia 0.6.0\nOnlineStatsBase 0.1.0\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\nReexport\n",
+    "testrequires": ""
+   },
+   "0.13.0": {
+    "sha1": "03aaf530eff350024a96ec7fbeecb5c537877d8d",
+    "requires": "julia 0.6.0\nOnlineStatsBase 0.2.0\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\nReexport\n",
     "testrequires": ""
    }
   }
