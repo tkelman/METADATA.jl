@@ -15829,6 +15829,11 @@
     "sha1": "1bbf95d3beabc290df34b4d3d067b48f073d0d11",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\nFunctionWrappers\n",
     "testrequires": ""
+   },
+   "2.3.3": {
+    "sha1": "373998562ac67b36e8e4ea150ba03b6af003b5d1",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\nFunctionWrappers\n",
+    "testrequires": ""
    }
   }
  },
@@ -20335,6 +20340,11 @@
   "versions": {
    "0.1.0": {
     "sha1": "b8aa50ae2dc7accb1d95db54ff2ead1cb5e38bcb",
+    "requires": "julia 0.6\nMacroTools\nDataStructures\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "7d036d70656fa2cc611e8a84e5cd3eebe504fe5b",
     "requires": "julia 0.6\nMacroTools\nDataStructures\n",
     "testrequires": ""
    }
@@ -33520,6 +33530,11 @@
     "sha1": "3c21c732cab042462e8ba01e22c2f0334e21d220",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "4e609d30911a0658ae743d0e6753b168b9aee805",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -43022,6 +43037,11 @@
     "sha1": "5f5e035a6e1ef45f5f041f8d43b39dbc9869c8fe",
     "requires": "julia 0.5\nCompat 0.18\n",
     "testrequires": "GLPKMathProgInterface\nIpopt\nECOS\n"
+   },
+   "0.7.0": {
+    "sha1": "af570747b301fb794751da7325b051ef7ec07e46",
+    "requires": "julia 0.6\n",
+    "testrequires": "GLPKMathProgInterface\nIpopt\nECOS\n"
    }
   }
  },
@@ -50939,6 +50959,11 @@
    },
    "0.2.0": {
     "sha1": "3f102204aa1943e13d175c0752e5800b6894a39c",
+    "requires": "julia 0.6\nDistributions\nPOMDPs 0.6\nTikzPictures\nPOMDPToolbox\nAutoHashEquals\nStaticArrays\nStatsBase 0.15\n",
+    "testrequires": "Distributions\nPOMDPs\nTikzPictures\nNBInclude\n"
+   },
+   "0.2.1": {
+    "sha1": "eca50761d8cf1cecc67921d3d46476298e0907c4",
     "requires": "julia 0.6\nDistributions\nPOMDPs 0.6\nTikzPictures\nPOMDPToolbox\nAutoHashEquals\nStaticArrays\nStatsBase 0.15\n",
     "testrequires": "Distributions\nPOMDPs\nTikzPictures\nNBInclude\n"
    }
@@ -62786,6 +62811,11 @@
     "sha1": "058c98b6d84c001e0b638eeac49cb8e21492285b",
     "requires": "julia 0.4\nCompat 0.9.4\nDataStructures 0.5.3\n",
     "testrequires": "StatsBase 0.9.0\n"
+   },
+   "0.2.0": {
+    "sha1": "593642f67948bc6daec17c55cf6480e64e67800a",
+    "requires": "julia 0.6\nCompat 0.9.4\nDataStructures 0.5.3\n",
+    "testrequires": "StatsBase 0.9.0\n"
    }
   }
  },
@@ -63734,6 +63764,11 @@
    },
    "0.6.4": {
     "sha1": "b0c971be2600fb76c4f79caef1ba5bb34f3ddc9a",
+    "requires": "julia 0.6.0\nCompat 0.32\n",
+    "testrequires": ""
+   },
+   "0.6.5": {
+    "sha1": "11ec06334a067fc86b0ae6951d0ce004881c7239",
     "requires": "julia 0.6.0\nCompat 0.32\n",
     "testrequires": ""
    }
@@ -71584,6 +71619,16 @@
    }
   }
  },
+ "Whippet": {
+  "url": "https://github.com/timbitz/Whippet.jl.git",
+  "versions": {
+   "0.9.0": {
+    "sha1": "7003fa9b1eaa2841ec6841521188f0a144bd5fda",
+    "requires": "julia 0.6\nDataStructures\nArgParse\nBioSymbols\nBioSequences\nFMIndexes\nIntArrays\nIntervalTrees\nBufferedStreams\nLibz\nStatsBase\nDistributions\nGlob\nSuffixArrays\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Whittaker": {
   "url": "git://github.com/muhlba91/Whittaker.jl.git",
   "versions": {
@@ -71611,6 +71656,11 @@
     "sha1": "32b8e131651e9364ef5cfa106ee86f833aec5087",
     "requires": "julia 0.6\nPrimes\n",
     "testrequires": "<html><body><h1>504 Gateway Time-out</h1>\nThe server didn't respond in time.\n</body></html>\nNot Found"
+   },
+   "0.1.1": {
+    "sha1": "9350aae4694c3934dc299b9cc7ef0823411153c5",
+    "requires": "julia 0.6\nPrimes\n",
+    "testrequires": ""
    }
   }
  },
@@ -72569,6 +72619,11 @@
    },
    "0.0.8": {
     "sha1": "05c1427a5d15dba3c7ea08853dc18c761b3e1f7b",
+    "requires": "julia 0.5\nBinDeps 0.4.2\nCxxWrap 0.5.0\n",
+    "testrequires": ""
+   },
+   "0.0.9": {
+    "sha1": "bf8ebabc602850406c63775a8657152e80985811",
     "requires": "julia 0.5\nBinDeps 0.4.2\nCxxWrap 0.5.0\n",
     "testrequires": ""
    }
