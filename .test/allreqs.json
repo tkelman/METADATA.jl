@@ -2443,27 +2443,27 @@
   "versions": {
    "0.0.1": {
     "sha1": "d8639510d6c08e0afac34fcb5212059793d49363",
-    "requires": "julia 0.5\nImageCore 0.1.2\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
+    "requires": "julia 0.5\nImageCore 0.1.2 0.5\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays 0.0.0 0.6.5\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
     "testrequires": "FixedPointNumbers 0.3\nImageInTerminal\nTestImages\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
    },
    "0.0.2": {
     "sha1": "6905395d8ac7d39864617df0d4768ff7ef36bacf",
-    "requires": "julia 0.5\nImageCore 0.1.2\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
+    "requires": "julia 0.5\nImageCore 0.1.2 0.5\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays 0.0.0 0.6.5\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
     "testrequires": "FixedPointNumbers 0.3\nImageInTerminal\nTestImages\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
    },
    "0.1.0": {
     "sha1": "1ae9e33ab9ce5bfd0d8a7ec8d3479fa7c204d235",
-    "requires": "julia 0.5\nImageCore 0.1.2\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
+    "requires": "julia 0.5\nImageCore 0.1.2 0.5\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays 0.0.0 0.6.5\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
     "testrequires": "FixedPointNumbers 0.3\nImageInTerminal\nTestImages\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
    },
    "0.2.0": {
     "sha1": "31886c1ee09b86176d40354bf478dea09d842910",
-    "requires": "julia 0.6\nMappedArrays 0.0.3\nImageCore 0.1.2\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nMLDataPattern 0.1.2\nComputationalResources 0.0.2\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
+    "requires": "julia 0.6\nMappedArrays 0.0.3\nImageCore 0.1.2 0.5\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays 0.0.0 0.6.5\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nMLDataPattern 0.1.2\nComputationalResources 0.0.2\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
     "testrequires": "FixedPointNumbers 0.3\nImageInTerminal\nTestImages\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
    },
    "0.3.0": {
     "sha1": "7b9db6cf3ade32c68fe70e4ea5769c13a78296fb",
-    "requires": "julia 0.6\nMappedArrays 0.0.3\nImageCore 0.1.2\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nMLDataPattern 0.1.2\nComputationalResources 0.0.2\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
+    "requires": "julia 0.6\nMappedArrays 0.0.3\nImageCore 0.1.2 0.5\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays 0.0.0 0.6.5\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nMLDataPattern 0.1.2\nComputationalResources 0.0.2\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
     "testrequires": "FixedPointNumbers 0.3\nImageInTerminal\nTestImages\nReferenceTests\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
    }
   }
@@ -6253,6 +6253,11 @@
    },
    "0.3.3": {
     "sha1": "4d6cae92c65aecdeaf22e35a323988e778909cf1",
+    "requires": "julia 0.6.0\nTokenize 0.4.0\nAbstractTrees\n",
+    "testrequires": ""
+   },
+   "0.3.4": {
+    "sha1": "f7098037108f831af3d73075381a3e95132267e4",
     "requires": "julia 0.6.0\nTokenize 0.4.0\nAbstractTrees\n",
     "testrequires": ""
    }
@@ -11178,6 +11183,11 @@
    },
    "0.0.2": {
     "sha1": "e7e4a4df881cdc9dfc8cd9a4ff312a79cdcc0081",
+    "requires": "julia 0.6\nJuMP 0.16 0.19\nIntervalArithmetic 0.9\n",
+    "testrequires": "Cbc\nPolyhedra\n"
+   },
+   "0.0.3": {
+    "sha1": "85a19975aca4f91328432b22fef83bffed41f832",
     "requires": "julia 0.6\nJuMP 0.16 0.19\nIntervalArithmetic 0.9\n",
     "testrequires": "Cbc\nPolyhedra\n"
    }
@@ -24137,6 +24147,11 @@
     "sha1": "afc3a155f7adf58fc263424d26ae13fc6bb8c9c6",
     "requires": "julia 0.5\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "63486f60e8b2b0ed6457de2a30cf514571a7a69b",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -25562,6 +25577,11 @@
     "sha1": "e3b883b5d66b47b4ddcd64592b16825edcff0637",
     "requires": "julia 0.5\nCompat 0.17\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "6d901cdc5f159afa635db122515b39c80cbf76c1",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -25597,6 +25617,11 @@
     "sha1": "346562416212224b060040a015cdacc653688216",
     "requires": "julia 0.5\nJSON\nGeoInterface 0.2\n",
     "testrequires": "FactCheck\n"
+   },
+   "0.3.0": {
+    "sha1": "4b351268718b8d3414412563129125ddbf9cd1c5",
+    "requires": "julia 0.6\nJSON 0.9\nGeoInterface 0.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -25737,6 +25762,11 @@
     "sha1": "fe233d6c015da0686c4833189e919cef35cbfe69",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.0.4": {
+    "sha1": "3462bf7ec7d6835cbe03171690530a8cec354247",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -25836,6 +25866,11 @@
    "0.3.1": {
     "sha1": "be8bfe5ab45a13ace8f1b5fc413f824ccf4f4363",
     "requires": "julia 0.5\nCompat 0.17.0\nCoordinateTransformations 0.3.0\n\n# Enforce that:\n# - Julia 0.6 only using StaticArrays 0.5.0 and up\n# - Julia 0.5 uses StaticArrays between 0.0.4 and 0.4.0-\nStaticArrays 0.0.4 0.4.0- 0.5.0\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "0530d8e470f07b2c07df2f3a288ad98fc62d3c10",
+    "requires": "julia 0.6\nCoordinateTransformations 0.3.0\nStaticArrays 0.5.0\n",
     "testrequires": ""
    }
   }
@@ -37254,6 +37289,11 @@
     "sha1": "b373f99f52dacaa640eb519757a9fea01edd0f92",
     "requires": "julia 0.6.0-rc1\nJSON 0.8.1\nURIParser 0.1.8\nCSTParser 0.3.1\nTokenize 0.4.0\nDocumentFormat\n",
     "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "f40bf8741fe0fbebdc6e1d1a2578a652b5d0088b",
+    "requires": "julia 0.6.0-rc1\nJSON 0.8.1\nURIParser 0.1.8\nCSTParser 0.3.1\nTokenize 0.4.0\nDocumentFormat\n",
+    "testrequires": ""
    }
   }
  },
@@ -38492,6 +38532,11 @@
    "0.2.4": {
     "sha1": "b84a00fcae9a4482bde6ff912de1c94d44c2d886",
     "requires": "julia 0.6-pre\nBinDeps\nFITSIO 0.10.0\nMacroTools\nStaticArrays 0.5.1\n@osx Homebrew\n\n",
+    "testrequires": ""
+   },
+   "0.2.5": {
+    "sha1": "a2f02948619688c69b64bc07bafe1d97a269dd0d",
+    "requires": "julia 0.6\nBinDeps\nFITSIO 0.10.0\nMacroTools\nStaticArrays 0.5.1\n@osx Homebrew\n\n",
     "testrequires": ""
    }
   }
@@ -41183,6 +41228,11 @@
     "sha1": "8730b3df5822893c0c744dbd1231085414758df3",
     "requires": "julia 0.6\nStatsBase 0.13\nLearnBase 0.1.5 0.2.0\nMLLabelUtils 0.0.3\nShowItLikeYouBuildIt\nCompat 0.19\n",
     "testrequires": "ReferenceTests 0.0.2\n"
+   },
+   "0.3.0": {
+    "sha1": "f79ed89f842d66ef4b8e4272d3e0b83e2a6d4ff4",
+    "requires": "julia 0.6\nStatsBase 0.13\nLearnBase 0.1.5 0.2.0\nMLLabelUtils 0.0.3\nShowItLikeYouBuildIt\nCompat 0.19\n",
+    "testrequires": "ReferenceTests 0.0.2\n"
    }
   }
  },
@@ -42056,6 +42106,11 @@
    },
    "0.4.30": {
     "sha1": "9aff5a9b5757090ec4034d2d248293940b948a9c",
+    "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nKriging\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
+    "testrequires": ""
+   },
+   "0.4.31": {
+    "sha1": "e65242c1e9d1d0992cffdad21bb5813ff904ac1a",
     "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nKriging\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
     "testrequires": ""
    }
@@ -47367,6 +47422,11 @@
     "sha1": "62db8552b6ed3d39edbef79c15839c50d44a18d0",
     "requires": "julia 0.5\nBinDeps 0.4\nConda 0.3\nFormatting 0.1\nCompat 0.19\n",
     "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "ae9e333109a8b6434c12f6194b2c23cf2771f1c7",
+    "requires": "julia 0.6\nBinDeps 0.4\nConda 0.3\nFormatting 0.1\nCompat 0.19\n",
+    "testrequires": ""
    }
   }
  },
@@ -51096,6 +51156,11 @@
     "sha1": "2b435566157cc4fd29547c6ade63b3b991e64429",
     "requires": "julia 0.6\nDistributions\n",
     "testrequires": ""
+   },
+   "0.6.4": {
+    "sha1": "cf2fc7ea5739319cc08fc0f98b3e1cde49295ab1",
+    "requires": "julia 0.6\nDistributions\n",
+    "testrequires": ""
    }
   }
  },
@@ -52746,6 +52811,11 @@
     "sha1": "ca8788d2d41b2ddc27d26eba4cac02f9de09bf0d",
     "requires": "julia 0.6\nAutoHashEquals\nMustache\nTerminalMenus\nURIParser\n",
     "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "46066fd5635538102babe0c67ee85cfb9191ccd4",
+    "requires": "julia 0.6\nAutoHashEquals\nMustache\nTerminalMenus\nURIParser\n",
+    "testrequires": ""
    }
   }
  },
@@ -54365,6 +54435,11 @@
     "sha1": "c1d8ec14c51987c04297b28affaf9c495933327b",
     "requires": "julia 0.5\nBinDeps\nCompat 0.17\n@osx Homebrew\n",
     "testrequires": "FactCheck"
+   },
+   "0.2.0": {
+    "sha1": "2a8f2385a62244718e8a61d3ca8eebf2d6be5c2a",
+    "requires": "julia 0.6\nBinDeps\n@osx Homebrew\n",
+    "testrequires": ""
    }
   }
  },
@@ -56410,6 +56485,11 @@
     "sha1": "777ebeebb2715f52d2369b74a597c713b3f347e6",
     "requires": "julia 0.6\nDataStructures 0.4.5\nNamedTuples 3.0.2\nDataValues 0.0.2\nIteratorInterfaceExtensions 0.0.1\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "1e4999f0bae86987630f39f64e0753d5412b2a94",
+    "requires": "julia 0.6\nDataStructures 0.4.5\nNamedTuples 3.0.2\nDataValues 0.0.2\nIteratorInterfaceExtensions 0.0.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -56688,6 +56768,11 @@
    },
    "0.8.0": {
     "sha1": "a149e49a0d73ab70e232110b798c9f35eb2fbb5f",
+    "requires": "julia 0.6\nNulls 0.1.0\nDataStructures 0.5.0\nDataFrames 0.10\nDataArrays 0.5.0\nCategoricalArrays 0.1.0\nNullableArrays 0.1.0\nAxisArrays 0.0.6\nNamedArrays 0.5.3\nCompat 0.34.0\n@windows WinReg 0.2.0\n",
+    "testrequires": ""
+   },
+   "0.8.1": {
+    "sha1": "f3d0613b271f92650ad60e7ec00ad9e3da309e09",
     "requires": "julia 0.6\nNulls 0.1.0\nDataStructures 0.5.0\nDataFrames 0.10\nDataArrays 0.5.0\nCategoricalArrays 0.1.0\nNullableArrays 0.1.0\nAxisArrays 0.0.6\nNamedArrays 0.5.3\nCompat 0.34.0\n@windows WinReg 0.2.0\n",
     "testrequires": ""
    }
@@ -57983,6 +58068,11 @@
     "sha1": "7719d33e35db06a634c9da6de648cbd529caef88",
     "requires": "julia 0.6\nImages 0.6\nFileIO 0.4\nImageInTerminal 0.2\nColorTypes 0.4\nSHA\n",
     "testrequires": "FixedPointNumbers 0.3\nTestImages\nDataFrames\nCSVFiles 0.3\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
+   },
+   "0.1.0": {
+    "sha1": "eed2f919a1382ba7dc9c6f231a1ca0b56d130cef",
+    "requires": "julia 0.6\nImages 0.6\nFileIO 0.4\nImageInTerminal 0.2\nColorTypes 0.4\nSHA\n",
+    "testrequires": "FixedPointNumbers 0.3\nTestImages\nDataFrames\nCSVFiles 0.3\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
    }
   }
  },
@@ -58522,6 +58612,11 @@
    "0.1.7": {
     "sha1": "874ffba49f79993f064e10dd45e441e2f47469fc",
     "requires": "julia 0.6\n\nCompat 0.35\nMacroTools 0.4",
+    "testrequires": ""
+   },
+   "0.1.8": {
+    "sha1": "730944df8bd0ea8724a6e01f464c56e540f97d41",
+    "requires": "julia 0.6\n\nMacroTools 0.4",
     "testrequires": ""
    }
   }
@@ -60883,6 +60978,11 @@
     "sha1": "9a3bacf92ca1f22257141c386dced64afefe40f7",
     "requires": "julia 0.6\nCompat 0.33\n",
     "testrequires": ""
+   },
+   "0.4.7": {
+    "sha1": "d2436d8c368ab501d05353ab22cea923acc6fba6",
+    "requires": "julia 0.6\nCompat 0.33\n",
+    "testrequires": ""
    }
   }
  },
@@ -61822,6 +61922,11 @@
    "0.2.0": {
     "sha1": "f787fd9ae3787209b114484d842090ed3a26667c",
     "requires": "julia 0.5\nGeoInterface 0.2.1\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "087e3aab07b695458a4af85ef26fa3cc1f8cd89c",
+    "requires": "julia 0.6\nGeoInterface 0.2.1\n",
     "testrequires": ""
    }
   }
