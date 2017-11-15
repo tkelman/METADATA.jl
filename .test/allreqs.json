@@ -36974,6 +36974,11 @@
     "sha1": "5dd80230927f25e9e2d3d14282921e11423e335b",
     "requires": "julia 0.6\nCompat 0.17.0\n",
     "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "dd3a7aca639bc20867cd826d78a8646eaf6bdc2b",
+    "requires": "julia 0.6\nCompat 0.33.0\n",
+    "testrequires": ""
    }
   }
  },
