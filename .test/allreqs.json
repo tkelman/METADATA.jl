@@ -8280,6 +8280,11 @@
     "sha1": "ac65250aca7d94900f952ea470d31a518bec0c62",
     "requires": "julia 0.6\nRequests 0.5\nDataFrames 0.10\nCSV 0.1\n",
     "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "63f7217fe0fc38632b414f904ff53dfe50efe066",
+    "requires": "julia 0.6\nRequests 0.5\nDataFrames 0.10\nCSV 0.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -29620,6 +29625,11 @@
     "sha1": "852d1bc0c90e0e386f544e64992987a85ed9831a",
     "requires": "@osx Homebrew\nBinDeps\nCompat 0.17.0\njulia 0.5\n",
     "testrequires": ""
+   },
+   "0.6.2": {
+    "sha1": "d31867ee697311c669a377fee13fa987c3611bd3",
+    "requires": "@osx Homebrew\nBinDeps\nCompat 0.17.0\njulia 0.5\n",
+    "testrequires": ""
    }
   }
  },
@@ -45012,6 +45022,11 @@
     "sha1": "fa209e78baf021d2efae59dd8d03e097148c8385",
     "requires": "julia 0.6\n",
     "testrequires": "Compat 0.33\n"
+   },
+   "0.4.1": {
+    "sha1": "54d790ca5a24f387f818e7785ea832b7ca66bc1c",
+    "requires": "julia 0.6\n",
+    "testrequires": "Compat 0.33\n"
    }
   }
  },
@@ -45390,6 +45405,11 @@
    },
    "0.7.2": {
     "sha1": "08ec3308d3711a5cca6c0c3f25ebe8bb95138424",
+    "requires": "julia 0.6\nMathProgBase 0.5.1 0.7\n\n",
+    "testrequires": ""
+   },
+   "0.7.3": {
+    "sha1": "878f149e26ba24fc8d4d192d4496a576defa3a2a",
     "requires": "julia 0.6\nMathProgBase 0.5.1 0.7\n\n",
     "testrequires": ""
    },
@@ -54405,6 +54425,11 @@
     "sha1": "2fa2b00245705d5071bf189d0c7673bb8f460d4c",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.5.1": {
+    "sha1": "7d135ec628f6db7e8a98c1dd3148a430d89cf0b4",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -57113,6 +57138,11 @@
    "0.1.0": {
     "sha1": "eb4292772ea0df44b33862b8c5fe4a707ecd4c77",
     "requires": "julia 0.3\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "264f33906ded6e447b1c62139ee9be5dc463d066",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
