@@ -14124,6 +14124,11 @@
     "sha1": "fec5b0044a495fe0a776ead84bea6a9cf3828c14",
     "requires": "julia 0.6\nWeakRefStrings 0.3.0\nNulls 0.0.5\nNamedTuples 4.0\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "be1a9dde178d703e4f2e168fd1ed867208fdcfa6",
+    "requires": "julia 0.6\nWeakRefStrings 0.4.0\nMissings\nNamedTuples 4.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -19012,6 +19017,11 @@
    },
    "0.6.0": {
     "sha1": "d2ded777a580aac999fc8d42882127ee584fbfe0",
+    "requires": "julia 0.6\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\nRequires 0.4.3\nLsqFit 0.3.0\nStaticArrays 0.5.0\nStatsBase 0.8.2\nRecursiveArrayTools 0.12.0\nNearestNeighbors 0.1.0\nIterTools 0.1.0\nDistances\nCombinatorics\n",
+    "testrequires": ""
+   },
+   "0.6.1": {
+    "sha1": "909df5b22e36e9ea75dedc2a29b556482f4ae040",
     "requires": "julia 0.6\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\nRequires 0.4.3\nLsqFit 0.3.0\nStaticArrays 0.5.0\nStatsBase 0.8.2\nRecursiveArrayTools 0.12.0\nNearestNeighbors 0.1.0\nIterTools 0.1.0\nDistances\nCombinatorics\n",
     "testrequires": ""
    }
@@ -64475,6 +64485,11 @@
    "0.19.0": {
     "sha1": "9d851b704cc135ee4ca9bf68f9b0541d64d5814f",
     "requires": "julia 0.6\nDataStructures 0.5.0\nSpecialFunctions 0.1.0\n",
+    "testrequires": "DataFrames\nGLM\n"
+   },
+   "0.19.1": {
+    "sha1": "cd95f1807def6b03ccdf064c72f1be56f48c1f74",
+    "requires": "julia 0.6\nDataStructures 0.5.0\nSpecialFunctions 0.1.0\nCompat 0.32\n",
     "testrequires": "DataFrames\nGLM\n"
    }
   }
