@@ -1414,7 +1414,7 @@
    },
    "0.3.0": {
     "sha1": "f1cab52cde678146e3637941aac34a0ee2ff2a19",
-    "requires": "julia 0.5\nMathProgBase 0.5 0.7\n",
+    "requires": "julia 0.5\nMathProgBase 0.5 0.8\n",
     "testrequires": "FactCheck\nJuMP 0.13\nCoinOptServices 0.0.5\nIpopt 0.1.15\nCompat\n"
    }
   }
@@ -2464,6 +2464,11 @@
    "0.3.0": {
     "sha1": "7b9db6cf3ade32c68fe70e4ea5769c13a78296fb",
     "requires": "julia 0.6\nMappedArrays 0.0.3\nImageCore 0.1.2 0.5\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations\nStaticArrays 0.0.0 0.6.5\nOffsetArrays\nIdentityRanges\nColorTypes 0.4\nMLDataPattern 0.1.2\nComputationalResources 0.0.2\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
+    "testrequires": "FixedPointNumbers 0.3\nImageInTerminal\nTestImages\nReferenceTests\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
+   },
+   "0.3.1": {
+    "sha1": "9c0ec8065d3641ca20f0da50c7f6d723fb0d37a4",
+    "requires": "julia 0.6\nMappedArrays 0.0.3\nImageCore 0.5.0\nImageTransformations 0.3.0\nImageFiltering 0.1.4\nCoordinateTransformations 0.4.0\nInterpolations 0.6\nRotations 0.6.1\nStaticArrays 0.6.5\nOffsetArrays\nIdentityRanges\nColorTypes 0.6.6\nMLDataPattern 0.1.2\nComputationalResources 0.0.2\nShowItLikeYouBuildIt\nFileIO\nCompat 0.17\n",
     "testrequires": "FixedPointNumbers 0.3\nImageInTerminal\nTestImages\nReferenceTests\n@windows ImageMagick\n@linux ImageMagick\n@osx QuartzImageIO\n"
    }
   }
@@ -5983,7 +5988,7 @@
    },
    "0.2.8": {
     "sha1": "b42fa9399011afdcdc99e901154f74eb869b687c",
-    "requires": "julia 0.5\nMathProgBase 0.5 0.7\nCompat 0.18\n",
+    "requires": "julia 0.5\nMathProgBase 0.5 0.8\nCompat 0.18\n",
     "testrequires": ""
    }
   }
@@ -6603,6 +6608,11 @@
    },
    "0.6.0": {
     "sha1": "eddd27ac3b6a28fb1e78e94ab868082f9db80a99",
+    "requires": "julia 0.6\nCompat 0.33.0\nCUDAapi 0.1.1\n",
+    "testrequires": ""
+   },
+   "0.6.1": {
+    "sha1": "dccdaa0f39477e9570b5c24d0b15ac849e93582f",
     "requires": "julia 0.6\nCompat 0.33.0\nCUDAapi 0.1.1\n",
     "testrequires": ""
    }
@@ -7858,7 +7868,7 @@
    },
    "0.3.2": {
     "sha1": "59b815c07aa4165112743b6ebdbfc7095dfc8728",
-    "requires": "julia 0.5\nBinDeps\nMathProgBase 0.5.5 0.7\n@osx Homebrew\n@windows WinRPM\n",
+    "requires": "julia 0.5\nBinDeps\nMathProgBase 0.5.5 0.8\n@osx Homebrew\n@windows WinRPM\n",
     "testrequires": "JuMP\nClp\nOffsetArrays\n"
    }
   }
@@ -8613,7 +8623,7 @@
    },
    "0.3.1": {
     "sha1": "33cb6c31e72bd958e409d3dcf868f1a8a16cec58",
-    "requires": "julia 0.5\nCbc\nMathProgBase 0.5 0.7\n",
+    "requires": "julia 0.5\nCbc\nMathProgBase 0.5 0.8\n",
     "testrequires": ""
    }
   }
@@ -9108,7 +9118,7 @@
    },
    "0.2.0": {
     "sha1": "c967becad426bf053ba45d7e3665754661f37669",
-    "requires": "julia 0.5\nClp\nCbc\nIpopt\nLightXML 0.2\nBinDeps\nMathProgBase 0.5.0 0.7\n@osx Homebrew\n@windows WinRPM\n",
+    "requires": "julia 0.5\nClp\nCbc\nIpopt\nLightXML 0.2\nBinDeps\nMathProgBase 0.5.0 0.8\n@osx Homebrew\n@windows WinRPM\n",
     "testrequires": "JuMP 0.15\nOffsetArrays 0.2.13\nFactCheck\n"
    }
   }
@@ -11713,7 +11723,7 @@
    },
    "0.5.0": {
     "sha1": "a98ec6f7b1ba108e7920ea045ccc9cda3a747207",
-    "requires": "julia 0.5\nMathProgBase 0.5 0.7\nDataStructures\n",
+    "requires": "julia 0.5\nMathProgBase 0.5 0.8\nDataStructures\n",
     "testrequires": "FactCheck\nGLPKMathProgInterface\nECOS\nSCS\n"
    }
   }
@@ -18964,6 +18974,11 @@
     "sha1": "4a0aee413109007c984658aa210744e424b0b867",
     "requires": "julia 0.6\nStaticArrays\n",
     "testrequires": ""
+   },
+   "1.6.2": {
+    "sha1": "1c9bf1c69ae61a3e9b3271a994d749052a3dbc8f",
+    "requires": "julia 0.6\nStaticArrays\n",
+    "testrequires": ""
    }
   }
  },
@@ -20465,6 +20480,16 @@
    }
   }
  },
+ "Expokit": {
+  "url": "https://github.com/acroy/Expokit.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "6f5b0b604b685d13bab4c66ec4ff8e3f66431362",
+    "requires": "julia 0.5\nCompat\n",
+    "testrequires": ""
+   }
+  }
+ },
  "Expr2LaTeX": {
   "url": "https://github.com/oxinabox/Expr2LaTeX.jl.git",
   "versions": {
@@ -21031,6 +21056,11 @@
    "0.0.3": {
     "sha1": "db90ea064cc0516d41d798b729564b0764b577ec",
     "requires": "julia 0.6\nDataFrames\nDataStructures",
+    "testrequires": "NBInclude\nCalculus\n"
+   },
+   "0.0.4": {
+    "sha1": "fadbd5583058d11a434deb7f91a0a140f3fbb054",
+    "requires": "julia 0.6\nDataFrames\nDataStructures\nRequires",
     "testrequires": "NBInclude\nCalculus\n"
    }
   }
@@ -22235,6 +22265,11 @@
    },
    "0.2.0": {
     "sha1": "337278f75eb232c53dd219bc58ef3f9f11335345",
+    "requires": "julia 0.6\nMultivariatePolynomials 0.1.1\n",
+    "testrequires": "DynamicPolynomials 0.0.1\n"
+   },
+   "0.2.1": {
+    "sha1": "fd3074c8fac04bc802c537a4fac96ec17b6e8b11",
     "requires": "julia 0.6\nMultivariatePolynomials 0.1.1\n",
     "testrequires": "DynamicPolynomials 0.0.1\n"
    }
@@ -23865,7 +23900,7 @@
    },
    "0.3.4": {
     "sha1": "13677a1bd930e7c6c2c747de3d6b170c27f9a433",
-    "requires": "julia 0.5\nGLPK 0.2.8\nMathProgBase 0.5 0.7\nCompat 0.17.0\n",
+    "requires": "julia 0.5\nGLPK 0.2.8\nMathProgBase 0.5 0.8\nCompat 0.17.0\n",
     "testrequires": ""
    }
   }
@@ -26627,6 +26662,11 @@
     "sha1": "284dbb12779afde341987a96c35c8cf4b0bee2bc",
     "requires": "julia 0.6\nWriteVTK\nNetCDF\nDocumenter\nBinDeps 0.2.12-\nCompat 0.9.1\n@osx Homebrew 0.0.4-\n@windows WinRPM\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "f8e0e4db6963a0e5775539a65d8f85add7af9565",
+    "requires": "julia 0.6\nWriteVTK\nNetCDF\nDocumenter\nCompat 0.9.1\nBinDeps 0.3\n@osx Homebrew 0.0.4-\n@windows WinRPM\n",
+    "testrequires": ""
    }
   }
  },
@@ -27904,7 +27944,7 @@
    },
    "0.3.3": {
     "sha1": "4c3792d5328c7b025de7d76eadabc5ec47a1a703",
-    "requires": "julia 0.5\nMathProgBase 0.5 0.7\nCompat 0.18\n",
+    "requires": "julia 0.5\nMathProgBase 0.5 0.8\nCompat 0.18\n",
     "testrequires": ""
    }
   }
@@ -33035,6 +33075,11 @@
     "sha1": "9591633664477d336e8a8c45c8ed2185d6630152",
     "requires": "julia 0.6.0-pre\nColors\nGtk\nGraphics\nCairo\nNumericIO\n",
     "testrequires": ""
+   },
+   "0.2.4": {
+    "sha1": "cd40fb2ae06c32644ff8abc318659512100161b2",
+    "requires": "julia 0.6.0\nColors\nGtk\nGraphics\nCairo\nNumericIO\n",
+    "testrequires": ""
    }
   }
  },
@@ -33843,7 +33888,7 @@
    },
    "0.2.6": {
     "sha1": "959b9c67e396a6e2307fc022d26b0d95692ee6a4",
-    "requires": "julia 0.4\nBinDeps\nMathProgBase 0.5 0.7\n@osx Homebrew\n@windows WinRPM\nCompat 0.8.0\n",
+    "requires": "julia 0.4\nBinDeps\nMathProgBase 0.5 0.8\n@osx Homebrew\n@windows WinRPM\nCompat 0.8.0\n",
     "testrequires": ""
    }
   }
@@ -34685,6 +34730,11 @@
     "sha1": "cfaaac36e827a64568fc417d1cd264151aa10418",
     "requires": "julia 0.6\nCompat 0.33.0\n",
     "testrequires": "DataStructures\nFixedPointNumbers\nOffsetArrays\nCompat 0.31.0\n"
+   },
+   "0.16.0": {
+    "sha1": "8d5ad9b10e6c520149b24b37d187bdcd59ad81e0",
+    "requires": "julia 0.6\nCompat 0.33.0\n",
+    "testrequires": "DataStructures\nFixedPointNumbers\nOffsetArrays\nCompat 0.31.0\n"
    }
   }
  },
@@ -34953,6 +35003,11 @@
    },
    "0.5.1": {
     "sha1": "9717ab38f263ffc12eeba04d6cc1958559487e5c",
+    "requires": "julia 0.5\nDataStructures\n@windows WinReg\n",
+    "testrequires": ""
+   },
+   "0.5.2": {
+    "sha1": "50c4146314e3b956ff7319f33418f3f2340e66df",
     "requires": "julia 0.5\nDataStructures\n@windows WinReg\n",
     "testrequires": ""
    }
@@ -35483,7 +35538,7 @@
    },
    "0.18.0": {
     "sha1": "ec30d38cc95b6f114ea136972920000f03834657",
-    "requires": "julia 0.6\nMathProgBase 0.6 0.7\nReverseDiffSparse 0.8 0.9\nForwardDiff 0.5 0.6\nCalculus\n",
+    "requires": "julia 0.6\nMathProgBase 0.6 0.8\nReverseDiffSparse 0.8 0.9\nForwardDiff 0.5 0.6\nCalculus\n",
     "testrequires": "Cbc\nClp\nGLPKMathProgInterface\nIpopt\nECOS\nSCS\nOffsetArrays 0.2.13\n"
    }
   }
@@ -36318,7 +36373,7 @@
    },
    "0.3.1": {
     "sha1": "09b996a7e8ac8c05e07465568273cc963afafefd",
-    "requires": "julia 0.5\nMathProgBase 0.5 0.7\n",
+    "requires": "julia 0.5\nMathProgBase 0.5 0.8\n",
     "testrequires": "JuMP\nFactCheck"
    }
   }
@@ -37550,6 +37605,16 @@
  "LatexPrint": {
   "url": "git://github.com/scheinerman/LatexPrint.jl.git",
   "versions": {}
+ },
+ "Latexify": {
+  "url": "https://github.com/korsbo/Latexify.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "8080774c4518cfc6975d6a17bd176d3d8210a5a7",
+    "requires": "julia 0.6\nDifferentialEquations 3.0\nSymEngine 0.2.0\nDataFrames 0.10.0\n",
+    "testrequires": ""
+   }
+  }
  },
  "Lazy": {
   "url": "git://github.com/MikeInnes/Lazy.jl.git",
@@ -46487,6 +46552,11 @@
     "sha1": "21a599b0ba9fb8cbe31c3efbb7779bdbcf43bc13",
     "requires": "julia 0.5\nCompat 0.17\nLinearOperators 0.2.0\n",
     "testrequires": "JuMP 0.15\nIpopt 0.2.4\nForwardDiff 0.2.5\n"
+   },
+   "0.3.0": {
+    "sha1": "69e2e57f208896c49efeeb1eaf3638bd21f1d92d",
+    "requires": "julia 0.5\nCompat 0.17\nLinearOperators 0.2.0\n",
+    "testrequires": "JuMP 0.15\nIpopt 0.2.4\nForwardDiff 0.2.5\n"
    }
   }
  },
@@ -46630,7 +46700,7 @@
    },
    "0.3.6": {
     "sha1": "78a635d334b51dd6ab696bb7d2670973e794846e",
-    "requires": "julia 0.4\n@osx Homebrew\nBinDeps\nMathProgBase 0.5 0.7\nCompat 0.8\n",
+    "requires": "julia 0.4\n@osx Homebrew\nBinDeps\nMathProgBase 0.5 0.8\nCompat 0.8\n",
     "testrequires": ""
    }
   }
@@ -47781,6 +47851,11 @@
    "0.0.1": {
     "sha1": "7d7f65bdc2f798b5f9aec6098c8559a824aee4c1",
     "requires": "julia 0.4\nBinDeps\nCompat 0.9.1\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "e777aa7b4d71af843be1639bbc20d6198f3fdaee",
+    "requires": "julia 0.5\nBinDeps\nCompat 0.9.1\n",
     "testrequires": ""
    }
   }
@@ -50644,6 +50719,16 @@
    }
   }
  },
+ "PDFExtract": {
+  "url": "https://github.com/hshindo/PDFExtract.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "b4998de6daf723978f017008b667160272036c5a",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   }
+  }
+ },
  "PDFIO": {
   "url": "https://github.com/sambitdash/PDFIO.jl.git",
   "versions": {
@@ -51614,7 +51699,7 @@
    },
    "0.5.0": {
     "sha1": "c3a6a26997d8e9e2a6d8054734fb1c9757d762aa",
-    "requires": "julia 0.6\nMathProgBase 0.5 0.7\nJuMP 0.15\nConicNonlinearBridge\nConicBenchmarkUtilities\n",
+    "requires": "julia 0.6\nMathProgBase 0.5 0.8\nJuMP 0.15\nConicNonlinearBridge\nConicBenchmarkUtilities\n",
     "testrequires": "GLPKMathProgInterface\nECOS\nSCS\nIpopt\n"
    }
   }
@@ -52530,6 +52615,16 @@
    "0.1.3": {
     "sha1": "f9297518d83949f2e0e38c8750873c5608494cf3",
     "requires": "julia 0.5\nCombinatorics\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "Persa": {
+  "url": "https://github.com/JuliaRecsys/Persa.jl.git",
+  "versions": {
+   "0.0.3": {
+    "sha1": "85520e66147c51096cc7b9c1c9b3d4d18ab7573f",
+    "requires": "julia 0.6\nDataFrames\nMLBase\nDistances\n",
     "testrequires": ""
    }
   }
@@ -60438,6 +60533,11 @@
     "sha1": "0a316af3669c085467f3951cb354f8284cc9145e",
     "requires": "julia 0.6\nStaticArrays 0.5\n",
     "testrequires": "ForwardDiff\nBenchmarkTools\n"
+   },
+   "0.6.1": {
+    "sha1": "5ec796831ebbd276f3d9de11f4adfd406c2a7642",
+    "requires": "julia 0.6\nStaticArrays 0.6.5\n",
+    "testrequires": "ForwardDiff\nBenchmarkTools 0.0.0 0.1.0\n"
    }
   }
  },
@@ -60646,7 +60746,7 @@
    },
    "0.4.0": {
     "sha1": "ab5119ddf1272254b507c428195640262ae162ab",
-    "requires": "julia 0.6\nBinDeps\nMathProgBase 0.5 0.7\nCompat 0.8.6\n",
+    "requires": "julia 0.6\nBinDeps\nMathProgBase 0.5 0.8\nCompat 0.8.6\n",
     "testrequires": "JuMP 0.16\nOffsetArrays 0.2.13\n"
    }
   }
@@ -60776,7 +60876,7 @@
    },
    "0.3.3": {
     "sha1": "5a60bd7852e0f6a3fd7bf14d7d6b2d445038eab5",
-    "requires": "julia 0.5\nMathProgBase 0.5 0.7\nBinDeps\n@osx Homebrew\n",
+    "requires": "julia 0.5\nMathProgBase 0.5 0.8\nBinDeps\n@osx Homebrew\n",
     "testrequires": ""
    }
   }
@@ -72929,7 +73029,7 @@
    },
    "0.5.0": {
     "sha1": "a8fc40cd027635fa365d254943502ca09ac23d60",
-    "requires": "julia 0.5\nMathProgBase 0.6 0.7\n",
+    "requires": "julia 0.5\nMathProgBase 0.6 0.8\n",
     "testrequires": "MathProgBase 0.6 0.7\nJuMP \nOffsetArrays 0.2.13"
    }
   }
