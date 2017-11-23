@@ -3445,6 +3445,11 @@
     "sha1": "0ca592d5f388d7f3eabfa6aa049077a561092666",
     "requires": "julia 0.6\nPlotRecipes\nClustering\n",
     "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "56f549d96f4a202fcd22abb0c755ed02932e5575",
+    "requires": "julia 0.6\nPlotRecipes\nClustering\nColorTypes\n",
+    "testrequires": ""
    }
   }
  },
@@ -10583,6 +10588,11 @@
    },
    "0.35.0": {
     "sha1": "fbd9cb245a89af2c6d3eea0f1622729a14709163",
+    "requires": "julia 0.5\n",
+    "testrequires": "OffsetArrays\n"
+   },
+   "0.36.0": {
+    "sha1": "0e013385d9df34b3fd33ea3311cee9115ef845e9",
     "requires": "julia 0.5\n",
     "testrequires": "OffsetArrays\n"
    }
@@ -25222,6 +25232,11 @@
     "sha1": "613ab104ddef105e7ae50c1f53ff557793d8cae4",
     "requires": "julia 0.5- 0.6\nTerminalUI\nDWARF\nObjFileBase\nELF\nMachO\nASTInterpreter\nAbstractTrees\nCOFF\nCRC\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "d5da619a1c36a63917be37cc7608cb9b3154ba45",
+    "requires": "julia 0.6\nASTInterpreter2\n",
+    "testrequires": ""
    }
   }
  },
@@ -27275,7 +27290,7 @@
   "versions": {
    "0.0.1": {
     "sha1": "842296386d8fd586ee25299be2e86ff629d6df86",
-    "requires": "julia 0.6\n\nStatsBase\nKernelDensity\nLoess\nIndexedTables 0.3.2\nIterableTables 0.5.1\nTableTraitsUtils 0.1.0\nTableTraits\nMacroTools\nLazy\n",
+    "requires": "julia 0.6\n\nStatsBase\nKernelDensity\nLoess\nIndexedTables 0.3.2 0.4.0\nIterableTables 0.5.1\nTableTraitsUtils 0.1.0\nTableTraits\nMacroTools\nLazy\n",
     "testrequires": "DataFrames\nRDatasets\nJLD\n"
    }
   }
@@ -32765,6 +32780,11 @@
     "sha1": "cc2d95afcf9e869b639fb2f0313eb4690381f957",
     "requires": "julia 0.6\nCompat 0.19\nNamedTuples 2.1.0\nPooledArrays\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\n",
     "testrequires": "PooledArrays\n"
+   },
+   "0.4.0": {
+    "sha1": "cdcdd396b1aa0cf8451f9ec41531a52d40dc25c1",
+    "requires": "julia 0.6\nCompat 0.19\nNamedTuples 2.1.0\nOnlineStats v0.13.0\nPooledArrays\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\n",
+    "testrequires": "PooledArrays\n"
    }
   }
  },
@@ -35824,6 +35844,11 @@
    "0.3.7": {
     "sha1": "0fa634c20bd2800b8bc492e7fbfbc8ef26438931",
     "requires": "julia 0.6\nIndexedTables 0.3.3\nNamedTuples 4.0.0\nTextParse 0.3.0\nMemPool\nDagger 0.4.0\nGlob 1.1.1\nPooledArrays 0.0.2\nOnlineStats v0.13.0\nStatsBase\nDataValues\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "ad7cd0f529d20588876ca225757ed2c3a34cd4b1",
+    "requires": "julia 0.6\nIndexedTables 0.4.0\nNamedTuples 4.0.0\nTextParse 0.3.0\nMemPool\nDagger 0.4.0\nGlob 1.1.1\nOnlineStats 0.13.0\nPooledArrays 0.0.2\nOnlineStats v0.13.0\nStatsBase\nDataValues\n",
     "testrequires": ""
    }
   }
@@ -65796,6 +65821,11 @@
     "sha1": "1b2efaaa0a37e4373845c6ab0ac30ac8820cfb17",
     "requires": "julia 0.5\nBinDeps 0.4.3\nCompat 0.17.0\nDiffEqBase 1.5.1\nReexport\n",
     "testrequires": "DiffEqProblemLibrary\n"
+   },
+   "0.15.0": {
+    "sha1": "a7c40336ddfdfe95fcb66e6969e7a700ec1b3196",
+    "requires": "julia 0.6\nBinDeps 0.4.3\nCompat 0.17.0\nDiffEqBase 1.5.1\nReexport\n",
+    "testrequires": "DiffEqProblemLibrary\n"
    }
   }
  },
@@ -70589,6 +70619,11 @@
    },
    "0.2.2": {
     "sha1": "166dd8f1b3de66869cca25a7c6c19fa09d808f04",
+    "requires": "julia 0.6\nColorTypes 0.3.4\nFixedPointNumbers 0.3.0\n",
+    "testrequires": ""
+   },
+   "0.2.3": {
+    "sha1": "f0ea1fd23ec24579763ecf8382c92e62b58aeb1e",
     "requires": "julia 0.6\nColorTypes 0.3.4\nFixedPointNumbers 0.3.0\n",
     "testrequires": ""
    }
