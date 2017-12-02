@@ -10685,6 +10685,11 @@
     "sha1": "4aaff0777481d04470f5a7261d738a22e8ecf1c5",
     "requires": "julia 0.5\n",
     "testrequires": "OffsetArrays\n"
+   },
+   "0.39.0": {
+    "sha1": "bda761307c2d742d44defcaf2ef28ab0a9a8f953",
+    "requires": "julia 0.5\n",
+    "testrequires": "OffsetArrays\n"
    }
   }
  },
@@ -20995,6 +21000,11 @@
    },
    "0.5.3": {
     "sha1": "9f532f34f5806f948d31f5be28339ada50e60424",
+    "requires": "julia 0.6\n@windows WinRPM\n",
+    "testrequires": "LightGraphs\n"
+   },
+   "0.5.4": {
+    "sha1": "d839406048d1c81fdaa29ba9773d86ed2c36a7bd",
     "requires": "julia 0.6\n@windows WinRPM\n",
     "testrequires": "LightGraphs\n"
    }
@@ -45047,6 +45057,11 @@
     "sha1": "16f0ea771bbce98e7a4ed3027227bd1cab9ee085",
     "requires": "julia 0.4\nCompat 0.7.16\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "8b3e8ab758709df1a17bff065041379a32334926",
+    "requires": "julia 0.6\nCompat 0.30.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -46926,6 +46941,11 @@
    "0.0.5": {
     "sha1": "a5e4553d8c6bae2927bf47770c8d989270929f31",
     "requires": "julia 0.6\nDataArrays 0.5 0.7.0\nBinDeps 0.4\nConda 0.3\n",
+    "testrequires": ""
+   },
+   "0.0.6": {
+    "sha1": "be90edac20d40f9943d4ad95e8818a52d90a10b9",
+    "requires": "julia 0.6\nDataArrays 0.5\nBinDeps 0.4\nConda 0.3\n",
     "testrequires": ""
    }
   }
@@ -62118,6 +62138,11 @@
     "sha1": "f14bfe77e9275b1f1bbb090b2d1b5cdd3e4d5ef3",
     "requires": "julia 0.4 0.5\nLibCURL\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "8c27846a5eaaa3981d39116d1cf010a8e5a8e624",
+    "requires": "julia 0.6\nLibCURL\n",
+    "testrequires": ""
    }
   }
  },
@@ -69586,6 +69611,11 @@
     "sha1": "5aa57b22dc377b59b887d7c1364e42c6d2aece15",
     "requires": "julia 0.6\nCrayons\n",
     "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "ff6cb54fb8502e23191f031f8633d4e179443721",
+    "requires": "julia 0.6\nCrayons\nCompat 0.36\n",
+    "testrequires": ""
    }
   }
  },
@@ -74655,6 +74685,11 @@
    "0.0.2": {
     "sha1": "6ec28deee4391dd6aa56c3fdc30330c386f78dd2",
     "requires": "julia 0.6\nNulls\n",
+    "testrequires": "HTTP\nCodecZlib\nRDatasets\nCategoricalArrays\n"
+   },
+   "0.0.3": {
+    "sha1": "a62e842a92711952760bd311ffa11edbd327f39b",
+    "requires": "julia 0.6\nMissings\n",
     "testrequires": "HTTP\nCodecZlib\nRDatasets\nCategoricalArrays\n"
    }
   }
