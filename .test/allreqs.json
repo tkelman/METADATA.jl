@@ -3770,6 +3770,11 @@
     "sha1": "cbd1aa001f2148a7e5626b06fd976a1dbe90e79e",
     "requires": "julia 0.6\nDataFrames 0.9.0\n",
     "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "4f7730bc3cdb9983fceefafc3162df33d31863a4",
+    "requires": "julia 0.6\nDataFrames 0.9.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -9853,12 +9858,12 @@
   "versions": {
    "0.4.7": {
     "sha1": "409bd7a4efdd7fff9664e6d72b24c11554e0c857",
-    "requires": "julia 0.3\nCompat 0.2\nFixedPointNumbers 0.0.0- 0.3.0\nGraphics 0.1\n",
+    "requires": "julia 0.3 0.6\nCompat 0.2\nFixedPointNumbers 0.0.0- 0.3.0\nGraphics 0.1\n",
     "testrequires": ""
    },
    "0.5.0": {
     "sha1": "4bf77fa42c6c3229caa96e3bf46f05d3e938017c",
-    "requires": "julia 0.3\nColorTypes\nFixedPointNumbers 0.0.0- 0.3.0\nCompat 0.2\nGraphics 0.1\nReexport\n",
+    "requires": "julia 0.3 0.6\nColorTypes\nFixedPointNumbers 0.0.0- 0.3.0\nCompat 0.2\nGraphics 0.1\nReexport\n",
     "testrequires": "JLD\n"
    },
    "0.5.1": {
@@ -16309,6 +16314,11 @@
     "sha1": "d8b18e1a5d508d2de4866bc28aef9d84c099b93c",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nDiffEqBase 1.12.0\nRecursiveArrayTools 0.4.0\nDiffEqPDEBase\nDiffEqMonteCarlo\nDiffEqNoiseProcess\nJuno\n",
     "testrequires": "DiffEqProblemLibrary\nOrdinaryDiffEq 1.0.0\nStochasticDiffEq 0.0.5\nFiniteElementDiffEq 0.0.5\n"
+   },
+   "0.11.2": {
+    "sha1": "b2b372fa9ef15188e3d01928fc9815b2657d9e81",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nDiffEqBase 1.12.0\nRecursiveArrayTools 0.4.0\nDiffEqPDEBase\nDiffEqMonteCarlo\nDiffEqNoiseProcess\nJuno\n",
+    "testrequires": "DiffEqProblemLibrary\nOrdinaryDiffEq 1.0.0\nStochasticDiffEq 0.0.5\nFiniteElementDiffEq 0.0.5\n"
    }
   }
  },
@@ -18783,6 +18793,11 @@
    "0.12.3": {
     "sha1": "5a6cb83b46aa54a739ee5166582b8bb4c39a2ee8",
     "requires": "julia 0.6\nCompat 0.32\nDocStringExtensions 0.2\n",
+    "testrequires": ""
+   },
+   "0.12.4": {
+    "sha1": "b9d42a39464f6b059cc8fb70cfc2641ccf7dd029",
+    "requires": "julia 0.6\nCompat 0.39\nDocStringExtensions 0.2\n",
     "testrequires": ""
    }
   }
@@ -35215,6 +35230,11 @@
     "sha1": "0b191d9403efeb5939af6a4b094b1e96ca97fd8e",
     "requires": "julia 0.6\nCompat 0.37.0\n",
     "testrequires": "DataStructures\nFixedPointNumbers\nOffsetArrays\nCompat 0.37.0\n"
+   },
+   "0.16.2": {
+    "sha1": "600a40bb11f9c82d5a4590cb61de99460dd0f17b",
+    "requires": "julia 0.6\nCompat 0.37.0\nNullables 0.0.1\n",
+    "testrequires": "DataStructures\nFixedPointNumbers\nOffsetArrays\nCompat 0.37.0\n"
    }
   }
  },
@@ -36919,6 +36939,16 @@
    "0.1.0": {
     "sha1": "a355ae578533dd7899669ce528d46e81e73b6a27",
     "requires": "julia 0.4\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "KahanSummation": {
+  "url": "https://github.com/JuliaMath/KahanSummation.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "a4e6dbc41a3e36f58d8f3218d23a1ad86e66b2ed",
+    "requires": "julia 0.6\nCompat 0.33.0\n",
     "testrequires": ""
    }
   }
@@ -67716,6 +67746,11 @@
     "sha1": "8274c6d100f2ff4f224227ace7ecd949c54906cb",
     "requires": "julia 0.6\nRequests\nJSON\nRecipesBase\n",
     "testrequires": ""
+   },
+   "0.4.8": {
+    "sha1": "9489be634b1e06b747ff36a84dce4a500d23a10e",
+    "requires": "julia 0.6\nRequests\nJSON\nRecipesBase\n\n",
+    "testrequires": ""
    }
   }
  },
@@ -70729,47 +70764,47 @@
   "versions": {
    "0.0.0": {
     "sha1": "ea5ee080c115d895c63c80eaeb67b3c4cd2b1848",
-    "requires": "julia 0.2-\n",
+    "requires": "julia 0.2- 0.6\n",
     "testrequires": ""
    },
    "0.0.1": {
     "sha1": "f7d806092f859494a96c16813bfa298202f39957",
-    "requires": "",
+    "requires": "julia 0.2- 0.6\n",
     "testrequires": ""
    },
    "0.0.2": {
     "sha1": "47963e5b25dc27bebc6d898f4926bf81e00718ad",
-    "requires": "",
+    "requires": "julia 0.2- 0.6\n",
     "testrequires": ""
    },
    "0.0.3": {
     "sha1": "887d7df6495114895de9d5e5424a6ee76587d0f8",
-    "requires": "",
+    "requires": "julia 0.2- 0.6\n",
     "testrequires": ""
    },
    "0.0.4": {
     "sha1": "49f8cb057b5a50a3f6b28c330cda8dad8e2cb336",
-    "requires": "Compat\n",
+    "requires": "julia 0.2- 0.6\nCompat\n",
     "testrequires": ""
    },
    "0.0.5": {
     "sha1": "3c00f48119909eb105aff6f126611b39a7b16919",
-    "requires": "Compat 0.3.5\n",
+    "requires": "julia 0.2- 0.6\nCompat 0.3.5\n",
     "testrequires": ""
    },
    "0.0.6": {
     "sha1": "b03188efa3734871454d628642ffc7a9e98a4fa0",
-    "requires": "julia 0.3\nCompat 0.3.5\nHttpCommon\n",
+    "requires": "julia 0.3 0.6\nCompat 0.3.5\nHttpCommon\n",
     "testrequires": ""
    },
    "0.0.7": {
     "sha1": "5e3158a05e0c9082b8a7fe35b4f281d1adb6ca18",
-    "requires": "julia 0.3\nCompat 0.3.5\nHttpCommon\n",
+    "requires": "julia 0.3 0.6\nCompat 0.3.5\nHttpCommon\n",
     "testrequires": ""
    },
    "0.1.0": {
     "sha1": "a7d45ea317ef23f4face6d73e5434ad79cdc7ea3",
-    "requires": "julia 0.4-\nCompat 0.3.5\nHttpCommon\n",
+    "requires": "julia 0.4- 0.6\nCompat 0.3.5\nHttpCommon\n",
     "testrequires": ""
    },
    "0.1.1": {
