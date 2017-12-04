@@ -23842,6 +23842,11 @@
     "sha1": "5d0c39117aa273cb01e5f28e71dfa793819dc81a",
     "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n",
     "testrequires": "ModernGL\n"
+   },
+   "1.5.0": {
+    "sha1": "6d1e509cea73402d4f6b37314ab0fe97d934c837",
+    "requires": "julia 0.5\nBinDeps\n@osx Homebrew\n",
+    "testrequires": "ModernGL\n"
    }
   }
  },
@@ -27600,6 +27605,11 @@
    },
    "0.1.0": {
     "sha1": "1ac554af742108d5e5003d2a54bfb113465908e3",
+    "requires": "julia 0.6\n\nStatsBase\nKernelDensity\nLoess\nIndexedTables 0.4.1\nIterableTables 0.5.1\nTableTraitsUtils 0.1.0\nTableTraits\nMacroTools\nLazy\n",
+    "testrequires": "JuliaDB 0.4.1\n"
+   },
+   "0.1.1": {
+    "sha1": "44da4ffe0a5ca77b6b6aab1f4947ff9c1a7e2061",
     "requires": "julia 0.6\n\nStatsBase\nKernelDensity\nLoess\nIndexedTables 0.4.1\nIterableTables 0.5.1\nTableTraitsUtils 0.1.0\nTableTraits\nMacroTools\nLazy\n",
     "testrequires": "JuliaDB 0.4.1\n"
    }
@@ -33133,6 +33143,11 @@
    },
    "0.4.2": {
     "sha1": "012692d1acfd3a90b0b46631e28241a30c223e92",
+    "requires": "julia 0.6\nCompat 0.19\nNamedTuples 2.1.0\nOnlineStats v0.13.0\nPooledArrays\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\n",
+    "testrequires": "PooledArrays\n"
+   },
+   "0.4.3": {
+    "sha1": "44874bbc0dba5eddc5c2c3d0331d8e585e55297c",
     "requires": "julia 0.6\nCompat 0.19\nNamedTuples 2.1.0\nOnlineStats v0.13.0\nPooledArrays\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\n",
     "testrequires": "PooledArrays\n"
    }
@@ -42898,6 +42913,11 @@
     "sha1": "e65242c1e9d1d0992cffdad21bb5813ff904ac1a",
     "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nKriging\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames 0.0.1 0.11.0\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
     "testrequires": ""
+   },
+   "0.4.32": {
+    "sha1": "c20eb3a4cb44371c8ab207da82dd1810c2e9b1ab",
+    "requires": "julia 0.5\nCompat 0.13\nAnasol\nBIGUQ\nAffineInvariantMCMC\nGeostatInversion\nKriging\nMetaProgTools\nReusableFunctions 0.2.6\nRobustPmap\nSVR 0.2.3\nDocumentFunction\nDocumenter 0.8.10\nConda 0.4\nPyCall 1.8\nPyPlot 2.2\nGadfly 0.6.2\nCompose 0.5.2\nMeasures\nImages\nYAML\nJSON\nJLD\nProgressMeter\nDistributions\nDataStructures\nDataFrames\nOrdinaryDiffEq\nNMF\nBlackBoxOptim\nKlara 0.8.6\nOptim 0.7\nStatsBase 0.15\nJuMP 0.17\nMathProgBase 0.6.4\n",
+    "testrequires": ""
    }
   }
  },
@@ -49241,6 +49261,11 @@
    "0.5.0": {
     "sha1": "92c2095369cbf8e7ddc4f2a313e5f589202f97a3",
     "requires": "julia 0.6\nFactCheck\nNettle 0.2\nRequests\nURIParser\n",
+    "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "142fe5d7a25a7ca5ee09a03932dfc1ad89033c31",
+    "requires": "julia 0.6\nFactCheck\nNettle 0.2\nHTTP\n",
     "testrequires": ""
    }
   }
@@ -63458,6 +63483,11 @@
     "sha1": "719e7aa2b187e7565326dfa6fa4032cf958e4c07",
     "requires": "julia 0.6.0-rc1\nJSON 0.5.0\n",
     "testrequires": ""
+   },
+   "0.1.7": {
+    "sha1": "e6bbe68143d753a0be7e61c50acabc02b413b0d1",
+    "requires": "julia 0.6.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -72345,6 +72375,11 @@
    "0.8.5": {
     "sha1": "d3ab995342c109695d559c1296ac47e7c5bb067c",
     "requires": "julia 0.4\nCompat 0.9.5\nFileIO 0.2.0\n",
+    "testrequires": ""
+   },
+   "0.9.0": {
+    "sha1": "f0ed3cdd48591b6fd004c8932f8b1887607340d1",
+    "requires": "julia 0.6\nFileIO 0.2.0\n",
     "testrequires": ""
    }
   }
