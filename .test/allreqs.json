@@ -3771,6 +3771,11 @@
     "requires": "julia 0.6\nDataFrames 0.9.0\n",
     "testrequires": ""
    },
+   "0.2.1": {
+    "sha1": "b6c392f8498cffad3671635b4ad23bdb4e87fd6b",
+    "requires": "julia 0.6\nDataFrames 0.9.0\n",
+    "testrequires": ""
+   },
    "0.2.2": {
     "sha1": "4f7730bc3cdb9983fceefafc3162df33d31863a4",
     "requires": "julia 0.6\nDataFrames 0.9.0\n",
@@ -6518,17 +6523,17 @@
    },
    "0.2.0": {
     "sha1": "c053b1d81e2e57330d6e5b7a7e6cd744678f73d1",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0\n",
     "testrequires": ""
    },
    "0.2.1": {
     "sha1": "746505a74d6b716fef71d593d58de138dc756ee0",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0\n",
     "testrequires": ""
    },
    "0.2.2": {
     "sha1": "31453b8c873925f8dda4549c5c35b8d4a8ebb01f",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0\n",
     "testrequires": ""
    }
   }
@@ -6700,6 +6705,11 @@
     "sha1": "dccdaa0f39477e9570b5c24d0b15ac849e93582f",
     "requires": "julia 0.6\nCompat 0.33.0\nCUDAapi 0.1.1\n",
     "testrequires": ""
+   },
+   "0.7.0": {
+    "sha1": "9dc229600e70223b4ab4cfab7bc23e4b36da7bf0",
+    "requires": "julia 0.6\nCompat 0.33.0\nCUDAapi 0.1.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -6763,17 +6773,17 @@
    },
    "0.5.1": {
     "sha1": "b04f4ea250744c720f7bad594f520d0cfa085fa7",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.11\nCUDAapi\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0\nLLVM 0.3.11\nCUDAapi\n",
     "testrequires": ""
    },
    "0.5.2": {
     "sha1": "4001bf0e03e569864d387ed488e15e9af826995c",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.11\nCUDAapi 0.1.3\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0\nLLVM 0.3.11\nCUDAapi 0.1.3\n",
     "testrequires": ""
    },
    "0.5.3": {
     "sha1": "efd50d8efd94dcf0c5e792cdd5b1dc878c65a5f3",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0\nLLVM 0.3.11\nCUDAapi 0.1.3\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0\nLLVM 0.3.11\nCUDAapi 0.1.3\n",
     "testrequires": ""
    }
   }
@@ -6783,7 +6793,7 @@
   "versions": {
    "0.0.1": {
     "sha1": "bb3e67f41d29324fbc1200413fddaad33024f2ba",
-    "requires": "julia 0.6-\nCUDAnative\nReexport\nCxx\nCUDAdrv\n",
+    "requires": "julia 0.6-\nCUDAnative\nReexport\nCxx\nCUDAdrv 0.1.0 0.7.0\n",
     "testrequires": ""
    }
   }
@@ -6843,27 +6853,27 @@
    },
    "0.3.0": {
     "sha1": "88c44b70edc1d0a256297f91f0ee5bef774d8d5c",
-    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.2.4\n",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.2.4 0.7.0\n",
     "testrequires": ""
    },
    "0.3.1": {
     "sha1": "dc286ac19293aa621ac086599d2249a8c6193afe",
-    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.2.4\n",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.2.4 0.7.0\n",
     "testrequires": ""
    },
    "0.3.2": {
     "sha1": "622dfa539fa53c3eca434cff40af37ced69d533f",
-    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.4.1\n",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.4.1 0.7.0\n",
     "testrequires": ""
    },
    "0.4.0": {
     "sha1": "d9b78c53c8223833412557433a8b5970b6d6e7f1",
-    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.4.1\nCUDAapi\n",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.4.1 0.7.0\nCUDAapi\n",
     "testrequires": ""
    },
    "0.4.1": {
     "sha1": "55fbd5a4d2b6f03269d66b8d6c953cb2cd855290",
-    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.4.1\nCUDAapi\n",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.4.1 0.7.0\nCUDAapi\n",
     "testrequires": ""
    }
   }
@@ -6913,7 +6923,7 @@
    },
    "0.4.0": {
     "sha1": "f37eb6d31a84a82a3e78ef57158633b2b2875bab",
-    "requires": "Compat\nCUDAdrv\njulia 0.6\n",
+    "requires": "Compat\nCUDAdrv 0.1.0 0.7.0\njulia 0.6\n",
     "testrequires": ""
    }
   }
@@ -6968,7 +6978,7 @@
    },
    "0.1.0": {
     "sha1": "65d2644bdb40e3c35b83c3f307b614e961777a09",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0",
     "testrequires": ""
    }
   }
@@ -7814,6 +7824,11 @@
    "0.3.0": {
     "sha1": "e1c57a24027666dc856598e952ecc2c9018f53c9",
     "requires": "julia 0.6\nMissings\nReexport\n",
+    "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "8e2da16f24fc47c324db16f0bbc851cc8f022268",
+    "requires": "julia 0.6\nMissings\nReexport\nCompat 0.32.0\n",
     "testrequires": ""
    }
   }
@@ -12372,27 +12387,27 @@
   "versions": {
    "0.1.0": {
     "sha1": "03ec146e2f8c158bec2a5cedb630c9d44481a31d",
-    "requires": "julia 0.6\nCUDAnative 0.4\nCUDAdrv 0.5\nCUBLAS\n",
+    "requires": "julia 0.6\nCUDAnative 0.4\nCUDAdrv 0.5 0.7.0\nCUBLAS\n",
     "testrequires": ""
    },
    "0.1.1": {
     "sha1": "f989092aa5585056828b189257ef73ed5276187f",
-    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5\nCUBLAS 0.2.2\nCUDNN 0.4.0\nNNlib\n",
+    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5 0.7.0\nCUBLAS 0.2.2\nCUDNN 0.4.0\nNNlib\n",
     "testrequires": ""
    },
    "0.2.0": {
     "sha1": "54e550b2d8c3fcfaf0009341532d179497a642ba",
-    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5\nCUDAapi\nCUDNN 0.4.0\nNNlib\n",
+    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5 0.7.0\nCUDAapi\nCUDNN 0.4.0\nNNlib\n",
     "testrequires": ""
    },
    "0.2.1": {
     "sha1": "114c1c82523d140060277ac5760e72408fde234d",
-    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5\nCUDAapi\nNNlib\n",
+    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5 0.7.0\nCUDAapi\nNNlib\n",
     "testrequires": ""
    },
    "0.3.0": {
     "sha1": "12269b828626bf519e442076caf36b5b9582d775",
-    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5\nCUDAapi\nNNlib\nGPUArrays\n",
+    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5 0.7.0\nCUDAapi\nNNlib\nGPUArrays\n",
     "testrequires": ""
    }
   }
@@ -18834,6 +18849,11 @@
     "sha1": "70a2b4d6f7ec6b8f854055ed658bdad5323806e3",
     "requires": "julia 0.6\nDataStructures\nCompat 0.18\nSymEngine\nStaticArrays\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "7a87a425eb7ccf071237574f22953f714b2e454c",
+    "requires": "julia 0.6\nDataStructures\nCompat 0.18\nSymEngine\nStaticArrays\n",
+    "testrequires": ""
    }
   }
  },
@@ -24665,7 +24685,7 @@
    },
    "0.1.0": {
     "sha1": "26b32bffb826f46cb3c8357a0556ea0e2e945c91",
-    "requires": "julia 0.6\nStaticArrays\nColorTypes\n\nTranspiler 0.3 0.4\nSugar 0.3 0.4\nMatcha 0.0.2\n\nCUDAnative 0.4.1 # llvm codegen fix\nCUDAdrv 0.5.1\nCUDArt 0.4.0 # for cuda c compiler support\nCUBLAS 0.2.0 # for CUDAdrv support\nCUFFT\n\nOpenCL 0.6.0 #proper packed conversion\nCLBLAS 1.1.0\nCLFFT 0.4.0 # 0.5.0\n\nInterpolations\nIterTools\n",
+    "requires": "julia 0.6\nStaticArrays\nColorTypes\n\nTranspiler 0.3 0.4\nSugar 0.3 0.4\nMatcha 0.0.2\n\nCUDAnative 0.4.1 # llvm codegen fix\nCUDAdrv 0.5.1 0.7.0\nCUDArt 0.4.0 # for cuda c compiler support\nCUBLAS 0.2.0 # for CUDAdrv support\nCUFFT\n\nOpenCL 0.6.0 #proper packed conversion\nCLBLAS 1.1.0\nCLFFT 0.4.0 # 0.5.0\n\nInterpolations\nIterTools\n",
     "testrequires": "SpecialFunctions\n"
    },
    "0.2.0": {
@@ -32704,6 +32724,11 @@
    "0.6.0": {
     "sha1": "c657a7cf45a05eb0945c0dc1d4b80e737793f908",
     "requires": "julia 0.6.0-pre\nAxisArrays\nImageMetadata 0.1.1\nFixedPointNumbers 0.3.0\nFileIO\nUnitful\n",
+    "testrequires": "Images 0.6.0\n"
+   },
+   "0.7.0": {
+    "sha1": "6ecc90676fd29c9b6f4656a89aa429705bc11849",
+    "requires": "julia 0.6\nAxisArrays\nImageMetadata 0.1.1\nFixedPointNumbers 0.3.0\nFileIO\nUnitful\n",
     "testrequires": "Images 0.6.0\n"
    }
   }
@@ -41803,6 +41828,11 @@
     "sha1": "1e0190764bb2db48de65a3341ae1ffda85c63493",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "e5a785036cbf2f1e95dd20b4dd28e0080d0461c4",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -45402,6 +45432,11 @@
     "sha1": "4287e0003882d055fcb0d42b8a5a69cf59a90416",
     "requires": "julia 0.6\nCompat 0.37.0\n",
     "testrequires": ""
+   },
+   "0.2.3": {
+    "sha1": "c784f9b6be5030cd37ac7532a5c60f39d0817bcf",
+    "requires": "julia 0.6\nCompat 0.37.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -45706,6 +45741,11 @@
    "0.14.1": {
     "sha1": "7570a04dea81144027ef298d747c647dd23b8ad0",
     "requires": "julia 0.6.1\nArgCheck\nBlockArrays\nCategoricalArrays\nDataFrames 0.11.0\nDistributions 0.11\nGLM 0.7\nNamedArrays\nNLopt 0.3\nShowoff\nStaticArrays 0.6\nStatsBase 0.19\nStatsFuns 0.5\nStatsModels 0.1\n",
+    "testrequires": "RData\n"
+   },
+   "0.15.0": {
+    "sha1": "37d82e2b9d7be6483dc0f0064571f21cce87e349",
+    "requires": "julia 0.6.1\nArgCheck\nBlockArrays\nCategoricalArrays\nDataFrames 0.11.0\nDistributions 0.11\nGLM 0.7\nNamedArrays\nNLopt 0.3\nShowoff\nStaticArrays 0.6\nStatsBase 0.19.2\nStatsFuns 0.5\nStatsModels 0.2\n",
     "testrequires": "RData\n"
    }
   }
@@ -52934,6 +52974,11 @@
    },
    "0.8.0": {
     "sha1": "465c65eb7a16f2627018277d6ec8e02ad83258ba",
+    "requires": "julia 0.6\nDataStructures 0.7.2\n",
+    "testrequires": "Compat 0.26.0\n"
+   },
+   "0.8.1": {
+    "sha1": "70f435a92166dcc7a310919e4dd3665322ac5761",
     "requires": "julia 0.6\nDataStructures 0.7.2\n",
     "testrequires": "Compat 0.26.0\n"
    }
@@ -63343,6 +63388,11 @@
     "sha1": "b2804f4e5aa453973d8a96d0d488c84e29d58b65",
     "requires": "julia 0.6\n",
     "testrequires": "Reactive\nBenchmarkTools\nStaticArrays\n"
+   },
+   "0.2.1": {
+    "sha1": "9257e5351f5779eb885922bbb1c5abd36348a5ae",
+    "requires": "julia 0.6\n",
+    "testrequires": "Reactive\nBenchmarkTools\nStaticArrays\n"
    }
   }
  },
@@ -67649,6 +67699,11 @@
    },
    "0.7.0": {
     "sha1": "5d9794fedf32b9d67a9f44ce1f4a367e6f453df0",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.7.1": {
+    "sha1": "10ab42c8cf1b999d0f0c8259fe2c0aa8fd39f6ef",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
