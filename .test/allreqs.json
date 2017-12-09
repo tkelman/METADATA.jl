@@ -16484,6 +16484,11 @@
     "sha1": "61973124ea88348bea5b1dbf915fd8413196dbcc",
     "requires": "julia 0.6\nDiffEqBase 0.13.0\nRecursiveArrayTools\nCompat 0.19.0\nJuno\n",
     "testrequires": "DiffEqProblemLibrary\nOrdinaryDiffEq 1.3.1\nStochasticDiffEq 1.0.2\n"
+   },
+   "0.6.0": {
+    "sha1": "e211ba50a43e04865ef679c7173a695328cc58cd",
+    "requires": "julia 0.6\nDiffEqBase 0.13.0\nRecursiveArrayTools\nCompat 0.19.0\nJuno\n",
+    "testrequires": "DiffEqProblemLibrary\nOrdinaryDiffEq 1.3.1\nStochasticDiffEq 1.0.2\n"
    }
   }
  },
@@ -23802,6 +23807,11 @@
     "sha1": "7f20d624abac28c333ca22922803b03138c293e6",
     "requires": "julia 0.6\n\nModernGL 0.1.0\n\nStaticArrays 0.6.0\nGeometryTypes 0.4.1\nReactive 0.6.0\nFixedPointNumbers 0.3.0\nColorTypes 0.3.1\n\n\nQuaternions\nFileIO\nGLFW\n",
     "testrequires": "GLWindow\nGLFW\n"
+   },
+   "0.6.0": {
+    "sha1": "1eced64d986eb7f3be77b354a0ad6430fc267e1d",
+    "requires": "julia 0.6\n\nModernGL 0.1.0\n\nStaticArrays 0.6.0\nGeometryTypes 0.4.1\nReactive 0.6.0\nFixedPointNumbers 0.3.0\nColorTypes 0.3.1\n\n\nQuaternions\nFileIO\nGLFW\n",
+    "testrequires": "GLWindow\nGLFW\n"
    }
   }
  },
@@ -24675,6 +24685,11 @@
    },
    "0.7.0": {
     "sha1": "d60866373873cf23f22908902fa219f8936ad437",
+    "requires": "julia 0.6\n\nReactive 0.5.2\nGLAbstraction 0.5\nGeometryTypes 0.4.1\nModernGL 0.1.0\nFixedPointNumbers 0.3.0\nColorTypes 0.3.1\nStaticArrays # FieldVector\n\nGLFW 1.4.0 # version with fullscreen support\nFileIO\n",
+    "testrequires": ""
+   },
+   "0.7.1": {
+    "sha1": "7e00292a889a374ad29b99e7470a9ed1a3c32f0d",
     "requires": "julia 0.6\n\nReactive 0.5.2\nGLAbstraction 0.5\nGeometryTypes 0.4.1\nModernGL 0.1.0\nFixedPointNumbers 0.3.0\nColorTypes 0.3.1\nStaticArrays # FieldVector\n\nGLFW 1.4.0 # version with fullscreen support\nFileIO\n",
     "testrequires": ""
    }
@@ -26615,6 +26630,11 @@
    },
    "0.4.3": {
     "sha1": "96daf9e2e8ead2f8aa85237b7e4e3083a5429908",
+    "requires": "julia 0.6\n\nIterTools\nStaticArrays 0.5.1\nColorTypes 0.3.1\nFixedPointNumbers 0.3\n",
+    "testrequires": ""
+   },
+   "0.4.4": {
+    "sha1": "e978cfaa8f4c6aab4110d4510db572958268be81",
     "requires": "julia 0.6\n\nIterTools\nStaticArrays 0.5.1\nColorTypes 0.3.1\nFixedPointNumbers 0.3\n",
     "testrequires": ""
    }
@@ -34790,6 +34810,11 @@
     "sha1": "491d726a3019b73899376c9771ccbe8a31fa9099",
     "requires": "julia 0.5\nJavaCall 0.5.0\nRequires\nCompat 0.17\nDBAPI\n",
     "testrequires": "DataFrames\n"
+   },
+   "0.2.1": {
+    "sha1": "bee945293b2798ae605594ba5ab87fc1743e319e",
+    "requires": "julia 0.5\nJavaCall 0.5.0\nRequires\nCompat 0.17\nDBAPI\n",
+    "testrequires": "DataFrames\nDataArrays\n"
    }
   }
  },
@@ -36710,6 +36735,16 @@
     "sha1": "9711fc747efcb1464fd96675eeede02304a17eb6",
     "requires": "julia 0.4- 0.5\nReexport\nCalculus\nDistances\n",
     "testrequires": "FactCheck\n"
+   }
+  }
+ },
+ "Juniper": {
+  "url": "https://github.com/lanl-ansi/Juniper.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "3632fff922519d6599c46a4a893a44e9c8b71a30",
+    "requires": "julia 0.5\n\nMathProgBase 0.6 0.7-\nJuMP 0.17 0.19-\n",
+    "testrequires": "julia 0.5\n\nIpopt\nPowerModels\nGLPKMathProgInterface\n\nLogging 0.2"
    }
   }
  },
@@ -41008,6 +41043,11 @@
     "sha1": "15e10908919413e96371ed0cb8d47eeb005ba7b3",
     "requires": "julia 0.6\nDataFrames 0.0.0 0.11.0\nGZip\n",
     "testrequires": "julia 0.6\nDataFrames\nGZip\n"
+   },
+   "0.4.1": {
+    "sha1": "e3e5388656b26fa5c32032c80e29fd10807a7f6f",
+    "requires": "julia 0.6\nDataFrames 0.11\nGZip\n",
+    "testrequires": "julia 0.6\nDataFrames\nGZip\n"
    }
   }
  },
@@ -41551,6 +41591,11 @@
    },
    "0.9.2": {
     "sha1": "2aa223c688ceca31d9236406ce712f422a5a454a",
+    "requires": "julia 0.5\nCompat 0.9.1\nColors\nCairo\nFileIO\nJuno\nHiccup\n",
+    "testrequires": "BaseTestNext\n"
+   },
+   "0.9.3": {
+    "sha1": "b74e64dc8b66d911e15d2742e9480f274fa2ad51",
     "requires": "julia 0.5\nCompat 0.9.1\nColors\nCairo\nFileIO\nJuno\nHiccup\n",
     "testrequires": "BaseTestNext\n"
    },
@@ -49415,6 +49460,11 @@
    },
    "0.6.0": {
     "sha1": "142fe5d7a25a7ca5ee09a03932dfc1ad89033c31",
+    "requires": "julia 0.6\nFactCheck\nNettle 0.2\nHTTP\n",
+    "testrequires": ""
+   },
+   "0.6.1": {
+    "sha1": "bdfe2c9d0bd14b1bb70a7691d2238523cae7de2e",
     "requires": "julia 0.6\nFactCheck\nNettle 0.2\nHTTP\n",
     "testrequires": ""
    }
@@ -58099,7 +58149,7 @@
   }
  },
  "RData": {
-  "url": "https://github.com/JuliaStats/RData.jl.git",
+  "url": "https://github.com/JuliaData/RData.jl.git",
   "versions": {
    "0.0.1": {
     "sha1": "2ff1091a9217a2d9b0764a515fab4525ae085ac8",
@@ -63186,6 +63236,16 @@
    }
   }
  },
+ "SequentialMonteCarlo": {
+  "url": "https://github.com/awllee/SequentialMonteCarlo.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "a399adf1105e0db2c844c8aa859c9de40bb66aad",
+    "requires": "julia 0.6\n",
+    "testrequires": "#SMCExamples\nStaticArrays\n"
+   }
+  }
+ },
  "SerialPorts": {
   "url": "git://github.com/JuliaIO/SerialPorts.jl.git",
   "versions": {
@@ -66246,6 +66306,11 @@
     "sha1": "c0aea523b009b31ff9e0fa22abbae88c1c4f4bde",
     "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 2.6.0\nRecursiveArrayTools 0.13.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.5.0\nNLsolve\nForwardDiff 0.7.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\nDiffEqDiffTools 0.2.0\n",
     "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.20.1": {
+    "sha1": "3d2a3ce791e854e1fa75586690f352b8ccae353a",
+    "requires": "julia 0.6.0\nParameters 0.5.0\nDiffEqBase 2.6.0\nRecursiveArrayTools 0.13.0\nDataStructures 0.4.6\nJuno 0.2.5\nRoots\nCompat 0.17.0\nDiffEqNoiseProcess 0.5.0\nNLsolve\nForwardDiff 0.7.0\nStaticArrays\nReexport\nRandomNumbers\nMuladdMacro\nDiffEqDiffTools 0.2.0\n",
+    "testrequires": "DiffEqDevTools\nDiffEqProblemLibrary\nParameterizedFunctions\nSpecialMatrices\nStaticArrays\n"
    }
   }
  },
@@ -66360,6 +66425,11 @@
    "0.1.0": {
     "sha1": "f98eeb3bc1522ae1837841e62429258dc3c8495f",
     "requires": "julia 0.5\nCompat 0.4.5\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "5912e56015de9c64c0cec60a1c752b7b0697de7b",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
@@ -71479,6 +71549,11 @@
    },
    "0.5.0": {
     "sha1": "2429f48fde4b9d4b3bfa61c0da955268feb8a99c",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.5.1": {
+    "sha1": "a429e565c76579d0dae29a97bf782c587ab8ade1",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
