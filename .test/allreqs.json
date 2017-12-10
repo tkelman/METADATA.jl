@@ -37240,6 +37240,21 @@
     "sha1": "85fb606d2729ddb9db3d3dc11d21eedbd39326eb",
     "requires": "julia 0.5\nCairo\nFontconfig\nGadfly\nColors\nCompose\nDistributions\nCompat 0.18\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "bf999459c928c4c9bb3089043c836b48fa1ad8df",
+    "requires": "julia 0.6\nDistributions\nCompat 0.18\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "KernelDensityEstimatePlotting": {
+  "url": "https://github.com/dehann/KernelDensityEstimatePlotting.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "94b0ee57f475d52238620ea2fd346d66db4a7292",
+    "requires": "julia 0.6\nKernelDensityEstimate\nCairo\nFontconfig\nGadfly\nColors\nCompose\n",
+    "testrequires": ""
    }
   }
  },
@@ -38311,6 +38326,11 @@
    },
    "0.1.0": {
     "sha1": "cf53951b89aed678aa20c0dc1bae69dc81986aa6",
+    "requires": "julia 0.6\nDiffEqBase v2.4.0\nSymEngine 0.2.0\nMissings 0.2.2\nLaTeXStrings v0.3.0\n",
+    "testrequires": "ParameterizedFunctions 2.3.0\n"
+   },
+   "0.1.1": {
+    "sha1": "055912a4cf49fd24e5635a73984bafd127a7a557",
     "requires": "julia 0.6\nDiffEqBase v2.4.0\nSymEngine 0.2.0\nMissings 0.2.2\nLaTeXStrings v0.3.0\n",
     "testrequires": "ParameterizedFunctions 2.3.0\n"
    }
@@ -54124,6 +54144,11 @@
    },
    "0.2.2": {
     "sha1": "46066fd5635538102babe0c67ee85cfb9191ccd4",
+    "requires": "julia 0.6\nAutoHashEquals\nMustache\nTerminalMenus\nURIParser\n",
+    "testrequires": ""
+   },
+   "0.2.3": {
+    "sha1": "7e38c924132f70b12eceb2dc01dabafdc3a1fea5",
     "requires": "julia 0.6\nAutoHashEquals\nMustache\nTerminalMenus\nURIParser\n",
     "testrequires": ""
    }
