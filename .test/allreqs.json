@@ -15394,6 +15394,11 @@
     "sha1": "0427380909b1eedde2e8f6caeea52a3633d753d9",
     "requires": "julia 0.6\nDiffEqBase 2.0.0\nOrdinaryDiffEq 2.31.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots\nDiffEqDiffTools 0.2.0\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary 0.11.0\nUnitful 0.5.0\n"
+   },
+   "1.8.1": {
+    "sha1": "66c1cf2771196a7c2757471e9e5204d7c19f1746",
+    "requires": "julia 0.6\nDiffEqBase 2.0.0\nOrdinaryDiffEq 2.31.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve\nRoots\nDiffEqDiffTools 0.2.0\n",
+    "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary 0.11.0\nUnitful 0.5.0\n"
    }
   }
  },
@@ -16169,6 +16174,11 @@
     "sha1": "ae82a17ca286ed1f262f3c574718d35808f5d9da",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\nFunctionWrappers\n",
     "testrequires": ""
+   },
+   "2.6.2": {
+    "sha1": "eb6a836ef2d5e7ba94cbe7fbda9a59b81a2cbe97",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nJuno\nLinearMaps\nFunctionWrappers\n",
+    "testrequires": ""
    }
   }
  },
@@ -16237,6 +16247,11 @@
    },
    "0.5.0": {
     "sha1": "6ea4a0a0d4588ca714ffc1a01adb0e54a986373e",
+    "requires": "julia 0.6.0\nDiffEqBase 0.6.0\nOrdinaryDiffEq 2.21.3\nRecursiveArrayTools\nDataStructures\nRecipesBase\n",
+    "testrequires": "DiffEqProblemLibrary\nPlots\nUnicodePlots\n"
+   },
+   "0.6.0": {
+    "sha1": "c4afd54d9ec4e914f8606cc7f957f62d454992f7",
     "requires": "julia 0.6.0\nDiffEqBase 0.6.0\nOrdinaryDiffEq 2.21.3\nRecursiveArrayTools\nDataStructures\nRecipesBase\n",
     "testrequires": "DiffEqProblemLibrary\nPlots\nUnicodePlots\n"
    }
@@ -37979,6 +37994,11 @@
     "sha1": "1de71015c99096977237084b53bc38d0d6e8806e",
     "requires": "julia 0.5\nBinDeps 0.4.3\nCompat 0.17.0\nParameters 0.5.0\nDiffEqBase 0.15.0\n",
     "testrequires": "DiffEqProblemLibrary\n"
+   },
+   "0.2.0": {
+    "sha1": "a725621f49f45639353686ae7aa626361d05a855",
+    "requires": "julia 0.6\nBinDeps 0.4.3\nCompat 0.17.0\nParameters 0.5.0\nDiffEqBase 1.5.1\n",
+    "testrequires": "DiffEqProblemLibrary\n"
    }
   }
  },
@@ -49817,6 +49837,11 @@
     "sha1": "aa217f5a6eb9e0d96541d50b018c1d737655bba7",
     "requires": "julia 0.5\nODEInterface 0.1.3\nDiffEqBase 1.5.1\nCompat 0.17.0\nReexport\n",
     "testrequires": "DiffEqProblemLibrary\n"
+   },
+   "0.6.0": {
+    "sha1": "c4d942e0a7ef5461024530da69dba2d74da30338",
+    "requires": "julia 0.6\nODEInterface 0.1.3\nDiffEqBase 1.5.1\nCompat 0.17.0\nReexport\nDataStructures\nFunctionWrappers\nRoots\n",
+    "testrequires": "DiffEqProblemLibrary\n"
    }
   }
  },
@@ -51644,6 +51669,11 @@
    },
    "2.31.0": {
     "sha1": "7475db8cb69dbbcb0bf28299dfbf224041b85fdf",
+    "requires": "julia 0.6.0\nDiffEqBase 2.6.0\nParameters 0.5.0\nForwardDiff 0.7.0\nGenericSVD 0.0.2\nNLsolve 0.12.1\nRecursiveArrayTools 0.13.0\nJuno 0.2.5\nDiffEqDiffTools 0.2.0\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.31.1": {
+    "sha1": "2c68350dbbdbb38764abab40efb4cbb171c3e799",
     "requires": "julia 0.6.0\nDiffEqBase 2.6.0\nParameters 0.5.0\nForwardDiff 0.7.0\nGenericSVD 0.0.2\nNLsolve 0.12.1\nRecursiveArrayTools 0.13.0\nJuno 0.2.5\nDiffEqDiffTools 0.2.0\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    }
@@ -66950,6 +66980,11 @@
    "0.16.0": {
     "sha1": "6d61a48ef5ca875300975b257d2515f478eb1122",
     "requires": "julia 0.6\nBinDeps 0.4.3\nDiffEqBase 1.5.1\nReexport\n",
+    "testrequires": "DiffEqProblemLibrary\n"
+   },
+   "0.17.0": {
+    "sha1": "19caaf8c5025d65a9994dbab6fc21e3de7f93452",
+    "requires": "julia 0.6.0\nBinDeps 0.4.3\nDiffEqBase 1.5.1\nReexport\nDataStructures\nRoots\n",
     "testrequires": "DiffEqProblemLibrary\n"
    }
   }
