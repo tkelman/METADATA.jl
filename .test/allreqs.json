@@ -2705,6 +2705,11 @@
     "sha1": "ccc0fdf3cfd63f76ad91715e67b1b5353dbe4755",
     "requires": "julia 0.5\n",
     "testrequires": "\n"
+   },
+   "0.2.0": {
+    "sha1": "a25b729977f21554d89f4ac902d7a6b5752cf4fb",
+    "requires": "julia 0.6\n",
+    "testrequires": "\n"
    }
   }
  },
@@ -7853,6 +7858,11 @@
    },
    "0.3.1": {
     "sha1": "8e2da16f24fc47c324db16f0bbc851cc8f022268",
+    "requires": "julia 0.6\nMissings\nReexport\nCompat 0.32.0\n",
+    "testrequires": ""
+   },
+   "0.3.2": {
+    "sha1": "f2164f86d6678910610e094d17c681b5a528af07",
     "requires": "julia 0.6\nMissings\nReexport\nCompat 0.32.0\n",
     "testrequires": ""
    }
@@ -16974,6 +16984,11 @@
     "sha1": "672d1d0cb9050014334ea23914e138e769b3aeae",
     "requires": "julia 0.6\n",
     "testrequires": "SpecialFunctions\nNaNMath\n"
+   },
+   "0.0.2": {
+    "sha1": "01133b05720051bfb1656db7017ac203afd1926a",
+    "requires": "julia 0.6\n",
+    "testrequires": "SpecialFunctions\nNaNMath\n"
    }
   }
  },
@@ -24132,6 +24147,11 @@
     "sha1": "7419f5449fad90589783891111167bf2f9c3f4d4",
     "requires": "julia 0.6\nCompat 0.18.0\nDistributions 0.10.0\nStatsBase 0.12.0\nStatsFuns 0.3.0\nReexport\nSpecialFunctions 0.1.0\n",
     "testrequires": "DataFrames 0.9.0\nStatsFuns 0.3.0\n"
+   },
+   "0.9.0": {
+    "sha1": "a71c0b7754fb3e8a9e5a11c085cff331af0c091e",
+    "requires": "julia 0.6\nCompat 0.33.0\nDistributions 0.10.0\nStatsBase 0.12.0\nStatsFuns 0.3.0\nStatsModels 0.2.0\nSpecialFunctions 0.1.0\n",
+    "testrequires": "CategoricalArrays 0.3.0\nCompat 0.36.0\nDataFrames 0.11.0\nCSV 0.2.0"
    }
   }
  },
@@ -27531,6 +27551,11 @@
    "0.8.0": {
     "sha1": "784d12602dd3eefa2f94824ae7daf2b42b8c6b6c",
     "requires": "julia 0.5\nDataStructures 0.5.0\nCompat 0.18\n",
+    "testrequires": ""
+   },
+   "0.9.0": {
+    "sha1": "4d6cfe1e44e2be0c13dcfa4ec2a6707a3177b995",
+    "requires": "julia 0.6\nDataStructures 0.5.0\nCompat 0.18\n",
     "testrequires": ""
    }
   }
@@ -37889,6 +37914,11 @@
     "sha1": "fb17dad3da6cc28a9b99756c5b19788dc42346f7",
     "requires": "julia 0.7.0-DEV.2576\nCompat 0.39.0\n",
     "testrequires": ""
+   },
+   "0.9.3": {
+    "sha1": "d867e47816fcfb1c3a841bbb802377951b1619fd",
+    "requires": "julia 0.7.0-DEV.2576\nCompat 0.39.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -42021,6 +42051,11 @@
    },
    "0.3.0": {
     "sha1": "e5a785036cbf2f1e95dd20b4dd28e0080d0461c4",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "02b39b65d041ab66737f3952336cc16d3ccc2b0b",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
@@ -50494,6 +50529,11 @@
    },
    "0.3.0": {
     "sha1": "759ee04d8d1ab354aff06c5ffe84dc24b45470f4",
+    "requires": "julia 0.6\nNamedTuples",
+    "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "6a50e028dfb3878bb73c5d1d12a45c1dfcd13b48",
     "requires": "julia 0.6\nNamedTuples",
     "testrequires": ""
    }
@@ -66556,6 +66596,11 @@
     "sha1": "95c28662c5872e5a0392944895161edd5c052bf3",
     "requires": "julia 0.6\nTemporal\nIndicators\n",
     "testrequires": ""
+   },
+   "0.0.4": {
+    "sha1": "2961c15a28034c09ea85150522e9a40f15c31896",
+    "requires": "julia 0.6\nTemporal\nIndicators\n",
+    "testrequires": ""
    }
   }
  },
@@ -70850,6 +70895,11 @@
    "0.4.4": {
     "sha1": "14cb8deafd0462b3a9cbaaa844a49cbe161e4b78",
     "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.4.1\nMatcha\nStaticArrays 0.3.0\nDataStructures\nSpecialFunctions\nMacroTools\n",
+    "testrequires": ""
+   },
+   "0.4.5": {
+    "sha1": "c3f072b20c333ca6731a2f3b9511f256ed3c7108",
+    "requires": "julia 0.6\nCompat 0.17.0\nSugar 0.4.2\nMatcha\nStaticArrays 0.3.0\nDataStructures\nSpecialFunctions\nMacroTools\n",
     "testrequires": ""
    }
   }
