@@ -2650,6 +2650,11 @@
     "sha1": "0c27dd85875a8c0cdbc9a4dd11ffbf72493ecbc2",
     "requires": "julia 0.4\nCompat 0.8.1 # allunique\n",
     "testrequires": "BaseTestNext 0.2.2  # for julia4 compat\n"
+   },
+   "0.0.10": {
+    "sha1": "823ea162c829402b0aaf7a7d9e4145f170fdd79b",
+    "requires": "julia 0.4\n",
+    "testrequires": "BaseTestNext 0.2.2  # for julia4 compat\n"
    }
   }
  },
@@ -4734,6 +4739,16 @@
    "0.3.0": {
     "sha1": "6eb8405c3ca99b4ea783e1e6b0972c495deb4e6f",
     "requires": "julia 0.5\nStatsBase\nDistributions\nCompat 0.18\nCPUTime\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "BlackBoxOptimizationBenchmarking": {
+  "url": "https://github.com/jonathanBieler/BlackBoxOptimizationBenchmarking.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "88111bffb7ee46cf6dc51cdc9354fdff13843b2b",
+    "requires": "julia 0.6\nCompat\nMemoize\nDistributions\nOptim\n",
     "testrequires": ""
    }
   }
@@ -7704,6 +7719,11 @@
    "0.2.0": {
     "sha1": "3a5691ab4b3de285dd83e9275b0e40bbcb722514",
     "requires": "julia 0.6\nUnitful 0.0.3\n\n",
+    "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "36c92bb4f746ac45ae0ebee05c2454ea9be23ccf",
+    "requires": "julia 0.6\nStaticArrays\nUnitful 0.0.3\n\n",
     "testrequires": ""
    }
   }
@@ -25105,6 +25125,11 @@
    },
    "0.24.0": {
     "sha1": "295f08eb7df6b5236a000928cb3f929661976afc",
+    "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.25.0": {
+    "sha1": "ac0f5ba9783048c908d655c3279f60413c196d25",
     "requires": "julia 0.5\n",
     "testrequires": ""
    }
@@ -45177,6 +45202,11 @@
     "sha1": "a0d24d75c45270fab95b355969751dfa7f4a137b",
     "requires": "julia 0.5\nCompat 0.17.0\nJSON 0.8\nMocking 0.3\n",
     "testrequires": "PkgBenchmark 0.0.1\nBenchmarkTools 0.0.7\n"
+   },
+   "0.4.0": {
+    "sha1": "9957111ec03dbe2e258b9ba06ae22e1df72f80ad",
+    "requires": "julia 0.6\nCompat 0.37.0\nSyslogs 0.0.1\nJSON 0.16.1\n",
+    "testrequires": "# PkgBenchmark 0.0.1\n# BenchmarkTools 0.0.7\nSyslogs 0.0.1\nJSON 0.16.1"
    }
   }
  },
@@ -45236,6 +45266,11 @@
    "0.0.2": {
     "sha1": "75fec04f592a274a29765cf3fce76d31a3f3b296",
     "requires": "julia 0.6\nProtoBuf\n@windows WinRPM\nGZip\nJLD2\n",
+    "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "ce29ef184779873c3ceba6688710536aa2f3caf0",
+    "requires": "julia 0.6\nGZip\nJLD2\n@windows WinRPM\n",
     "testrequires": ""
    }
   }
@@ -54586,6 +54621,11 @@
     "sha1": "495e3671750e68009aa0db13a77687d0d5984f5d",
     "requires": "julia 0.5\nPlotUtils 0.4\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "6b9ddc8db734d1e868419aca12cc673f4f6094c6",
+    "requires": "julia 0.6\nPlotUtils 0.4\n",
+    "testrequires": ""
    }
   }
  },
@@ -55071,6 +55111,11 @@
     "sha1": "2fb7dddffb060984bd286e72a1a659d165a8388f",
     "requires": "julia 0.6\n\nRecipesBase 0.2.3\nPlotUtils 0.4.1\nPlotThemes 0.1.3\nReexport\nStaticArrays 0.5\nFixedPointNumbers 0.3\nMeasures\nShowoff\nStatsBase 0.14.0\nJSON\nNaNMath\nRequires\nContour\n",
     "testrequires": "StatPlots\nImages\nImageMagick\n@osx QuartzImageIO\nGR\nRDatasets\nVisualRegressionTests\nUnicodePlots\n"
+   },
+   "0.14.2": {
+    "sha1": "d52b2a9adc465ccaae45702c795fcaee0a42f43a",
+    "requires": "julia 0.6\n\nRecipesBase 0.2.3\nPlotUtils 0.4.1\nPlotThemes 0.1.3\nReexport\nStaticArrays 0.5\nFixedPointNumbers 0.3\nMeasures\nShowoff\nStatsBase 0.14.0\nJSON\nNaNMath\nRequires\nContour\n",
+    "testrequires": "StatPlots\nImages\nImageMagick\n@osx QuartzImageIO\nGR\nRDatasets\nVisualRegressionTests\nUnicodePlots\n"
    }
   }
  },
@@ -55281,6 +55326,11 @@
     "sha1": "b5d79b0148e612788dc568b602d14b64038b9310",
     "requires": "julia 0.6\n\nRequires\nParameters\nFastGaussQuadrature\n",
     "testrequires": "SymPy\n"
+   },
+   "0.3.1": {
+    "sha1": "c48e9cc88b01eccd42268148561a79daf678accd",
+    "requires": "julia 0.6\n\nRequires\nParameters\nFastGaussQuadrature\n",
+    "testrequires": "SymPy\nSymEngine\n"
    }
   }
  },
@@ -57560,6 +57610,11 @@
     "sha1": "fc047a40918f9b5b8a4758da2b35fd819426b8ca",
     "requires": "julia 0.4\nDataStructures 0.5.0\n",
     "testrequires": "BaseTestNext\n"
+   },
+   "0.2.0": {
+    "sha1": "064d2f01a0c3ab825c24a0a38b2b454c7b43ca5e",
+    "requires": "julia 0.6\nCompat 0.30.0\nDataStructures 0.5.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -61371,6 +61426,11 @@
    },
    "0.3.0": {
     "sha1": "136d37f615ad2bfb4ad9a56ec3beb7b1e201003a",
+    "requires": "julia 0.6\nBinDeps 0.6.0\n",
+    "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "f9379c0e4a419e54af397583bc9ee6cdc7a1bcf8",
     "requires": "julia 0.6\nBinDeps 0.6.0\n",
     "testrequires": ""
    }
@@ -66326,6 +66386,11 @@
     "sha1": "ec5ed7bc45596a3e692e4a25adf9020e1a947569",
     "requires": "julia 0.6\nDataFrames 0.11\nStatsBase 0.19.2\nCompat 0.33.0\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "5896a9f3bcdaa40ccc8a18e668bbd823e6cf63ee",
+    "requires": "julia 0.6\nDataFrames 0.11\nStatsBase 0.19.2\nCompat 0.33.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -69574,6 +69639,16 @@
    }
   }
  },
+ "TickTock": {
+  "url": "https://github.com/cormullion/TickTock.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "5bdf86e23ef2a12f6c8bc0defc17e1802561bcc0",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   }
+  }
+ },
  "TikzGraphs": {
   "url": "git://github.com/sisl/TikzGraphs.jl.git",
   "versions": {
@@ -72046,6 +72121,11 @@
     "sha1": "a429e565c76579d0dae29a97bf782c587ab8ade1",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "c54ddaf4aa22d7e06085b5c6496ef11cc8a6865a",
+    "requires": "julia 0.6\nCompat 0.33.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -74016,6 +74096,11 @@
     "sha1": "ab1629f801ef9af3915c14b20279cada5324aff0",
     "requires": "julia 0.4\n",
     "testrequires": "FixedSizeArrays\nFastGaussQuadrature\nJLD\n"
+   },
+   "0.1.0": {
+    "sha1": "b8c865d332052fc95e556dc52cbce2a29e6f173f",
+    "requires": "julia 0.6\n",
+    "testrequires": "julia 0.5\nFastGaussQuadrature 0.1.0\nStaticArrays 0.3.0\nJLD 0.6.9\n"
    }
   }
  },
