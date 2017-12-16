@@ -20628,6 +20628,11 @@
     "sha1": "401b7a9dc3c9cf5943ffd72726f4379e3276c83f",
     "requires": "julia 0.6\nEinsum\nDataStructures 0.5.2\nSugar\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "ae4d161adff8e1b1b611c8c9e8d3a9b50564ca80",
+    "requires": "julia 0.6\nEinsum\nDataStructures 0.5.2\nSugar\n",
+    "testrequires": ""
    }
   }
  },
@@ -45882,6 +45887,11 @@
     "sha1": "c784f9b6be5030cd37ac7532a5c60f39d0817bcf",
     "requires": "julia 0.6\nCompat 0.37.0\n",
     "testrequires": ""
+   },
+   "0.2.4": {
+    "sha1": "392b2051c888b7bb48d13372c78ef3f7fd912ebc",
+    "requires": "julia 0.6\nCompat 0.37.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -52265,6 +52275,11 @@
    "0.7.1": {
     "sha1": "afb7891204b0dc76076a46f22d2e41d88e135048",
     "requires": "julia 0.5\nCompat 0.33\n",
+    "testrequires": ""
+   },
+   "0.8.0": {
+    "sha1": "a134789404241f24bcf6eb7a397e8f8591f83705",
+    "requires": "julia 0.6\nCompat 0.33\n",
     "testrequires": ""
    }
   }
@@ -61063,6 +61078,11 @@
     "sha1": "6680f2ee700cf45f1c94af4920341bbb7782d934",
     "requires": "julia 0.6.0\nCalculus\nDataStructures\nMathProgBase\nNaNMath 0.2.1\nForwardDiff 0.5 0.6\n",
     "testrequires": "LightGraphs\nDualNumbers\nDistributions\n"
+   },
+   "0.8.1": {
+    "sha1": "1bd876027d86be9cae4f6b51d519c201dfb998a9",
+    "requires": "julia 0.6.0\nCalculus\nDataStructures\nMathProgBase\nNaNMath 0.2.1\nForwardDiff 0.5 0.8\n",
+    "testrequires": "LightGraphs\nDualNumbers\nDistributions\n"
    }
   }
  },
@@ -65145,6 +65165,11 @@
    "0.3.5": {
     "sha1": "9151a95d6ecd4a400e08eab83813e9b4058bb7ce",
     "requires": "julia 0.6\nCompat 0.30\nBinDeps\n",
+    "testrequires": ""
+   },
+   "0.3.6": {
+    "sha1": "033a9ec0faf07b9aa68265ce906b2c0c0ec0c86b",
+    "requires": "julia 0.6\nCompat 0.38.0\nBinDeps\n",
     "testrequires": ""
    }
   }
@@ -71565,6 +71590,11 @@
    "0.1.3": {
     "sha1": "1e9392e4700e7169cefb9b4a4454c9fea20cbe60",
     "requires": "julia 0.5\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "ad9c042ecb530af6715e12a2296b7d3229661251",
+    "requires": "julia 0.6.0\n",
     "testrequires": ""
    }
   }
