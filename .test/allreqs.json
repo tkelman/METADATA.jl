@@ -3975,6 +3975,11 @@
     "sha1": "d0f48045f70b3233db4c291d6adfc39117566d35",
     "requires": "julia 0.6\nCompat 0.33\nJSON\n",
     "testrequires": ""
+   },
+   "0.2.3": {
+    "sha1": "ef5bc08b33c08dfc9a3dd970326b60ba44971c87",
+    "requires": "julia 0.6\nCompat 0.39\nJSON\n",
+    "testrequires": ""
    }
   }
  },
@@ -8504,6 +8509,11 @@
    "0.0.6": {
     "sha1": "ac65250aca7d94900f952ea470d31a518bec0c62",
     "requires": "julia 0.6\nRequests 0.5\nDataFrames 0.10 0.11.0\nCSV 0.1\n",
+    "testrequires": ""
+   },
+   "0.0.7": {
+    "sha1": "0766b617c851efc54a5c3d1388dacfffb92c628d",
+    "requires": "julia 0.6\nRequests 0.5\nDataFrames 0.10\nCSV 0.1\n",
     "testrequires": ""
    },
    "0.1.1": {
@@ -29256,6 +29266,11 @@
     "sha1": "83655a0abf090ec6d8ddd85307ac3d223800ce10",
     "requires": "julia 0.6\nMbedTLS 0.4.0\nCompat 0.37.0\n",
     "testrequires": ""
+   },
+   "0.5.7": {
+    "sha1": "8768b45b6e8cc97d38eb0ea4f9ded3059b1af04d",
+    "requires": "julia 0.6\nMbedTLS 0.4.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -44850,6 +44865,11 @@
    },
    "0.5.1": {
     "sha1": "43e1a4552063566761ea72bce47db0aee44666c8",
+    "requires": "julia 0.6\nBinDeps\n@osx Homebrew\nCompat 0.27.0\n",
+    "testrequires": ""
+   },
+   "0.5.2": {
+    "sha1": "fce850db371b86616948901d09d4f7962d2aa229",
     "requires": "julia 0.6\nBinDeps\n@osx Homebrew\nCompat 0.27.0\n",
     "testrequires": ""
    }
@@ -69979,6 +69999,11 @@
    },
    "0.1.2": {
     "sha1": "914a36f25f89c2896c27e07090ac162827e5b14d",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.1.3": {
+    "sha1": "e388ea66e3d30fd6aa142d8d09725982b33e96c6",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
