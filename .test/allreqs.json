@@ -7915,6 +7915,11 @@
     "sha1": "f2164f86d6678910610e094d17c681b5a528af07",
     "requires": "julia 0.6\nMissings\nReexport\nCompat 0.32.0\n",
     "testrequires": ""
+   },
+   "0.3.3": {
+    "sha1": "aa30eea34e179afb2872cb3991c7b0060d9c99e8",
+    "requires": "julia 0.6\nMissings\nReexport\nCompat 0.39.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -10808,6 +10813,11 @@
    },
    "0.39.0": {
     "sha1": "bda761307c2d742d44defcaf2ef28ab0a9a8f953",
+    "requires": "julia 0.5\n",
+    "testrequires": "OffsetArrays\n"
+   },
+   "0.40.0": {
+    "sha1": "1aa2b90b368251c6c05659ebb884581c998299dc",
     "requires": "julia 0.5\n",
     "testrequires": "OffsetArrays\n"
    }
@@ -16877,6 +16887,11 @@
    },
    "0.7.1": {
     "sha1": "e9d0efc0b3f6625dbbab1beeca53ab6bd4fb6df0",
+    "requires": "julia 0.6\nLsqFit 0.0.2\nDiffEqBase 1.7.0\nLossFunctions 0.0.2\nRecursiveArrayTools 0.10.0\nForwardDiff\nCalculus\nOptim\nPenaltyFunctions\n",
+    "testrequires": "Optim\nParameterizedFunctions 0.4.0\nLeastSquaresOptim\nOrdinaryDiffEq 0.1.1\nStochasticDiffEq\nNLopt\nDiffEqMonteCarlo\nDelayDiffEq\nEvolutionary\nBlackBoxOptim\n"
+   },
+   "0.7.2": {
+    "sha1": "bf0199b153db0d4d457e0af6a8ab7ccb62254307",
     "requires": "julia 0.6\nLsqFit 0.0.2\nDiffEqBase 1.7.0\nLossFunctions 0.0.2\nRecursiveArrayTools 0.10.0\nForwardDiff\nCalculus\nOptim\nPenaltyFunctions\n",
     "testrequires": "Optim\nParameterizedFunctions 0.4.0\nLeastSquaresOptim\nOrdinaryDiffEq 0.1.1\nStochasticDiffEq\nNLopt\nDiffEqMonteCarlo\nDelayDiffEq\nEvolutionary\nBlackBoxOptim\n"
    }
@@ -34788,6 +34803,11 @@
    },
    "0.5.2": {
     "sha1": "af6e26e4d7a434275d8d9c6cfc5790a52182ea8a",
+    "requires": "julia 0.6.0\nNamedTuples 4.0.0\nRequires 0.4.3\nDataValues 0.0.3\nTableTraits 0.0.1\n",
+    "testrequires": "DataFrames 0.9\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDiffEqBase\nOrdinaryDiffEq\nParameterizedFunctions\nNullableArrays\nDataStreams\nGLM\nTemporal\nJuliaDB\n"
+   },
+   "0.6.0": {
+    "sha1": "a1ac6c95a8bde35fafbab2466e6b1b5ad43d7eb0",
     "requires": "julia 0.6.0\nNamedTuples 4.0.0\nRequires 0.4.3\nDataValues 0.0.3\nTableTraits 0.0.1\n",
     "testrequires": "DataFrames 0.9\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDiffEqBase\nOrdinaryDiffEq\nParameterizedFunctions\nNullableArrays\nDataStreams\nGLM\nTemporal\nJuliaDB\n"
    }
@@ -54575,6 +54595,11 @@
    "0.3.0": {
     "sha1": "c08a8fbf1e7477a9362b8c7270ceeee354cb984c",
     "requires": "julia 0.5\nArgParse\nYAML\nFilePaths 0.2.0\nMocking\nCompat 0.17.0\nMemento\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "63c97241542187c5cf22050f1224c2343646a0f2",
+    "requires": "julia 0.6\nArgParse 0.5.0\nYAML 0.2.1\nFilePaths 0.3.0\nMocking 0.3.4\nCompat 0.17.0\nMemento 0.2.0\n",
     "testrequires": ""
    }
   }
@@ -74881,6 +74906,16 @@
     "sha1": "3c4630ff6b4e4ca13ccf0db33b6118446fba3222",
     "requires": "julia 0.4\nBinDeps 0.3.5-\nCompat\n",
     "testrequires": "FactCheck\n"
+   }
+  }
+ },
+ "XGrad": {
+  "url": "https://github.com/dfdx/XGrad.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "9693ea6147a8495112d75054dacc2bb8017c30c2",
+    "requires": "julia 0.6\nEspresso 0.4",
+    "testrequires": "ReverseDiff 0.0.2\nDistributions"
    }
   }
  },
