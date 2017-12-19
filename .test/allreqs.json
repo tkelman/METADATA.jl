@@ -2451,6 +2451,11 @@
     "sha1": "19e3cd8682b823eb95c239196128dba3abd987ec",
     "requires": "julia 0.6.0-pre\nJuno 0.2.6\nLazy 0.11.3\nLNR\nJSON\nCodeTools\nHiccup\nMedia\nBlink\nReexport\nMacroTools\nDocSeeker\nASTInterpreter2\n",
     "testrequires": ""
+   },
+   "0.6.6": {
+    "sha1": "98a7c2e751852c6517cc0c22ced97da972e8a07d",
+    "requires": "julia 0.6\nJuno 0.2.6\nLazy 0.11.3\nLNR\nJSON\nCodeTools\nHiccup\nMedia\nBlink\nReexport\nMacroTools\nDocSeeker\nASTInterpreter2\n",
+    "testrequires": ""
    }
   }
  },
@@ -23142,6 +23147,11 @@
     "sha1": "0f8ba87dc68307050abb46f594280c1873ee4d84",
     "requires": "julia 0.6.0\nDataFlow 0.2.1\nJuno\nMacroTools 0.3.3\nNNlib\nForwardDiff\nRequires\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "98b362729dd39c70d327f6f03c82fe949b4a2396",
+    "requires": "julia 0.6.0\nDataFlow 0.2.1\nJuno\nMacroTools 0.3.3\nNNlib\nForwardDiff\nRequires\n",
+    "testrequires": ""
    }
   }
  },
@@ -40436,37 +40446,37 @@
    },
    "3.0.0": {
     "sha1": "5979facd949db19a0e5b66d24aa142f703578880",
-    "requires": "julia 0.6\nNLSolversBase 3.0\nParameters\n",
+    "requires": "julia 0.6\nNLSolversBase 3.0 4.0\nParameters\n",
     "testrequires": "Optim\n\n"
    },
    "3.0.1": {
     "sha1": "c8caed81cbe0093134e042dacca8a72082e01bde",
-    "requires": "julia 0.6\nNLSolversBase 3.0\nParameters\n",
+    "requires": "julia 0.6\nNLSolversBase 3.0 4.0\nParameters\n",
     "testrequires": "OptimTestProblems\n"
    },
    "3.1.0": {
     "sha1": "675f5b5a17d70ea9e68295fe4d065bbc5821e1ed",
-    "requires": "julia 0.6\nNLSolversBase 3.0\nParameters\n",
+    "requires": "julia 0.6\nNLSolversBase 3.0 4.0\nParameters\n",
     "testrequires": "OptimTestProblems\n"
    },
    "3.2.0": {
     "sha1": "56155bdb64d660452c1f014eac3d51e8e3608c71",
-    "requires": "julia 0.6\nNLSolversBase 3.0\nParameters\nNaNMath\n",
+    "requires": "julia 0.6\nNLSolversBase 3.0 4.0\nParameters\nNaNMath\n",
     "testrequires": "OptimTestProblems\n"
    },
    "3.2.1": {
     "sha1": "5cd79f4b48814ab39abdefbc81cb25dc6b83b4a4",
-    "requires": "julia 0.6\nNLSolversBase 3.0\nParameters\nNaNMath\n",
+    "requires": "julia 0.6\nNLSolversBase 3.0 4.0\nParameters\nNaNMath\n",
     "testrequires": "OptimTestProblems\n"
    },
    "3.2.2": {
     "sha1": "deb45fbddfab3eac415e5a87a91fb1fd1872e23e",
-    "requires": "julia 0.6\nNLSolversBase 3.0\nParameters\nNaNMath\n",
+    "requires": "julia 0.6\nNLSolversBase 3.0 4.0\nParameters\nNaNMath\n",
     "testrequires": "OptimTestProblems\n"
    },
    "3.2.3": {
     "sha1": "0990b553e96f7ba0da51eea21cce78c083749606",
-    "requires": "julia 0.6\nNLSolversBase 3.0\nParameters\nNaNMath\n",
+    "requires": "julia 0.6\nNLSolversBase 3.0 4.0\nParameters\nNaNMath\n",
     "testrequires": "OptimTestProblems\n"
    }
   }
@@ -47477,6 +47487,11 @@
     "sha1": "99da11396366c41fc48b364ca26ebe5457230d1f",
     "requires": "julia 0.5\nDataFrames 0.0.0 0.11.0\nCompat 0.17.0\nConfParser\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "5fa2ad2d8653f53ed4293a1b612c99f300144231",
+    "requires": "julia 0.6\nDataFrames 0.11\nCompat 0.39.0\n",
+    "testrequires": "ConfParser"
    }
   }
  },
@@ -47837,6 +47852,11 @@
     "sha1": "514e083d4e44767dfca6c35072d35fe94333161e",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "4.0.0": {
+    "sha1": "0372693b174577ff940067c9076bfc79fdc4e9e8",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -48085,17 +48105,17 @@
    },
    "0.12.0": {
     "sha1": "535b7361c700b39b6f1f1148f805c6036491ef55",
-    "requires": "julia 0.6.0-pre\nCalculus\nDistances\nForwardDiff 0.5.0\nLineSearches 2.1.0\nDiffBase\nNLSolversBase 2.1.0\n",
+    "requires": "julia 0.6.0-pre\nCalculus\nDistances\nForwardDiff 0.5.0\nLineSearches 2.1.0\nDiffBase\nNLSolversBase 2.1.0 4.0\n",
     "testrequires": "DiffEqBase 1.23.0\n"
    },
    "0.12.1": {
     "sha1": "0b1cdf8edf91f6d6eff6acfe3470e58ae977d031",
-    "requires": "julia 0.6.0-pre\nCalculus\nDistances\nForwardDiff 0.5.0\nLineSearches 2.1.0\nDiffBase\nNLSolversBase 2.1.0\n",
+    "requires": "julia 0.6.0-pre\nCalculus\nDistances\nForwardDiff 0.5.0\nLineSearches 2.1.0\nDiffBase\nNLSolversBase 2.1.0 4.0\n",
     "testrequires": "DiffEqBase 1.23.0\n"
    },
    "0.13.0": {
     "sha1": "5f0c944943e861eed9c31264c13dc898481fb952",
-    "requires": "julia 0.6.0\nCalculus\nDistances\nForwardDiff 0.7.0\nLineSearches 2.1.0\nDiffBase\nNLSolversBase 2.1.0\n",
+    "requires": "julia 0.6.0\nCalculus\nDistances\nForwardDiff 0.7.0\nLineSearches 2.1.0\nDiffBase\nNLSolversBase 2.1.0 4.0\n",
     "testrequires": "DiffEqBase 1.23.0\n"
    }
   }
@@ -48251,6 +48271,11 @@
    "0.2.0": {
     "sha1": "38ba0254e3b1103e6d76546d4e82cd4c5fba378e",
     "requires": "julia 0.6\nRequires\n@windows WinRPM\n",
+    "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "980c76824455003c4d179336cf65180a2ed925f8",
+    "requires": "julia 0.6\nRequires\n",
     "testrequires": ""
    }
   }
@@ -51449,17 +51474,17 @@
    },
    "0.10.0": {
     "sha1": "f98897c27ca9bb4e1c7858dbfa6568ba7cce7652",
-    "requires": "julia 0.6.0\nPositiveFactorizations\nCompat 0.18.0\nLineSearches 2.1.0\nCalculus\nNLSolversBase 3.0.0\nForwardDiff 0.5.0\n",
+    "requires": "julia 0.6.0\nPositiveFactorizations\nCompat 0.18.0\nLineSearches 2.1.0\nCalculus\nNLSolversBase 3.0.0 4.0\nForwardDiff 0.5.0\n",
     "testrequires": ""
    },
    "0.10.1": {
     "sha1": "a97e6d44720607a671da27f6d81900fac27548d3",
-    "requires": "julia 0.6.0\nPositiveFactorizations\nCompat 0.18.0\nLineSearches 2.1.0\nCalculus\nNLSolversBase 3.0.0\nForwardDiff 0.5.0\n",
+    "requires": "julia 0.6.0\nPositiveFactorizations\nCompat 0.18.0\nLineSearches 2.1.0\nCalculus\nNLSolversBase 3.0.0 4.0\nForwardDiff 0.5.0\n",
     "testrequires": ""
    },
    "0.11.0": {
     "sha1": "77858908144b3b852f2ad8e84d52921eea5e69a5",
-    "requires": "julia 0.6.0\nPositiveFactorizations\nCompat 0.18.0\nLineSearches 3.2.0\nCalculus\nNLSolversBase 3.0.0\nForwardDiff 0.5.0\n",
+    "requires": "julia 0.6.0\nPositiveFactorizations\nCompat 0.18.0\nLineSearches 3.2.0\nCalculus\nNLSolversBase 3.0.0 4.0\nForwardDiff 0.5.0\n",
     "testrequires": ""
    }
   }
@@ -51469,7 +51494,7 @@
   "versions": {
    "0.1.0": {
     "sha1": "24d37a5f2b425afaf2df23231c6cd881dcd92698",
-    "requires": "julia 0.5\nReexport\nNLSolversBase 2.0\nCompat 0.18\n",
+    "requires": "julia 0.5\nReexport\nNLSolversBase 2.0 4.0\nCompat 0.18\n",
     "testrequires": ""
    }
   }
