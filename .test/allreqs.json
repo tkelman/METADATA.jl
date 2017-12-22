@@ -8560,6 +8560,11 @@
     "sha1": "17b58b36d6d8df12a4d88a974b0cf807ddb70ee4",
     "requires": "julia 0.6\nRequests 0.5\nDataFrames 0.10 0.11.0\nCSV 0.1\n",
     "testrequires": ""
+   },
+   "0.1.3": {
+    "sha1": "a699469096e626fb137f3f74a318118426ed20cc",
+    "requires": "julia 0.6\nRequests 0.5\nDataFrames 0.10\nCSV 0.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -33595,6 +33600,11 @@
     "sha1": "61efa422c3ab2e4f78c14775cbcf45509e6038f0",
     "requires": "julia 0.6\nCompat 0.19\nNamedTuples 2.1.0\nOnlineStats v0.13.0\nPooledArrays\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\n",
     "testrequires": "PooledArrays\n"
+   },
+   "0.4.6": {
+    "sha1": "669a9f98fe7a0cb2d8892874d73bef3d97926557",
+    "requires": "julia 0.6\nCompat 0.19\nNamedTuples 2.1.0\nOnlineStats v0.13.0\nPooledArrays\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\n",
+    "testrequires": "PooledArrays\n"
    }
   }
  },
@@ -42472,6 +42482,11 @@
    "2.1.0": {
     "sha1": "4ae2db5216ebfccacba96379bd0922176ddd41f2",
     "requires": "julia 0.6\nLightXML\nGZip\nAutoHashEquals\nDataStructures\nFormatting\nPairwiseListMatrices\nArgParse\nROCAnalysis\nClustering\nStaticArrays\nFastaIO\nRequests\nPkgBenchmark\nNamedArrays\nJLD\nRecipesBase\n",
+    "testrequires": ""
+   },
+   "2.1.1": {
+    "sha1": "964bb6bfde0ec4f6563df7820159cdb24f492987",
+    "requires": "julia 0.6\nLightXML\nGZip\nAutoHashEquals\nDataStructures\nFormatting\nPairwiseListMatrices\nArgParse\nROCAnalysis\nClustering\nStaticArrays\nFastaIO\nRequests\nPkgBenchmark\nNamedArrays\nJLD\nRecipesBase\nProgressMeter\n",
     "testrequires": ""
    }
   }
@@ -62547,6 +62562,21 @@
    "0.1.0": {
     "sha1": "16ed2fc0232b77c23701c61a390784e69c87c478",
     "requires": "julia 0.4\nMAT\nMLBase\nCompat\nStatsBase\nDistances\nDistributions\nClustering\nArrayViews\nProgressMeter\nLegacyStrings\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "SASLib": {
+  "url": "https://github.com/tk3369/SASLib.jl.git",
+  "versions": {
+   "0.1.1": {
+    "sha1": "493975c17a1e4a3c46c4b773befb99926e322e1f",
+    "requires": "julia 0.6\nStringEncodings\n",
+    "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "c44453c961515dc82427e284fd7562ef6883abb2",
+    "requires": "julia 0.6\nStringEncodings\n",
     "testrequires": ""
    }
   }
