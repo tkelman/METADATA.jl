@@ -17389,6 +17389,11 @@
     "sha1": "58c0f0c9ac8be6ab24a3f79fca5436d305d6f232",
     "requires": "julia 0.6\nReexport 0.0.3\nDiffEqBase 1.0.0\nStochasticDiffEq 2.11.1\nFiniteElementDiffEq 0.3.0\nBoundaryValueDiffEq\nDiffEqDevTools 0.8.0\nOrdinaryDiffEq 2.11.0\nAlgebraicDiffEq 0.1.0\nDiffEqParamEstim 0.3.0\nDiffEqSensitivity 0.2.1\nSundials 0.11.0\nParameterizedFunctions 2.0.0\nDiffEqPDEBase 0.3.0\nDelayDiffEq 0.3.0\nDiffEqCallbacks 0.0.2\nDiffEqMonteCarlo 0.3.0\nDiffEqJump 0.3.0\nDiffEqFinancial 0.2.0\nDiffEqBiological 0.0.1\nMultiScaleArrays 0.1.0\nDimensionalPlotRecipes 0.0.2\nRecursiveArrayTools 0.4.1\nDiffEqNoiseProcess 0.0.1\nSteadyStateDiffEq 0.0.1\nDiffEqUncertainty\nDiffEqPhysics\n",
     "testrequires": "DiffEqProblemLibrary 0.2.0\n"
+   },
+   "3.1.0": {
+    "sha1": "3db2976b60ebc59b7469b8998ef7ba16d9d9c9e3",
+    "requires": "julia 0.6\nReexport 0.0.3\nDiffEqBase 1.0.0\nStochasticDiffEq 2.11.1\nFiniteElementDiffEq 0.3.0\nBoundaryValueDiffEq\nDiffEqDevTools 0.8.0\nOrdinaryDiffEq 2.11.0\nAlgebraicDiffEq 0.1.0\nDiffEqParamEstim 0.3.0\nDiffEqSensitivity 0.2.1\nSundials 0.11.0\nParameterizedFunctions 2.0.0\nDiffEqPDEBase 0.3.0\nDelayDiffEq 0.3.0\nDiffEqCallbacks 0.0.2\nDiffEqMonteCarlo 0.3.0\nDiffEqJump 0.3.0\nDiffEqFinancial 0.2.0\nDiffEqBiological 0.0.1\nMultiScaleArrays 0.1.0\nDimensionalPlotRecipes 0.0.2\nRecursiveArrayTools 0.4.1\nDiffEqNoiseProcess 0.0.1\nSteadyStateDiffEq 0.0.1\nDiffEqUncertainty\nDiffEqPhysics\n",
+    "testrequires": "DiffEqProblemLibrary 0.2.0\n"
    }
   }
  },
@@ -61867,6 +61872,16 @@
    "0.1.0": {
     "sha1": "bd4d6e217f468d7f15bf17f2908a4cef8b96c35b",
     "requires": "julia 0.6\nIncrementalInference 0.3.0\nGraphs 0.9.0\nTransformUtils 0.0.6\nCoordinateTransformations\nRotations\nKernelDensityEstimate 0.3.0\nDistributions\nJLD\nHDF5\nOptim\nProgressMeter\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "RoMEPlotting": {
+  "url": "https://github.com/dehann/RoMEPlotting.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "c6e2e66c6bfd0d7997b33f3f9fe73c520e0ad303",
+    "requires": "julia 0.6\nKernelDensityEstimate 0.3.0\nKernelDensityEstimatePlotting\nIncrementalInference\nRoME\nGraphs 0.8.0\nGadfly 0.6.2\nColors\n",
     "testrequires": ""
    }
   }
