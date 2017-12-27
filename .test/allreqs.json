@@ -14864,6 +14864,11 @@
     "sha1": "00283dab4e442a3b0174c0bb20baa9b33965f847",
     "requires": "julia 0.6\nPersa\nMLBase\nDataFrames 0.0.0 0.11.0\nBinDeps\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "64b8f614bbdc7fe5ef377434d17e6425521849cf",
+    "requires": "julia 0.6\nPersa\nMLBase\nDataFrames\nBinDeps\n",
+    "testrequires": ""
    }
   }
  },
@@ -21212,6 +21217,16 @@
     "sha1": "9fa6878260d22942f4fe513d8d146f9cfb63c728",
     "requires": "julia 0.4\nCompat",
     "testrequires": "BaseTestNext"
+   }
+  }
+ },
+ "ExtensibleScheduler": {
+  "url": "https://github.com/scls19fr/ExtensibleScheduler.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "437c4ba79b6e34886e7731e0b1971fcfbf88afd9",
+    "requires": "julia 0.6\nDataStructures\nTimeFrames\nTimeZones\n",
+    "testrequires": ""
    }
   }
  },
@@ -37890,6 +37905,11 @@
     "sha1": "8ea130e8403f2bed37101da2834442c4a4846a3d",
     "requires": "julia 0.4\nAutoGrad 0.0.9\n\n# We need these for some examples. They get automatically installed when needed.\n# ArgParse\n# JLD\n# GZip    # for mnist\n# Images  # for vgg\n# MAT     # for vgg\n# Compat  # for mnist,vgg,charlm\n",
     "testrequires": "BaseTestNext 0.2.2  # for julia4 compat\nCombinatorics 0.2.0 # for generation all kind of test scenarios\n"
+   },
+   "0.9.0": {
+    "sha1": "ab1ae23baef74f4feab6f455f90b1d36204674fb",
+    "requires": "julia 0.6\nAutoGrad 0.0.9\nCompat 0.33.0\n\n# The following are used by the build script if installed.\n# CUDAapi, CUDAdrv, Documenter\n\n# We need the following for some examples. They get automatically installed when needed.\n# ArgParse, JLD, JLD2, Images, GZip, MAT, PyCall, JSON, IJulia, BenchmarkTools, Distributions\n",
+    "testrequires": ""
    }
   }
  },
@@ -49107,6 +49127,11 @@
     "sha1": "46da26e02e45394b66d04b712150fca5a9b7b3f9",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.7.1": {
+    "sha1": "de569957c6c779c199d2a3f48c710fd6f88b7ed0",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -51094,6 +51119,11 @@
    },
    "0.3.1": {
     "sha1": "6a50e028dfb3878bb73c5d1d12a45c1dfcd13b48",
+    "requires": "julia 0.6\nNamedTuples",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "32d29c264e000eeed2a33e586ed4ba25b368daa0",
     "requires": "julia 0.6\nNamedTuples",
     "testrequires": ""
    }
@@ -62718,6 +62748,11 @@
     "sha1": "c44453c961515dc82427e284fd7562ef6883abb2",
     "requires": "julia 0.6\nStringEncodings\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "68f466486e245e6130ed7a669284c77c97546ce4",
+    "requires": "julia 0.6\nStringEncodings\n",
+    "testrequires": ""
    }
   }
  },
@@ -67899,6 +67934,16 @@
    },
    "0.18.1": {
     "sha1": "91f8f8e049ca2193e87b75d5efae7565684f83ff",
+    "requires": "julia 0.6.0\nBinDeps 0.4.3\nDiffEqBase 1.5.1\nReexport\nDataStructures\nRoots\n",
+    "testrequires": "DiffEqProblemLibrary\n"
+   },
+   "0.18.2": {
+    "sha1": "7a7f9d5803b2d2298a9c22f37778d70e3cb88030",
+    "requires": "julia 0.6.0\nBinDeps 0.4.3\nDiffEqBase 1.5.1\nReexport\nDataStructures\nRoots\n",
+    "testrequires": "DiffEqProblemLibrary\n"
+   },
+   "0.18.3": {
+    "sha1": "4d5f2688d78c8bcce0441b4c930a8402891a1328",
     "requires": "julia 0.6.0\nBinDeps 0.4.3\nDiffEqBase 1.5.1\nReexport\nDataStructures\nRoots\n",
     "testrequires": "DiffEqProblemLibrary\n"
    }
