@@ -16404,6 +16404,11 @@
     "sha1": "38ef291e544715ffc98c906fd8ab1e27aa6941a8",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nRequires\nLinearMaps\nFunctionWrappers\n",
     "testrequires": ""
+   },
+   "2.9.0": {
+    "sha1": "aacf5dce6646aac1843b0fcd5b22c550377312ed",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nRequires\nLinearMaps\nFunctionWrappers\n",
+    "testrequires": ""
    }
   }
  },
@@ -38814,6 +38819,11 @@
     "sha1": "77a3d10a4338e354253c2b22b4826e37a1c61eac",
     "requires": "julia 0.6\nPyPlot 2.2.1\nDataStructures 0.5.0\n",
     "testrequires": ""
+   },
+   "0.2.2": {
+    "sha1": "42b6565c7bf1184ff6ff0848948c3827e1fb891c",
+    "requires": "julia 0.6\nDataStructures 0.5.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -52425,6 +52435,16 @@
    "2.31.1": {
     "sha1": "2c68350dbbdbb38764abab40efb4cbb171c3e799",
     "requires": "julia 0.6.0\nDiffEqBase 2.6.0\nParameters 0.5.0\nForwardDiff 0.7.0\nGenericSVD 0.0.2\nNLsolve 0.12.1\nRecursiveArrayTools 0.13.0\nJuno 0.2.5\nDiffEqDiffTools 0.2.0\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.32.0": {
+    "sha1": "5f415aea370918a9d4dd41c7d574efcb596e9a94",
+    "requires": "julia 0.6.0\nDiffEqBase 2.8.0\nParameters 0.5.0\nForwardDiff 0.7.0\nGenericSVD 0.0.2\nNLsolve 0.12.1\nRecursiveArrayTools 0.13.0\nJuno 0.2.5\nDiffEqDiffTools 0.2.0\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
+   },
+   "2.32.1": {
+    "sha1": "1e0e9f7999711c4795a21a4e49b37dbce1c4bfea",
+    "requires": "julia 0.6.0\nDiffEqBase 2.8.0\nParameters 0.5.0\nForwardDiff 0.7.0\nGenericSVD 0.0.2\nNLsolve 0.12.1\nRecursiveArrayTools 0.13.0\nJuno 0.2.5\nDiffEqDiffTools 0.2.0\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\n"
    }
   }
