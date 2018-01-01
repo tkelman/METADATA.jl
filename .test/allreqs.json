@@ -8325,6 +8325,11 @@
     "sha1": "8d3d0adce198ab19c0b76c50a3d7392f5ac9b617",
     "requires": "julia 0.6\nDynamicalSystemsBase 0.2.0\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\nRequires 0.4.3\nLsqFit 0.3.0\nStaticArrays 0.5.0\nStatsBase 0.8.2\nNearestNeighbors 0.1.0\nIterTools 0.1.0\nDistances\nCombinatorics\nReexport\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "5cf6b944bb5f2ba2e4e3632b8ffc808e3a996ae6",
+    "requires": "julia 0.6\nDynamicalSystemsBase 0.2.1\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\nRequires 0.4.3\nLsqFit 0.3.0\nStaticArrays 0.5.0\nStatsBase 0.8.2\nNearestNeighbors 0.1.0\nIterTools 0.1.0\nDistances\nCombinatorics\nReexport\n",
+    "testrequires": ""
    }
   }
  },
@@ -35080,6 +35085,11 @@
     "sha1": "a1ac6c95a8bde35fafbab2466e6b1b5ad43d7eb0",
     "requires": "julia 0.6.0\nNamedTuples 4.0.0\nRequires 0.4.3\nDataValues 0.0.3\nTableTraits 0.0.1\n",
     "testrequires": "DataFrames 0.9\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDiffEqBase\nOrdinaryDiffEq\nParameterizedFunctions\nNullableArrays\nDataStreams\nGLM\nTemporal\nJuliaDB\n"
+   },
+   "0.6.1": {
+    "sha1": "14742ae2a2ba9da311c1a351dff2c45aa8c32e02",
+    "requires": "julia 0.6.0\nNamedTuples 4.0.0\nRequires 0.4.3\nDataValues 0.0.3\nTableTraits 0.0.1\n",
+    "testrequires": "DataFrames 0.9\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDiffEqBase\nOrdinaryDiffEq\nParameterizedFunctions\nNullableArrays\nDataStreams\nGLM\nTemporal\nJuliaDB\n"
    }
   }
  },
@@ -56670,6 +56680,11 @@
     "sha1": "f7db3a5acc91d2cc50532bf469dad688984670e9",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.5.3": {
+    "sha1": "c538ba6afd4223ae00f1cfdf58f2523a98b18eb7",
+    "requires": "julia 0.6\nCompat 0.41.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -68924,6 +68939,11 @@
    },
    "0.1.2": {
     "sha1": "614cdac086d144b0eb3f04dd62b080f26e6616c3",
+    "requires": "julia 0.6\nNamedTuples 4.0.0\nDataValues 0.0.1\nTableTraits 0.0.1\n",
+    "testrequires": ""
+   },
+   "0.1.3": {
+    "sha1": "0ee48cb1e0e0cc66ae17053191e9b5064a5e41e2",
     "requires": "julia 0.6\nNamedTuples 4.0.0\nDataValues 0.0.1\nTableTraits 0.0.1\n",
     "testrequires": ""
    }
