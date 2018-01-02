@@ -4900,6 +4900,11 @@
     "sha1": "5d41efb08986ed48c555fb8ee1ba3e51617dda72",
     "requires": "julia 0.5-\nWebSockets 0.2.3\nHttpServer\nLazy 0.11.3\nJSON\nReexport\nMustache\nMacroTools\nMux\nBinDeps\nCompat 0.8.6\n",
     "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "e25741d0634f5ab9c6f5052e829eb88d4b6837f6",
+    "requires": "julia 0.6\nWebSockets 0.2.3\nHttpServer\nLazy 0.11.3\nJSON\nReexport\nMustache\nMacroTools\nMux\nBinDeps\nCompat 0.8.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -6690,6 +6695,11 @@
     "sha1": "31063fa208d11bad8b185c38372d660c60699a5d",
     "requires": "julia 0.6\nCompat 0.33.0\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "1e61c1e11b185a5514a6b591517d7fb674183ea5",
+    "requires": "julia 0.6\nCompat 0.33.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -6773,32 +6783,42 @@
    },
    "0.5.3": {
     "sha1": "fc18bbad0c2286cbd42b2bc8b101663b18df38c5",
-    "requires": "julia 0.5\nCompat 0.18.0\nCUDAapi 0.1.1\n",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAapi 0.1.1 0.3.0\n",
     "testrequires": ""
    },
    "0.5.4": {
     "sha1": "fd6bcf0ce096e19ab4317d0b412b3f1244eb509f",
-    "requires": "julia 0.5\nCompat 0.18.0\nCUDAapi 0.1.1\n",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAapi 0.1.1 0.3.0\n",
     "testrequires": ""
    },
    "0.6.0": {
     "sha1": "eddd27ac3b6a28fb1e78e94ab868082f9db80a99",
-    "requires": "julia 0.6\nCompat 0.33.0\nCUDAapi 0.1.1\n",
+    "requires": "julia 0.6\nCompat 0.33.0\nCUDAapi 0.1.1 0.3.0\n",
     "testrequires": ""
    },
    "0.6.1": {
     "sha1": "dccdaa0f39477e9570b5c24d0b15ac849e93582f",
-    "requires": "julia 0.6\nCompat 0.33.0\nCUDAapi 0.1.1\n",
+    "requires": "julia 0.6\nCompat 0.33.0\nCUDAapi 0.1.1 0.3.0\n",
     "testrequires": ""
    },
    "0.7.0": {
     "sha1": "9dc229600e70223b4ab4cfab7bc23e4b36da7bf0",
-    "requires": "julia 0.6\nCompat 0.33.0\nCUDAapi 0.1.1\n",
+    "requires": "julia 0.6\nCompat 0.33.0\nCUDAapi 0.1.1 0.3.0\n",
     "testrequires": ""
    },
    "0.7.1": {
     "sha1": "c8badc7cb74a293563dda87dc0990843300e91ce",
-    "requires": "julia 0.6\nCompat 0.39.0\nCUDAapi 0.1.1\n",
+    "requires": "julia 0.6\nCompat 0.39.0\nCUDAapi 0.1.1 0.3.0\n",
+    "testrequires": ""
+   },
+   "0.7.2": {
+    "sha1": "a8b2e3ca93a3a2be5b525f3bdf09425363b823c9",
+    "requires": "julia 0.6\nCompat 0.39.0\nCUDAapi 0.3.0\n",
+    "testrequires": ""
+   },
+   "0.7.3": {
+    "sha1": "51728b1f85eba01b6bb3537d31e4b67fd0dc852f",
+    "requires": "julia 0.6\nCompat 0.39.0\nCUDAapi 0.3.0\n",
     "testrequires": ""
    }
   }
@@ -6863,17 +6883,17 @@
    },
    "0.5.1": {
     "sha1": "b04f4ea250744c720f7bad594f520d0cfa085fa7",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0\nLLVM 0.3.11\nCUDAapi\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0\nLLVM 0.3.11\nCUDAapi 0.1.0 0.3.0\n",
     "testrequires": ""
    },
    "0.5.2": {
     "sha1": "4001bf0e03e569864d387ed488e15e9af826995c",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0\nLLVM 0.3.11\nCUDAapi 0.1.3\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0\nLLVM 0.3.11\nCUDAapi 0.1.3 0.3.0\n",
     "testrequires": ""
    },
    "0.5.3": {
     "sha1": "efd50d8efd94dcf0c5e792cdd5b1dc878c65a5f3",
-    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0\nLLVM 0.3.11\nCUDAapi 0.1.3\n",
+    "requires": "julia 0.6\nCUDAdrv 0.5.0 0.7.0\nLLVM 0.3.11\nCUDAapi 0.1.3 0.3.0\n",
     "testrequires": ""
    }
   }
@@ -6958,12 +6978,12 @@
    },
    "0.4.0": {
     "sha1": "d9b78c53c8223833412557433a8b5970b6d6e7f1",
-    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.4.1 0.7.0\nCUDAapi\n",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.4.1 0.7.0\nCUDAapi 0.1.0 0.3.0\n",
     "testrequires": ""
    },
    "0.4.1": {
     "sha1": "55fbd5a4d2b6f03269d66b8d6c953cb2cd855290",
-    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.4.1 0.7.0\nCUDAapi\n",
+    "requires": "julia 0.5\nCompat 0.18.0\nCUDAdrv 0.4.1 0.7.0\nCUDAapi 0.1.0 0.3.0\n",
     "testrequires": ""
    }
   }
@@ -10880,6 +10900,11 @@
     "sha1": "afee7526b4d9486465d838c7bcf89bd8618e0eab",
     "requires": "julia 0.5\n",
     "testrequires": "OffsetArrays\n"
+   },
+   "0.42.0": {
+    "sha1": "423a025603d81449878057f5f4e20c0177215950",
+    "requires": "julia 0.5\n",
+    "testrequires": "OffsetArrays\n"
    }
   }
  },
@@ -12582,17 +12607,17 @@
    },
    "0.2.0": {
     "sha1": "54e550b2d8c3fcfaf0009341532d179497a642ba",
-    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5 0.7.0\nCUDAapi\nCUDNN 0.4.0\nNNlib\n",
+    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5 0.7.0\nCUDAapi 0.1.0 0.3.0\nCUDNN 0.4.0\nNNlib\n",
     "testrequires": ""
    },
    "0.2.1": {
     "sha1": "114c1c82523d140060277ac5760e72408fde234d",
-    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5 0.7.0\nCUDAapi\nNNlib\n",
+    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5 0.7.0\nCUDAapi 0.1.0 0.3.0\nNNlib\n",
     "testrequires": ""
    },
    "0.3.0": {
     "sha1": "12269b828626bf519e442076caf36b5b9582d775",
-    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5 0.7.0\nCUDAapi\nNNlib\nGPUArrays\n",
+    "requires": "julia 0.6\nCUDAnative 0.5\nCUDAdrv 0.5 0.7.0\nCUDAapi 0.1.0 0.3.0\nNNlib\nGPUArrays\n",
     "testrequires": ""
    }
   }
@@ -53956,6 +53981,11 @@
     "sha1": "91687d6c00f60ced3fc126879ad434fc1a13c535",
     "requires": "julia 0.6\nSymEngine 0.2.0\nDataStructures 0.4.6\nDiffEqBase 0.14.0\nSimpleTraits 0.1.1\n",
     "testrequires": "SpecialFunctions\nDiffEqProblemLibrary\n"
+   },
+   "2.3.1": {
+    "sha1": "57f45fb5e1aaf296860aedf01b791a0c541ba341",
+    "requires": "julia 0.6\nSymEngine 0.2.0\nDataStructures 0.4.6\nDiffEqBase 0.14.0\nSimpleTraits 0.1.1\n",
+    "testrequires": "SpecialFunctions\nDiffEqProblemLibrary\n"
    }
   }
  },
@@ -58825,6 +58855,11 @@
     "sha1": "3f99898151d433b1600e7486e9c2076b5a691183",
     "requires": "julia 0.6\nDataStructures 0.4.5\nNamedTuples 3.0.2\nIteratorInterfaceExtensions 0.0.1\n",
     "testrequires": ""
+   },
+   "0.2.1": {
+    "sha1": "89bde5df1e52402b8355e46a3f8ae9866738de2b",
+    "requires": "julia 0.6\nDataStructures 0.4.5\nNamedTuples 3.0.2\nIteratorInterfaceExtensions 0.0.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -60458,6 +60493,11 @@
     "sha1": "bc6a5f90067bf7aeaf482cfeb37029461271d5eb",
     "requires": "julia 0.2-\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "1b73488232ca459c0008be54765fabc5add07092",
+    "requires": "julia 0.5\n",
+    "testrequires": "Compat 0.41.0\n"
    }
   }
  },
@@ -76405,6 +76445,16 @@
    "0.1.12": {
     "sha1": "3adea2475aafa351b70d746af06516182ca3e433",
     "requires": "julia 0.3\nCompat\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "fstformat": {
+  "url": "https://github.com/xiaodaigh/fstformat.jl.git",
+  "versions": {
+   "0.0.2": {
+    "sha1": "0325069b7c171b0db189c69c5636596505ab3e43",
+    "requires": "julia 0.6\nRCall\nDataFrames",
     "testrequires": ""
    }
   }
