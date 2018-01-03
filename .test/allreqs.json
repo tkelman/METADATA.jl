@@ -1159,6 +1159,16 @@
    }
   }
  },
+ "Adapt": {
+  "url": "https://github.com/MikeInnes/Adapt.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "87ba4fab1f6f87b6b3662e5aa217b0db1937f2a3",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   }
+  }
+ },
  "AdaptiveDistanceFields": {
   "url": "https://github.com/rdeits/AdaptiveDistanceFields.jl.git",
   "versions": {
@@ -24532,6 +24542,16 @@
     "sha1": "a71c0b7754fb3e8a9e5a11c085cff331af0c091e",
     "requires": "julia 0.6\nCompat 0.33.0\nDistributions 0.10.0\nStatsBase 0.12.0\nStatsFuns 0.3.0\nStatsModels 0.2.0\nSpecialFunctions 0.1.0\n",
     "testrequires": "CategoricalArrays 0.3.0\nCompat 0.36.0\nDataFrames 0.11.0\nCSV 0.2.0"
+   },
+   "0.10.0": {
+    "sha1": "83f1e4c5540774109ee4f75008a6db3739028916",
+    "requires": "julia 0.6\nCompat 0.33.0\nDistributions 0.10.0\nStatsBase 0.12.0\nStatsFuns 0.3.0\nStatsModels 0.2.0\nSpecialFunctions 0.1.0\n",
+    "testrequires": "CategoricalArrays 0.3.0\nCompat 0.36.0\nDataFrames 0.11.0\nCSV 0.2.0"
+   },
+   "0.10.1": {
+    "sha1": "287c668acd592c05ec90140dfa70a2887045b4f3",
+    "requires": "julia 0.6\nCompat 0.33.0\nDistributions 0.10.0\nStatsBase 0.12.0\nStatsFuns 0.3.0\nStatsModels 0.2.0\nSpecialFunctions 0.1.0\n",
+    "testrequires": "CategoricalArrays 0.3.0\nCompat 0.36.0\nDataFrames 0.11.0\nCSV 0.2.0"
    }
   }
  },
@@ -33780,6 +33800,11 @@
     "sha1": "669a9f98fe7a0cb2d8892874d73bef3d97926557",
     "requires": "julia 0.6\nCompat 0.19\nNamedTuples 2.1.0\nOnlineStats v0.13.0\nPooledArrays\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\n",
     "testrequires": "PooledArrays\n"
+   },
+   "0.5.0": {
+    "sha1": "ccd3d529dea15f1726065ae838333b71215b6bb7",
+    "requires": "julia 0.6\nCompat 0.19\nNamedTuples 2.1.0\nOnlineStats v0.13.0\nPooledArrays\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\n",
+    "testrequires": "PooledArrays\n"
    }
   }
  },
@@ -36949,6 +36974,11 @@
    "0.4.4": {
     "sha1": "1774522678be5f3b94744a76b50da38ed86eccff",
     "requires": "julia 0.6\nIndexedTables 0.4.5\nNamedTuples 4.0.0\nTextParse 0.3.0\nMemPool\nDagger 0.5.1\nGlob 1.1.1\nOnlineStats 0.13.0\nPooledArrays 0.0.2\nOnlineStats v0.13.0\nStatsBase\nDataValues\n",
+    "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "c22c2c22793faf422cb57582557239939a4688c6",
+    "requires": "julia 0.6\nIndexedTables 0.5.0\nNamedTuples 4.0.0\nTextParse 0.3.0\nMemPool 0.0.5\nDagger 0.5.1\nGlob 1.1.1\nOnlineStats 0.13.0\nPooledArrays 0.0.2\nOnlineStats v0.13.0\nStatsBase\nDataValues\n",
     "testrequires": ""
    }
   }
@@ -45555,6 +45585,11 @@
    },
    "0.0.4": {
     "sha1": "7846aca83d1209c789bdda32e0d3fa7d5ae333ee",
+    "requires": "julia 0.6\nDataStructures\n",
+    "testrequires": "StaticArrays\n"
+   },
+   "0.0.5": {
+    "sha1": "376c20defeeccd6abebf150db4a312a46a304a32",
     "requires": "julia 0.6\nDataStructures\n",
     "testrequires": "StaticArrays\n"
    }
