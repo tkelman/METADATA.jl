@@ -3470,6 +3470,11 @@
     "sha1": "9faa9033c8972fb3a6b1035a2d1c75947a07e404",
     "requires": "julia 0.6\nDistributions 0.14.2\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "e95fca0247d37fc9d6d10a3465d610fbf69e05ce",
+    "requires": "julia 0.6\nDistributions 0.14.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -4023,6 +4028,11 @@
    },
    "0.6.0": {
     "sha1": "76f03435effb83dc94ae6bdd4b0ef7f99d4af610",
+    "requires": "julia 0.6\nJSON\n#HDF5\nMemoize\n#ImageMagick\nBlosc\nLibz\nEMIRT\n",
+    "testrequires": ""
+   },
+   "0.6.1": {
+    "sha1": "a6344ebf578c27f29946af1581c0bd2a71f77b98",
     "requires": "julia 0.6\nJSON\n#HDF5\nMemoize\n#ImageMagick\nBlosc\nLibz\nEMIRT\n",
     "testrequires": ""
    }
@@ -4783,7 +4793,7 @@
   "versions": {
    "0.0.1": {
     "sha1": "88111bffb7ee46cf6dc51cdc9354fdff13843b2b",
-    "requires": "julia 0.6\nCompat\nMemoize\nDistributions\nOptim\n",
+    "requires": "julia 0.6\nCompat\nMemoize\nDistributions\nOptim 0.11.0 0.12.0\n",
     "testrequires": ""
    }
   }
@@ -14824,6 +14834,11 @@
     "sha1": "b11255efd04dbc509086de1a9b3eafea86d247b8",
     "requires": "julia 0.6\nCompat 0.39\n",
     "testrequires": "Primes 0.1.1\n"
+   },
+   "0.7.4": {
+    "sha1": "91ccb8dae7e49534604e93bf1bfee6e43d001a28",
+    "requires": "julia 0.6\nCompat 0.41\n",
+    "testrequires": "Primes 0.1.1\n"
    }
   }
  },
@@ -21552,6 +21567,11 @@
     "sha1": "e19eaefc3cc7c5c50111a24993881c3dbb55b71c",
     "requires": "julia 0.6\nLogging\nCalculus\n",
     "testrequires": "TimerOutputs\n"
+   },
+   "0.1.4": {
+    "sha1": "049ef8891a919ce973ffab7763374c2744aa7e85",
+    "requires": "julia 0.6\nLogging\nCalculus\n",
+    "testrequires": "TimerOutputs\n"
    }
   }
  },
@@ -26847,6 +26867,11 @@
     "sha1": "bb2d33b5206dc3f0e569b299ff3b020b615b8d8a",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.0.7": {
+    "sha1": "32107ceaa8c68b922ae30d80868e0a4b42bd203f",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -26880,6 +26905,11 @@
    },
    "0.0.6": {
     "sha1": "c44834bb8cf598d246f1b4ccdea92e28cf9fb7b0",
+    "requires": "julia 0.6\nGeoStatsBase 0.0.5\nDataFrames 0.11.0\nCSV 0.2.0\nParameters 0.7.3\n",
+    "testrequires": ""
+   },
+   "0.0.7": {
+    "sha1": "2dd756f4d85eefa335c20d4aad90496584d3b714",
     "requires": "julia 0.6\nGeoStatsBase 0.0.5\nDataFrames 0.11.0\nCSV 0.2.0\nParameters 0.7.3\n",
     "testrequires": ""
    }
@@ -27666,6 +27696,11 @@
    "0.2.1": {
     "sha1": "f8e0e4db6963a0e5775539a65d8f85add7af9565",
     "requires": "julia 0.6\nWriteVTK\nNetCDF\nDocumenter\nCompat 0.9.1\nBinDeps 0.3\n@osx Homebrew 0.0.4-\n@windows WinRPM\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "8865827dedc7decf65a8434242e8e5a0e9c62a93",
+    "requires": "julia 0.6\nWriteVTK\nNetCDF\nDocumenter\nCompat 0.9.1\n",
     "testrequires": ""
    }
   }
@@ -30871,8 +30906,18 @@
     "requires": "julia 0.5.2\nCompat\nSpecialFunctions",
     "testrequires": ""
    },
+   "1.1.1": {
+    "sha1": "2ed701fa3b1bf24897c9b309a59d774208b5a98b",
+    "requires": "julia 0.5.2\nCompat\nSpecialFunctions",
+    "testrequires": ""
+   },
    "2.0.0": {
     "sha1": "f6f75ce6062e2e2eea6dd0465d77a83e35f14c6e",
+    "requires": "julia 0.7-\nCompat\nSpecialFunctions",
+    "testrequires": ""
+   },
+   "2.0.1": {
+    "sha1": "78b86749b7129d7034d7b2044cde78ded40e1b3c",
     "requires": "julia 0.7-\nCompat\nSpecialFunctions",
     "testrequires": ""
    }
@@ -31770,6 +31815,11 @@
     "sha1": "9922295d876b83fea6a89cd65d3bdcd8ff9de12e",
     "requires": "julia 0.6\nDistances 0.5.0\n",
     "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "945c79009a5901b30dd1fc968f8076f3af9b2364",
+    "requires": "julia 0.6\nDistances 0.5.0\nColors 0.8.2\nProgressMeter 0.5.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -32229,6 +32279,11 @@
    "0.5.5": {
     "sha1": "f6c9670391b8cf6d8ae3eccb57b270cd67bbb38c",
     "requires": "julia 0.6\nGeoStatsBase\nGeoStatsDevTools\nCombinatorics\nStatsBase\nPrimes\nImageFiltering\nImageMorphology\nLightGraphs 0.6.1\nRecipesBase\nProgressMeter\nHwloc\n",
+    "testrequires": "GR\nPlots\nGeoStats\nGeoStatsImages\nVisualRegressionTests\n"
+   },
+   "0.6.0": {
+    "sha1": "00cfba7fbd474bc12f91c347f7255e6ec41fe174",
+    "requires": "julia 0.6\nGeoStatsBase\nGeoStatsDevTools\nCombinatorics\nStatsBase\nPrimes\nImageFiltering\nImageMorphology\nLightGraphs 0.6.1\nRecipesBase\nProgressMeter\nHwloc 0.6.2\n",
     "testrequires": "GR\nPlots\nGeoStats\nGeoStatsImages\nVisualRegressionTests\n"
    }
   }
@@ -38050,6 +38105,11 @@
     "sha1": "bb2045ed51c77c5b4cf0149f602abd803db9dbee",
     "requires": "julia 0.6 0.7-\nClustering 0.9\nDistances 0.5\nFileIO 0.5\nGadfly 0.6\nJLD 0.8\nMeasures 0.1\nStatsBase 0.18\n",
     "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "3c0c5351a40362d183ce318ba0c156b3ea3392eb",
+    "requires": "julia 0.6 0.7-\nClustering 0.5\nDistances 0.2.1\nFileIO 0.3\nGadfly 0.6.4\nJLD 0.6.10\nMeasures 0.0.1\nStatsBase 0.15\n",
+    "testrequires": ""
    }
   }
  },
@@ -39932,6 +39992,11 @@
    "0.4.0": {
     "sha1": "271c82087a5c3977c3487f99fbb9b6879010649d",
     "requires": "julia 0.6\nCompat 0.33.0\n",
+    "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "7f121a0f861871dd5df9c782d5d8195a438600d0",
+    "requires": "julia 0.6\nCompat 0.41.0\n",
     "testrequires": ""
    }
   }
@@ -46692,6 +46757,11 @@
     "sha1": "9d70f8f516599a6174638d5bd4a009716c77167e",
     "requires": "julia 0.6.1\nArgCheck\nBlockArrays\nCategoricalArrays\nDataFrames 0.11.0\nDistributions 0.11\nGLM 0.7\nNamedArrays\nNLopt 0.3\nShowoff\nStaticArrays 0.6\nStatsBase 0.19.2\nStatsFuns 0.5\nStatsModels 0.2\n",
     "testrequires": "RData\n"
+   },
+   "0.16.1": {
+    "sha1": "f248fac55aa22d87113add384be93eb744b0ee30",
+    "requires": "julia 0.6.1\nArgCheck\nBlockArrays\nCategoricalArrays\nDataFrames 0.11.0\nDistributions 0.11\nGLM 0.7\nNamedArrays\nNLopt 0.3\nShowoff\nStaticArrays 0.6\nStatsBase 0.19.2\nStatsFuns 0.5\nStatsModels 0.2\n",
+    "testrequires": "RData\n"
    }
   }
  },
@@ -48310,6 +48380,11 @@
    },
    "4.0.0": {
     "sha1": "0372693b174577ff940067c9076bfc79fdc4e9e8",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "4.1.0": {
+    "sha1": "0e9eb36bf40a1502ed8acb1df09b58d09b1c1389",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
@@ -51256,6 +51331,11 @@
     "sha1": "6c8e5463ac71b416098e56a242fdd9448f2c76e3",
     "requires": "julia 0.6.0\nOnlineStatsBase 0.2.0\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\nReexport\n",
     "testrequires": ""
+   },
+   "0.14.1": {
+    "sha1": "743f216ffb816d248a4f68a9ffc3cb264662b03f",
+    "requires": "julia 0.6.0\nOnlineStatsBase 0.2.0\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\nReexport\n",
+    "testrequires": ""
    }
   }
  },
@@ -53749,6 +53829,11 @@
    },
    "0.6.2": {
     "sha1": "51859b3826ddd383727c839d45a33df84b837b0e",
+    "requires": "julia 0.6\nPyCall 1.7.2\nPyPlot 2.2.4\nLazy 0.11.4\nCompat 0.17\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\nDataValues 0.0.1\n",
+    "testrequires": "NamedTuples 4.0.0\n"
+   },
+   "0.6.3": {
+    "sha1": "be5071fe371bc0805d08c162caea96245ee6e9be",
     "requires": "julia 0.6\nPyCall 1.7.2\nPyPlot 2.2.4\nLazy 0.11.4\nCompat 0.17\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\nDataValues 0.0.1\n",
     "testrequires": "NamedTuples 4.0.0\n"
    }
@@ -62733,6 +62818,11 @@
     "sha1": "476921302b0fcfe7688f87ff9e2107669d562d48",
     "requires": "julia 0.5\nForwardDiff 0.2.0\nCompat 0.17.0\n",
     "testrequires": "SpecialFunctions 0.1.1"
+   },
+   "0.4.3": {
+    "sha1": "ec3880e688aeba77869e9df3a9d3f249f8aa3d8b",
+    "requires": "julia 0.5\nForwardDiff 0.2.0\nCompat 0.17.0\n",
+    "testrequires": "SpecialFunctions 0.1.1"
    }
   }
  },
@@ -67046,6 +67136,11 @@
     "sha1": "9e5a83f7364ea9fb6201bd07e9c8b6bd926be4f0",
     "requires": "julia 0.6\nDataStructures 0.5.0\nSpecialFunctions 0.1.0\nSortingAlgorithms\nCompat 0.39.0\n",
     "testrequires": "DataFrames\nGLM\n"
+   },
+   "0.19.5": {
+    "sha1": "a1523b93fbe3ed5569a7e241a05bbccabc909be6",
+    "requires": "julia 0.6\nDataStructures 0.5.0\nSpecialFunctions 0.1.0\nSortingAlgorithms\nCompat 0.39.0\n",
+    "testrequires": "DataFrames\nGLM\n"
    }
   }
  },
@@ -68009,6 +68104,11 @@
    },
    "0.4.2": {
     "sha1": "afa3da222b3b3eb1df3fe1be76b4d892e91c9d98",
+    "requires": "julia 0.6\nMacroTools\nMatcha 0.1.1 # for fixing matchreplace\nDataStructures\nCompat 0.17.0\nStaticArrays 0.3.0\n",
+    "testrequires": ""
+   },
+   "0.4.3": {
+    "sha1": "0e2afdfdc26adb5c7a2c084eb43b3060c33cd35b",
     "requires": "julia 0.6\nMacroTools\nMatcha 0.1.1 # for fixing matchreplace\nDataStructures\nCompat 0.17.0\nStaticArrays 0.3.0\n",
     "testrequires": ""
    }
@@ -72971,6 +73071,11 @@
     "sha1": "c54ddaf4aa22d7e06085b5c6496ef11cc8a6865a",
     "requires": "julia 0.6\nCompat 0.33.0\n",
     "testrequires": ""
+   },
+   "0.6.1": {
+    "sha1": "b1e491a39cf8b5feefed544223d7f2478704c5bd",
+    "requires": "julia 0.6\nCompat 0.33.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -74616,6 +74721,11 @@
     "sha1": "96bc072619d27022b4118e99b891172ccf6274e0",
     "requires": "julia 0.5\nArgParse\nJLD\nJSON\nHighlights\nMustache\nDocumenter\nYAML\nCompat 0.25.0\n",
     "testrequires": "julia 0.5\nCairo\nGadfly\nPyPlot\nGR\nDSP\nPlots\n"
+   },
+   "0.5.0": {
+    "sha1": "6dc482d997507860ebfb1195d396576c5d92819c",
+    "requires": "julia 0.6\nJLD2\nFileIO\nJSON\nHighlights\nMustache\nDocumenter\nYAML\nCompat 0.25.0\n",
+    "testrequires": "julia 0.6\nCairo\nFontconfig\nGadfly\nGR\nPlots\n"
    }
   }
  },
