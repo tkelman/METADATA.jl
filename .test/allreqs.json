@@ -4315,6 +4315,11 @@
     "sha1": "803ca7975d8b5f43610fcb7504f09f2e573b82fd",
     "requires": "julia 0.6\nURIParser\nSHA\nCompat 0.27.0\n",
     "testrequires": "Cairo\nHttpParser\nGSL\n"
+   },
+   "0.8.3": {
+    "sha1": "708a18028f39f575339f48d3f50c818171910a98",
+    "requires": "julia 0.6\nURIParser\nSHA\nCompat 0.44.0\n",
+    "testrequires": "Cairo\nHttpParser\nGSL\n"
    }
   }
  },
@@ -6858,6 +6863,11 @@
    },
    "0.7.3": {
     "sha1": "51728b1f85eba01b6bb3537d31e4b67fd0dc852f",
+    "requires": "julia 0.6\nCompat 0.39.0\nCUDAapi 0.3.0\n",
+    "testrequires": ""
+   },
+   "0.7.4": {
+    "sha1": "bbb3ae7005d8cb0af21341ca9d3590e7309c5f23",
     "requires": "julia 0.6\nCompat 0.39.0\nCUDAapi 0.3.0\n",
     "testrequires": ""
    }
@@ -10973,6 +10983,11 @@
    },
    "0.44.0": {
     "sha1": "50c6b364e3d4255c50e7eb66e7dbd9fceea07302",
+    "requires": "julia 0.6\n",
+    "testrequires": "OffsetArrays\n"
+   },
+   "0.45.0": {
+    "sha1": "36d879c25cf9ad4d451e5f1e13c73f16a79443ec",
     "requires": "julia 0.6\n",
     "testrequires": "OffsetArrays\n"
    }
@@ -16649,6 +16664,11 @@
     "sha1": "4427686559d34971626f87b7ca8d3ff35c8ab2c2",
     "requires": "julia 0.6.0\nDiffEqBase 2.10.0\nOrdinaryDiffEq 2.34.0\nRecursiveArrayTools\nDataStructures\nRecipesBase\nStaticArrays\n",
     "testrequires": "DiffEqProblemLibrary\nPlots\nUnicodePlots\n"
+   },
+   "0.7.1": {
+    "sha1": "2d37c748f2da22378a0e90256bfe456edc2a27e8",
+    "requires": "julia 0.6.0\nDiffEqBase 2.10.0\nOrdinaryDiffEq 2.34.0\nRecursiveArrayTools\nDataStructures\nRecipesBase\nStaticArrays\n",
+    "testrequires": "DiffEqProblemLibrary\nPlots\nUnicodePlots\n"
    }
   }
  },
@@ -21038,6 +21058,11 @@
     "sha1": "620e09eaada17aa6548c9f8ac30848dd364239bd",
     "requires": "julia 0.5\nRequests 0.4.0\nHttpCommon 0.2.4\nMemento 0.1.1\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "df89fe8b917a44854b449b62509eb503bbef12de",
+    "requires": "julia 0.6\n\nRequests 0.4.0\nHttpCommon 0.2.4\nMemento 0.1.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -21690,6 +21715,11 @@
   "versions": {
    "0.0.1": {
     "sha1": "110acde568e5906fe3e051a16b8087016107aa30",
+    "requires": "julia 0.6\nFEMBasis\nFEMQuad\nTimerOutputs\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "60cadc5e4a57d142fe0635b4acd98a013e5b0276",
     "requires": "julia 0.6\nFEMBasis\nFEMQuad\nTimerOutputs\n",
     "testrequires": ""
    }
@@ -36365,6 +36395,11 @@
     "sha1": "26d72efb27bee6b810ed9edb09a1a1204d9e73d1",
     "requires": "julia 0.5\nDataArrays\nMamba 0.10.0\n",
     "testrequires": ""
+   },
+   "1.0.6": {
+    "sha1": "6d87343921f90e315d1eb4910c3cb9d8f6fd858a",
+    "requires": "julia 0.5\nMamba 0.10.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -40897,6 +40932,11 @@
    "0.0.1": {
     "sha1": "1856a5bd281b7f1eedc726ef0e1ac9bf4b90fdfc",
     "requires": "julia 0.6\nLightGraphs\nSimpleTraits\n",
+    "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "6506631787781bed72bed3fc29907783a57745bd",
+    "requires": "julia 0.6\nLightGraphs\nSimpleTraits\nMathProgBase\nGLPK\nGLPKMathProgInterface\n",
     "testrequires": ""
    }
   }
@@ -47177,6 +47217,11 @@
     "sha1": "9443a16d02d57c6dec06f0cc3fa8b3ae94d0dc64",
     "requires": "julia 0.6\nCompat 0.29",
     "testrequires": "Compat 0.37\n"
+   },
+   "0.4.3": {
+    "sha1": "3f133f37621ed4296b163b257f76794739e56f71",
+    "requires": "julia 0.6\nCompat 0.29",
+    "testrequires": "Compat 0.37\n"
    }
   }
  },
@@ -47940,6 +47985,11 @@
    },
    "0.1.1": {
     "sha1": "24beb920404512dbc05b1a3a59bb6ebf7d4a4b63",
+    "requires": "julia 0.6\n",
+    "testrequires": "BenchmarkTools\nDynamicPolynomials\n"
+   },
+   "0.1.2": {
+    "sha1": "e0f721c5d5d73ed3618b646ceff6ab462e4fcbf7",
     "requires": "julia 0.6\n",
     "testrequires": "BenchmarkTools\nDynamicPolynomials\n"
    }
@@ -49507,6 +49557,11 @@
     "sha1": "8eb9c4573b8e322f55e558de786dd4fb6665caa2",
     "requires": "julia 0.6\nBioSequences\nGeneticVariation 0.3.1\n",
     "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "a6cd4afd5fbd18cddfadf772814746ebafd7470c",
+    "requires": "julia 0.6\nBioSequences\nGeneticVariation 0.3.1\nPairwiseListMatrices\n",
+    "testrequires": ""
    }
   }
  },
@@ -49645,6 +49700,11 @@
    },
    "0.7.3": {
     "sha1": "b497032ee63fd46ada1ba2d38bedae1f4a94242f",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.7.4": {
+    "sha1": "324f892a858442def7f22edbf6b3f3ee9e6db6ae",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
@@ -55864,6 +55924,11 @@
    },
    "0.8.2": {
     "sha1": "7263071a248722c766ddf8d5310f30794da6ec4d",
+    "requires": "julia 0.6\nJSON 0.7\nBlink 0.3.3\nColors\nLaTeXStrings\nDocStringExtensions\nRequires\n",
+    "testrequires": "TestSetExtensions 1.0\n"
+   },
+   "0.8.3": {
+    "sha1": "941b757e17abdc790ac3d2e0d91d906ad846ca7f",
     "requires": "julia 0.6\nJSON 0.7\nBlink 0.3.3\nColors\nLaTeXStrings\nDocStringExtensions\nRequires\n",
     "testrequires": "TestSetExtensions 1.0\n"
    }
