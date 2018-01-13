@@ -56,6 +56,11 @@
     "sha1": "551a1023142d1cb196e2e3d6244735938b85a4bf",
     "requires": "julia 0.4\nCompat 0.26.0\nDataStructures 0.2.9\nIterTools 0.1.0\nProgressMeter 0.2.1\n",
     "testrequires": ""
+   },
+   "0.5.1": {
+    "sha1": "4af4956f223b68ec1e4fab1118a54b2955ef8da0",
+    "requires": "julia 0.4\nCompat 0.26.0\nDataStructures 0.2.9\nIterTools 0.1.0\nProgressMeter 0.2.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -27072,6 +27077,11 @@
     "sha1": "32107ceaa8c68b922ae30d80868e0a4b42bd203f",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.0.8": {
+    "sha1": "9d3829ac010a34a3ddd7c4526528244c53c53771",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -50272,6 +50282,11 @@
     "sha1": "df85b1fca3c5e96f6f43bd7751d85f6fcf0eb562",
     "requires": "julia 0.6\nCompat 0.41\n",
     "testrequires": ""
+   },
+   "0.0.3": {
+    "sha1": "3ff61d47aa3355f0f64d1a027631160e422da903",
+    "requires": "julia 0.6\nCompat 0.41\n",
+    "testrequires": ""
    }
   }
  },
@@ -59769,6 +59784,11 @@
    "0.2.0": {
     "sha1": "a4b9dffdee5d76d079dcdbc6f6d0e488ef989f2f",
     "requires": "julia 0.4\nDataFrames 0.0.0 0.11.0 0.11.4\nReexport\nCompat\nRData\nFileIO\n",
+    "testrequires": ""
+   },
+   "0.3.0": {
+    "sha1": "698985c749265f09b1197c04b7113e0001abb35c",
+    "requires": "julia 0.6\nReexport\nDataFrames 0.11.4 1.0.0\nRData 0.3\nCodecZlib 0.4\nCSV 0.2.1\nFileIO 0.5\n",
     "testrequires": ""
    }
   }
@@ -74306,6 +74326,11 @@
     "sha1": "a9fcabfec6c22ec2569bb25d8eb735c0a4b27012",
     "requires": "julia 0.5\nJSON\nColorBrewer\nKernelDensity\nNoveltyColors\nPatchwork\nStatsBase\n",
     "testrequires": "julia 0.4\nJSON\nColorBrewer\nCompat\nKernelDensity\nRDatasets\nDistributions\n"
+   },
+   "0.8.0": {
+    "sha1": "faed8ab07e0618982378f8d4b9d88a4ff5b6e750",
+    "requires": "julia 0.6\nJSON\nColorBrewer\nKernelDensity\nNoveltyColors\nStatsBase\nParameters\nMissings\n",
+    "testrequires": "julia 0.6\nJSON\nColorBrewer\nCompat\nKernelDensity\nRDatasets\nDistributions\nMissings\n"
    }
   }
  },
