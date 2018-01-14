@@ -4350,6 +4350,16 @@
     "sha1": "57a0cdc1a71a17100e281a32c7c129c2189091fc",
     "requires": "julia 0.6\nSHA\nCompat 0.35.0\n",
     "testrequires": ""
+   },
+   "0.1.2": {
+    "sha1": "79c9981db05676e9e8ef87423c0be42b01cdc0ca",
+    "requires": "julia 0.6\nSHA\nCompat 0.35.0\n",
+    "testrequires": ""
+   },
+   "0.1.3": {
+    "sha1": "31bc6334c9bbb6f35b451978106a48c10f38d6ae",
+    "requires": "julia 0.6\nSHA\nCompat 0.35.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -5329,6 +5339,11 @@
    "1.1.0": {
     "sha1": "0681a1cbb46cf302326bc15e28de30a68fc72c48",
     "requires": "julia 0.5\nStatsBase\nDistributions\nDataFrames 0.9.0 0.11.0\nFactCheck\nCompat 0.17.0\n",
+    "testrequires": "GLM\n"
+   },
+   "1.2.0": {
+    "sha1": "718a2439fcdcbd8ba1cb3df0ad511ed7ffa9a29e",
+    "requires": "julia 0.6\nStatsBase 0.15.0\nDistributions 0.14.1\nDataFrames 0.11.0\nStatsModels 0.2.0\n",
     "testrequires": "GLM\n"
    }
   }
@@ -19944,6 +19959,11 @@
     "sha1": "71b39100954b23356506a5bea62306740330a764",
     "requires": "julia 0.6\nOrdinaryDiffEq 2.17.0\nForwardDiff 0.5\nRequires 0.4.3\nStaticArrays 0.5.0\nStatsBase 0.8.2\nIterTools\nNearestNeighbors\nLsqFit\n",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "ca4a2405590072e3fe38099586666fe5f6d3e0ec",
+    "requires": "julia 0.6\nOrdinaryDiffEq 2.17.0\nDiffEqCallbacks\nForwardDiff 0.5\nRequires 0.4.3\nStaticArrays 0.5.0\nStatsBase 0.8.2\nIterTools\nNearestNeighbors\nLsqFit\n",
+    "testrequires": ""
    }
   }
  },
@@ -22915,6 +22935,11 @@
    },
    "0.1.2": {
     "sha1": "9fb071ebbe6dcf25bd921910d8ac11b27c44a731",
+    "requires": "julia 0.5\nSpecialFunctions",
+    "testrequires": "DualNumbers\nHyperDualNumbers 1.1.0"
+   },
+   "0.1.3": {
+    "sha1": "547054749621bbd3a4fabccd0d6bbdfd10d00dfd",
     "requires": "julia 0.5\nSpecialFunctions",
     "testrequires": "DualNumbers\nHyperDualNumbers 1.1.0"
    }
@@ -33775,6 +33800,11 @@
     "sha1": "ab52f94ae5571344d39ab23c9c2ebc6517ad2ef6",
     "requires": "julia 0.4\nForwardDiff 0.3.0\nValidatedNumerics 0.5.0\nRecipesBase 0.0.6\nCompat 0.8.6",
     "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "b9bf29ea504935a16285311cebf8499361d559a0",
+    "requires": "julia 0.6\nForwardDiff 0.3.0\nValidatedNumerics 0.5.0\nRecipesBase 0.0.6\nCompat 0.8.6",
+    "testrequires": ""
    }
   }
  },
@@ -34808,6 +34838,11 @@
   "versions": {
    "0.3.0": {
     "sha1": "c465243ad34dc8e09b1b6ef06ffb182c8ac43134",
+    "requires": "julia 0.6\n",
+    "testrequires": "TestSetExtensions\n"
+   },
+   "0.4.0": {
+    "sha1": "90c0c87d52a9037846d3ba47a3fb83d48ded8da3",
     "requires": "julia 0.6\n",
     "testrequires": "TestSetExtensions\n"
    }
@@ -40942,6 +40977,11 @@
    "0.0.1": {
     "sha1": "1856a5bd281b7f1eedc726ef0e1ac9bf4b90fdfc",
     "requires": "julia 0.6\nLightGraphs\nSimpleTraits\n",
+    "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "7fac8ca73ec587152f724c6b6fe50751f516fcae",
+    "requires": "julia 0.6\nLightGraphs\nSimpleTraits\nJuMP\nMathProgBase\nGLPK\nGLPKMathProgInterface\n",
     "testrequires": ""
    },
    "0.0.3": {
@@ -51661,6 +51701,11 @@
     "sha1": "743f216ffb816d248a4f68a9ffc3cb264662b03f",
     "requires": "julia 0.6.0\nOnlineStatsBase 0.2.0\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\nReexport\n",
     "testrequires": ""
+   },
+   "0.15.0": {
+    "sha1": "b994f83714321afbf7436f0ae3f23a7fa598c7d0",
+    "requires": "julia 0.6.0\nOnlineStatsBase 0.2.0\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\nReexport\n",
+    "testrequires": ""
    }
   }
  },
@@ -52444,6 +52489,11 @@
    },
    "1.0.1": {
     "sha1": "21c69be8ec68510496caa148a7b6f26227871c74",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "1.1.0": {
+    "sha1": "3024c558c0d1b3f2fa448928a14ae446133bb2a9",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
@@ -55369,6 +55419,16 @@
    }
   }
  },
+ "Pidfile": {
+  "url": "https://github.com/vtjnash/Pidfile.jl.git",
+  "versions": {
+   "1.0.0": {
+    "sha1": "2c8bcc9c2f30152ee8675f7ece672ce25ebef5cc",
+    "requires": "julia v0.6\nCompat v0.30.0\n",
+    "testrequires": ""
+   }
+  }
+ },
  "PiecewiseAffineTransforms": {
   "url": "git://github.com/dfdx/PiecewiseAffineTransforms.jl.git",
   "versions": {
@@ -56535,6 +56595,11 @@
    "0.0.1": {
     "sha1": "752dcb1125bbd30b985eee9cf4df25947a9351de",
     "requires": "julia 0.5\nPolynomials 0.1.2\nPolynomialRoots 0.0.4\nPolynomialFactors 0.0.6\nValidatedNumerics 0.9.0\nRoots 0.4.0\nCompat v0.17.0\n",
+    "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "12379a86096d2aa433fe40484f181529f17610b6",
+    "requires": "julia 0.6\nPolynomials 0.1.2\nPolynomialRoots 0.0.4\nPolynomialFactors 0.0.6\nValidatedNumerics 0.9.0\nRoots 0.4.0\nCompat v0.39.0\n",
     "testrequires": ""
    }
   }
@@ -63253,6 +63318,11 @@
     "sha1": "ec3880e688aeba77869e9df3a9d3f249f8aa3d8b",
     "requires": "julia 0.5\nForwardDiff 0.2.0\nCompat 0.17.0\n",
     "testrequires": "SpecialFunctions 0.1.1"
+   },
+   "0.5.0": {
+    "sha1": "2bff0e54d69f5967fc20b063548e5d34ec564916",
+    "requires": "julia 0.6.0\nForwardDiff 0.6.0\nCompat 0.33.0\nMissings 0.2.0",
+    "testrequires": "SpecialFunctions 0.1.1"
    }
   }
  },
@@ -63546,6 +63616,11 @@
    },
    "0.4.0": {
     "sha1": "92082340590f548cadbde8f0927199251c406186",
+    "requires": "julia 0.6\nStringEncodings\nMissings\n",
+    "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "b5a9c1002aac432ac80030f2c9de1b957f5084f1",
     "requires": "julia 0.6\nStringEncodings\nMissings\n",
     "testrequires": ""
    }
@@ -64031,6 +64106,11 @@
    },
    "0.5.2": {
     "sha1": "79bcc3fd79c1a6cc8678c39b74d721097c5cb2b0",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.5.3": {
+    "sha1": "939e8f571b7d205371c0e3cb65cf28d7964a16c6",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
@@ -69330,6 +69410,11 @@
    "0.5.4": {
     "sha1": "f34e77460eb5334623b21e74f22e07a2d940c983",
     "requires": "julia 0.4\nCompat 0.25.0\nPyCall 1.6.0\nRecipesBase 0.0.4\nBaseTestNext 0.2.2\n",
+    "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "8131e194748aae4248d3a1e6f21766804e8acbd7",
+    "requires": "julia 0.6.0\nCompat 0.33.0\nPyCall 1.6.0\nRecipesBase 0.2.3\nSpecialFunctions 0.3.4\n\n",
     "testrequires": ""
    }
   }
