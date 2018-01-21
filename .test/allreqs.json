@@ -9615,6 +9615,11 @@
     "sha1": "c967becad426bf053ba45d7e3665754661f37669",
     "requires": "julia 0.5\nClp\nCbc\nIpopt\nLightXML 0.2\nBinDeps\nMathProgBase 0.5.0 0.8\n@osx Homebrew\n@windows WinRPM\n",
     "testrequires": "JuMP 0.15\nOffsetArrays 0.2.13\nFactCheck\n"
+   },
+   "0.3.0": {
+    "sha1": "a5d158faefd640af5054575641925552483c8cdf",
+    "requires": "julia 0.6\nClp\nCbc\nIpopt\nLightXML 0.2\nBinDeps\nMathProgBase 0.5.0 0.8\n@osx Homebrew\n@windows WinRPM\n",
+    "testrequires": "JuMP 0.15\nOffsetArrays 0.2.13\nFactCheck\n"
    }
   }
  },
@@ -11138,6 +11143,11 @@
    },
    "0.47.0": {
     "sha1": "0b398b8e49a09315af55a1d7d19ec29911c7bd89",
+    "requires": "julia 0.6\n",
+    "testrequires": "OffsetArrays\n"
+   },
+   "0.48.0": {
+    "sha1": "20e454dd62c1c36f9eb39164f9cad5da8ba421a9",
     "requires": "julia 0.6\n",
     "testrequires": "OffsetArrays\n"
    }
@@ -14638,6 +14648,11 @@
    "0.11.4": {
     "sha1": "9c0b80234f007748f9cc1086660b51edebcdc756",
     "requires": "julia 0.6\nMissings 0.2.3\nCategoricalArrays 0.3.2\nStatsBase 0.11.0\nSortingAlgorithms\nReexport\nWeakRefStrings 0.4.0\nDataStreams 0.3.0\nCodecZlib 0.4\nCompat 0.40.0\n",
+    "testrequires": "DataStructures\nLaTeXStrings\n"
+   },
+   "0.11.5": {
+    "sha1": "06c352352fde5e90d738959e54d43efb255bcc15",
+    "requires": "julia 0.6\nMissings 0.2.3\nCategoricalArrays 0.3.3\nStatsBase 0.11.0\nSortingAlgorithms\nReexport\nWeakRefStrings 0.4.0\nDataStreams 0.3.0\nCodecZlib 0.4\nCompat 0.40.0\n",
     "testrequires": "DataStructures\nLaTeXStrings\n"
    }
   }
@@ -52224,6 +52239,11 @@
    },
    "0.4.0": {
     "sha1": "32d29c264e000eeed2a33e586ed4ba25b368daa0",
+    "requires": "julia 0.6\nNamedTuples",
+    "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "7cf8316b9153fef1df04b8818813188e4e7baf4d",
     "requires": "julia 0.6\nNamedTuples",
     "testrequires": ""
    }
