@@ -16009,6 +16009,11 @@
     "sha1": "fabbcf0c4f907ef58014403e148e1a5befed7632",
     "requires": "julia 0.6\nDiffEqBase 2.8.0 3.0.0\nOrdinaryDiffEq 2.36.0 3.0.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLsolve 0.1 0.14\nRoots\nDiffEqDiffTools 0.2.0 0.3.0\n",
     "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary 0.11.0\nUnitful 0.5.0\n"
+   },
+   "2.0.0": {
+    "sha1": "b12c0dbcfb1cdbb7e4683156257ca5ef5f3a237c",
+    "requires": "julia 0.6\nDiffEqBase 3.0.3\nOrdinaryDiffEq 3.0.0\nDataStructures 0.4.6\nRecursiveArrayTools 0.2.0\nReexport\nMuladdMacro\nForwardDiff\nNLSolversBase 4.2.0\nRoots\nDiffEqDiffTools 0.3.0\n",
+    "testrequires": "DiffEqDevTools\nDiffEqCallbacks\nDiffEqProblemLibrary 0.11.0\nUnitful 0.5.0\n"
    }
   }
  },
@@ -16864,6 +16869,11 @@
     "sha1": "c0d41d91496d2ecb81ab9ef1a75665d417ff7650",
     "requires": "julia 0.6\nDiffEqBase 1.7.0 3.0.0\nMamba\nStan\nDistributions\nTuring\nMacroTools\n",
     "testrequires": "OrdinaryDiffEq\nRecursiveArrayTools\nParameterizedFunctions\n"
+   },
+   "0.1.0": {
+    "sha1": "6db728a8c341acc89af45f949c104dff826f22f2",
+    "requires": "julia 0.6\nDiffEqBase 1.7.0\nMamba\nStan\nDistributions\nTuring\nMacroTools\n",
+    "testrequires": "OrdinaryDiffEq\nRecursiveArrayTools\nParameterizedFunctions\n"
    }
   }
  },
@@ -17093,6 +17103,11 @@
    "0.11.3": {
     "sha1": "73852ec888a63719581732c821d14a2c21dd935c",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nDiffEqBase 1.12.0 3.0.0\nRecursiveArrayTools 0.4.0\nDiffEqPDEBase\nDiffEqMonteCarlo\nDiffEqNoiseProcess\nJuno\n",
+    "testrequires": "DiffEqProblemLibrary\nOrdinaryDiffEq 1.0.0\nStochasticDiffEq 0.0.5\nFiniteElementDiffEq 0.0.5\n"
+   },
+   "1.0.0": {
+    "sha1": "a658a247487c43d8120d9038f66122742a80cf02",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nDiffEqBase 3.0.0\nRecursiveArrayTools 0.4.0\nDiffEqPDEBase 0.4.0\nDiffEqMonteCarlo\nDiffEqNoiseProcess\nJuno\n",
     "testrequires": "DiffEqProblemLibrary\nOrdinaryDiffEq 1.0.0\nStochasticDiffEq 0.0.5\nFiniteElementDiffEq 0.0.5\n"
    }
   }
@@ -17636,8 +17651,8 @@
     "testrequires": ""
    },
    "1.0.0": {
-    "sha1": "ae0c4ac43d83368bd0392d7b4205a51a79fa3f46",
-    "requires": "julia 0.6\nParameterizedFunctions 2.0.0\nDiffEqBase 1.21.0\nDiffEqPDEBase\n",
+    "sha1": "83123f357fbeb3ae38d6a1f401d929865a590c65",
+    "requires": "julia 0.6\nParameterizedFunctions 2.0.0\nDiffEqBase 3.0.3\nDiffEqPDEBase\n",
     "testrequires": ""
    }
   }
@@ -30321,6 +30336,11 @@
     "sha1": "8768b45b6e8cc97d38eb0ea4f9ded3059b1af04d",
     "requires": "julia 0.6\nMbedTLS 0.4.0\n",
     "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "fdc264e6d5049b92f7ceb41c337564df72cafe79",
+    "requires": "julia 0.6\nMbedTLS 0.5.4\nIniFile\n",
+    "testrequires": "JSON\nXMLDict\n"
    }
   }
  },
@@ -53211,6 +53231,11 @@
     "sha1": "24d37a5f2b425afaf2df23231c6cd881dcd92698",
     "requires": "julia 0.5\nReexport\nNLSolversBase 2.0 4.0\nCompat 0.18\n",
     "testrequires": ""
+   },
+   "1.0.0": {
+    "sha1": "70977d870573970be65fd9ed5c23acbbb0d04c87",
+    "requires": "julia 0.5\nReexport\nNLSolversBase\nCompat 0.18\n",
+    "testrequires": ""
    }
   }
  },
@@ -53826,6 +53851,11 @@
     "sha1": "8c2148f1648af1fa3f8cb143eaab3c90915458ac",
     "requires": "julia 0.6\nDiffEqBase 3.0.0\nParameters 0.5.0\nForwardDiff 0.7.0\nGenericSVD 0.0.2\nNLsolve 0.12.1\nRecursiveArrayTools 0.13.0\nJuno 0.2.5\nDiffEqDiffTools 0.3.0\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
     "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\nDiffEqCallbacks\n"
+   },
+   "3.0.1": {
+    "sha1": "aae9c7b477ebbf4c79812521b19e72aae950993d",
+    "requires": "julia 0.6\nDiffEqBase 3.0.0\nParameters 0.5.0\nForwardDiff 0.7.0\nGenericSVD 0.0.2\nNLsolve 0.14.1\nRecursiveArrayTools 0.13.0\nJuno 0.2.5\nDiffEqDiffTools 0.3.0\nRoots 0.2.1\nDataStructures 0.4.6\nCompat 0.18.0\nReexport\nMuladdMacro 0.0.2\nStaticArrays\n",
+    "testrequires": "DiffEqDevTools 0.6.0\nDiffEqProblemLibrary\nParameterizedFunctions 0.5.0\nSpecialMatrices\nStaticArrays\nDiffEqCallbacks\nDiffEqOperators\n"
    }
   }
  },
@@ -59035,6 +59065,11 @@
     "sha1": "c107312d72b8c64228a25fba4996a586f2030ab0",
     "requires": "julia 0.5\nPyCall\nDataStructures\nConda 0.2.0\nDiffEqBase 0.11.0 3.0.0\nRecipesBase\n",
     "testrequires": "ParameterizedFunctions\n"
+   },
+   "0.2.0": {
+    "sha1": "fbe9d3d0d304d9602a905455d7ad8a70e60b5fbc",
+    "requires": "julia 0.6\nPyCall\nDataStructures\nConda 0.2.0\nDiffEqBase 3.0.0\nRecipesBase\n",
+    "testrequires": "ParameterizedFunctions\n"
    }
   }
  },
@@ -61643,6 +61678,16 @@
    "0.0.1": {
     "sha1": "878a5e6146ac84ee9bfeaa0952f4ffa5cc2805a0",
     "requires": "julia 0.5\nJLD\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "Rectangle": {
+  "url": "https://github.com/sambitdash/Rectangle.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "bbba01633f6fac8d9a627b7c3fb22346f4f4a5d3",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
