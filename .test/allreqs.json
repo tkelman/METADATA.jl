@@ -5828,6 +5828,16 @@
    }
   }
  },
+ "CALCEPH": {
+  "url": "https://github.com/bgodard/CALCEPH.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "37d14aab0fa7d79ca5762e206fc00e00c5f3187a",
+    "requires": "julia 0.6\nBinDeps 0.8.1\n",
+    "testrequires": ""
+   }
+  }
+ },
  "CBOR": {
   "url": "git://github.com/saurvs/CBOR.jl.git",
   "versions": {
@@ -10453,6 +10463,21 @@
    }
   }
  },
+ "CombinatorialBandits": {
+  "url": "https://github.com/dourouc05/CombinatorialBandits.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "ce5315ed07883424d07d94aee16acf45b5eb538e",
+    "requires": "julia 0.6\nDistributions 0.8\nJuMP 0.16\nDataStructures 0.7\n",
+    "testrequires": "Cbc"
+   },
+   "0.0.2": {
+    "sha1": "393060b033781bb63481dbb5672548dec2d34aab",
+    "requires": "julia 0.6\nDistributions 0.8\nJuMP 0.16\nDataStructures 0.7\n",
+    "testrequires": "Cbc"
+   }
+  }
+ },
  "Combinatorics": {
   "url": "git://github.com/JuliaMath/Combinatorics.jl.git",
   "versions": {
@@ -11364,6 +11389,11 @@
    "0.2.3": {
     "sha1": "5c589616714a13ef02a81dbe3e9a65ceb91585eb",
     "requires": "julia 0.5\nJuMP 0.14.0\nPATHSolver 0.3.0\nNLsolve 0.7 0.14.0\n",
+    "testrequires": "Ipopt 0.2.4\n"
+   },
+   "0.3.0": {
+    "sha1": "f95ca7ce45ba960e04545c5a62d2774829d2460a",
+    "requires": "julia 0.6\nJuMP 0.14.0\nPATHSolver 0.3.0\nNLsolve 1.0\n",
     "testrequires": "Ipopt 0.2.4\n"
    }
   }
@@ -14353,6 +14383,11 @@
    "0.1.0": {
     "sha1": "ad36413e42939adc37f9b1d5dcd1a79ccf6fc97f",
     "requires": "julia 0.6\nSHA\nReexport\n",
+    "testrequires": "ExpectationStubs\n"
+   },
+   "0.2.1": {
+    "sha1": "d5eb4f869942fca48b2530d9ee9ba7882e029cce",
+    "requires": "julia 0.6\nSHA\nReexport\nHTTP 0.6\n",
     "testrequires": "ExpectationStubs\n"
    }
   }
@@ -24557,6 +24592,11 @@
     "sha1": "8f9e9b3175920e619091befde0cac10009cf0764",
     "requires": "julia 0.6.0\nCompat 0.45.0\nStaticArrays 0.5.0\nDiffResults 0.0.1\nDiffRules 0.0.3\nNaNMath 0.2.2\nSpecialFunctions 0.1.0\nCommonSubexpressions 0.0.1\n",
     "testrequires": "Calculus 0.2.0\nDiffTests 0.0.1\n"
+   },
+   "0.7.3": {
+    "sha1": "d41e65274f09d18d2bf450d99e0369075e0fbb2a",
+    "requires": "julia 0.6.0\nCompat 0.47.0\nStaticArrays 0.5.0\nDiffResults 0.0.1\nDiffRules 0.0.3\nNaNMath 0.2.2\nSpecialFunctions 0.1.0\nCommonSubexpressions 0.0.1\n",
+    "testrequires": "Calculus 0.2.0\nDiffTests 0.0.1\n"
    }
   }
  },
@@ -28366,6 +28406,11 @@
    "3.1.0": {
     "sha1": "42ef052e6f30db7f223a58f74f22e25268273810",
     "requires": "julia 0.6\n\nJSON\nMbedTLS\nHTTP 0.5.4\nHttpCommon # for deprecations\n",
+    "testrequires": ""
+   },
+   "4.0.0": {
+    "sha1": "33e3dd401fa0c3f1073091a9463c5082a919fbb9",
+    "requires": "julia 0.6\n\nCompat 0.43\nJSON\nMbedTLS\nHTTP 0.6\nNullables\n\n",
     "testrequires": ""
    }
   }
@@ -52035,7 +52080,7 @@
    },
    "1.0.0": {
     "sha1": "4ba1c13f15bc158e92e73f457a38738782ef2e87",
-    "requires": "julia 0.5\nPolynomials\nCompat 0.17.0\nDiffEqBase 3.0.0\nReexport\n",
+    "requires": "julia 0.6\nPolynomials\nCompat 0.17.0\nDiffEqBase 3.0.0\nReexport\n",
     "testrequires": "DiffEqProblemLibrary\n"
    }
   }
@@ -52610,6 +52655,16 @@
    "0.1.0": {
     "sha1": "400beabd65cd9088167756dfd4211b8100eeb287",
     "requires": "julia 0.3\nStatsBase 0.7.4\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "OnlinePackage": {
+  "url": "https://github.com/bramtayl/OnlinePackage.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "a8b49fee6997eb4f946b0ebd7a73b6bef834abb5",
+    "requires": "julia 0.6\nJSON\nHTTP\n",
     "testrequires": ""
    }
   }
@@ -64914,6 +64969,11 @@
     "sha1": "ab5119ddf1272254b507c428195640262ae162ab",
     "requires": "julia 0.6\nBinDeps\nMathProgBase 0.5 0.8\nCompat 0.8.6\n",
     "testrequires": "JuMP 0.16\nOffsetArrays 0.2.13\n"
+   },
+   "0.5.0": {
+    "sha1": "36369ddb51dfe7b0b197fddc3344cf57c859befd",
+    "requires": "julia 0.6\nBinDeps\nMathProgBase 0.5 0.8\nCompat 0.8.6\n",
+    "testrequires": "JuMP 0.16\nOffsetArrays 0.2.13\n"
    }
   }
  },
@@ -67746,6 +67806,11 @@
    "0.1.0": {
     "sha1": "0298af1dad8e32de742e1ab44647dcb5263e1cfc",
     "requires": "julia 0.6-pre\n\nRecipesBase\nDataFrames 0.0.0 0.11.0\nReexport\nPlotUtils\n#RCall #this should be changed as this is heavy-handed - there is an issue for this on RCall\n#Phylogeny\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "3009f58fd9398e3f58402b77b25ac538e8c93f72",
+    "requires": "julia 0.6\n\nRecipesBase\nDataFrames 0.0 0.11\nPlotUtils\n#Phylogeny\n",
     "testrequires": ""
    }
   }
