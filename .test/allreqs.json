@@ -66,6 +66,11 @@
     "sha1": "fb4bec52ab47e1d1abdb56a1b190762c0826c546",
     "requires": "julia 0.5\nCompat 0.38.0\nDataStructures 0.2.9\nIterTools 0.1.0\nProgressMeter 0.2.1\n",
     "testrequires": ""
+   },
+   "0.6.1": {
+    "sha1": "bd7faa687b6baf2eadcaec137bd17e3e1931282f",
+    "requires": "julia 0.5\nCompat 0.38.0\nDataStructures 0.2.9\nIterTools 0.1.0\nProgressMeter 0.2.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -11260,6 +11265,11 @@
     "sha1": "7d4dcd7f0bc08f987ffd78c2551680c75b11c787",
     "requires": "julia 0.6\n",
     "testrequires": "OffsetArrays\n"
+   },
+   "0.51.0": {
+    "sha1": "d742f67b77ef9065d5309c375def6045bcfeda7c",
+    "requires": "julia 0.6\n",
+    "testrequires": "OffsetArrays\n"
    }
   }
  },
@@ -14402,6 +14412,11 @@
    },
    "0.2.1": {
     "sha1": "d5eb4f869942fca48b2530d9ee9ba7882e029cce",
+    "requires": "julia 0.6\nSHA\nReexport\nHTTP 0.6\n",
+    "testrequires": "ExpectationStubs\n"
+   },
+   "0.2.2": {
+    "sha1": "c914bfb2183d25c2a2a2eecdea193b21d38ce7d9",
     "requires": "julia 0.6\nSHA\nReexport\nHTTP 0.6\n",
     "testrequires": "ExpectationStubs\n"
    }
@@ -22472,6 +22487,11 @@
     "sha1": "049ef8891a919ce973ffab7763374c2744aa7e85",
     "requires": "julia 0.6\nLogging\nCalculus\n",
     "testrequires": "TimerOutputs\n"
+   },
+   "0.1.5": {
+    "sha1": "d54f5982323a073f2670c6e3bd8337d0a8368ba1",
+    "requires": "julia 0.6\nLogging\nCalculus\n",
+    "testrequires": "TimerOutputs\n"
    }
   }
  },
@@ -24020,6 +24040,11 @@
    },
    "0.4.3": {
     "sha1": "6a8aee86406e1b928ebbcd5fd51a570bb8a6609d",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.4.4": {
+    "sha1": "25affc6cff653a8e569e1f337ab1e62f6980948b",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
@@ -31795,6 +31820,11 @@
     "sha1": "d7ad86e26c141b18494e9db46a7ecaf8e4502d34",
     "requires": "julia 0.4\nHttpCommon\nHttpParser\nMbedTLS\nCompat 0.17.0\n",
     "testrequires": "FactCheck\nRequests"
+   },
+   "0.3.0": {
+    "sha1": "c75ea71a9d989657046286468e9d6aeba26311a4",
+    "requires": "julia 0.6\nHttpCommon\nHttpParser\nMbedTLS\nCompat 0.17.0\n",
+    "testrequires": "FactCheck\nRequests"
    }
   }
  },
@@ -34958,6 +34988,11 @@
    },
    "0.5.1": {
     "sha1": "a0d93472e99f6ce864d9186afcb6c57416c8fe7c",
+    "requires": "julia 0.6\nCompat 0.19\nNamedTuples 2.1.0\nOnlineStats v0.15.0\nPooledArrays\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\n",
+    "testrequires": "PooledArrays\n"
+   },
+   "0.5.2": {
+    "sha1": "d6407ce711a21fec23061439dcc32fbb69985772",
     "requires": "julia 0.6\nCompat 0.19\nNamedTuples 2.1.0\nOnlineStats v0.15.0\nPooledArrays\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\n",
     "testrequires": "PooledArrays\n"
    }
@@ -39139,6 +39174,16 @@
    "0.2.2": {
     "sha1": "f7821fdda02c6b75407d8cd79caf12ceca861b27",
     "requires": "julia 0.5\nDistributions\nOptim 0.5.0\nStatsBase\nCubature 1.2.0\nStatsFuns\nYeppp\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "KeyedFrames": {
+  "url": "https://github.com/invenia/KeyedFrames.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "b4ad84ca5fde5f9988becd2cce58a0c7549d60cf",
+    "requires": "julia 0.6\nDataFrames 0.11.3\n",
     "testrequires": ""
    }
   }
@@ -47032,6 +47077,11 @@
     "sha1": "376c20defeeccd6abebf150db4a312a46a304a32",
     "requires": "julia 0.6\nDataStructures\n",
     "testrequires": "StaticArrays\n"
+   },
+   "0.0.6": {
+    "sha1": "473272045ff97c122ad13c56b4bf59a365647ba8",
+    "requires": "julia 0.6\nDataStructures\n",
+    "testrequires": "StaticArrays\n"
    }
   }
  },
@@ -47825,6 +47875,11 @@
    },
    "0.2.5": {
     "sha1": "528e5dca3035d0a5a4742c133cc51758345595fd",
+    "requires": "julia 0.6\nCompat 0.37.0\n",
+    "testrequires": ""
+   },
+   "0.2.6": {
+    "sha1": "5a8d6ac47ef67df6520b6e4130e44b1841a3bdd7",
     "requires": "julia 0.6\nCompat 0.37.0\n",
     "testrequires": ""
    }
@@ -52871,6 +52926,16 @@
     "sha1": "b994f83714321afbf7436f0ae3f23a7fa598c7d0",
     "requires": "julia 0.6.0\nOnlineStatsBase 0.2.0\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\nReexport\n",
     "testrequires": ""
+   },
+   "0.15.1": {
+    "sha1": "1009b5af8e199a730f7b194c9f50255464b66f91",
+    "requires": "julia 0.6.0\nOnlineStatsBase 0.2.0\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\nReexport\n",
+    "testrequires": ""
+   },
+   "0.15.2": {
+    "sha1": "9863176e4ebcda12945570fdb73dceaf7615afeb",
+    "requires": "julia 0.6.0\nOnlineStatsBase 0.2.0\nSweepOperator\nLossFunctions\nPenaltyFunctions\nRecipesBase\nReexport\n",
+    "testrequires": "QuadGK"
    }
   }
  },
@@ -52949,6 +53014,11 @@
    },
    "0.4.1": {
     "sha1": "7cf8316b9153fef1df04b8818813188e4e7baf4d",
+    "requires": "julia 0.6\nNamedTuples",
+    "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "57f188354dd93cd6d56bc4ff987f3ce6c8678f4d",
     "requires": "julia 0.6\nNamedTuples",
     "testrequires": ""
    }
@@ -57104,6 +57174,16 @@
    }
   }
  },
+ "PlotlyBase": {
+  "url": "https://github.com/sglyon/PlotlyBase.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "4f4bd7f3bd92c8985e828acb2f09018fb6604093",
+    "requires": "julia 0.6\nJSON 0.7\nDocStringExtensions\nRequires\nLaTeXStrings\n",
+    "testrequires": "TestSetExtensions 1.0\n"
+   }
+  }
+ },
  "PlotlyJS": {
   "url": "git://github.com/sglyon/PlotlyJS.jl.git",
   "versions": {
@@ -58255,6 +58335,16 @@
    "0.2.0": {
     "sha1": "13faa90f623b2b6949f57c7dcd0cabb3d503f1f3",
     "requires": "julia 0.4\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "PrairieIO": {
+  "url": "https://github.com/romainFr/PrairieIO.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "c0aece31e3efeb59713ae643002efb71836dc358",
+    "requires": "julia 0.6\nLightXML\nImages\nFileIO\nFixedPointNumbers\nCompat\nUnitful\n",
     "testrequires": ""
    }
   }
@@ -63729,6 +63819,11 @@
     "sha1": "ea5457d98c692f234200be6b8afed1444aab337e",
     "requires": "julia 0.7.0-DEV.2359\nDataStructures\n",
     "testrequires": "Example\n"
+   },
+   "0.2.1": {
+    "sha1": "9f8e8620aade09d6d8cacc602d7d110915e86915",
+    "requires": "julia 0.7.0-DEV.2359\nDataStructures\nCompat 0.50\n",
+    "testrequires": "Example\n"
    }
   }
  },
@@ -66059,6 +66154,11 @@
     "sha1": "98207060bad4835b8dadc3e3b958e4f7a68548ba",
     "requires": "julia 0.6\nCompScienceMeshes\n",
     "testrequires": ""
+   },
+   "2.0.0": {
+    "sha1": "d0e27bce0a6b240cb3335f74d912ab3abe3134b0",
+    "requires": "julia 0.6\nCompScienceMeshes\n",
+    "testrequires": ""
    }
   }
  },
@@ -67582,6 +67682,16 @@
    "0.0.1": {
     "sha1": "d2f33b803cadc534be4259319e76f8b7d77a2c5a",
     "requires": "julia 0.3\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "Somoclu": {
+  "url": "https://github.com/peterwittek/Somoclu.jl.git",
+  "versions": {
+   "1.7.4": {
+    "sha1": "88b48b4a5bafeba37b46248274d8065c4705e7eb",
+    "requires": "julia 0.6\nBinDeps\nMultivariateStats\n@windows WinRPM\n",
     "testrequires": ""
    }
   }
@@ -72445,6 +72555,11 @@
    },
    "0.3.5": {
     "sha1": "ca19058f291792a2990e584b1c50e3173488890a",
+    "requires": "julia 0.6\nCompat 0.17\nDataValues\nPooledArrays 0.0.2\nDataStructures\n",
+    "testrequires": ""
+   },
+   "0.4.0": {
+    "sha1": "8621a2fcea71c58f153e59fc2814ca10871850f2",
     "requires": "julia 0.6\nCompat 0.17\nDataValues\nPooledArrays 0.0.2\nDataStructures\n",
     "testrequires": ""
    }
@@ -78581,6 +78696,21 @@
    "0.5.1": {
     "sha1": "f8a5e6efb4a34ef91846b21982b50fb686899d8e",
     "requires": "julia 0.5\nBinDeps 0.3.21\n@osx Homebrew\nCompat 0.27.0\n@windows WinRPM\n",
+    "testrequires": ""
+   }
+  }
+ },
+ "ZOOclient": {
+  "url": "https://github.com/eyounx/ZOOclient.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "fe33a571b03cacf4d31c2395bc9b329da2448fd2",
+    "requires": "julia 0.6\nPyPlot\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "b6ed0811286ef5b31f48c1eedc4f49a8e06854d5",
+    "requires": "julia 0.6\nPyPlot\n",
     "testrequires": ""
    }
   }
