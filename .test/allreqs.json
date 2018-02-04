@@ -4060,6 +4060,11 @@
     "sha1": "d0ef587d4168d5948a19bbe24a6b60be866b1cab",
     "requires": "julia 0.6\nCompat 0.39\nJSON\n",
     "testrequires": ""
+   },
+   "0.2.5": {
+    "sha1": "30d9aaa0c674815aae5ff5fba6360fb6809869dd",
+    "requires": "julia 0.6\nCompat 0.51.0\nJSON\n",
+    "testrequires": ""
    }
   }
  },
@@ -11285,6 +11290,11 @@
     "sha1": "d742f67b77ef9065d5309c375def6045bcfeda7c",
     "requires": "julia 0.6\n",
     "testrequires": "OffsetArrays\n"
+   },
+   "0.52.0": {
+    "sha1": "f008a07cd13f5861228d3aab35f0171236ca60cc",
+    "requires": "julia 0.6\n",
+    "testrequires": "OffsetArrays\n"
    }
   }
  },
@@ -17043,6 +17053,11 @@
    "3.1.0": {
     "sha1": "7d4bd056dfffb7f41c89b7e5de31d8e321195eb9",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nRequires\nLinearMaps\nFunctionWrappers\n",
+    "testrequires": ""
+   },
+   "3.2.0": {
+    "sha1": "26692d95b816977d5500343b7116e696145a3428",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nRequires\nLinearMaps\nFunctionWrappers\nIteratorInterfaceExtensions 0.0.2\nTableTraits 0.0.3\nNamedTuples 4.0.0\n",
     "testrequires": ""
    }
   }
@@ -30719,6 +30734,11 @@
    },
    "0.6.1": {
     "sha1": "6c3ee031055948b58602339c5fb2db6c3c6b2e0c",
+    "requires": "julia 0.6\nMbedTLS 0.5.4\nIniFile\n",
+    "testrequires": "JSON\nXMLDict\n"
+   },
+   "0.6.2": {
+    "sha1": "54a0490810ef45b91b401cfe8208d5ea4e6a1e62",
     "requires": "julia 0.6\nMbedTLS 0.5.4\nIniFile\n",
     "testrequires": "JSON\nXMLDict\n"
    }
@@ -49927,6 +49947,11 @@
     "sha1": "9a5650177851b034d13a909a684d091fe6527b03",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "4.2.1": {
+    "sha1": "3923f847b55fbff56d250f63aab754a2ed452486",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -58299,6 +58324,11 @@
    },
    "0.5.0": {
     "sha1": "a1a6f3530d02bbb8b65fb14fac09ba3e04544567",
+    "requires": "julia 0.5\nJSON 0.6.0\nMathProgBase 0.5.4\nJuMP 0.17 0.19-\nCompat 0.17\n",
+    "testrequires": "julia 0.5\n\nIpopt \nSCS\nGLPKMathProgInterface\nPajarito 0.4.0\n\nLogging 0.2.0\n"
+   },
+   "0.5.1": {
+    "sha1": "bec2e2779d62a94f155d9b64ae3bf6242aaacd1f",
     "requires": "julia 0.5\nJSON 0.6.0\nMathProgBase 0.5.4\nJuMP 0.17 0.19-\nCompat 0.17\n",
     "testrequires": "julia 0.5\n\nIpopt \nSCS\nGLPKMathProgInterface\nPajarito 0.4.0\n\nLogging 0.2.0\n"
    }
