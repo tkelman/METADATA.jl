@@ -6775,6 +6775,11 @@
     "sha1": "113e834a4669602cf5bd63587e84935ff9f77e68",
     "requires": "julia 0.6\nTextParse 0.1.6\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.4.2\nIterableTables 0.5.0\n",
     "testrequires": "DataFrames 0.10.0\n"
+   },
+   "0.4.1": {
+    "sha1": "89ef2173db204b1788b0bd5f601a640d41e21631",
+    "requires": "julia 0.6\nTextParse 0.1.6\nTableTraits 0.0.1\nTableTraitsUtils 0.0.1\nDataValues 0.1.0\nFileIO 0.4.0\nHTTP 0.6.0\nIterableTables 0.5.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -22450,6 +22455,16 @@
    }
   }
  },
+ "FDM": {
+  "url": "https://github.com/invenia/FDM.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "ad0af7b4ca526cf5a191a06d0ca724f337d75e8c",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   }
+  }
+ },
  "FEHM": {
   "url": "https://github.com/zemjulia/FEHM.jl.git",
   "versions": {
@@ -34560,6 +34575,11 @@
     "sha1": "6ecc90676fd29c9b6f4656a89aa429705bc11849",
     "requires": "julia 0.6\nAxisArrays\nImageMetadata 0.1.1\nFixedPointNumbers 0.3.0\nFileIO\nUnitful\n",
     "testrequires": "Images 0.6.0\n"
+   },
+   "0.7.1": {
+    "sha1": "46d55093c26bb00de0d69cc91e3d8537323af972",
+    "requires": "julia 0.6\nAxisArrays\nImageMetadata 0.1.1\nFixedPointNumbers 0.3.0\nFileIO\nUnitful\n",
+    "testrequires": "Images 0.6.0\n"
    }
   }
  },
@@ -36435,6 +36455,11 @@
     "sha1": "14742ae2a2ba9da311c1a351dff2c45aa8c32e02",
     "requires": "julia 0.6.0\nNamedTuples 4.0.0\nRequires 0.4.3\nDataValues 0.0.3\nTableTraits 0.0.1\n",
     "testrequires": "DataFrames 0.9\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nDiffEqBase\nOrdinaryDiffEq\nParameterizedFunctions\nNullableArrays\nDataStreams\nGLM\nTemporal\nJuliaDB\n"
+   },
+   "0.7.0": {
+    "sha1": "119d08cf7d2394e38bb44acda3bb8d5bf7d25e1e",
+    "requires": "julia 0.6.0\nNamedTuples 4.0.0\nRequires 0.4.3\nDataValues 0.0.3\nTableTraits 0.0.1\n",
+    "testrequires": "DataFrames 0.9\nDataTables\nTypedTables\nCSV\nFeather\nStatsModels 0.0.2\nTimeSeries\nGadfly\nVegaLite\nSQLite\nIndexedTables\nNullableArrays\nDataStreams\nGLM\nTemporal\nJuliaDB\n"
    }
   }
  },
@@ -39108,6 +39133,11 @@
    },
    "0.4.0": {
     "sha1": "a688cebc81cea8c0b72a5db7eda1c3472d7a6fc5",
+    "requires": "julia 0.6\nCompat 0.17\nStatsBase\nDistributions\nOptim\nInterpolations\n",
+    "testrequires": ""
+   },
+   "0.4.1": {
+    "sha1": "bf4191d3eeada071d308b058c922b2aba6aa4003",
     "requires": "julia 0.6\nCompat 0.17\nStatsBase\nDistributions\nOptim\nInterpolations\n",
     "testrequires": ""
    }
@@ -50577,6 +50607,11 @@
     "sha1": "46d4245fe036093e5844c0bfbc45de0b04152c27",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "ff2d914f4879c6a6dc21c3cb34736311436ae430",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -55406,6 +55441,11 @@
     "sha1": "69000d9150e764a05f36c61e1aa1dd027e927f45",
     "requires": "julia 0.6\n",
     "testrequires": "OffsetArrays\n"
+   },
+   "0.3.0": {
+    "sha1": "201661159dd00c23ccca67e89aef211fad8d1d3d",
+    "requires": "julia 0.6\nOffsetArrays\nCompat 0.42\n",
+    "testrequires": "OffsetArrays\n"
    }
   }
  },
@@ -56059,6 +56099,11 @@
    },
    "0.3.1": {
     "sha1": "c249e46838743b7e110c8b0e24c6072eb10d433d",
+    "requires": "julia 0.6\nCompat 0.27.0\n",
+    "testrequires": ""
+   },
+   "0.3.2": {
+    "sha1": "28039f3be0887357794c45724daee1ac0accdc85",
     "requires": "julia 0.6\nCompat 0.27.0\n",
     "testrequires": ""
    }
@@ -66878,6 +66923,11 @@
    "0.1.0": {
     "sha1": "faff857a34bcf2fcaf835ef6949d0c8fd6735b6d",
     "requires": "julia 0.5\nBinDeps 0.3.21\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "db82893d08817fb97982088292f391758fa7625f",
+    "requires": "julia 0.6\nBinDeps 0.3.21\nCompat 0.51.0\n",
     "testrequires": ""
    }
   }
