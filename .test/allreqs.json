@@ -3120,6 +3120,11 @@
     "sha1": "dee0c63b9f6b11bda4ab77bee8e6972499727ae8",
     "requires": "julia 0.6\nIntervalSets 0.1\nIterTools\nRangeArrays\n",
     "testrequires": "OffsetArrays\nUnitful 0.2.6\n"
+   },
+   "0.2.1": {
+    "sha1": "702623f94a96f4f6cb3f5e8e8393eb72c2c05276",
+    "requires": "julia 0.6\nIntervalSets 0.1\nIterTools\nRangeArrays\nCompat 0.33.0\n",
+    "testrequires": "OffsetArrays\nUnitful 0.2.6\n"
    }
   }
  },
@@ -7063,7 +7068,7 @@
    },
    "0.8.0": {
     "sha1": "3cdf3d582e030f251f3d329a17d60e23ebbd1cf3",
-    "requires": "julia 0.6\nCompat 0.50.0\nCUDAapi 0.4.0\n",
+    "requires": "julia 0.7-\nCompat 0.50.0\nCUDAapi 0.4.0\n",
     "testrequires": ""
    }
   }
@@ -48557,6 +48562,11 @@
     "sha1": "834ac12db8312ff67d15cbe1237be1cdc836474d",
     "requires": "julia 0.6\nCompat 0.38",
     "testrequires": ""
+   },
+   "0.5.0": {
+    "sha1": "49dff5ffcb922301ab1372834f87cc3f50e1462a",
+    "requires": "julia 0.6\nCompat 0.47",
+    "testrequires": ""
    }
   }
  },
@@ -77170,6 +77180,11 @@
    },
    "0.4.1": {
     "sha1": "b5d25435fd90b212361f82aa64acca52aa25666b",
+    "requires": "julia 0.6\nMissings\n",
+    "testrequires": ""
+   },
+   "0.4.2": {
+    "sha1": "e4c4abee99186a590cebc45d97dba3b4b479ab8a",
     "requires": "julia 0.6\nMissings\n",
     "testrequires": ""
    }
