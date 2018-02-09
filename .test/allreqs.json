@@ -18042,6 +18042,16 @@
    }
   }
  },
+ "DiffLinearAlgebra": {
+  "url": "https://github.com/invenia/DiffLinearAlgebra.jl.git",
+  "versions": {
+   "0.0.1": {
+    "sha1": "fb73d7789383ddd2ca1563318d1ac3afe96c5b87",
+    "requires": "julia 0.6\n",
+    "testrequires": "FDM v0.0.1\nCompat v0.33.0\n"
+   }
+  }
+ },
  "DiffResults": {
   "url": "https://github.com/JuliaDiff/DiffResults.jl.git",
   "versions": {
