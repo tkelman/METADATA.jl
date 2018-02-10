@@ -5875,6 +5875,11 @@
     "sha1": "37d14aab0fa7d79ca5762e206fc00e00c5f3187a",
     "requires": "julia 0.6\nBinDeps 0.8.1\n",
     "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "128d6112fc11a9e6cca266905b03809f525d538d",
+    "requires": "julia 0.6\nBinaryProvider 0.1.4\nBinDeps 0.8.1\n",
+    "testrequires": ""
    }
   }
  },
@@ -23692,6 +23697,11 @@
     "sha1": "a80cf2bf3f30690ffb62ec6a725b43e94fad0a5f",
     "requires": "julia 0.6\nCompat 0.28.0\n",
     "testrequires": ""
+   },
+   "0.7.0": {
+    "sha1": "50c4ef3438a7165d8a0789808530cb734bc3cadb",
+    "requires": "julia 0.6\nCompat 0.28.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -36315,6 +36325,11 @@
     "sha1": "2c7e1a266c001db7121cb526632e52a3dae7872d",
     "requires": "julia 0.6\nReexport\nGeoStatsBase\nGeoStatsDevTools\nNearestNeighbors\nDistances\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "5815aa65f6d9919a9a0dc7000bc04b286713cb2e",
+    "requires": "julia 0.6\nReexport\nGeoStatsBase\nGeoStatsDevTools\nNearestNeighbors\nDistances\n",
+    "testrequires": "GR\nPlots\nGeoStats\nVisualRegressionTests\n"
    }
   }
  },
@@ -43253,6 +43268,11 @@
     "sha1": "4951eb45082f58565566e68bdff94e1800f8f7e5",
     "requires": "julia 0.6\nReexport\nGeoStatsBase\nGeoStatsDevTools\nNearestNeighbors\nDistances\n",
     "testrequires": ""
+   },
+   "0.1.0": {
+    "sha1": "131d3bbdab0b1e2e25448e43e3b65078cd69fafa",
+    "requires": "julia 0.6\nReexport\nGeoStatsBase\nGeoStatsDevTools\nNearestNeighbors\nDistances\n",
+    "testrequires": "GR\nPlots\nGeoStats\nVisualRegressionTests\n"
    }
   }
  },
@@ -59913,6 +59933,11 @@
    },
    "0.3.0": {
     "sha1": "3421a83c559d6866eddc28909d9d19d92fb59545",
+    "requires": "julia 0.6\nPyCall\nDataStructures\nConda 0.2.0\nDiffEqBase 3.0.0\nRecipesBase\n",
+    "testrequires": "ParameterizedFunctions\n"
+   },
+   "0.4.0": {
+    "sha1": "16d7ab3dc373b7ae68eff3e299e3bfa674f3f24c",
     "requires": "julia 0.6\nPyCall\nDataStructures\nConda 0.2.0\nDiffEqBase 3.0.0\nRecipesBase\n",
     "testrequires": "ParameterizedFunctions\n"
    }
