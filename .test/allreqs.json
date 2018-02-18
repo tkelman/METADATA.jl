@@ -11445,6 +11445,11 @@
     "sha1": "8cca897ff1bf251bc2fb6e806ec481cfc478de26",
     "requires": "julia 0.6\n",
     "testrequires": "OffsetArrays\n"
+   },
+   "0.54.0": {
+    "sha1": "3a5323e81d6f09b02461d4f0c47399504deee35b",
+    "requires": "julia 0.6\n",
+    "testrequires": "OffsetArrays\n"
    }
   }
  },
@@ -17269,6 +17274,11 @@
     "sha1": "443352323f0bbde6000be88601e5000709239d30",
     "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nRequires\nLinearMaps\nFunctionWrappers\nIteratorInterfaceExtensions 0.0.2\nTableTraits 0.0.3\nNamedTuples 4.0.0\n",
     "testrequires": ""
+   },
+   "3.6.0": {
+    "sha1": "42023f2fbd9a82781595b02547c8380c2319c5e6",
+    "requires": "julia 0.6\nRecipesBase 0.1.0\nRecursiveArrayTools 0.12.3\nSimpleTraits 0.1.1\nCompat 0.19.0\nRequires\nLinearMaps\nFunctionWrappers\nIteratorInterfaceExtensions 0.0.2\nTableTraits 0.0.3\nNamedTuples 4.0.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -18507,6 +18517,11 @@
    },
    "4.0.0": {
     "sha1": "6ce0ba44ba844b5b4ec5ec5393297ed3ceb9a6cf",
+    "requires": "julia 0.6\nReexport 0.0.3\nDiffEqBase 3.0.0\nStochasticDiffEq 3.0.0\nBoundaryValueDiffEq 1.0.0\nDiffEqDevTools 1.0.0\nOrdinaryDiffEq 3.0.0\nDiffEqParamEstim 1.0.0\nDiffEqSensitivity 1.0.0\nSundials 1.0.0\nParameterizedFunctions 3.0.0\nDiffEqPDEBase 0.4.0\nDelayDiffEq 2.0.0\nDiffEqCallbacks 1.0.0\nDiffEqMonteCarlo 0.10.0\nDiffEqJump 1.0.0\nDiffEqFinancial 1.0.0\nDiffEqBiological 1.0.0\nMultiScaleArrays 0.5.0\nDimensionalPlotRecipes 0.0.2\nRecursiveArrayTools 0.14.0\nDiffEqNoiseProcess 1.0.0\nSteadyStateDiffEq 0.2.0\nDiffEqUncertainty 0.1.0\nDiffEqPhysics 1.0.0\n",
+    "testrequires": "DiffEqProblemLibrary 0.2.0\n"
+   },
+   "4.1.0": {
+    "sha1": "fea22e8346688577bc5ed2df6162d2229e22ebdd",
     "requires": "julia 0.6\nReexport 0.0.3\nDiffEqBase 3.0.0\nStochasticDiffEq 3.0.0\nBoundaryValueDiffEq 1.0.0\nDiffEqDevTools 1.0.0\nOrdinaryDiffEq 3.0.0\nDiffEqParamEstim 1.0.0\nDiffEqSensitivity 1.0.0\nSundials 1.0.0\nParameterizedFunctions 3.0.0\nDiffEqPDEBase 0.4.0\nDelayDiffEq 2.0.0\nDiffEqCallbacks 1.0.0\nDiffEqMonteCarlo 0.10.0\nDiffEqJump 1.0.0\nDiffEqFinancial 1.0.0\nDiffEqBiological 1.0.0\nMultiScaleArrays 0.5.0\nDimensionalPlotRecipes 0.0.2\nRecursiveArrayTools 0.14.0\nDiffEqNoiseProcess 1.0.0\nSteadyStateDiffEq 0.2.0\nDiffEqUncertainty 0.1.0\nDiffEqPhysics 1.0.0\n",
     "testrequires": "DiffEqProblemLibrary 0.2.0\n"
    }
@@ -54446,6 +54461,11 @@
     "sha1": "3024c558c0d1b3f2fa448928a14ae446133bb2a9",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "1.2.0": {
+    "sha1": "a0d046486a53cd84c49e6810169b50b992203dcb",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
    }
   }
  },
@@ -71127,6 +71147,11 @@
     "sha1": "0e2afdfdc26adb5c7a2c084eb43b3060c33cd35b",
     "requires": "julia 0.6\nMacroTools\nMatcha 0.1.1 # for fixing matchreplace\nDataStructures\nCompat 0.17.0\nStaticArrays 0.3.0\n",
     "testrequires": ""
+   },
+   "0.4.4": {
+    "sha1": "fbaf960587a2c59c6a1dbe32a950e2bb5b45a6a6",
+    "requires": "julia 0.6\nMacroTools\nMatcha 0.1.1 # for fixing matchreplace\nDataStructures\nCompat 0.17.0\nStaticArrays 0.3.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -76001,6 +76026,11 @@
    "0.1.0": {
     "sha1": "0f3e79348bb2b73f8ae90a858055f439c83173ec",
     "requires": "julia 0.4\n",
+    "testrequires": ""
+   },
+   "0.2.0": {
+    "sha1": "1e1485f60cce8fc7e267d14933f0dd745e39cdfe",
+    "requires": "julia 0.6\n",
     "testrequires": ""
    }
   }
