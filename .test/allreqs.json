@@ -1321,6 +1321,11 @@
     "sha1": "d3b47e6939050b0575ed98ea16cb8bb2bc6f852a",
     "requires": "julia 0.6.0\nForwardDiff 0.5.0\nStatsBase 0.19.2\n",
     "testrequires": ""
+   },
+   "0.0.2": {
+    "sha1": "a314e5c746327b049d15033d981174e8dc31aa7f",
+    "requires": "julia 0.6.0\nForwardDiff 0.5.0\nStatsBase 0.19.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -4938,6 +4943,16 @@
    }
   }
  },
+ "BioTools": {
+  "url": "https://github.com/BioJulia/BioTools.jl.git",
+  "versions": {
+   "0.1.0": {
+    "sha1": "e08222bca3bb9a564ed6bb6fcee28d5be09edda1",
+    "requires": "julia 0.6\nBioSequences\nBioAlignments\nEzXML\n",
+    "testrequires": "BioCore"
+   }
+  }
+ },
  "BiomolecularStructures": {
   "url": "git://github.com/hng/BiomolecularStructures.jl.git",
   "versions": {
@@ -5173,6 +5188,11 @@
    },
    "0.6.1": {
     "sha1": "8208e510e328715d8939a85ef124e5089c436ece",
+    "requires": "julia 0.6\nWebSockets 0.2.3\nHttpServer\nLazy 0.11.3\nJSON\nReexport\nMustache\nMacroTools\nMux\nBinDeps\nCompat 0.8.6\n",
+    "testrequires": ""
+   },
+   "0.6.2": {
+    "sha1": "97e9ab8e5dee091d68bab0855ff953a103f83bd6",
     "requires": "julia 0.6\nWebSockets 0.2.3\nHttpServer\nLazy 0.11.3\nJSON\nReexport\nMustache\nMacroTools\nMux\nBinDeps\nCompat 0.8.6\n",
     "testrequires": ""
    }
@@ -5988,6 +6008,11 @@
    },
    "0.8.1": {
     "sha1": "724889daf0e84aac34748795a22b15c7714cda9c",
+    "requires": "julia 0.6\n",
+    "testrequires": ""
+   },
+   "0.8.2": {
+    "sha1": "91f1d7a9de549ca315c06e1f27b1268cdaff615b",
     "requires": "julia 0.6\n",
     "testrequires": ""
    }
@@ -20994,6 +21019,11 @@
     "sha1": "0d0b17b8f928a01583b0caba9ed64e1c6c4c964c",
     "requires": "julia 0.6\nDynamicalSystemsBase 0.5.0\nChaosTools 0.5.0\nReexport\n",
     "testrequires": ""
+   },
+   "0.11.0": {
+    "sha1": "0e102050c4e8987555265d39ead75332840f9014",
+    "requires": "julia 0.6\nDynamicalSystemsBase 0.6.0\nChaosTools 0.6.0\nReexport\n",
+    "testrequires": ""
    }
   }
  },
@@ -21057,6 +21087,11 @@
    },
    "0.6.0": {
     "sha1": "6a015f7af674daa0c44aadf0b93ef42ed6549274",
+    "requires": "julia 0.6\nOrdinaryDiffEq 3.1\nDiffEqBase 3.5\nForwardDiff 0.5\nRequires 0.4.3\nStaticArrays 0.5.0\nStatsBase 0.8.2\nIterTools\nNearestNeighbors\n",
+    "testrequires": "DiffEqCallbacks\n"
+   },
+   "0.6.1": {
+    "sha1": "329b50eb8a92b17de0777be5e6d6a967ebc1e86f",
     "requires": "julia 0.6\nOrdinaryDiffEq 3.1\nDiffEqBase 3.5\nForwardDiff 0.5\nRequires 0.4.3\nStaticArrays 0.5.0\nStatsBase 0.8.2\nIterTools\nNearestNeighbors\n",
     "testrequires": "DiffEqCallbacks\n"
    }
@@ -21692,6 +21727,11 @@
    },
    "0.1.0": {
     "sha1": "3e45484ac5b03065e09041c091b87acd1f570cff",
+    "requires": "julia 0.6\nJSON\nBinDeps\nURIParser\n",
+    "testrequires": ""
+   },
+   "0.1.1": {
+    "sha1": "668b37898df273d23a7976415d543dc9f2e8f40e",
     "requires": "julia 0.6\nJSON\nBinDeps\nURIParser\n",
     "testrequires": ""
    }
@@ -22881,6 +22921,11 @@
    "0.6.0": {
     "sha1": "cc828deb77bd9fc48d722092aba5d69b249f95ec",
     "requires": "julia 0.6\nBinaryProvider 0.1\n",
+    "testrequires": "LightGraphs\n"
+   },
+   "0.6.1": {
+    "sha1": "a2b90b21129d71337abb777788f719c3c589a094",
+    "requires": "julia 0.6\nBinaryProvider 0.2\n",
     "testrequires": "LightGraphs\n"
    }
   }
@@ -42683,6 +42728,11 @@
     "sha1": "ef6538fc0cde9cf2a1013e5e54a72e48487fc881",
     "requires": "julia 0.6\nCodecZlib 0.4\nDataStructures 0.7\nSimpleTraits 0.4.0\n",
     "testrequires": ""
+   },
+   "0.12.0": {
+    "sha1": "dc5c443f661df3b9fe4f49af3c0463d7babc9b55",
+    "requires": "julia 0.6\nCodecZlib 0.4\nDataStructures 0.7\nSimpleTraits 0.4.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -50737,6 +50787,11 @@
     "sha1": "3923f847b55fbff56d250f63aab754a2ed452486",
     "requires": "julia 0.6\n",
     "testrequires": ""
+   },
+   "4.3.0": {
+    "sha1": "d61033c7711c1333df487a1a9d1e46ecd32d127f",
+    "requires": "julia 0.6\n",
+    "testrequires": "OptimTestProblems 1.2\n"
    }
   }
  },
@@ -51010,6 +51065,11 @@
    },
    "1.0.0": {
     "sha1": "deed60a6bb655fb73e7b29a4c3759c696fa8827d",
+    "requires": "julia 0.6.0\nDiffEqDiffTools\nDistances\nForwardDiff 0.7.0\nLineSearches 2.1.0\nDiffBase\nNLSolversBase 4.0.0\n",
+    "testrequires": "DiffEqBase 1.23.0\n"
+   },
+   "1.0.1": {
+    "sha1": "cd910ce74342a56a780bf8c5530c0c78fd5b6cb6",
     "requires": "julia 0.6.0\nDiffEqDiffTools\nDistances\nForwardDiff 0.7.0\nLineSearches 2.1.0\nDiffBase\nNLSolversBase 4.0.0\n",
     "testrequires": "DiffEqBase 1.23.0\n"
    }
@@ -65369,6 +65429,11 @@
     "sha1": "ae7728474c072e135946c0db755692114d8a39ae",
     "requires": "julia 0.5\nPyCall 1.11.0\nCompat 0.17.0\n",
     "testrequires": ""
+   },
+   "0.6.0": {
+    "sha1": "e63acb8a9807bb7a9ed405ccde4c620bde43832b",
+    "requires": "julia 0.6\nPyCall 1.11.0\nCompat 0.34.0\n",
+    "testrequires": ""
    }
   }
  },
@@ -68319,6 +68384,16 @@
     "sha1": "e2c5572557a5f4b995ce6c29547e4589a2d4d536",
     "requires": "julia 0.5\nMacroTools 0.3.2\nCompat 0.19\n",
     "testrequires": "Compat 0.8.6\n"
+   },
+   "0.6.0": {
+    "sha1": "746a9ca746b39e401b0d9170e07eecb9b6f40542",
+    "requires": "julia 0.6\nCompat 0.26.0\nMacroTools 0.3.2\n",
+    "testrequires": ""
+   },
+   "0.7.0": {
+    "sha1": "5c69ca5c9423342d43cbc44dac597912630f28c3",
+    "requires": "julia 0.7\nMacroTools 0.3.2\n",
+    "testrequires": ""
    }
   }
  },
@@ -75935,6 +76010,11 @@
    },
    "0.3.0": {
     "sha1": "8da382cbe0f8e926d17046259b4e1a94329c119a",
+    "requires": "julia 0.6\nCompat 0.33 # for Compat.Test\n",
+    "testrequires": ""
+   },
+   "0.3.1": {
+    "sha1": "e80fe37939bb7a9dfebbc20410359b959e2cb530",
     "requires": "julia 0.6\nCompat 0.33 # for Compat.Test\n",
     "testrequires": ""
    }
